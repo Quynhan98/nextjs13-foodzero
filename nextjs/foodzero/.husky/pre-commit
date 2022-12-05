@@ -3,4 +3,4 @@
 
 cd nextjs/foodzero
 pnpx lint-staged
-# pnpm test
+pnpm test
