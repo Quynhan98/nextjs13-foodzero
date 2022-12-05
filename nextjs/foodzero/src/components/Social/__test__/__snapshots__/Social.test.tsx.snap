@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social render Should show match Social DOM Snapshot 1`] = `
+<div>
+  <a
+    href="/"
+  >
+    <img
+      alt="facebook"
+      data-nimg="1"
+      decoding="async"
+      height="28"
+      loading="lazy"
+      src="/_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75"
+      srcset="/_next/image?url=%2Fimages%2Ffacebook.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75 2x"
+      style="color: transparent;"
+      width="28"
+    />
+  </a>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
