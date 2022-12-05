@@ -7,19 +7,25 @@
 ## Feature:
 
 - **Login page:**
+
   - **User can login when entering correct email and password.**
-- **Home page:**
-  - **User can see information about sections including: Our Menu (4 dishes included), Excellent cook, Raw materials and quality, Blog, Make a Reservation, Calories Energy Balance, Quote.**
-  - **User can Make a Reservation when clicking submit form.**
-  - **Users can see more quotes from Blogger by clicking buttons.**
+
 - **Menu page:**
+
   - **User can see information about sections including: Starters, Mains, Pastries & Drinks, Make a Reservation.**
+
   - **User can Make a Reservation when clicking submit form.**
+
 - **Contact page:**
+
   - **User can see contact information.**
+
   - **User can Make a Reservation when clicking submit form.**
+
 - **About page:**
+
   - **User can see information about sections including: Our Story, Restaurant Manager and Executive Chef, Intro video, Sophisticated Process, Make a Reservation.**
+
   - **User can Make a Reservation when clicking submit form.**
 
 ## Targets:
