@@ -18,3 +18,11 @@ export const CARD_BLOG = {
   date: '2022-12-06T23:29:35.000Z',
   numberOfComments: 2,
 }
+
+export const CARD_FEATURE = {
+  title: 'Premium Quality',
+  imageUrl:
+    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FCircleIcon.webp?alt=media&token=1df373f3-27a3-45f6-82fa-d997c47c718f',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu',
+}
