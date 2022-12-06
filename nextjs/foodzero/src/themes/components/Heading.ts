@@ -27,10 +27,15 @@ export const Heading: ComponentStyleConfig = {
       fontWeight: 'bold',
       lineHeight: 'md',
     },
-    mall: {
+    small: {
       fontSize: 'md',
       fontWeight: 'bold',
       lineHeight: 'sm',
+    },
+    extraSmall: {
+      fontSize: 'common',
+      fontWeight: 'bold',
+      lineHeight: 'base',
     },
   },
 

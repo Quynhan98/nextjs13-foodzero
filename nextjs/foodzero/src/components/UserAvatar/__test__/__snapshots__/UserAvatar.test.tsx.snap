@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAvatar component Renders UserAvatar correctly 1`] = `
+<div>
+  <div
+    class="css-mgvg8t"
+  >
+    <span
+      class="chakra-avatar css-1kva3cr"
+    >
+      <div
+        aria-label="John Doe"
+        class="chakra-avatar__initials css-uo84k3"
+        role="img"
+      >
+        JD
+      </div>
+    </span>
+    <div
+      class="css-0"
+    >
+      <h5
+        class="chakra-heading css-ai6zdm"
+      >
+        John Doe
+      </h5>
+      <p
+        class="chakra-text css-lv0zmh"
+      >
+        Bloger
+      </p>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
