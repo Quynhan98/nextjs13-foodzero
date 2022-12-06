@@ -6,3 +6,15 @@ export const PRICE_LIST_MOCK = {
   price: 20,
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
 }
+
+export const CARD_BLOG = {
+  imageUrl:
+    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FFeature%20Image.webp?alt=media&token=766a34ea-32e0-40e7-90e6-299f9af22eb1',
+  title: 'Fruit and vegetables and protection against diseases',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  category: 'Fashion',
+  srcAvatar: AVATAR_MOCK,
+  name: 'Julie Christie',
+  date: '2022-12-06T23:29:35.000Z',
+  numberOfComments: 2,
+}

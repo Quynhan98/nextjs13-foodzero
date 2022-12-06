@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBlog component Renders CardBlog correctly 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <div
+      class="css-1p10zp0"
+    >
+      <h6
+        class="chakra-heading css-19hfhgc"
+      >
+        Fashion
+      </h6>
+    </div>
+    <img
+      alt="blog wallpaper"
+      data-nimg="1"
+      decoding="async"
+      height="792"
+      loading="lazy"
+      src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=828&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75 2x"
+      style="color: transparent;"
+      width="792"
+    />
+    <div
+      class="css-18kc6l"
+    >
+      <div
+        class="css-70qvj9"
+      >
+        <span
+          class="chakra-avatar css-fup3kj"
+        >
+          <div
+            aria-label="Julie Christie"
+            class="chakra-avatar__initials css-100o20p"
+            role="img"
+          >
+            JC
+          </div>
+        </span>
+        <ul
+          class="css-91sxya"
+          role="list"
+        >
+          <li
+            class="css-18m884n"
+          >
+            Julie Christie
+          </li>
+          <li
+            class="css-1bfqwby"
+          >
+            December 06, 2022
+          </li>
+          <li
+            class="css-1bfqwby"
+          >
+            06:29 AM
+          </li>
+          <li
+            class="css-1ru1j6w"
+          >
+            2
+             comments
+          </li>
+        </ul>
+      </div>
+      <h4
+        class="chakra-heading css-r5gqj4"
+      >
+        Fruit and vegetables and protection against diseases
+      </h4>
+      <hr
+        class="css-113h5p7"
+      />
+      <p
+        class="chakra-text css-1enfm7x"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
