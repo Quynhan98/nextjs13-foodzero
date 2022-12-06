@@ -1,3 +1,6 @@
+import '@fontsource/lato'
+import '@fontsource/rufina'
+
 import { customTheme } from '@themes/index'
 
 export const parameters = {

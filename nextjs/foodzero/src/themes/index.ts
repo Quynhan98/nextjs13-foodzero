@@ -11,6 +11,10 @@ export const customTheme = extendTheme({
   fontSizes,
   lineHeights,
   fontWeights,
+  fonts: {
+    heading: `'Rufina', sans-serif`,
+    body: `'Lato', sans-serif`,
+  },
   components: {
     Heading,
     Text,
