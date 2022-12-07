@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text } from '@chakra-ui/react'
+import { Box, Flex, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
 interface CardFeatureProps {
@@ -14,7 +14,7 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
-      gap={{ base: '15px', md: '39px' }}
+      gap={{ base: '10px', md: '39px' }}
     >
       <Box
         position="relative"
@@ -24,13 +24,14 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
       >
         <Image src={imageUrl} alt="blog wallpaper" fill />
       </Box>
-      <Heading
-        as="h4"
-        size={{ base: 'extraSmall', md: 'base' }}
+      <Text
+        size={{ base: 'large', md: 'extraLarge' }}
         variant="secondary"
+        fontWeight="bold"
+        fontFamily="Rufina"
       >
         {title}
-      </Heading>
+      </Text>
       <Text size={{ base: 'small', md: 'default' }} textAlign="center">
         {description}
       </Text>

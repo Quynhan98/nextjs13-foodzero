@@ -18,7 +18,7 @@ describe('CardFeature component', () => {
   it('Should render data correctly', () => {
     render(<CardFeature {...props} />)
 
-    const title = screen.getByRole('heading', { level: 4 })
+    const title = screen.getByText(props.title)
     const description = screen.getByText(props.description)
 
     expect(title).toHaveTextContent(props.title)

@@ -2,6 +2,10 @@ import { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const Text: ComponentStyleConfig = {
   sizes: {
+    extraLarge: {
+      fontSize: 'lg',
+      lineHeight: 'md',
+    },
     large: {
       fontSize: 'common',
       lineHeight: 'base',

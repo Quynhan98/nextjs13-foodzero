@@ -3,7 +3,7 @@
 exports[`CardFeature component Renders CardFeature correctly 1`] = `
 <div>
   <div
-    class="css-x1mff1"
+    class="css-1zzgv0"
   >
     <figure
       class="css-ymn5md"
@@ -19,11 +19,11 @@ exports[`CardFeature component Renders CardFeature correctly 1`] = `
         style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
       />
     </figure>
-    <h4
-      class="chakra-heading css-wjzj4g"
+    <p
+      class="chakra-text css-s7dok7"
     >
       Premium Quality
-    </h4>
+    </p>
     <p
       class="chakra-text css-1jn4o6p"
     >
