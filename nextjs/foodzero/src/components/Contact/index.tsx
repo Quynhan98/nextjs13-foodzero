@@ -1,4 +1,5 @@
 import { memo } from 'react'
+import Link from 'next/link'
 import { Box, ListItem, Text, UnorderedList } from '@chakra-ui/react'
 
 // Components
@@ -39,16 +40,20 @@ const Contact = ({
           width={{ base: '215px', md: '297px' }}
         />
       )}
-      <Text
-        variant="primary"
-        pt={{ base: '20px', md: '38px' }}
-        size={{ base: 'small', md: 'base' }}
-      >
-        {phoneNumber}
-      </Text>
-      <Text variant="primary" size={{ base: 'small', md: 'base' }}>
-        {email}
-      </Text>
+      <Link href={`tel:${phoneNumber}`}>
+        <Text
+          variant="primary"
+          pt={{ base: '20px', md: '38px' }}
+          size={{ base: 'small', md: 'base' }}
+        >
+          {phoneNumber}
+        </Text>
+      </Link>
+      <Link href={`mailto:${email}`}>
+        <Text variant="primary" size={{ base: 'small', md: 'base' }}>
+          {email}
+        </Text>
+      </Link>
       <Text
         variant="primary"
         pt={{ base: '20px', md: '38px' }}

@@ -10,16 +10,24 @@ exports[`Contact component Renders Contact default correctly 1`] = `
     >
       Contact
     </p>
-    <p
-      class="chakra-text css-gz08eg"
+    <a
+      href="tel:+86 852 346 000"
     >
-      +86 852 346 000
-    </p>
-    <p
-      class="chakra-text css-1oecnb9"
+      <p
+        class="chakra-text css-gz08eg"
+      >
+        +86 852 346 000
+      </p>
+    </a>
+    <a
+      href="mailto:info@foodzero.com"
     >
-      info@foodzero.com
-    </p>
+      <p
+        class="chakra-text css-1oecnb9"
+      >
+        info@foodzero.com
+      </p>
+    </a>
     <p
       class="chakra-text css-15kw7zj"
     >
@@ -46,16 +54,24 @@ exports[`Contact component Renders Contact with social icon correctly 1`] = `
     <hr
       class="css-12mde4g"
     />
-    <p
-      class="chakra-text css-gz08eg"
+    <a
+      href="tel:+86 852 346 000"
     >
-      +86 852 346 000
-    </p>
-    <p
-      class="chakra-text css-1oecnb9"
+      <p
+        class="chakra-text css-gz08eg"
+      >
+        +86 852 346 000
+      </p>
+    </a>
+    <a
+      href="mailto:info@foodzero.com"
     >
-      info@foodzero.com
-    </p>
+      <p
+        class="chakra-text css-1oecnb9"
+      >
+        info@foodzero.com
+      </p>
+    </a>
     <p
       class="chakra-text css-15kw7zj"
     >
