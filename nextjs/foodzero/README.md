@@ -4,31 +4,17 @@
 
 **Build a FoodZero Restaurant and Food web application**
 
-## Feature:
+## **Feature**:
 
-- **Login page:**
+- **User can login when entering correct email and password.**
 
-  - **User can login when entering correct email and password.**
+- **User can see information on Home, Menu, Contact and About pages.**
 
-- **Menu page:**
+- **User can Make a Reservation when clicking submit form.**
 
-  - **User can see information about sections including: Starters, Mains, Pastries & Drinks, Make a Reservation.**
+- **User can see more quotes from Blogger by clicking buttons.**
 
-  - **User can Make a Reservation when clicking submit form.**
-
-- **Contact page:**
-
-  - **User can see contact information.**
-
-  - **User can Make a Reservation when clicking submit form.**
-
-- **About page:**
-
-  - **User can see information about sections including: Our Story, Restaurant Manager and Executive Chef, Intro video, Sophisticated Process, Make a Reservation.**
-
-  - **User can Make a Reservation when clicking submit form.**
-
-## Targets:
+## **Targets**:
 
 - **Build web app React latest version with Next.js**
   - **Build a website with Multi-pages.**
@@ -37,7 +23,7 @@
   - **Storybook**
   - **Unit test**
 
-## Tech stacks:
+## **Tech stacks**:
 
 - **React**
 - **NextJs (latest version)**
@@ -50,7 +36,7 @@
 - **Deploy with Vercel**
 - **SWR**
 
-## Developer Tools
+## **Developer Tools**
 
 - **pnpm**
 - **eslint**
