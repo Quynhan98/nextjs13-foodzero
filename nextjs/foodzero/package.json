@@ -29,6 +29,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
+    "@fontsource/lato": "^4.5.10",
+    "@fontsource/rufina": "^4.5.9",
     "@storybook/addon-actions": "^6.5.14",
     "@storybook/addon-essentials": "^6.5.14",
     "@storybook/addon-interactions": "^6.5.14",

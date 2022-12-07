@@ -7,6 +7,8 @@ specifiers:
   '@chakra-ui/storybook-addon': ^4.0.12
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
+  '@fontsource/lato': ^4.5.10
+  '@fontsource/rufina': ^4.5.9
   '@storybook/addon-actions': ^6.5.14
   '@storybook/addon-essentials': ^6.5.14
   '@storybook/addon-interactions': ^6.5.14
@@ -66,6 +68,8 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.20.5
+  '@fontsource/lato': 4.5.10
+  '@fontsource/rufina': 4.5.9
   '@storybook/addon-actions': 6.5.14_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-essentials': 6.5.14_6x6bnb5ahkmdpxvezfr5lhaxve
   '@storybook/addon-interactions': 6.5.14_ivdudmvvzzsf6tsttamhsg5viq
@@ -2874,6 +2878,14 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@fontsource/lato/4.5.10:
+    resolution: {integrity: sha512-2hYR6r661Cq9B8zugtu6yxuOKqrVhAgfOSaPSq8XoxbC4ebsl0KOTy/vPoP+9U7JuQVLfrmikirW4a9Z0nDUug==}
+    dev: true
+
+  /@fontsource/rufina/4.5.9:
+    resolution: {integrity: sha512-vFka6Qm473ggSclqOUgMuezSLC09mpm+TT1yfhhDyAT/AQqvfs0j7HkTJI2yWi3UcmP2UY7darQbBhJgFy/dQA==}
     dev: true
 
   /@gar/promisify/1.1.3:
