@@ -26,3 +26,10 @@ export const CARD_FEATURE = {
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu',
 }
+
+export const CARD_CATEGORY = {
+  href: '/',
+  category: 'Starters',
+  imageUrl:
+    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
+}

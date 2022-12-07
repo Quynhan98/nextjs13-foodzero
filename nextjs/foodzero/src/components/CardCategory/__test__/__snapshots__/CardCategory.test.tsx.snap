@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardCategory component Renders CardCategory correctly 1`] = `
+<div>
+  <div
+    class="css-hfnpep"
+  >
+    <div
+      class="css-fyv2te"
+    >
+      <p
+        class="chakra-text css-s7dok7"
+      >
+        Starters
+      </p>
+      <a
+        href="/"
+      >
+        <img
+          alt="right arrow icon"
+          data-nimg="1"
+          decoding="async"
+          height="26"
+          loading="lazy"
+          src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
+          srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
+          style="color: transparent;"
+          width="46"
+        />
+      </a>
+    </div>
+    <img
+      alt="background of the category card"
+      data-nimg="1"
+      decoding="async"
+      height="711"
+      loading="lazy"
+      src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+      style="color: transparent;"
+      width="508"
+    />
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
