@@ -20,3 +20,36 @@ export const NAV_LIST = [
     href: '/',
   },
 ]
+
+export const SOCIAL_LIST = [
+  {
+    value: 1,
+    src: '/images/instagram.webp',
+    alt: 'Instagram',
+    link: '/',
+  },
+  {
+    value: 2,
+    src: '/images/twitter.webp',
+    alt: 'Twitter',
+    link: '/',
+  },
+  {
+    value: 3,
+    src: '/images/facebook.webp',
+    alt: 'Facebook',
+    link: '/',
+  },
+  {
+    value: 4,
+    src: '/images/youtube.webp',
+    alt: 'youtube',
+    link: '/',
+  },
+]
+
+export const CONTACT = {
+  phoneNumber: '+86 852 346 000',
+  email: 'info@foodzero.com',
+  address: '1959 Sepulveda Blvd. Culver City, CA, 90230',
+}

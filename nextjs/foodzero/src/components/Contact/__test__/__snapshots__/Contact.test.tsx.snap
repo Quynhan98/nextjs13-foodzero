@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component Renders Contact default correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <p
+      class="chakra-text css-ppz0ah"
+    >
+      Contact
+    </p>
+    <p
+      class="chakra-text css-gz08eg"
+    >
+      +86 852 346 000
+    </p>
+    <p
+      class="chakra-text css-1oecnb9"
+    >
+      info@foodzero.com
+    </p>
+    <p
+      class="chakra-text css-15kw7zj"
+    >
+      1959 Sepulveda Blvd. Culver City, CA, 90230
+    </p>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
+
+exports[`Contact component Renders Contact with social icon correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <p
+      class="chakra-text css-ppz0ah"
+    >
+      Contact
+    </p>
+    <hr
+      class="css-12mde4g"
+    />
+    <p
+      class="chakra-text css-gz08eg"
+    >
+      +86 852 346 000
+    </p>
+    <p
+      class="chakra-text css-1oecnb9"
+    >
+      info@foodzero.com
+    </p>
+    <p
+      class="chakra-text css-15kw7zj"
+    >
+      1959 Sepulveda Blvd. Culver City, CA, 90230
+    </p>
+    <ul
+      class="css-vw5kuc"
+      role="list"
+    >
+      <li
+        class="css-155za0w"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="Instagram"
+            data-nimg="1"
+            decoding="async"
+            height="28"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Finstagram.webp&w=64&q=75"
+            srcset="/_next/image?url=%2Fimages%2Finstagram.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Finstagram.webp&w=64&q=75 2x"
+            style="color: transparent;"
+            value="1"
+            width="28"
+          />
+        </a>
+      </li>
+      <li
+        class="css-155za0w"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="Twitter"
+            data-nimg="1"
+            decoding="async"
+            height="28"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Ftwitter.webp&w=64&q=75"
+            srcset="/_next/image?url=%2Fimages%2Ftwitter.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ftwitter.webp&w=64&q=75 2x"
+            style="color: transparent;"
+            value="2"
+            width="28"
+          />
+        </a>
+      </li>
+      <li
+        class="css-155za0w"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="Facebook"
+            data-nimg="1"
+            decoding="async"
+            height="28"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75"
+            srcset="/_next/image?url=%2Fimages%2Ffacebook.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75 2x"
+            style="color: transparent;"
+            value="3"
+            width="28"
+          />
+        </a>
+      </li>
+      <li
+        class="css-155za0w"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="youtube"
+            data-nimg="1"
+            decoding="async"
+            height="28"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Fyoutube.webp&w=64&q=75"
+            srcset="/_next/image?url=%2Fimages%2Fyoutube.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Fyoutube.webp&w=64&q=75 2x"
+            style="color: transparent;"
+            value="4"
+            width="28"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
