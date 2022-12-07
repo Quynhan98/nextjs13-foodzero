@@ -53,3 +53,10 @@ export const CONTACT = {
   email: 'info@foodzero.com',
   address: '1959 Sepulveda Blvd. Culver City, CA, 90230',
 }
+
+export const OPEN_TIME = {
+  openTime: 'Sunday - Friday',
+  brunch: '11:00–12:00',
+  lunch: '13:00–17:00',
+  dinner: '18:00–20:00',
+}
