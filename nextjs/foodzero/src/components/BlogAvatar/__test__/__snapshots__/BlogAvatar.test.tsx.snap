@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogAvatar component Renders BlogAvatar correctly 1`] = `
+<div>
+  <div
+    class="css-70qvj9"
+  >
+    <span
+      class="chakra-avatar css-fup3kj"
+    >
+      <div
+        aria-label="Julie Christie"
+        class="chakra-avatar__initials css-100o20p"
+        role="img"
+      >
+        JC
+      </div>
+    </span>
+    <ul
+      class="css-91sxya"
+      role="list"
+    >
+      <li
+        class="css-18m884n"
+      >
+        Julie Christie
+      </li>
+      <li
+        class="css-1bfqwby"
+      >
+        December 06, 2022
+      </li>
+      <li
+        class="css-1bfqwby"
+      >
+        06:29 AM
+      </li>
+      <li
+        class="css-1ru1j6w"
+      >
+        2
+         comments
+      </li>
+    </ul>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

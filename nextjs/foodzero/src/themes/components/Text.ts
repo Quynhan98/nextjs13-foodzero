@@ -18,7 +18,7 @@ export const Text: ComponentStyleConfig = {
       fontSize: 'xs',
       lineHeight: 'xs',
     },
-    mall: {
+    small: {
       fontSize: 'xxs',
       lineHeight: 'xxs',
     },
