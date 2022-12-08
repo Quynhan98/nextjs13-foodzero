@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpenTime component Renders OpenTime default correctly 1`] = `
+<div>
+  <div
+    class="css-1ygbazq"
+  >
+    <div
+      class="css-34hfx4"
+    >
+      <p
+        class="chakra-text css-15gtihh"
+      >
+        Open Time
+      </p>
+      <p
+        class="chakra-text css-8wvo7l"
+      >
+        Sunday - Friday
+      </p>
+    </div>
+    <hr
+      class="css-1iijbtl"
+    />
+    <ul
+      class="css-1o7naxv"
+      role="list"
+    >
+      <li
+        class="css-0"
+      >
+        <p
+          class="chakra-text css-8wvo7l"
+        >
+          Brunch
+        </p>
+        <p
+          class="chakra-text css-8wvo7l"
+        >
+          11:00–12:00
+        </p>
+      </li>
+      <li
+        class="css-0"
+      >
+        <p
+          class="chakra-text css-8wvo7l"
+        >
+          Lunch
+        </p>
+        <p
+          class="chakra-text css-8wvo7l"
+        >
+          13:00–17:00
+        </p>
+      </li>
+      <li
+        class="css-0"
+      >
+        <p
+          class="chakra-text css-8wvo7l"
+        >
+          Dinner
+        </p>
+        <p
+          class="chakra-text css-8wvo7l"
+        >
+          18:00–20:00
+        </p>
+      </li>
+    </ul>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
