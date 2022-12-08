@@ -16,7 +16,7 @@ describe('Contact component', () => {
   })
 
   it('Renders Contact with social icon correctly', () => {
-    const { container } = render(<Contact {...props} isIcon />)
+    const { container } = render(<Contact {...props} isShowIcon />)
 
     expect(container).toMatchSnapshot()
   })

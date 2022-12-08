@@ -12,14 +12,14 @@ interface ContactProps {
   phoneNumber: string
   email: string
   address: string
-  isIcon?: boolean
+  isShowIcon?: boolean
 }
 
 const Contact = ({
   phoneNumber,
   email,
   address,
-  isIcon = false,
+  isShowIcon = false,
 }: ContactProps) => {
   return (
     <Box>
@@ -32,7 +32,7 @@ const Contact = ({
       >
         Contact
       </Text>
-      {isIcon && (
+      {isShowIcon && (
         <Box
           as="hr"
           color="black"
@@ -62,7 +62,7 @@ const Contact = ({
       >
         {address}
       </Text>
-      {isIcon && (
+      {isShowIcon && (
         <UnorderedList
           display="flex"
           pt={{ base: '20px', md: '38px' }}

@@ -26,5 +26,5 @@ Primary.args = {
 export const Secondary = Template.bind({})
 Secondary.args = {
   ...CONTACT,
-  isIcon: true,
+  isShowIcon: true,
 }
