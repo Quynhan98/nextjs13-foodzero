@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Box, Flex, Text } from '@chakra-ui/react'
+import { Box, Flex, ListItem, Text, UnorderedList } from '@chakra-ui/react'
 
 interface OpenTimeProps {
   openTime: string
@@ -29,36 +29,39 @@ const OpenTime = ({ openTime, brunch, lunch, dinner }: OpenTimeProps) => {
         </Text>
       </Flex>
       <Box as="hr" color="black" borderTop="2px dashed white" />
-      <Flex
+      <UnorderedList
+        display="flex"
         justifyContent="space-between"
         gap={{ base: '20px', md: '133px' }}
         pt={{ base: '20px', md: '38px' }}
+        listStyleType="none"
+        marginLeft="0px"
       >
-        <Box>
+        <ListItem>
           <Text variant="primary" size={{ base: 'small', md: 'default' }}>
             Brunch
           </Text>
           <Text variant="primary" size={{ base: 'small', md: 'default' }}>
             {brunch}
           </Text>
-        </Box>
-        <Box>
+        </ListItem>
+        <ListItem>
           <Text variant="primary" size={{ base: 'small', md: 'default' }}>
             Lunch
           </Text>
           <Text variant="primary" size={{ base: 'small', md: 'default' }}>
             {lunch}
           </Text>
-        </Box>
-        <Box>
+        </ListItem>
+        <ListItem>
           <Text variant="primary" size={{ base: 'small', md: 'default' }}>
             Dinner
           </Text>
           <Text variant="primary" size={{ base: 'small', md: 'default' }}>
             {dinner}
           </Text>
-        </Box>
-      </Flex>
+        </ListItem>
+      </UnorderedList>
     </Box>
   )
 }

@@ -22,10 +22,11 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
     <hr
       class="css-1iijbtl"
     />
-    <div
-      class="css-v8pscl"
+    <ul
+      class="css-1o7naxv"
+      role="list"
     >
-      <div
+      <li
         class="css-0"
       >
         <p
@@ -38,8 +39,8 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         >
           11:00–12:00
         </p>
-      </div>
-      <div
+      </li>
+      <li
         class="css-0"
       >
         <p
@@ -52,8 +53,8 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         >
           13:00–17:00
         </p>
-      </div>
-      <div
+      </li>
+      <li
         class="css-0"
       >
         <p
@@ -66,8 +67,8 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         >
           18:00–20:00
         </p>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
   <span
     hidden=""
