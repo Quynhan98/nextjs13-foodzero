@@ -56,7 +56,9 @@ export const CONTACT = {
 
 export const OPEN_TIME = {
   openTime: 'Sunday - Friday',
-  brunch: '11:00–12:00',
-  lunch: '13:00–17:00',
-  dinner: '18:00–20:00',
+  businessHours: [
+    { meal: 'Brunch', time: '11:00–12:00' },
+    { meal: 'Lunch', time: '13:00–17:00' },
+    { meal: 'Dinner', time: '18:00–20:00' },
+  ],
 }

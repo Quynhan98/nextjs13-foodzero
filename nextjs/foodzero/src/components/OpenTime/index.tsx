@@ -1,14 +1,17 @@
 import { memo } from 'react'
 import { Box, Flex, ListItem, Text, UnorderedList } from '@chakra-ui/react'
 
-interface OpenTimeProps {
-  openTime: string
-  brunch: string
-  lunch: string
-  dinner: string
+type BusinessHours = {
+  meal: string
+  time: string
 }
 
-const OpenTime = ({ openTime, brunch, lunch, dinner }: OpenTimeProps) => {
+interface OpenTimeProps {
+  openTime: string
+  businessHours: BusinessHours[]
+}
+
+const OpenTime = ({ openTime, businessHours }: OpenTimeProps) => {
   return (
     <Box minW="310px">
       <Flex
@@ -37,30 +40,16 @@ const OpenTime = ({ openTime, brunch, lunch, dinner }: OpenTimeProps) => {
         listStyleType="none"
         marginLeft="0px"
       >
-        <ListItem>
-          <Text variant="primary" size={{ base: 'small', md: 'default' }}>
-            Brunch
-          </Text>
-          <Text variant="primary" size={{ base: 'small', md: 'default' }}>
-            {brunch}
-          </Text>
-        </ListItem>
-        <ListItem>
-          <Text variant="primary" size={{ base: 'small', md: 'default' }}>
-            Lunch
-          </Text>
-          <Text variant="primary" size={{ base: 'small', md: 'default' }}>
-            {lunch}
-          </Text>
-        </ListItem>
-        <ListItem>
-          <Text variant="primary" size={{ base: 'small', md: 'default' }}>
-            Dinner
-          </Text>
-          <Text variant="primary" size={{ base: 'small', md: 'default' }}>
-            {dinner}
-          </Text>
-        </ListItem>
+        {businessHours.map((item) => (
+          <ListItem key={`business-hours-${item.meal}`}>
+            <Text variant="primary" size={{ base: 'small', md: 'default' }}>
+              {item.meal}
+            </Text>
+            <Text variant="primary" size={{ base: 'small', md: 'default' }}>
+              {item.time}
+            </Text>
+          </ListItem>
+        ))}
       </UnorderedList>
     </Box>
   )
