@@ -15,3 +15,17 @@ export const formattedHour = (date: string) => {
     minute: '2-digit',
   })
 }
+
+// First date of the month
+export const startDateFrom = new Date(
+  new Date().getFullYear(),
+  new Date().getMonth(),
+  new Date().getDate(),
+)
+
+// Last date of the month
+export const startDateTo = new Date(
+  new Date().getFullYear(),
+  new Date().getMonth() + 6,
+  0,
+)
