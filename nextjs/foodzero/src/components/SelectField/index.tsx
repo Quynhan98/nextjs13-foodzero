@@ -6,13 +6,13 @@ import { ChevronDownIcon } from '@chakra-ui/icons'
 import { BREAKPOINTS } from '@constants/variables'
 
 interface SelectFieldProps {
-  listOption: string[]
+  options: string[]
   handleSelect: (item: string) => void
 }
 
-const SelectField = ({ listOption, handleSelect }: SelectFieldProps) => {
+const SelectField = ({ options, handleSelect }: SelectFieldProps) => {
   const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
-  const [value, setValue] = useState(listOption[0])
+  const [value, setValue] = useState(options[0])
 
   const handleSelectItem = (e: ChangeEvent<HTMLSelectElement>) => {
     const newValue = e.target.value
@@ -40,7 +40,7 @@ const SelectField = ({ listOption, handleSelect }: SelectFieldProps) => {
       value={value}
       onChange={handleSelectItem}
     >
-      {listOption.map((option) => (
+      {options.map((option) => (
         <Text
           as="option"
           value={option}

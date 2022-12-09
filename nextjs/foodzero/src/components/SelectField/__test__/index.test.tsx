@@ -7,7 +7,7 @@ import SelectField from '@components/SelectField'
 import { RESERVATION_TIME } from '@constants/variables'
 
 describe('SelectField component', () => {
-  const props = { listOption: RESERVATION_TIME, handleSelect: jest.fn() }
+  const props = { options: RESERVATION_TIME, handleSelect: jest.fn() }
 
   it('Renders SelectField default correctly', () => {
     const { container } = render(<SelectField {...props} />)

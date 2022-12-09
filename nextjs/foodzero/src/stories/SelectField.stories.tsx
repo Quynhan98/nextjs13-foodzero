@@ -17,10 +17,10 @@ const Template: ComponentStory<typeof SelectField> = (args) => (
 
 export const Primary = Template.bind({})
 Primary.args = {
-  listOption: RESERVATION_TIME,
+  options: RESERVATION_TIME,
 }
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-  listOption: NUMBER_OF_PERSON,
+  options: NUMBER_OF_PERSON,
 }
