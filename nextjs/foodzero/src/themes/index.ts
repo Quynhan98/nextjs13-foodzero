@@ -5,6 +5,8 @@ import { fontSizes, fontWeights, lineHeights } from '@themes/fonts'
 import { colors } from '@themes/colors'
 import { Heading } from '@themes/components/Heading'
 import { Text } from '@themes/components/Text'
+import { Input } from '@themes/components/Input'
+import { Button } from '@themes/components/Button'
 
 export const customTheme = extendTheme({
   colors,
@@ -18,5 +20,7 @@ export const customTheme = extendTheme({
   components: {
     Heading,
     Text,
+    Input,
+    Button,
   },
 })
