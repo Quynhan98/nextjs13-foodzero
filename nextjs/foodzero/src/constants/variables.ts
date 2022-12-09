@@ -62,3 +62,35 @@ export const OPEN_TIME = {
     { meal: 'Dinner', time: '18:00–20:00' },
   ],
 }
+
+export enum BREAKPOINTS {
+  SMALL = '(max-width: 320px)',
+  MEDIUM = '(max-width: 768px)',
+  LARGE = '(max-width: 960px)',
+  EXTRA_LARGE = '(max-width: 1200px)',
+}
+
+export const RESERVATION_TIME = [
+  '11:00 am',
+  '12:00 am',
+  '13:00 pm',
+  '14:00 pm',
+  '15:00 pm',
+  '16:00 pm',
+  '17:00 pm',
+  '18:00 pm',
+  '19:00 pm',
+]
+
+export const NUMBER_OF_PERSON = [
+  '1 Person',
+  '2 Person',
+  '3 Person',
+  '4 Person',
+  '5 Person',
+  '6 Person',
+  '7 Person',
+  '8 Person',
+  '9 Person',
+  '10 Person',
+]

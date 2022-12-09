@@ -72,7 +72,7 @@ const Contact = ({
           marginLeft="0px"
         >
           {SOCIAL_LIST.map((item) => (
-            <ListItem listStyleType="none">
+            <ListItem key={`social-${item.value}`} listStyleType="none">
               <Social key={item.value} {...item} />
             </ListItem>
           ))}
