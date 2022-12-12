@@ -9,8 +9,6 @@ import { startDateFrom, startDateTo } from '@utils/index'
 interface DatePickerProps extends InputProps {
   isMinDate?: boolean
   isMaxDate?: boolean
-  isMonthDropdown?: boolean
-  isYearDropdown?: boolean
   onChangeDate: (date: Date) => void
   disabled?: boolean
 }
@@ -18,8 +16,6 @@ interface DatePickerProps extends InputProps {
 const Picker = ({
   isMinDate,
   isMaxDate,
-  isMonthDropdown,
-  isYearDropdown,
   onChangeDate,
   disabled,
   ...rest
@@ -36,8 +32,6 @@ const Picker = ({
       selected={startDate}
       onChange={handleChange}
       placeholderText="MM/DD/YYYY"
-      showMonthDropdown={isMonthDropdown}
-      showYearDropdown={isYearDropdown}
       dropdownMode="scroll"
       minDate={isMinDate ? startDateFrom : null}
       maxDate={isMaxDate ? startDateTo : null}
