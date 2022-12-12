@@ -24,22 +24,32 @@ const login: LoginAccount = {
   password: '',
 }
 
+const initErrorMsgs = {
+  email: '',
+  password: '',
+}
+
 const Template: ComponentStory<typeof LoginForm> = (args) => {
   const [loginAccount, setLoginAccount] = useState(login)
-  const [errorMsg, setErrorMsg] = useState<string>('')
+  const [errorMsgs, setErrorMsgs] = useState(initErrorMsgs)
 
   // Check disable button login
   const isDisableButton = !loginAccount.email || !loginAccount.password
 
   // Get input value
-  const handleChange = useCallback((e: ChangeEvent<HTMLInputElement>): void => {
-    const inputValues = { [e.target.name]: e.target.value }
+  const handleChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>): void => {
+      const inputValues = { [e.target.name]: e.target.value }
 
-    setLoginAccount((prev) => ({
-      ...prev,
-      ...inputValues,
-    }))
-  }, [])
+      setLoginAccount((prev) => ({
+        ...prev,
+        ...inputValues,
+      }))
+
+      setErrorMsgs(errorMsgs)
+    },
+    [errorMsgs],
+  )
 
   // Function submit login form
   const handleSubmitForm = useCallback(
@@ -48,9 +58,11 @@ const Template: ComponentStory<typeof LoginForm> = (args) => {
       const loginFormValidate = loginValidate(loginAccount, USERS_MOCK)
 
       if (!loginFormValidate.isValid && loginFormValidate.error) {
-        setErrorMsg(loginFormValidate.error)
+        setErrorMsgs(loginFormValidate.error)
       } else {
         alert(`Login Successfully!`)
+
+        setErrorMsgs(initErrorMsgs)
       }
     },
     [loginAccount],
@@ -62,7 +74,8 @@ const Template: ComponentStory<typeof LoginForm> = (args) => {
         {...args}
         onSubmitForm={handleSubmitForm}
         onChangeForm={handleChange}
-        error={errorMsg}
+        emailError={errorMsgs.email}
+        passwordError={errorMsgs.password}
         isDisable={isDisableButton}
       />
     </Box>

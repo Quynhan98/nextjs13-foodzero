@@ -1,7 +1,9 @@
 // Constants
 import {
   EMAIL_NOT_EXIST,
-  INVALID_EMAIL_OR_PASSWORD,
+  INVALID_PASSWORD,
+  INVALID_EMAIL_FORMAT,
+  INVALID_PASSWORD_FORMAT,
   REGEX_EMAIL,
   REGEX_PASSWORD,
   REQUIRED,
@@ -13,6 +15,8 @@ import { IUser, LoginAccount } from '@self-types/index'
 // Utils
 import { findItemByValue } from '@utils/index'
 
+type ErrorMsgs = { email: string; password: string }
+
 export interface checkValidateProps {
   value: string
   regex: RegExp
@@ -21,7 +25,7 @@ export interface checkValidateProps {
 
 export interface ValidationResult {
   isValid: boolean
-  error?: string
+  error?: ErrorMsgs
 }
 
 // Check validate input value
@@ -44,7 +48,7 @@ export const loginValidate = (
   users: IUser[] | [],
 ): ValidationResult => {
   const result: ValidationResult = { isValid: true }
-  result.error = ''
+  result.error = { email: '', password: '' }
 
   const user = findItemByValue({
     data: users,
@@ -55,29 +59,34 @@ export const loginValidate = (
   const validateEmail = checkValidate({
     value: loginAccount.email,
     regex: REGEX_EMAIL,
-    errorMess: INVALID_EMAIL_OR_PASSWORD,
+    errorMess: INVALID_EMAIL_FORMAT,
   })
 
   const validatePassword = checkValidate({
     value: loginAccount.password,
     regex: REGEX_PASSWORD,
-    errorMess: INVALID_EMAIL_OR_PASSWORD,
+    errorMess: INVALID_PASSWORD_FORMAT,
   })
 
-  if (
-    validateEmail ||
-    validatePassword ||
-    loginAccount.password !== user?.password
-  ) {
-    result.error = INVALID_EMAIL_OR_PASSWORD
+  // Email
+  if (!user) {
+    result.error.email = EMAIL_NOT_EXIST
+  }
+  if (validateEmail) {
+    result.error.email = validateEmail
   }
 
-  if (!user) {
-    result.error = EMAIL_NOT_EXIST
+  // Password
+  if (loginAccount.password !== user?.password) {
+    result.error.password = INVALID_PASSWORD
+  }
+
+  if (validatePassword) {
+    result.error.password = validatePassword
   }
 
   // Result
-  if (result.error) {
+  if (result.error.email || result.error.password) {
     result.isValid = false
   }
 

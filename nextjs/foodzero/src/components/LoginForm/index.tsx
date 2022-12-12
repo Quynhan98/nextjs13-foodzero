@@ -10,14 +10,16 @@ import {
 interface LoginFormProps {
   onSubmitForm?: (e: FormEvent<HTMLFormElement>) => void
   onChangeForm?: (e: ChangeEvent<HTMLInputElement>) => void
-  error: string
+  emailError?: string
+  passwordError?: string
   isDisable: boolean
 }
 
 const LoginForm = ({
   onSubmitForm,
   onChangeForm,
-  error,
+  emailError,
+  passwordError,
   isDisable,
 }: LoginFormProps) => {
   return (
@@ -26,7 +28,7 @@ const LoginForm = ({
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        isInvalid={!!error}
+        isInvalid={!!(emailError || passwordError)}
         padding={{ base: '25px', md: '50px' }}
       >
         <FormLabel
@@ -45,6 +47,11 @@ const LoginForm = ({
           placeholder="Email"
           onChange={onChangeForm}
         />
+        {emailError && (
+          <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+            {emailError}
+          </FormErrorMessage>
+        )}
         <Input
           data-testid="password"
           type="password"
@@ -53,9 +60,9 @@ const LoginForm = ({
           onChange={onChangeForm}
           mt={{ base: '25px', md: '50px' }}
         />
-        {error && (
+        {passwordError && (
           <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
-            {error}
+            {passwordError}
           </FormErrorMessage>
         )}
         <Button

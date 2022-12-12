@@ -5,7 +5,10 @@ import { render, screen, cleanup, fireEvent } from '@utils/testUtils'
 
 // Components
 import LoginForm from '@components/LoginForm'
-import { INVALID_EMAIL_OR_PASSWORD } from '@constants/errorMessage'
+import {
+  INVALID_EMAIL_FORMAT,
+  INVALID_PASSWORD_FORMAT,
+} from '@constants/errorMessage'
 
 describe('LoginForm', () => {
   const accountMock = {
@@ -65,10 +68,20 @@ describe('LoginForm', () => {
   })
 
   it('Should render ErrorMessage', () => {
-    render(<LoginForm {...props} error={INVALID_EMAIL_OR_PASSWORD} />)
+    render(
+      <LoginForm
+        {...props}
+        emailError={INVALID_EMAIL_FORMAT}
+        passwordError={INVALID_PASSWORD_FORMAT}
+      />,
+    )
 
-    expect(screen.getByText(INVALID_EMAIL_OR_PASSWORD)).toHaveTextContent(
-      INVALID_EMAIL_OR_PASSWORD,
+    expect(screen.getByText(INVALID_EMAIL_FORMAT)).toHaveTextContent(
+      INVALID_EMAIL_FORMAT,
+    )
+
+    expect(screen.getByText(INVALID_PASSWORD_FORMAT)).toHaveTextContent(
+      INVALID_PASSWORD_FORMAT,
     )
   })
 })
