@@ -1,19 +1,18 @@
 import { memo, useState } from 'react'
-import { Input } from '@chakra-ui/react'
+import { Input, InputProps } from '@chakra-ui/react'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 
 // Utils
 import { startDateFrom, startDateTo } from '@utils/index'
 
-interface DatePickerProps {
+interface DatePickerProps extends InputProps {
   isMinDate?: boolean
   isMaxDate?: boolean
   isMonthDropdown?: boolean
   isYearDropdown?: boolean
-  onChange: (date: Date) => void
+  onChangeDate: (date: Date) => void
   disabled?: boolean
-  width?: string
 }
 
 const Picker = ({
@@ -21,15 +20,15 @@ const Picker = ({
   isMaxDate,
   isMonthDropdown,
   isYearDropdown,
-  onChange,
+  onChangeDate,
   disabled,
-  width,
+  ...rest
 }: DatePickerProps) => {
   const [startDate, setStartDate] = useState<Date | null>()
 
   const handleChange = (dateTime: Date) => {
     setStartDate(dateTime)
-    onChange(dateTime)
+    onChangeDate(dateTime)
   }
 
   return (
@@ -44,7 +43,7 @@ const Picker = ({
       maxDate={isMaxDate ? startDateTo : null}
       disabled={disabled}
       useShortMonthInDropdown
-      customInput={<Input width={width} />}
+      customInput={<Input {...rest} />}
     />
   )
 }
