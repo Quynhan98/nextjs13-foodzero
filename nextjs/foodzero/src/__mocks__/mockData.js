@@ -33,3 +33,11 @@ export const CARD_CATEGORY = {
   imageUrl:
     'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
 }
+
+export const USERS_MOCK = [
+  {
+    id: 'gff1',
+    email: 'foodzero@gmail.com',
+    password: '123456789',
+  },
+]

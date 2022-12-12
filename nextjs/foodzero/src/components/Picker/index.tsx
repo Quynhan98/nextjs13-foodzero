@@ -44,23 +44,7 @@ const Picker = ({
       maxDate={isMaxDate ? startDateTo : null}
       disabled={disabled}
       useShortMonthInDropdown
-      customInput={
-        <Input
-          color="black"
-          border="2px"
-          borderColor="black"
-          _focus={{
-            borderColor: 'black',
-            boxShadow: '0 0 0 1px black',
-          }}
-          _hover={{ borderColor: 'black' }}
-          borderRadius="0px"
-          height={{ base: '50px', md: '96px' }}
-          fontSize={{ base: 'xs', md: 'sm' }}
-          paddingLeft="40px"
-          width={width}
-        />
-      }
+      customInput={<Input width={width} />}
     />
   )
 }
