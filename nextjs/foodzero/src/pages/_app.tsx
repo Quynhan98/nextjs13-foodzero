@@ -8,10 +8,15 @@ import { ChakraProvider } from '@chakra-ui/react'
 // Themes
 import { customTheme } from '@themes/index'
 
+// Components
+import { ErrorBoundary } from '@components/ErrorBoundary'
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={customTheme}>
-      <Component {...pageProps} />
+      <ErrorBoundary>
+        <Component {...pageProps} />
+      </ErrorBoundary>
     </ChakraProvider>
   )
 }

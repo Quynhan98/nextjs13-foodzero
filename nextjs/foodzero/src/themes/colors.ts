@@ -7,4 +7,5 @@ export const colors = {
   bronzeYellow: '#5E6600',
   zinnwalditeBrown: '#233000',
   alabaster: '#EBF0E4',
+  warning: '#D21D26',
 }
