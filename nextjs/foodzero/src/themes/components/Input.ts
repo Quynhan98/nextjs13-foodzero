@@ -5,16 +5,10 @@ export const Input: ComponentStyleConfig = {
     field: {
       border: '2px',
       borderRadius: '0px',
-      borderColor: 'black',
       fontSize: { base: 'xs', md: 'sm' },
       height: { base: '50px', md: '96px' },
       paddingLeft: '40px',
       backgroundColor: 'inherit',
-      _focus: {
-        borderColor: 'black',
-        boxShadow: '0 0 0 1px black',
-      },
-      _hover: { borderColor: 'black' },
     },
   },
   sizes: {
@@ -30,11 +24,23 @@ export const Input: ComponentStyleConfig = {
     primary: {
       field: {
         color: 'white',
+        borderColor: 'white',
+        _focus: {
+          borderColor: 'white',
+          boxShadow: '0 0 0 1px white',
+        },
+        _hover: { borderColor: 'white' },
       },
     },
     secondary: {
       field: {
         color: 'black',
+        borderColor: 'black',
+        _focus: {
+          borderColor: 'black',
+          boxShadow: '0 0 0 1px black',
+        },
+        _hover: { borderColor: 'black' },
       },
     },
   },

@@ -37,7 +37,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
                 class="react-datepicker__input-container"
               >
                 <input
-                  class="chakra-input css-knxk6n"
+                  class="chakra-input css-1qdmsg2"
                   id="field-:r3:"
                   placeholder="MM/DD/YYYY"
                   value=""
@@ -261,14 +261,14 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         class="css-shk6y1"
       >
         <input
-          class="chakra-input css-z9r7cf"
+          class="chakra-input css-vsl0b9"
           id="field-:r1:"
           name="firstName"
           placeholder="First Name"
           type="text"
         />
         <input
-          class="chakra-input css-z9r7cf"
+          class="chakra-input css-vsl0b9"
           id="field-:r1:"
           name="lastName"
           placeholder="Last Name"
@@ -276,14 +276,14 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         />
       </div>
       <input
-        class="chakra-input css-z9r7cf"
+        class="chakra-input css-vsl0b9"
         id="field-:r1:"
         name="email"
         placeholder="Email"
         type="email"
       />
       <input
-        class="chakra-input css-z9r7cf"
+        class="chakra-input css-vsl0b9"
         id="field-:r1:"
         name="phone"
         placeholder="Phone"
@@ -305,7 +305,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
                 class="react-datepicker__input-container"
               >
                 <input
-                  class="chakra-input css-1fos7a2"
+                  class="chakra-input css-7yjewt"
                   id="field-:r1:"
                   placeholder="MM/DD/YYYY"
                   value=""
