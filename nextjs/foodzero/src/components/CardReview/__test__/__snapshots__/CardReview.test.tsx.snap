@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextSlider component Renders TextSlider correctly 1`] = `
+exports[`CardReview component Renders CardReview correctly 1`] = `
 <div>
   <div
     class="css-0"

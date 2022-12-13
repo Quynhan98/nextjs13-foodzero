@@ -23,11 +23,11 @@ type QuoteType = {
   avatar: string
 }
 
-interface TextSliderProps extends BoxProps {
+interface CardReviewProps extends BoxProps {
   quotes: QuoteType[]
 }
 
-const TextSlider = ({ quotes, ...rest }: TextSliderProps) => {
+const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
   const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
   const [quote, setQuote] = useState(quotes[0])
   const [currentSlider, setCurrentSlider] = useState<number>(1)
@@ -110,4 +110,4 @@ const TextSlider = ({ quotes, ...rest }: TextSliderProps) => {
   )
 }
 
-export default memo(TextSlider)
+export default memo(CardReview)
