@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render Should Header match Snapshot 1`] = `
+<div>
+  <header
+    class="chakra-container css-1qxfw8o"
+  >
+    <div
+      class="css-f1oc3g"
+    >
+      <h1
+        class="chakra-heading css-16unufg"
+      >
+        <a
+          class="chakra-link css-spn4bz"
+          href="/"
+        >
+          <div
+            class="css-1pthsoj"
+          >
+            <img
+              alt="Logo FoodZero"
+              data-nimg="fill"
+              decoding="async"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimages%2Flogo.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
+          </div>
+        </a>
+      </h1>
+      <button
+        aria-label="menu"
+        class="chakra-button css-1trbkkh"
+        data-testid="buttonMenu"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="chakra-icon css-1k6ehyi"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="css-1y4a8vd"
+    >
+      <a
+        class="chakra-link css-spn4bz"
+        href="tel:+86 852 346 000"
+      >
+        <p
+          class="chakra-text css-z99krb"
+        >
+          +86 852 346 000
+        </p>
+      </a>
+      <button
+        class="chakra-button css-555q6y"
+        type="button"
+      >
+        Reservations
+      </button>
+    </div>
+  </header>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

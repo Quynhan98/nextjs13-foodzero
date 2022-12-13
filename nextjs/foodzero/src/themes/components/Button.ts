@@ -23,6 +23,9 @@ export const Button: ComponentStyleConfig = {
     primary: {
       padding: { base: '10px 48px', md: '20px 95px' },
     },
+    small: {
+      padding: '7px 10px',
+    },
   },
 
   variants: {
@@ -33,7 +36,7 @@ export const Button: ComponentStyleConfig = {
     },
     primary: {
       backgroundColor: 'inherit',
-      border: '2px',
+      border: { base: '1px', md: '2px' },
       borderColor: 'white',
     },
     secondary: {
