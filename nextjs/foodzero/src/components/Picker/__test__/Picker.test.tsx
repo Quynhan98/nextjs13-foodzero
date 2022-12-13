@@ -7,7 +7,7 @@ describe('Picker Component', () => {
   const props = {
     isMinDate: true,
     isMaxDate: true,
-    onChange: jest.fn(),
+    onChangeDate: jest.fn(),
   }
 
   it('renders picker component', () => {

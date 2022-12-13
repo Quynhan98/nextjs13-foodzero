@@ -1,16 +1,16 @@
 import { ChangeEvent, memo, useState } from 'react'
-import { Select, Text, useMediaQuery } from '@chakra-ui/react'
+import { Select, SelectProps, Text, useMediaQuery } from '@chakra-ui/react'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 
 // Constants
 import { BREAKPOINTS } from '@constants/variables'
 
-interface SelectFieldProps {
+interface SelectFieldProps extends SelectProps {
   options: string[]
   handleSelect: (item: string) => void
 }
 
-const SelectField = ({ options, handleSelect }: SelectFieldProps) => {
+const SelectField = ({ options, handleSelect, ...rest }: SelectFieldProps) => {
   const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
   const [value, setValue] = useState(options[0])
 
@@ -39,6 +39,7 @@ const SelectField = ({ options, handleSelect }: SelectFieldProps) => {
       style={{ paddingLeft: '40px' }}
       value={value}
       onChange={handleSelectItem}
+      {...rest}
     >
       {options.map((option) => (
         <Text

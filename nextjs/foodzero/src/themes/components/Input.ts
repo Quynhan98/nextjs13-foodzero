@@ -9,6 +9,7 @@ export const Input: ComponentStyleConfig = {
       fontSize: { base: 'xs', md: 'sm' },
       height: { base: '50px', md: '96px' },
       paddingLeft: '40px',
+      backgroundColor: 'inherit',
       _focus: {
         borderColor: 'black',
         boxShadow: '0 0 0 1px black',

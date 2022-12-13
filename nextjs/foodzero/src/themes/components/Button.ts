@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const Button: ComponentStyleConfig = {
   baseStyle: {
-    fontSize: { base: 'sm', md: 'md' },
+    fontSize: { base: 'base', md: 'md' },
     lineHeight: { base: 'xs', md: 'sm' },
     display: 'flex',
     justifyContent: 'center',
@@ -19,6 +19,9 @@ export const Button: ComponentStyleConfig = {
     },
     default: {
       padding: { base: '10px 23px', md: '20px 46px' },
+    },
+    primary: {
+      padding: { base: '10px 48px', md: '20px 95px' },
     },
   },
 
