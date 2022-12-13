@@ -44,6 +44,9 @@ export const Button: ComponentStyleConfig = {
       border: '2px',
       borderColor: 'black',
     },
+    light: {
+      backgroundColor: 'inherit',
+    },
   },
 
   defaultProps: {
