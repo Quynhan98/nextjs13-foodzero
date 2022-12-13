@@ -71,7 +71,11 @@ const TextSlider = ({ quotes, ...rest }: TextSliderProps) => {
           name={quote.authorName}
           job={quote.job}
         />
-        <Flex alignItems="center" width="100%" justifyContent="flex-end">
+        <Flex
+          alignItems="center"
+          width={{ base: '100%', md: '40%' }}
+          justifyContent="flex-end"
+        >
           <Button
             data-testid="buttonBack"
             onClick={handleGoBack}
