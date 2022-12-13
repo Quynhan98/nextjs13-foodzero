@@ -41,3 +41,33 @@ export const USERS_MOCK = [
     password: '123456789',
   },
 ]
+
+export const QUOTE_MOCK = [
+  {
+    id: '1',
+    authorName: 'John Doe',
+    job: 'Blogger',
+    quote:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus impedient. Turpis egestas ultricies purus  Lorem ipsum dolor sit amet.',
+    avatar:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fjohn-doe.webp?alt=media&token=6963f744-1ab8-4b09-971d-2486cd5375bf',
+  },
+  {
+    id: '2',
+    authorName: 'Julie Christie',
+    job: 'Blogger',
+    quote:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus impedient. Turpis egestas ultricies purus  Lorem ipsum dolor sit amet1.',
+    avatar:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Funnamed.webp?alt=media&token=72862fa3-6567-4043-aab0-cc449b30e602',
+  },
+  {
+    id: '3',
+    authorName: 'Dianne Russell',
+    job: 'Blogger',
+    quote:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus impedient. Turpis egestas ultricies purus  Lorem ipsum dolor sit amet2.',
+    avatar:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcute-avatar.webp?alt=media&token=7b6d918e-3dec-43cf-a4bd-70afdbdc63e0',
+  },
+]
