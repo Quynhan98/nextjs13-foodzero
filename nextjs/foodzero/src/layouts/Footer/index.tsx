@@ -1,18 +1,17 @@
 import {
   Box,
   Button,
+  Divider,
   Flex,
   Heading,
   Input,
-  ListItem,
   Text,
-  UnorderedList,
   useMediaQuery,
 } from '@chakra-ui/react'
 
 // Components
 import Contact from '@components/Contact'
-import Social from '@components/Social'
+import ListSocial from '@components/ListSocial'
 
 // Constants
 import { BREAKPOINTS, CONTACT, SOCIAL_LIST } from '@constants/index'
@@ -24,8 +23,6 @@ const Footer = () => {
     <Box
       as="footer"
       backgroundColor="zinnwalditeBrown"
-      pt={{ base: '42px', md: '132px' }}
-      pb={{ base: '42px', md: '74px' }}
       padding={{ base: '42px 12px ', md: '132px 0px 74px 0px' }}
     >
       <Flex
@@ -35,7 +32,7 @@ const Footer = () => {
         maxW="1644px"
         width="100%"
         margin="0 auto"
-        mb={{ base: '45px', md: '137px' }}
+        pb={{ base: '45px', md: '137px' }}
       >
         <Flex
           justifyContent="space-between"
@@ -54,7 +51,7 @@ const Footer = () => {
           <Text
             variant="primary"
             size={{ base: 'medium', md: 'extraLarge' }}
-            pb={{ base: '20px', md: '55px' }}
+            pb={{ base: '15px', md: '55px' }}
             pt={{ base: '25px', md: '0px' }}
             fontFamily="Rufina"
           >
@@ -82,10 +79,11 @@ const Footer = () => {
           </Text>
         </Box>
       </Flex>
-      <Box
-        as="hr"
-        color="black"
-        borderTop="2px dashed white"
+      <Divider
+        variant="dashed"
+        borderBottomWidth="2px"
+        borderBottomColor="white"
+        opacity={1}
         mb={{ base: '20px', md: '58px' }}
       />
       <Flex
@@ -100,20 +98,10 @@ const Footer = () => {
         <Text variant="primary" size={{ base: 'small', md: 'default' }}>
           © 2020 Zero Inc. All rights Reserved
         </Text>
-        <UnorderedList
-          display="flex"
+        <ListSocial
+          listSocial={SOCIAL_LIST}
           pt={{ base: '20px', md: '38px' }}
-          gap="18px"
-          justifyContent="flex-start"
-          alignItems="center"
-          marginLeft="0px"
-        >
-          {SOCIAL_LIST.map((item) => (
-            <ListItem key={`social-${item.value}`} listStyleType="none">
-              <Social key={item.value} {...item} />
-            </ListItem>
-          ))}
-        </UnorderedList>
+        />
       </Flex>
     </Box>
   )

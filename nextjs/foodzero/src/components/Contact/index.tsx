@@ -1,9 +1,9 @@
 import { memo } from 'react'
 import Link from 'next/link'
-import { Box, ListItem, Text, UnorderedList } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 
 // Components
-import Social from '@components/Social'
+import ListSocial from '@components/ListSocial'
 
 // Constants
 import { SOCIAL_LIST } from '@constants/index'
@@ -63,20 +63,10 @@ const Contact = ({
         {address}
       </Text>
       {isShowIcon && (
-        <UnorderedList
-          display="flex"
+        <ListSocial
+          listSocial={SOCIAL_LIST}
           pt={{ base: '20px', md: '38px' }}
-          gap="18px"
-          justifyContent="flex-start"
-          alignItems="center"
-          marginLeft="0px"
-        >
-          {SOCIAL_LIST.map((item) => (
-            <ListItem key={`social-${item.value}`} listStyleType="none">
-              <Social key={item.value} {...item} />
-            </ListItem>
-          ))}
-        </UnorderedList>
+        />
       )}
     </Box>
   )

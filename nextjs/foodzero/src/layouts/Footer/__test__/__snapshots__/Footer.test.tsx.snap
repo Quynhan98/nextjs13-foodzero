@@ -3,10 +3,10 @@
 exports[`Footer render Should Footer match Snapshot 1`] = `
 <div>
   <footer
-    class="css-1wnv9fz"
+    class="css-1d0otq1"
   >
     <div
-      class="css-22rznz"
+      class="css-15ms0zq"
     >
       <div
         class="css-cl2fjb"
@@ -53,7 +53,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1ieawun"
+          class="chakra-text css-1g7063y"
         >
           Never Miss a Recipe
         </p>
@@ -79,7 +79,8 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
       </div>
     </div>
     <hr
-      class="css-kunwsa"
+      aria-orientation="horizontal"
+      class="chakra-divider css-dua0ms"
     />
     <div
       class="css-1b9jvdy"
@@ -90,7 +91,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
         © 2020 Zero Inc. All rights Reserved
       </p>
       <ul
-        class="css-vw5kuc"
+        class="css-shidlx"
         role="list"
       >
         <li
