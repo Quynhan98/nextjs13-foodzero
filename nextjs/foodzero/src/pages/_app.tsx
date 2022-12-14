@@ -11,11 +11,16 @@ import { customTheme } from '@themes/index'
 // Components
 import { ErrorBoundary } from '@components/ErrorBoundary'
 
+// Layouts
+import PageLayout from '@layouts/PageLayout'
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={customTheme}>
       <ErrorBoundary>
-        <Component {...pageProps} />
+        <PageLayout>
+          <Component {...pageProps} />
+        </PageLayout>
       </ErrorBoundary>
     </ChakraProvider>
   )
