@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer render Should Footer match Snapshot 1`] = `
+<div>
+  <footer
+    class="css-1d0otq1"
+  >
+    <div
+      class="css-15ms0zq"
+    >
+      <div
+        class="css-cl2fjb"
+      >
+        <h1
+          class="chakra-heading css-gm12et"
+        >
+          Food Zero.
+        </h1>
+        <div
+          class="css-0"
+        >
+          <p
+            class="chakra-text css-ppz0ah"
+          >
+            Contact
+          </p>
+          <a
+            href="tel:+86 852 346 000"
+          >
+            <p
+              class="chakra-text css-gz08eg"
+            >
+              +86 852 346 000
+            </p>
+          </a>
+          <a
+            href="mailto:info@foodzero.com"
+          >
+            <p
+              class="chakra-text css-1oecnb9"
+            >
+              info@foodzero.com
+            </p>
+          </a>
+          <p
+            class="chakra-text css-15kw7zj"
+          >
+            1959 Sepulveda Blvd. Culver City, CA, 90230
+          </p>
+        </div>
+      </div>
+      <div
+        class="css-0"
+      >
+        <p
+          class="chakra-text css-1g7063y"
+        >
+          Never Miss a Recipe
+        </p>
+        <div
+          class="css-1jn9ke7"
+        >
+          <input
+            class="chakra-input css-1rjerp5"
+            placeholder="Email Address"
+          />
+          <button
+            class="chakra-button css-1a1bbvk"
+            type="button"
+          >
+            Subscribe
+          </button>
+        </div>
+        <p
+          class="chakra-text css-3firl6"
+        >
+          Join our subscribers and get best recipe delivered each week!
+        </p>
+      </div>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-dua0ms"
+    />
+    <div
+      class="css-1b9jvdy"
+    >
+      <p
+        class="chakra-text css-8wvo7l"
+      >
+        © 2020 Zero Inc. All rights Reserved
+      </p>
+      <ul
+        class="css-shidlx"
+        role="list"
+      >
+        <li
+          class="css-155za0w"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Instagram"
+              data-nimg="1"
+              decoding="async"
+              height="28"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Finstagram.webp&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Finstagram.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Finstagram.webp&w=64&q=75 2x"
+              style="color: transparent;"
+              value="1"
+              width="28"
+            />
+          </a>
+        </li>
+        <li
+          class="css-155za0w"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Twitter"
+              data-nimg="1"
+              decoding="async"
+              height="28"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Ftwitter.webp&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Ftwitter.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ftwitter.webp&w=64&q=75 2x"
+              style="color: transparent;"
+              value="2"
+              width="28"
+            />
+          </a>
+        </li>
+        <li
+          class="css-155za0w"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="Facebook"
+              data-nimg="1"
+              decoding="async"
+              height="28"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Ffacebook.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75 2x"
+              style="color: transparent;"
+              value="3"
+              width="28"
+            />
+          </a>
+        </li>
+        <li
+          class="css-155za0w"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="youtube"
+              data-nimg="1"
+              decoding="async"
+              height="28"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Fyoutube.webp&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fyoutube.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Fyoutube.webp&w=64&q=75 2x"
+              style="color: transparent;"
+              value="4"
+              width="28"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
