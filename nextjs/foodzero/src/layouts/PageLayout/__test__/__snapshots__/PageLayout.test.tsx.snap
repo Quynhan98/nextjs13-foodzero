@@ -261,11 +261,6 @@ exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
 
 exports[`PageLayout render Should PageLayout of Login page match Snapshot 1`] = `
 <div>
-  <main
-    class="css-lepva3"
-  >
-    Contents Login Page
-  </main>
   <span
     hidden=""
     id="__chakra_env"

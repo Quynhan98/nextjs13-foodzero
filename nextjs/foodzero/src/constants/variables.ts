@@ -94,3 +94,8 @@ export const NUMBER_OF_PERSON = [
   '9 Person',
   '10 Person',
 ]
+
+export const LOCAL_STORAGE_KEY = {
+  USER_ID: 'userId',
+  IS_TOKEN: 'isToken',
+}

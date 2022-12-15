@@ -3,17 +3,15 @@
 exports[`LoginForm LoginForm matches snapshot 1`] = `
 <div>
   <form>
+    <label
+      class="chakra-form__label css-1e23bqj"
+    >
+      Login
+    </label>
     <div
-      class="chakra-form-control css-1tu1hsb"
+      class="chakra-form-control css-rjfdrk"
       role="group"
     >
-      <label
-        class="chakra-form__label css-1e23bqj"
-        for="field-:r1:"
-        id="field-:r1:-label"
-      >
-        Login
-      </label>
       <input
         class="chakra-input css-1lqzwk"
         data-testid="email"

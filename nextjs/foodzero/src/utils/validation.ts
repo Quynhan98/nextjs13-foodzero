@@ -25,6 +25,7 @@ export interface checkValidateProps {
 
 export interface ValidationResult {
   isValid: boolean
+  data?: { userId?: string }
   error?: ErrorMsgs
 }
 
@@ -47,14 +48,14 @@ export const loginValidate = (
   loginAccount: LoginAccount,
   users: IUser[] | [],
 ): ValidationResult => {
-  const result: ValidationResult = { isValid: true }
-  result.error = { email: '', password: '' }
-
   const user = findItemByValue({
     data: users,
     value: loginAccount.email,
     key: 'email',
   })
+
+  const result: ValidationResult = { isValid: true, data: { userId: user?.id } }
+  result.error = { email: '', password: '' }
 
   const validateEmail = checkValidate({
     value: loginAccount.email,
