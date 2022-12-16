@@ -70,7 +70,7 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
         </ul>
       </div>
       <h4
-        class="chakra-heading css-r5gqj4"
+        class="chakra-heading css-11p5r12"
       >
         Fruit and vegetables and protection against diseases
       </h4>
@@ -78,7 +78,7 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
         class="css-113h5p7"
       />
       <p
-        class="chakra-text css-1enfm7x"
+        class="chakra-text css-17arz7z"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>

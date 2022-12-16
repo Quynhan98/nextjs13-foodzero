@@ -1,0 +1,1042 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page Renders Home page correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-fyent0"
+    >
+      <div
+        class="css-1szuyxh"
+      >
+        <h2
+          class="chakra-heading css-1mps9r1"
+        >
+          Healthy Eating is important part of lifestyle
+        </h2>
+        <p
+          class="chakra-text css-f1hsh4"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+        </p>
+      </div>
+      <div
+        class="css-1alpf7l"
+      >
+        <div
+          class="css-jh3ck9"
+        >
+          <p
+            class="chakra-text css-1b3jnye"
+          >
+            Scroll
+          </p>
+          <hr
+            aria-orientation="vertical"
+            class="chakra-divider css-otqcbu"
+          />
+        </div>
+        <div
+          class="css-1096bl5"
+        >
+          <img
+            alt="spice cups picture"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 854px, 240px (max-width: 1200px) 50vw, 33vw"
+            src="/_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimages%2FspiceCups.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+          />
+        </div>
+      </div>
+      <div
+        class="css-16k79a5"
+      >
+        <div
+          class="css-j7qwjs"
+        >
+          <div
+            class="css-6yaygn"
+          >
+            <img
+              alt="clam soup picture"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 792px, 560px (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimages%2FclamSoup.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
+          </div>
+          <h3
+            class="chakra-heading css-p8ox3r"
+          >
+            Start to plan your diet today
+          </h3>
+          <p
+            class="chakra-text css-6an3ov"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+          </p>
+        </div>
+        <div
+          class="css-s9p0un"
+        >
+          <p
+            class="chakra-text css-4p4ije"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+          </p>
+          <div
+            class="css-1agpdb0"
+          >
+            <img
+              alt="spice jar picture"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="(max-width: 768px) 508px, 710px (max-width: 1200px) 50vw, 33vw"
+              src="/_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimages%2FspiceJar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section
+      class="css-em1jej"
+    >
+      <h3
+        class="chakra-heading css-1orayqf"
+      >
+        Our Menu
+      </h3>
+      <p
+        class="chakra-text css-1el53v2"
+      >
+        This is a section of your menu. Give your section a brief description
+      </p>
+      <ul
+        class="css-1hbb6hp"
+        role="list"
+      >
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="css-1ihkgue"
+    >
+      <div
+        class="css-1fq278e"
+      >
+        <div
+          class="css-1025zi6"
+        >
+          <img
+            alt="excellent cook picture"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 980px, 890px (max-width: 1200px) 50vw, 33vw"
+            src="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+          />
+        </div>
+        <div
+          class="css-lkjjsm"
+        >
+          <h3
+            class="chakra-heading css-tbjbi7"
+          >
+            Excellent cook
+          </h3>
+          <p
+            class="chakra-text css-m585cg"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="css-1vblrna"
+    >
+      <ul
+        class="css-xxnhnf"
+        role="list"
+      >
+        <li
+          class="css-0"
+        >
+          <div
+            class="css-1zzgv0"
+          >
+            <figure
+              class="css-ymn5md"
+            >
+              <img
+                alt="blog wallpaper"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+              />
+            </figure>
+            <p
+              class="chakra-text css-jmhzzp"
+            >
+              Premium Quality
+            </p>
+            <p
+              class="chakra-text css-pfln6y"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-0"
+        >
+          <div
+            class="css-1zzgv0"
+          >
+            <figure
+              class="css-ymn5md"
+            >
+              <img
+                alt="blog wallpaper"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+              />
+            </figure>
+            <p
+              class="chakra-text css-jmhzzp"
+            >
+              Premium Quality
+            </p>
+            <p
+              class="chakra-text css-pfln6y"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-0"
+        >
+          <div
+            class="css-1zzgv0"
+          >
+            <figure
+              class="css-ymn5md"
+            >
+              <img
+                alt="blog wallpaper"
+                data-nimg="fill"
+                decoding="async"
+                loading="lazy"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+              />
+            </figure>
+            <p
+              class="chakra-text css-jmhzzp"
+            >
+              Premium Quality
+            </p>
+            <p
+              class="chakra-text css-pfln6y"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="css-1bx81p1"
+    >
+      <ul
+        class="css-193tyk2"
+        role="list"
+      >
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-79elbk"
+          >
+            <div
+              class="css-1p10zp0"
+            >
+              <h6
+                class="chakra-heading css-19hfhgc"
+              >
+                Fashion
+              </h6>
+            </div>
+            <img
+              alt="blog wallpaper"
+              data-nimg="1"
+              decoding="async"
+              height="792"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=828&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75 2x"
+              style="color: transparent;"
+              width="792"
+            />
+            <div
+              class="css-18kc6l"
+            >
+              <div
+                class="css-70qvj9"
+              >
+                <span
+                  class="chakra-avatar css-fup3kj"
+                >
+                  <div
+                    aria-label="Julie Christie"
+                    class="chakra-avatar__initials css-100o20p"
+                    role="img"
+                  >
+                    JC
+                  </div>
+                </span>
+                <ul
+                  class="css-91sxya"
+                  role="list"
+                >
+                  <li
+                    class="css-18m884n"
+                  >
+                    Julie Christie
+                  </li>
+                  <li
+                    class="css-1bfqwby"
+                  >
+                    December 06, 2022
+                  </li>
+                  <li
+                    class="css-1bfqwby"
+                  >
+                    06:29 AM
+                  </li>
+                  <li
+                    class="css-1ru1j6w"
+                  >
+                    2
+                     comments
+                  </li>
+                </ul>
+              </div>
+              <h4
+                class="chakra-heading css-11p5r12"
+              >
+                Fruit and vegetables and protection against diseases
+              </h4>
+              <hr
+                class="css-113h5p7"
+              />
+              <p
+                class="chakra-text css-17arz7z"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-79elbk"
+          >
+            <div
+              class="css-1p10zp0"
+            >
+              <h6
+                class="chakra-heading css-19hfhgc"
+              >
+                Fashion
+              </h6>
+            </div>
+            <img
+              alt="blog wallpaper"
+              data-nimg="1"
+              decoding="async"
+              height="792"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=828&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75 2x"
+              style="color: transparent;"
+              width="792"
+            />
+            <div
+              class="css-18kc6l"
+            >
+              <div
+                class="css-70qvj9"
+              >
+                <span
+                  class="chakra-avatar css-fup3kj"
+                >
+                  <div
+                    aria-label="Julie Christie"
+                    class="chakra-avatar__initials css-100o20p"
+                    role="img"
+                  >
+                    JC
+                  </div>
+                </span>
+                <ul
+                  class="css-91sxya"
+                  role="list"
+                >
+                  <li
+                    class="css-18m884n"
+                  >
+                    Julie Christie
+                  </li>
+                  <li
+                    class="css-1bfqwby"
+                  >
+                    December 06, 2022
+                  </li>
+                  <li
+                    class="css-1bfqwby"
+                  >
+                    06:29 AM
+                  </li>
+                  <li
+                    class="css-1ru1j6w"
+                  >
+                    2
+                     comments
+                  </li>
+                </ul>
+              </div>
+              <h4
+                class="chakra-heading css-11p5r12"
+              >
+                Fruit and vegetables and protection against diseases
+              </h4>
+              <hr
+                class="css-113h5p7"
+              />
+              <p
+                class="chakra-text css-17arz7z"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="css-628vpw"
+    >
+      <form>
+        <div
+          class="chakra-form-control css-1kufdmz"
+          role="group"
+        >
+          <div
+            class="css-yjtq8f"
+          >
+            <h3
+              class="chakra-heading css-mxgfwf"
+            >
+              Make a Reservation
+            </h3>
+            <p
+              class="chakra-text css-11o6bb1"
+            >
+              Get in touch with restaurant
+            </p>
+          </div>
+          <div
+            class="css-6wfi37"
+          >
+            <div
+              class="css-pl1d54"
+            >
+              <div
+                class="css-0"
+              >
+                <div
+                  class="react-datepicker-wrapper"
+                >
+                  <div
+                    class="react-datepicker__input-container"
+                  >
+                    <input
+                      class="chakra-input css-nr8l43"
+                      id="field-:r0:"
+                      placeholder="MM/DD/YYYY"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="chakra-select__wrapper css-1uge2rn"
+              >
+                <select
+                  class="chakra-select css-ph0mc"
+                  data-testid="selectTime"
+                  id="field-:r0:"
+                  style="padding-left: 40px;"
+                >
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="11:00 am"
+                  >
+                    11:00 am
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="12:00 am"
+                  >
+                    12:00 am
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="13:00 pm"
+                  >
+                    13:00 pm
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="14:00 pm"
+                  >
+                    14:00 pm
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="15:00 pm"
+                  >
+                    15:00 pm
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="16:00 pm"
+                  >
+                    16:00 pm
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="17:00 pm"
+                  >
+                    17:00 pm
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="18:00 pm"
+                  >
+                    18:00 pm
+                  </option>
+                  <option
+                    class="chakra-text css-1pnsk7p"
+                    value="19:00 pm"
+                  >
+                    19:00 pm
+                  </option>
+                </select>
+                <div
+                  class="chakra-select__icon-wrapper css-1rn5cz7"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="chakra-icon chakra-select__icon css-13wnv3o"
+                    focusable="false"
+                    role="presentation"
+                    style="width: 1em; height: 1em; color: currentColor;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="chakra-select__wrapper css-42b2qy"
+            >
+              <select
+                class="chakra-select css-ph0mc"
+                data-testid="selectPerson"
+                id="field-:r0:"
+                style="padding-left: 40px;"
+              >
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="1 Person"
+                >
+                  1 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="2 Person"
+                >
+                  2 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="3 Person"
+                >
+                  3 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="4 Person"
+                >
+                  4 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="5 Person"
+                >
+                  5 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="6 Person"
+                >
+                  6 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="7 Person"
+                >
+                  7 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="8 Person"
+                >
+                  8 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="9 Person"
+                >
+                  9 Person
+                </option>
+                <option
+                  class="chakra-text css-1pnsk7p"
+                  value="10 Person"
+                >
+                  10 Person
+                </option>
+              </select>
+              <div
+                class="chakra-select__icon-wrapper css-1rn5cz7"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-icon chakra-select__icon css-13wnv3o"
+                  focusable="false"
+                  role="presentation"
+                  style="width: 1em; height: 1em; color: currentColor;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1610dfo"
+          >
+            <button
+              class="chakra-button css-h4ij4d"
+              type="submit"
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section
+      class="css-1wr7sr5"
+    >
+      <div
+        class="css-b93e9j"
+      >
+        <h3
+          class="chakra-heading css-tfa5m7"
+        >
+          Calories Energy Balance
+        </h3>
+        <p
+          class="chakra-text css-m585cg"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <ul
+        class="css-1tpt0do"
+        role="list"
+      >
+        <li
+          class="css-0"
+        >
+          <div
+            class="css-hfnpep"
+          >
+            <div
+              class="css-fyv2te"
+            >
+              <p
+                class="chakra-text css-jmhzzp"
+              >
+                Starters
+              </p>
+              <a
+                href="/"
+              >
+                <img
+                  alt="right arrow icon"
+                  data-nimg="1"
+                  decoding="async"
+                  height="26"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="46"
+                />
+              </a>
+            </div>
+            <img
+              alt="background of the category card"
+              data-nimg="1"
+              decoding="async"
+              height="711"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+              style="color: transparent;"
+              width="508"
+            />
+          </div>
+        </li>
+        <li
+          class="css-0"
+        >
+          <div
+            class="css-hfnpep"
+          >
+            <div
+              class="css-fyv2te"
+            >
+              <p
+                class="chakra-text css-jmhzzp"
+              >
+                Starters
+              </p>
+              <a
+                href="/"
+              >
+                <img
+                  alt="right arrow icon"
+                  data-nimg="1"
+                  decoding="async"
+                  height="26"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="46"
+                />
+              </a>
+            </div>
+            <img
+              alt="background of the category card"
+              data-nimg="1"
+              decoding="async"
+              height="711"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+              style="color: transparent;"
+              width="508"
+            />
+          </div>
+        </li>
+        <li
+          class="css-0"
+        >
+          <div
+            class="css-hfnpep"
+          >
+            <div
+              class="css-fyv2te"
+            >
+              <p
+                class="chakra-text css-jmhzzp"
+              >
+                Starters
+              </p>
+              <a
+                href="/"
+              >
+                <img
+                  alt="right arrow icon"
+                  data-nimg="1"
+                  decoding="async"
+                  height="26"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
+                  srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="46"
+                />
+              </a>
+            </div>
+            <img
+              alt="background of the category card"
+              data-nimg="1"
+              decoding="async"
+              height="711"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+              style="color: transparent;"
+              width="508"
+            />
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section
+      class="css-1npx50a"
+    >
+      <div
+        class="css-0"
+      >
+        <p
+          class="chakra-text css-1ij7pag"
+        >
+          “ 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus impedient. Turpis egestas ultricies purus  Lorem ipsum dolor sit amet.
+        </p>
+        <div
+          class="css-1vjcr4l"
+        >
+          <div
+            class="css-mgvg8t"
+          >
+            <span
+              class="chakra-avatar css-1kva3cr"
+            >
+              <div
+                aria-label="John Doe"
+                class="chakra-avatar__initials css-uo84k3"
+                role="img"
+              >
+                JD
+              </div>
+            </span>
+            <div
+              class="css-0"
+            >
+              <h5
+                class="chakra-heading css-gixbyc"
+              >
+                John Doe
+              </h5>
+              <p
+                class="chakra-text css-lv0zmh"
+              >
+                Blogger
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-11yd5ay"
+          >
+            <button
+              class="chakra-button css-yvsqkp"
+              data-testid="buttonBack"
+              type="button"
+            >
+              <img
+                alt="right arrow icon"
+                data-nimg="1"
+                decoding="async"
+                height="26"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2FleftArrow.webp&w=96&q=75"
+                srcset="/_next/image?url=%2Fimages%2FleftArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FleftArrow.webp&w=96&q=75 2x"
+                style="color: transparent;"
+                width="46"
+              />
+            </button>
+            <p
+              class="chakra-text css-37ekto"
+            >
+              1
+              /
+              3
+            </p>
+            <button
+              class="chakra-button css-yvsqkp"
+              data-testid="buttonNext"
+              type="button"
+            >
+              <img
+                alt="right arrow icon"
+                data-nimg="1"
+                decoding="async"
+                height="26"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
+                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
+                style="color: transparent;"
+                width="46"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

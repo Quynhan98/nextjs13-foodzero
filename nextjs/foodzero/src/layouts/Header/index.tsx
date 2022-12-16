@@ -94,6 +94,10 @@ const Header = () => {
       width="100%"
       padding={{ base: '12px', md: '46px 138px 149px 118px' }}
       margin="0 auto"
+      left="0px"
+      right="0px"
+      position="absolute"
+      zIndex={1}
     >
       <Flex gap={{ base: '20px', md: '45px' }} alignItems="center">
         <Heading as="h1">

@@ -77,10 +77,9 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
           <Box
             as="main"
             minHeight="100vh"
-            maxWidth="1664px"
+            maxWidth="1920px"
             width="100%"
             margin="0 auto"
-            padding={{ base: '12px', lg: '0px' }}
           >
             {children}
           </Box>

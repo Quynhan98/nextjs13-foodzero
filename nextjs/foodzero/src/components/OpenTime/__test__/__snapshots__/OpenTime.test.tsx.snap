@@ -9,12 +9,12 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
       class="css-34hfx4"
     >
       <p
-        class="chakra-text css-15gtihh"
+        class="chakra-text css-sqdrsl"
       >
         Open Time
       </p>
       <p
-        class="chakra-text css-8wvo7l"
+        class="chakra-text css-1xhkjsw"
       >
         Sunday - Friday
       </p>
@@ -30,12 +30,12 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-8wvo7l"
+          class="chakra-text css-1xhkjsw"
         >
           Brunch
         </p>
         <p
-          class="chakra-text css-8wvo7l"
+          class="chakra-text css-1xhkjsw"
         >
           11:00–12:00
         </p>
@@ -44,12 +44,12 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-8wvo7l"
+          class="chakra-text css-1xhkjsw"
         >
           Lunch
         </p>
         <p
-          class="chakra-text css-8wvo7l"
+          class="chakra-text css-1xhkjsw"
         >
           13:00–17:00
         </p>
@@ -58,12 +58,12 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-8wvo7l"
+          class="chakra-text css-1xhkjsw"
         >
           Dinner
         </p>
         <p
-          class="chakra-text css-8wvo7l"
+          class="chakra-text css-1xhkjsw"
         >
           18:00–20:00
         </p>

@@ -3,13 +3,13 @@
 exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
 <div>
   <header
-    class="chakra-container css-1qxfw8o"
+    class="chakra-container css-3jxsag"
   >
     <div
       class="css-f1oc3g"
     >
       <h1
-        class="chakra-heading css-16unufg"
+        class="chakra-heading css-1k8hiri"
       >
         <a
           class="chakra-link css-spn4bz"
@@ -73,7 +73,7 @@ exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
     </div>
   </header>
   <main
-    class="css-1liisy1"
+    class="css-1o2vtvx"
   >
     Contents Page
   </main>
@@ -87,7 +87,7 @@ exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
         class="css-cl2fjb"
       >
         <h1
-          class="chakra-heading css-gm12et"
+          class="chakra-heading css-t29nfr"
         >
           Food Zero.
         </h1>
@@ -95,7 +95,7 @@ exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
           class="css-0"
         >
           <p
-            class="chakra-text css-ppz0ah"
+            class="chakra-text css-craojw"
           >
             Contact
           </p>
@@ -128,7 +128,7 @@ exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1g7063y"
+          class="chakra-text css-1wd7ih2"
         >
           Never Miss a Recipe
         </p>
@@ -161,7 +161,7 @@ exports[`PageLayout render Should PageLayout match Snapshot 1`] = `
       class="css-1b9jvdy"
     >
       <p
-        class="chakra-text css-8wvo7l"
+        class="chakra-text css-1xhkjsw"
       >
         © 2020 Zero Inc. All rights Reserved
       </p>

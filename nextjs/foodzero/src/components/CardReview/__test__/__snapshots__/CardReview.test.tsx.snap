@@ -6,7 +6,7 @@ exports[`CardReview component Renders CardReview correctly 1`] = `
     class="css-0"
   >
     <p
-      class="chakra-text css-zelfmh"
+      class="chakra-text css-1ij7pag"
     >
       “ 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus impedient. Turpis egestas ultricies purus  Lorem ipsum dolor sit amet.
@@ -32,7 +32,7 @@ exports[`CardReview component Renders CardReview correctly 1`] = `
           class="css-0"
         >
           <h5
-            class="chakra-heading css-ai6zdm"
+            class="chakra-heading css-gixbyc"
           >
             John Doe
           </h5>

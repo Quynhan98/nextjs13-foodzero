@@ -112,7 +112,7 @@ const ReservationForm = ({
             <Box>
               <Picker
                 width={{
-                  base: '313px',
+                  base: '351px',
                   md: isShowFullField ? '798px' : '516px',
                 }}
                 onChangeDate={handleChangeDate}
@@ -124,7 +124,7 @@ const ReservationForm = ({
               data-testid="selectTime"
               options={RESERVATION_TIME}
               handleSelect={handleSelectTime}
-              width={{ base: '313px', md: isShowFullField ? '798px' : '516px' }}
+              width={{ base: '351px', md: isShowFullField ? '798px' : '516px' }}
             />
           </Flex>
           <SelectField
