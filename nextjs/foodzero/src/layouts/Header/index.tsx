@@ -144,7 +144,7 @@ const Header = () => {
           Reservations
         </Button>
       </Flex>
-      {renderModalMenu}
+      {isOpen && renderModalMenu}
     </Container>
   )
 }
