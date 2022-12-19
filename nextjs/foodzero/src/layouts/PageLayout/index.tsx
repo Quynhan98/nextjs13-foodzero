@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from 'react'
+import React, { memo, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { Box, Center } from '@chakra-ui/react'
 
@@ -15,9 +15,6 @@ import { AuthProvider } from '@contexts/AuthProvider'
 // Services
 import { getLocalStorage } from '@utils/localStorage'
 
-// Hooks
-import { useAuthContext } from '@hooks/useAuthContext'
-
 export interface IPageLayoutsProps {
   children: React.ReactNode
 }
@@ -25,24 +22,16 @@ export interface IPageLayoutsProps {
 const PageLayouts = ({ children }: IPageLayoutsProps) => {
   const router = useRouter()
   const { pathname } = router
-  const { userId } = useAuthContext()
-  const [authorized, setAuthorized] = useState(false)
 
   const isLoginPage = pathname === PAGE_URL.LOGIN.URL
-  const hasAccount = !!getLocalStorage(LOCAL_STORAGE_KEY.USER_ID)
+  const userId = getLocalStorage(LOCAL_STORAGE_KEY.USER_ID)
 
   useEffect(() => {
     // Redirect to Login page with unauthorized user
-    if (hasAccount || !!userId) {
-      setAuthorized(true)
-    } else {
-      setAuthorized(false)
-
+    if (!userId && !isLoginPage) {
       router.push(PAGE_URL.LOGIN.URL)
     }
-  }, [hasAccount, userId])
-
-  if (!authorized && !isLoginPage) return null
+  }, [isLoginPage, userId])
 
   return (
     <AuthProvider>
