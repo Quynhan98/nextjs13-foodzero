@@ -74,15 +74,12 @@ const Login = () => {
         if (!loginFormValidate.isValid && loginFormValidate.error) {
           setErrorMsgs(loginFormValidate.error)
         } else {
-          setUserId(loginFormValidate.data?.userId || '')
+          const userId = loginFormValidate.data?.userId
+          setUserId(userId || '')
 
           setLocalStorage(
             LOCAL_STORAGE_KEY.USER_ID,
             loginFormValidate.data?.userId,
-          )
-          setLocalStorage(
-            LOCAL_STORAGE_KEY.IS_TOKEN,
-            `${(LOCAL_STORAGE_KEY.USER_ID, loginFormValidate.data?.userId)}-LP`,
           )
 
           router.push(PAGE_URL.HOME.URL)
@@ -97,7 +94,7 @@ const Login = () => {
         })
       }
     },
-    [loginAccount, router, toast],
+    [loginAccount.email, loginAccount.password],
   )
 
   return (

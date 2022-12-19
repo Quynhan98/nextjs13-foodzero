@@ -2,7 +2,14 @@ import React from 'react'
 import Router from 'next/router'
 
 // Utils
-import { cleanup, fireEvent, render, screen, waitFor } from '@utils/testUtils'
+import {
+  cleanup,
+  fireEvent,
+  render,
+  RenderResult,
+  screen,
+  waitFor,
+} from '@utils/testUtils'
 import { NextRouterProvider } from '@utils/nextRouterProvider'
 
 // Pages
@@ -31,9 +38,12 @@ describe('Login Page', () => {
     }),
   ) as jest.Mock
 
+  let wrapper: RenderResult
+
   beforeEach(() => {
     cleanup()
-    render(
+
+    wrapper = render(
       <NextRouterProvider router={{ pathname: PAGE_URL.LOGIN.URL }}>
         <LoginPage />
       </NextRouterProvider>,
@@ -41,11 +51,7 @@ describe('Login Page', () => {
   })
 
   it('Login Page matches snapshot', () => {
-    const { container } = render(
-      <NextRouterProvider router={{ pathname: PAGE_URL.LOGIN.URL }}>
-        <LoginPage />
-      </NextRouterProvider>,
-    )
+    const { container } = wrapper
 
     expect(container).toMatchSnapshot()
   })

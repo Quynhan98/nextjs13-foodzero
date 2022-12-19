@@ -29,36 +29,20 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
   const [authorized, setAuthorized] = useState(false)
 
   const isLoginPage = pathname === PAGE_URL.LOGIN.URL
-  const hasAccount = !!getLocalStorage(LOCAL_STORAGE_KEY.IS_TOKEN)
+  const hasAccount = !!getLocalStorage(LOCAL_STORAGE_KEY.USER_ID)
 
-  const authCheck = (isLogin: boolean) => {
+  useEffect(() => {
     // Redirect to Login page with unauthorized user
-    if (isLogin || !!userId) {
+    if (hasAccount || !!userId) {
       setAuthorized(true)
     } else {
       setAuthorized(false)
 
       router.push(PAGE_URL.LOGIN.URL)
     }
-  }
+  }, [hasAccount, userId])
 
-  useEffect(() => {
-    authCheck(hasAccount)
-
-    const hideContent = () => setAuthorized(false)
-
-    // Hide page content on route change
-    if (!hasAccount) router.events.on('routeChangeStart', hideContent)
-
-    router.events.on('routeChangeComplete', authCheck)
-
-    return () => {
-      router.events.off('routeChangeStart', hideContent)
-      router.events.off('routeChangeComplete', authCheck)
-    }
-  }, [hasAccount, router.events, router.route, userId])
-
-  if (!authorized) return null
+  if (!authorized && !isLoginPage) return null
 
   return (
     <AuthProvider>
