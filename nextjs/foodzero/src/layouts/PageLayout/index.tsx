@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React, { memo, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { Box, Center } from '@chakra-ui/react'
 
@@ -7,7 +7,13 @@ import Header from '@layouts/Header'
 import Footer from '@layouts/Footer'
 
 // Constants
-import { PAGE_URL } from '@constants/index'
+import { LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
+
+// Context
+import { AuthProvider } from '@contexts/AuthProvider'
+
+// Services
+import { getLocalStorage } from '@utils/localStorage'
 
 export interface IPageLayoutsProps {
   children: React.ReactNode
@@ -18,9 +24,17 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
   const { pathname } = router
 
   const isLoginPage = pathname === PAGE_URL.LOGIN.URL
+  const userId = getLocalStorage(LOCAL_STORAGE_KEY.USER_ID)
+
+  useEffect(() => {
+    // Redirect to Login page with unauthorized user
+    if (!userId && !isLoginPage) {
+      router.push(PAGE_URL.LOGIN.URL)
+    }
+  }, [isLoginPage, userId])
 
   return (
-    <>
+    <AuthProvider>
       {isLoginPage ? (
         <Center
           as="main"
@@ -46,7 +60,7 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
           <Footer />
         </>
       )}
-    </>
+    </AuthProvider>
   )
 }
 

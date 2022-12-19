@@ -24,22 +24,23 @@ const LoginForm = ({
 }: LoginFormProps) => {
   return (
     <form onSubmit={onSubmitForm}>
+      <FormLabel
+        fontSize={{ base: 'md', md: 'lg' }}
+        fontWeight="bold"
+        fontFamily="Rufina"
+        textAlign="center"
+        pb={{ base: '58px', md: '115px' }}
+      >
+        Login
+      </FormLabel>
       <FormControl
+        boxShadow="2xl"
         display="flex"
         flexDirection="column"
         justifyContent="center"
         isInvalid={!!(emailError || passwordError)}
         padding={{ base: '25px', md: '50px' }}
       >
-        <FormLabel
-          fontSize={{ base: 'md', md: 'lg' }}
-          fontWeight="bold"
-          fontFamily="Rufina"
-          textAlign="center"
-          pb={{ base: '58px', md: '115px' }}
-        >
-          Login
-        </FormLabel>
         <Input
           data-testid="email"
           type="email"

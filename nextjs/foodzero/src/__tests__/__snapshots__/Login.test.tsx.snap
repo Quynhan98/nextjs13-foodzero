@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page Login Page matches snapshot 1`] = `
+<div>
+  <div
+    class="css-1ux4u8f"
+  >
+    <form>
+      <label
+        class="chakra-form__label css-1e23bqj"
+      >
+        Login
+      </label>
+      <div
+        class="chakra-form-control css-rjfdrk"
+        role="group"
+      >
+        <input
+          class="chakra-input css-1lqzwk"
+          data-testid="email"
+          id="field-:r0:"
+          name="email"
+          placeholder="Email"
+          type="email"
+        />
+        <input
+          class="chakra-input css-znpptt"
+          data-testid="password"
+          id="field-:r0:"
+          name="password"
+          placeholder="Password"
+          type="password"
+        />
+        <button
+          class="chakra-button css-omzjzl"
+          disabled=""
+          type="submit"
+        >
+          Sign In
+        </button>
+      </div>
+    </form>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
