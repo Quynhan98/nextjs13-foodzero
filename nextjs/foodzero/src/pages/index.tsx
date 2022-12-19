@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import Image from 'next/image'
 import {
   Box,
@@ -29,8 +29,43 @@ import {
 } from '@mocks/mockData'
 
 export default function Home() {
+  const renderChefSection = useMemo(
+    () => (
+      <Flex gap={{ base: '10px', md: '61px' }} justifyContent="space-between">
+        <Box
+          mt="20px"
+          width={{ base: '147px', md: '980px' }}
+          height={{ base: '133px', md: '890px' }}
+          position="relative"
+          zIndex={2}
+        >
+          <Image
+            fill
+            src="/images/excellentCook.webp"
+            alt="excellent cook picture"
+            sizes="(max-width: 768px) 980px, 890px
+        (max-width: 1200px) 50vw,
+        33vw"
+            style={{ objectFit: 'cover' }}
+          />
+        </Box>
+        <Box maxW={{ base: '200px', md: '620px' }}>
+          <Heading as="h3" size="large" variant="secondary">
+            Excellent cook
+          </Heading>
+          <Text pt="18px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
+            id penatibus imperdiet. Turpis egestas ultricies purus auctor
+            tincidunt lacus nunc.
+          </Text>
+        </Box>
+      </Flex>
+    ),
+    [],
+  )
+
   return (
-    <Box>
+    <>
       {/* Hero Section */}
       <Box
         top="0px"
@@ -162,7 +197,6 @@ export default function Home() {
                 sizes="(max-width: 768px) 508px, 710px
                 (max-width: 1200px) 50vw,
                 33vw"
-                style={{ objectFit: 'cover' }}
               />
             </Box>
           </Flex>
@@ -182,7 +216,7 @@ export default function Home() {
           height: { base: '236px', md: '897px' },
           top: '0px',
           right: '0px',
-          backgroundImage: '/images/ourMenuBackground.webp',
+          backgroundImage: '/images/menuBackground.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           zIndex: -1,
@@ -241,35 +275,7 @@ export default function Home() {
           zIndex: 1,
         }}
       >
-        <Flex gap={{ base: '10px', md: '61px' }} justifyContent="space-between">
-          <Box
-            mt="20px"
-            width={{ base: '147px', md: '980px' }}
-            height={{ base: '133px', md: '890px' }}
-            position="relative"
-            zIndex={2}
-          >
-            <Image
-              fill
-              src="/images/excellentCook.webp"
-              alt="excellent cook picture"
-              sizes="(max-width: 768px) 980px, 890px
-                (max-width: 1200px) 50vw,
-                33vw"
-              style={{ objectFit: 'cover' }}
-            />
-          </Box>
-          <Box maxW={{ base: '200px', md: '620px' }}>
-            <Heading as="h3" size="large" variant="secondary">
-              Excellent cook
-            </Heading>
-            <Text pt="18px">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
-              lorem id penatibus imperdiet. Turpis egestas ultricies purus
-              auctor tincidunt lacus nunc.
-            </Text>
-          </Box>
-        </Flex>
+        {renderChefSection}
       </Box>
 
       {/* Features Section */}
@@ -377,8 +383,8 @@ export default function Home() {
           position: 'absolute',
           width: { base: '70px', md: '282px' },
           height: { base: '58px', md: '234px' },
-          top: '118px',
-          right: '255px',
+          top: { base: '70px', md: '118px' },
+          right: { base: '15px', md: '255px' },
           backgroundImage: '/images/quotationMarks.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -387,6 +393,6 @@ export default function Home() {
       >
         <CardReview quotes={QUOTE_MOCK} />
       </Box>
-    </Box>
+    </>
   )
 }
