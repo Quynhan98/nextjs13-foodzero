@@ -1,40 +1,34 @@
 import { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const Heading: ComponentStyleConfig = {
+  baseStyle: { fontWeight: 'bold' },
   sizes: {
     extraLarge: {
-      fontSize: 'xxxl',
-      fontWeight: 'bold',
-      lineHeight: 'xxxl',
+      fontSize: { base: 'md', md: 'xxxl' },
+      lineHeight: { base: 'sm', md: 'xxxl' },
     },
     large: {
-      fontSize: 'xxl',
-      fontWeight: 'bold',
-      lineHeight: 'xxl',
+      fontSize: { base: 'md', md: 'xxl' },
+      lineHeight: { base: 'base', md: 'xxl' },
     },
     medium: {
       fontSize: 'xl',
-      fontWeight: 'bold',
       lineHeight: 'xl',
     },
     default: {
-      fontSize: 'default',
-      fontWeight: 'bold',
-      lineHeight: 'lg',
+      fontSize: { base: 'common', md: 'default' },
+      lineHeight: { base: 'base', md: 'lg' },
     },
     base: {
       fontSize: 'lg',
-      fontWeight: 'bold',
       lineHeight: 'md',
     },
     small: {
       fontSize: 'md',
-      fontWeight: 'bold',
       lineHeight: 'sm',
     },
     extraSmall: {
       fontSize: 'common',
-      fontWeight: 'bold',
       lineHeight: 'base',
     },
   },

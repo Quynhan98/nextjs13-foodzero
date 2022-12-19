@@ -3,13 +3,13 @@
 exports[`Header render Should Header match Snapshot 1`] = `
 <div>
   <header
-    class="chakra-container css-1qxfw8o"
+    class="chakra-container css-bmm793"
   >
     <div
       class="css-f1oc3g"
     >
       <h1
-        class="chakra-heading css-16unufg"
+        class="chakra-heading css-1k8hiri"
       >
         <a
           class="chakra-link css-spn4bz"
@@ -22,12 +22,10 @@ exports[`Header render Should Header match Snapshot 1`] = `
               alt="Logo FoodZero"
               data-nimg="fill"
               decoding="async"
-              sizes="(max-width: 768px) 100vw,
- (max-width: 1200px) 50vw,
- 33vw"
+              sizes="(max-width: 768px) 307px, 115px (max-width: 1200px) 50vw, 33vw"
               src="/_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75"
               srcset="/_next/image?url=%2Fimages%2Flogo.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </div>
         </a>

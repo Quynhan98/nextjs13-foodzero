@@ -20,12 +20,12 @@ exports[`CardFeature component Renders CardFeature correctly 1`] = `
       />
     </figure>
     <p
-      class="chakra-text css-s7dok7"
+      class="chakra-text css-jmhzzp"
     >
       Premium Quality
     </p>
     <p
-      class="chakra-text css-1jn4o6p"
+      class="chakra-text css-pfln6y"
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
     </p>

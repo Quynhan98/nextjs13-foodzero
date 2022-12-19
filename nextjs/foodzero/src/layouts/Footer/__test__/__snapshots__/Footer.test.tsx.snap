@@ -12,7 +12,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
         class="css-cl2fjb"
       >
         <h1
-          class="chakra-heading css-gm12et"
+          class="chakra-heading css-t29nfr"
         >
           Food Zero.
         </h1>
@@ -20,7 +20,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
           class="css-0"
         >
           <p
-            class="chakra-text css-ppz0ah"
+            class="chakra-text css-craojw"
           >
             Contact
           </p>
@@ -53,7 +53,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1g7063y"
+          class="chakra-text css-1wd7ih2"
         >
           Never Miss a Recipe
         </p>
@@ -86,7 +86,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
       class="css-1b9jvdy"
     >
       <p
-        class="chakra-text css-8wvo7l"
+        class="chakra-text css-1xhkjsw"
       >
         © 2020 Zero Inc. All rights Reserved
       </p>

@@ -20,7 +20,7 @@ exports[`UserAvatar component Renders UserAvatar correctly 1`] = `
       class="css-0"
     >
       <h5
-        class="chakra-heading css-ai6zdm"
+        class="chakra-heading css-gixbyc"
       >
         John Doe
       </h5>

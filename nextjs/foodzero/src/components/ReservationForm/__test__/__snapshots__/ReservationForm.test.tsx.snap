@@ -11,12 +11,12 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
         class="css-yjtq8f"
       >
         <h3
-          class="chakra-heading css-45z3d8"
+          class="chakra-heading css-mxgfwf"
         >
           Make a Reservation
         </h3>
         <p
-          class="chakra-text css-1k4b2kd"
+          class="chakra-text css-11o6bb1"
         >
           Get in touch with restaurant
         </p>
@@ -37,7 +37,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
                 class="react-datepicker__input-container"
               >
                 <input
-                  class="chakra-input css-1qdmsg2"
+                  class="chakra-input css-nr8l43"
                   id="field-:r3:"
                   placeholder="MM/DD/YYYY"
                   value=""
@@ -46,7 +46,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
             </div>
           </div>
           <div
-            class="chakra-select__wrapper css-3rk2f2"
+            class="chakra-select__wrapper css-1uge2rn"
           >
             <select
               class="chakra-select css-ph0mc"
@@ -55,55 +55,55 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
               style="padding-left: 40px;"
             >
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="11:00 am"
               >
                 11:00 am
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="12:00 am"
               >
                 12:00 am
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="13:00 pm"
               >
                 13:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="14:00 pm"
               >
                 14:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="15:00 pm"
               >
                 15:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="16:00 pm"
               >
                 16:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="17:00 pm"
               >
                 17:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="18:00 pm"
               >
                 18:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="19:00 pm"
               >
                 19:00 pm
@@ -138,61 +138,61 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
             style="padding-left: 40px;"
           >
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="1 Person"
             >
               1 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="2 Person"
             >
               2 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="3 Person"
             >
               3 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="4 Person"
             >
               4 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="5 Person"
             >
               5 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="6 Person"
             >
               6 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="7 Person"
             >
               7 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="8 Person"
             >
               8 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="9 Person"
             >
               9 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="10 Person"
             >
               10 Person
@@ -247,12 +247,12 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         class="css-yjtq8f"
       >
         <h3
-          class="chakra-heading css-45z3d8"
+          class="chakra-heading css-mxgfwf"
         >
           Make a Reservation
         </h3>
         <p
-          class="chakra-text css-1pkyf88"
+          class="chakra-text css-u5t5z0"
         >
           Get in touch with restaurant
         </p>
@@ -305,7 +305,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
                 class="react-datepicker__input-container"
               >
                 <input
-                  class="chakra-input css-7yjewt"
+                  class="chakra-input css-130huxc"
                   id="field-:r1:"
                   placeholder="MM/DD/YYYY"
                   value=""
@@ -314,7 +314,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
             </div>
           </div>
           <div
-            class="chakra-select__wrapper css-hk8j26"
+            class="chakra-select__wrapper css-1bvc7kd"
           >
             <select
               class="chakra-select css-ph0mc"
@@ -323,55 +323,55 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
               style="padding-left: 40px;"
             >
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="11:00 am"
               >
                 11:00 am
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="12:00 am"
               >
                 12:00 am
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="13:00 pm"
               >
                 13:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="14:00 pm"
               >
                 14:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="15:00 pm"
               >
                 15:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="16:00 pm"
               >
                 16:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="17:00 pm"
               >
                 17:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="18:00 pm"
               >
                 18:00 pm
               </option>
               <option
-                class="chakra-text css-7x344f"
+                class="chakra-text css-1pnsk7p"
                 value="19:00 pm"
               >
                 19:00 pm
@@ -406,61 +406,61 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
             style="padding-left: 40px;"
           >
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="1 Person"
             >
               1 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="2 Person"
             >
               2 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="3 Person"
             >
               3 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="4 Person"
             >
               4 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="5 Person"
             >
               5 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="6 Person"
             >
               6 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="7 Person"
             >
               7 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="8 Person"
             >
               8 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="9 Person"
             >
               9 Person
             </option>
             <option
-              class="chakra-text css-7x344f"
+              class="chakra-text css-1pnsk7p"
               value="10 Person"
             >
               10 Person

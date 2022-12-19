@@ -3,16 +3,16 @@ import { ComponentStyleConfig } from '@chakra-ui/react'
 export const Text: ComponentStyleConfig = {
   sizes: {
     extraLarge: {
-      fontSize: 'lg',
-      lineHeight: 'md',
+      fontSize: { base: 'base', md: 'lg' },
+      lineHeight: { base: 'base', md: 'md' },
     },
     large: {
       fontSize: 'common',
       lineHeight: 'base',
     },
     default: {
-      fontSize: 'sm',
-      lineHeight: 'base',
+      fontSize: { base: 'xxs', md: 'sm' },
+      lineHeight: { base: 'xxs', md: 'base' },
     },
     medium: {
       fontSize: 'base',

@@ -91,9 +91,12 @@ const Header = () => {
       justifyContent="space-between"
       alignItems="center"
       maxW="1920px"
-      width="100%"
       padding={{ base: '12px', md: '46px 138px 149px 118px' }}
-      margin="0 auto"
+      top="0px"
+      left="50%"
+      transform="translateX(-50%)"
+      position="absolute"
+      zIndex={1}
     >
       <Flex gap={{ base: '20px', md: '45px' }} alignItems="center">
         <Heading as="h1">
@@ -108,10 +111,9 @@ const Header = () => {
                 alt="Logo FoodZero"
                 priority
                 fill
-                sizes="(max-width: 768px) 100vw,
+                sizes="(max-width: 768px) 307px, 115px
                 (max-width: 1200px) 50vw,
                 33vw"
-                style={{ objectFit: 'cover' }}
               />
             </Box>
           </Link>
@@ -142,7 +144,7 @@ const Header = () => {
           Reservations
         </Button>
       </Flex>
-      {renderModalMenu}
+      {isOpen && renderModalMenu}
     </Container>
   )
 }
