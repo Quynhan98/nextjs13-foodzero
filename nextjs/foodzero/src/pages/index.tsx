@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react'
+import { GetStaticProps } from 'next'
 import Image from 'next/image'
 import {
   Box,
@@ -20,15 +21,51 @@ import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
 
 // Mocks
-import {
-  BLOG_SECTION_MOCK,
-  CATEGORY_SECTION_MOCK,
-  FEATURES_MOCK,
-  OUR_MENU_MOCK,
-  QUOTE_MOCK,
-} from '@mocks/mockData'
+import { QUOTE_MOCK } from '@mocks/mockData'
 
-export default function Home() {
+// Services
+import { fetcherInstance } from '@services/api'
+
+// Constants
+import {
+  CATEGORY_SECTION,
+  FEATURES_SECTION,
+  MENU_ENDPOINT,
+  POSTS_ENDPOINT,
+  SERVER_ERROR,
+} from '@constants/index'
+
+// Types
+import { IPost } from '@self-types/Post'
+import { IMenu, IOurMenu } from '@self-types/Menu'
+
+interface IHomeProps {
+  menu: IOurMenu[]
+  posts: IPost[]
+  error: string
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  try {
+    const menu: IMenu[] = await fetcherInstance(MENU_ENDPOINT)
+    const posts: IPost[] = await fetcherInstance(POSTS_ENDPOINT)
+
+    return {
+      props: {
+        menu: menu[0].ourMenu,
+        posts,
+      },
+    }
+  } catch (error) {
+    return {
+      props: {
+        error: SERVER_ERROR,
+      },
+    }
+  }
+}
+
+export default function Home({ menu, posts }: IHomeProps) {
   const renderChefSection = useMemo(
     () => (
       <Flex gap={{ base: '10px', md: '61px' }} justifyContent="space-between">
@@ -236,8 +273,8 @@ export default function Home() {
           pt={{ base: '40px', md: '158px' }}
           gap={{ base: '30px', md: '60px' }}
         >
-          {OUR_MENU_MOCK.map((item) => (
-            <ListItem maxW="792px" key={`menu-${item.name}`}>
+          {menu.map((item) => (
+            <ListItem maxW="792px" key={`menu-${item.id}`}>
               <PriceList {...item} />
             </ListItem>
           ))}
@@ -292,8 +329,8 @@ export default function Home() {
           marginLeft="0px"
           gap="30px"
         >
-          {FEATURES_MOCK.map((item) => (
-            <ListItem key={`feature-${item.title}`}>
+          {FEATURES_SECTION.map((item) => (
+            <ListItem key={`feature-${item.id}`}>
               <CardFeature {...item} />
             </ListItem>
           ))}
@@ -314,8 +351,8 @@ export default function Home() {
           marginLeft="0px"
           gap="30px"
         >
-          {BLOG_SECTION_MOCK.map((item) => (
-            <ListItem maxW="792px" key={`blog-${item.title}`}>
+          {posts.map((item) => (
+            <ListItem maxW="792px" key={`blog-${item.id}`}>
               <CardBlog {...item} />
             </ListItem>
           ))}
@@ -365,8 +402,8 @@ export default function Home() {
           pt={{ base: '50px', md: '126px' }}
           gap="30px"
         >
-          {CATEGORY_SECTION_MOCK.map((item) => (
-            <ListItem key={`category-${item.category}`}>
+          {CATEGORY_SECTION.map((item) => (
+            <ListItem key={`category-${item.id}`}>
               <CardCategory {...item} />
             </ListItem>
           ))}

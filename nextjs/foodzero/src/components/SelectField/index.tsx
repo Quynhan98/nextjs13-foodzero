@@ -1,5 +1,5 @@
 import { ChangeEvent, memo, useState } from 'react'
-import { Select, SelectProps, Text, useMediaQuery } from '@chakra-ui/react'
+import { Select, SelectProps, useMediaQuery } from '@chakra-ui/react'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 
 // Constants
@@ -42,14 +42,9 @@ const SelectField = ({ options, handleSelect, ...rest }: SelectFieldProps) => {
       {...rest}
     >
       {options.map((option) => (
-        <Text
-          as="option"
-          value={option}
-          variant="secondary"
-          size={{ base: 'base', md: 'default' }}
-        >
+        <option key={`option-${option}`} value={option}>
           {option}
-        </Text>
+        </option>
       ))}
     </Select>
   )

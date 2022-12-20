@@ -71,20 +71,3 @@ export const QUOTE_MOCK = [
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcute-avatar.webp?alt=media&token=7b6d918e-3dec-43cf-a4bd-70afdbdc63e0',
   },
 ]
-
-export const OUR_MENU_MOCK = [
-  PRICE_LIST_MOCK,
-  PRICE_LIST_MOCK,
-  PRICE_LIST_MOCK,
-  PRICE_LIST_MOCK,
-]
-
-export const FEATURES_MOCK = [CARD_FEATURE, CARD_FEATURE, CARD_FEATURE]
-
-export const BLOG_SECTION_MOCK = [CARD_BLOG, CARD_BLOG]
-
-export const CATEGORY_SECTION_MOCK = [
-  CARD_CATEGORY,
-  CARD_CATEGORY,
-  CARD_CATEGORY,
-]

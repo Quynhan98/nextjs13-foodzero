@@ -41,6 +41,8 @@ const ReservationForm = ({
         display="flex"
         flexDirection="column"
         justifyContent="center"
+        width={{ base: '351px', md: '100%' }}
+        margin={{ base: '0 auto', md: 'unset' }}
       >
         <Flex flexDirection="column" justifyContent="center" margin="0 auto">
           <Heading
