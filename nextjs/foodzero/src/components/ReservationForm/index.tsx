@@ -23,7 +23,8 @@ interface ReservationFormProps {
   handleSelectTime: (time: string) => void
   handleSelectPerson: (person: string) => void
   isShowFullField?: boolean
-  isDisable?: boolean
+  isDisableButton?: boolean
+  isDisableField?: boolean
 }
 
 const ReservationForm = ({
@@ -33,7 +34,8 @@ const ReservationForm = ({
   handleSelectTime,
   handleSelectPerson,
   isShowFullField = false,
-  isDisable,
+  isDisableButton,
+  isDisableField,
 }: ReservationFormProps) => {
   return (
     <form onSubmit={onSubmitForm}>
@@ -113,6 +115,7 @@ const ReservationForm = ({
           >
             <Box>
               <Picker
+                disabled={isDisableField}
                 width={{
                   base: '351px',
                   md: isShowFullField ? '798px' : '516px',
@@ -123,6 +126,7 @@ const ReservationForm = ({
               />
             </Box>
             <SelectField
+              isDisabled={isDisableField}
               data-testid="selectTime"
               options={RESERVATION_TIME}
               handleSelect={handleSelectTime}
@@ -130,6 +134,7 @@ const ReservationForm = ({
             />
           </Flex>
           <SelectField
+            isDisabled={isDisableField}
             data-testid="selectPerson"
             options={NUMBER_OF_PERSON}
             handleSelect={handleSelectPerson}
@@ -143,7 +148,7 @@ const ReservationForm = ({
             type="submit"
             variant={isShowFullField ? 'default' : 'dark'}
             size="primary"
-            isDisabled={isDisable}
+            isDisabled={isDisableButton}
           >
             Book Now
           </Button>

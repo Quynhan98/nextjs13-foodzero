@@ -14,6 +14,7 @@ import { AuthProvider } from '@contexts/AuthProvider'
 
 // Services
 import { getLocalStorage } from '@utils/localStorage'
+import { BookingProvider } from '@contexts/BookingProvider'
 
 export interface IPageLayoutsProps {
   children: React.ReactNode
@@ -45,7 +46,7 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
           {children}
         </Center>
       ) : (
-        <>
+        <BookingProvider>
           <Header />
           <Box
             as="main"
@@ -57,7 +58,7 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
             {children}
           </Box>
           <Footer />
-        </>
+        </BookingProvider>
       )}
     </AuthProvider>
   )

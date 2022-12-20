@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { FormEvent, useCallback, useMemo, useState } from 'react'
 import { GetStaticProps } from 'next'
 import Image from 'next/image'
 import {
@@ -10,6 +10,7 @@ import {
   ListItem,
   Text,
   UnorderedList,
+  useToast,
 } from '@chakra-ui/react'
 
 // Components
@@ -31,13 +32,18 @@ import {
   CATEGORY_SECTION,
   FEATURES_SECTION,
   MENU_ENDPOINT,
+  NUMBER_OF_PERSON,
   POSTS_ENDPOINT,
+  RESERVATION_TIME,
   SERVER_ERROR,
 } from '@constants/index'
 
 // Types
 import { IPost } from '@self-types/Post'
 import { IMenu, IOurMenu } from '@self-types/Menu'
+import { useBookingContext } from '@hooks/useBookingContext'
+import { IBookingContext } from '@contexts/BookingProvider'
+import { SNACKBAR_BOOKING_SUCCESS } from '@constants/text'
 
 interface IHomeProps {
   menu: IOurMenu[]
@@ -65,7 +71,66 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 }
 
+const reservationInit = {
+  date: new Date(),
+  time: RESERVATION_TIME[0],
+  person: NUMBER_OF_PERSON[0],
+}
 export default function Home({ menu, posts }: IHomeProps) {
+  const toast = useToast()
+  const { booking, addBooking } = useBookingContext() as IBookingContext
+  const [reservation, setReservation] = useState(reservationInit)
+
+  const isDisableField = booking.length > 0
+
+  const handleSubmit = useCallback(
+    async (e: FormEvent<HTMLFormElement>) => {
+      e?.preventDefault()
+
+      try {
+        await addBooking([...booking, reservation])
+
+        toast({
+          title: 'Success',
+          description: SNACKBAR_BOOKING_SUCCESS,
+          status: 'success',
+          isClosable: true,
+          position: 'bottom-left',
+        })
+      } catch (error) {
+        toast({
+          title: 'Error',
+          description: SERVER_ERROR,
+          status: 'error',
+          isClosable: true,
+          position: 'top-right',
+        })
+      }
+    },
+    [booking, reservation],
+  )
+
+  const handleChangeDate = useCallback(async (date: Date) => {
+    setReservation((prev) => ({
+      ...prev,
+      date,
+    }))
+  }, [])
+
+  const handleSelectTime = useCallback(async (time: string) => {
+    setReservation((prev) => ({
+      ...prev,
+      time,
+    }))
+  }, [])
+
+  const handleSelectPerson = useCallback(async (person: string) => {
+    setReservation((prev) => ({
+      ...prev,
+      person,
+    }))
+  }, [])
+
   const renderChefSection = useMemo(
     () => (
       <Flex gap={{ base: '10px', md: '61px' }} justifyContent="space-between">
@@ -366,10 +431,11 @@ export default function Home({ menu, posts }: IHomeProps) {
         backgroundColor="alabaster"
       >
         <ReservationForm
-          onSubmitForm={() => undefined}
-          handleChangeDate={() => undefined}
-          handleSelectTime={() => undefined}
-          handleSelectPerson={() => undefined}
+          onSubmitForm={handleSubmit}
+          handleChangeDate={handleChangeDate}
+          handleSelectTime={handleSelectTime}
+          handleSelectPerson={handleSelectPerson}
+          isDisableField={isDisableField}
         />
       </Box>
 
