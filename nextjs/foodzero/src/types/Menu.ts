@@ -8,4 +8,7 @@ export interface IOurMenu {
 export interface IMenu {
   id: string
   ourMenu: IOurMenu[]
+  starters: IOurMenu[]
+  mains: IOurMenu[]
+  pastriesAndDrinks: IOurMenu[]
 }
