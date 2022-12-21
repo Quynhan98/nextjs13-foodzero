@@ -73,5 +73,9 @@
     "prettier": "^2.8.0",
     "react-datepicker": "3.6.0",
     "storybook-addon-next": "^1.7.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }

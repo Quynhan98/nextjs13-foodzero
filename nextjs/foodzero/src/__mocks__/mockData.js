@@ -16,7 +16,7 @@ export const CARD_BLOG = {
   srcAvatar: AVATAR_MOCK,
   name: 'Julie Christie',
   date: '2022-12-06T23:29:35.000Z',
-  numberOfComments: 2,
+  comments: 2,
 }
 
 export const CARD_FEATURE = {
