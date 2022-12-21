@@ -7,17 +7,17 @@ export const NAV_LIST = [
   {
     value: 2,
     name: 'Menu',
-    href: '/',
+    href: '/menu',
   },
   {
     value: 3,
     name: 'About',
-    href: '/',
+    href: '/about',
   },
   {
     value: 4,
     name: 'Contact',
-    href: '/',
+    href: '/contact',
   },
 ]
 

@@ -10,9 +10,10 @@ type NavigationType = {
 
 interface NavigationProps extends BoxProps {
   navList: NavigationType[]
+  onClick?: () => void
 }
 
-const Navigation = ({ navList, ...rest }: NavigationProps) => {
+const Navigation = ({ navList, onClick, ...rest }: NavigationProps) => {
   return (
     <Box as="nav" {...rest}>
       <UnorderedList
@@ -29,7 +30,9 @@ const Navigation = ({ navList, ...rest }: NavigationProps) => {
             lineHeight={{ base: '30px', md: '82px' }}
             fontWeight="bold"
           >
-            <Link href={obj.href}>{obj.name}</Link>
+            <Link href={obj.href} onClick={onClick}>
+              {obj.name}
+            </Link>
           </ListItem>
         ))}
       </UnorderedList>

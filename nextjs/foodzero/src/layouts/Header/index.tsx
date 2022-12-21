@@ -70,7 +70,7 @@ const Header = () => {
             flexDirection={{ base: 'column', md: 'row' }}
             gap="60px"
           >
-            <Navigation navList={NAV_LIST} />
+            <Navigation onClick={onClose} navList={NAV_LIST} />
             <Flex
               width="100%"
               justifyContent="flex-end"

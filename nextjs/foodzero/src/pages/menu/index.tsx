@@ -1,28 +1,40 @@
+import { useState, useCallback, FormEvent, ChangeEvent } from 'react'
 import Image from 'next/image'
+import { GetStaticProps } from 'next'
 import {
   Box,
-  Grid,
+  Flex,
   Heading,
   ListItem,
   Text,
   UnorderedList,
   useToast,
 } from '@chakra-ui/react'
+
+// Constants
 import {
   MENU_ENDPOINT,
   NUMBER_OF_PERSON,
   RESERVATION_TIME,
   SERVER_ERROR,
+  SNACKBAR_BOOKING_SUCCESS,
 } from '@constants/index'
+
+// Services
 import { fetcherInstance } from '@services/api'
-import { GetStaticProps } from 'next'
+
+// Types
 import { IMenu } from '@self-types/Menu'
+
+// Components
 import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
-import { SNACKBAR_BOOKING_SUCCESS } from '@constants/text'
-import { IBookingContext } from '@contexts/BookingProvider'
+
+// Hooks
 import { useBookingContext } from '@hooks/useBookingContext'
-import { useState, useCallback, FormEvent } from 'react'
+
+// Context
+import { IBookingContext } from '@contexts/BookingProvider'
 
 interface IMenuProps {
   menu: IMenu
@@ -39,11 +51,7 @@ export const getStaticProps: GetStaticProps = async () => {
       },
     }
   } catch (error) {
-    return {
-      props: {
-        error: SERVER_ERROR,
-      },
-    }
+    throw SERVER_ERROR
   }
 }
 
@@ -80,33 +88,31 @@ const Menu = ({ menu }: IMenuProps) => {
           description: SERVER_ERROR,
           status: 'error',
           isClosable: true,
-          position: 'top-right',
+          position: 'bottom-left',
         })
       }
     },
     [booking, reservation],
   )
 
-  const handleChangeDate = useCallback(async (date: Date) => {
+  const handleChangeDate = useCallback((date: Date) => {
     setReservation((prev) => ({
       ...prev,
       date,
     }))
   }, [])
 
-  const handleSelectTime = useCallback(async (time: string) => {
-    setReservation((prev) => ({
-      ...prev,
-      time,
-    }))
-  }, [])
+  const handleChangeField = useCallback(
+    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      const selectValues = { [e.target.name]: e.target.value }
 
-  const handleSelectPerson = useCallback(async (person: string) => {
-    setReservation((prev) => ({
-      ...prev,
-      person,
-    }))
-  }, [])
+      setReservation((prev) => ({
+        ...prev,
+        ...selectValues,
+      }))
+    },
+    [],
+  )
 
   return (
     <>
@@ -133,13 +139,13 @@ const Menu = ({ menu }: IMenuProps) => {
       {/* Starters section */}
       <Box
         as="section"
-        padding={{ base: '100px 12px', md: '122px 138px 140px 138px' }}
+        padding={{ base: '60px 12px', md: '122px 138px 140px 138px' }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '220px', md: '516px' },
-          height: { base: '236px', md: '439px' },
+          width: { base: '118px', md: '472px' },
+          height: { base: '97px', md: '390px' },
           top: '0px',
           right: '0px',
           backgroundImage: '/images/blueberry.webp',
@@ -154,23 +160,24 @@ const Menu = ({ menu }: IMenuProps) => {
         <Text pt="18px" textAlign="center">
           This is a section of your menu. Give your section a brief description
         </Text>
-        <Grid
-          pt="81px"
-          templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
+        <Flex
+          pt={{ base: '40px', md: '81px' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'unset' }}
           gap={{ base: '30px', md: '102px' }}
         >
           <Box
-            width={{ base: '130px', md: '792px' }}
-            height={{ base: '180px', md: '898px' }}
+            width={{ base: '277px', md: '792px' }}
+            height={{ base: '314px', md: '898px' }}
             position="relative"
+            margin="0 auto"
           >
             <Image
               fill
               src="/images/youngTofu.webp"
               alt="excellent cook picture"
-              sizes="(max-width: 768px) 792px, 898px
-        (max-width: 1200px) 50vw,
-        33vw"
+              sizes="(max-width: 768px) 277px, 314px
+        (min-width: 1200px) 792px, 898px"
             />
           </Box>
           <UnorderedList
@@ -184,7 +191,7 @@ const Menu = ({ menu }: IMenuProps) => {
               </ListItem>
             ))}
           </UnorderedList>
-        </Grid>
+        </Flex>
       </Box>
 
       {/* Mains section */}
@@ -198,10 +205,12 @@ const Menu = ({ menu }: IMenuProps) => {
         <Text pt="18px" textAlign="center">
           This is a section of your menu. Give your section a brief description
         </Text>
-        <Grid
-          pt="129px"
-          templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
+        <Flex
+          pt={{ base: '40px', md: '81px' }}
+          flexDirection={{ base: 'column-reverse', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
           gap={{ base: '30px', md: '102px' }}
+          margin="0 auto"
         >
           <UnorderedList
             listStyleType="none"
@@ -215,64 +224,65 @@ const Menu = ({ menu }: IMenuProps) => {
             ))}
           </UnorderedList>
           <Box
-            width={{ base: '130px', md: '792px' }}
-            height={{ base: '180px', md: '898px' }}
+            width={{ base: '277px', md: '792px' }}
+            height={{ base: '314px', md: '898px' }}
             position="relative"
+            margin="0 auto"
           >
             <Image
               fill
-              src="/images/youngTofu.webp"
+              src="/images/steak.webp"
               alt="excellent cook picture"
-              sizes="(max-width: 768px) 792px, 898px
-        (max-width: 1200px) 50vw,
-        33vw"
+              sizes="(max-width: 768px) 277px, 314px
+        (min-width: 1200px) 792px, 898px"
             />
           </Box>
-        </Grid>
+        </Flex>
       </Box>
 
       {/* Pastries & Drinks section */}
 
       <Box
         as="section"
-        padding={{ base: '100px 12px', md: '122px 138px 140px 138px' }}
+        padding={{ base: '50px 12px', md: '122px 138px 140px 138px' }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '220px', md: '516px' },
-          height: { base: '236px', md: '439px' },
+          width: { base: '87px', md: '348px' },
+          height: { base: '104px', md: '415px' },
           top: '0px',
-          left: '50%',
-          backgroundImage: '/images/blueberry.webp',
+          left: '45%',
+          backgroundImage: '/images/avocado.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           zIndex: -1,
         }}
       >
         <Heading as="h3" size="large" variant="secondary" textAlign="center">
-          Starters
+          Pastries & Drinks
         </Heading>
         <Text pt="18px" textAlign="center">
           This is a section of your menu. Give your section a brief description
         </Text>
-        <Grid
-          pt="81px"
-          templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
+        <Flex
+          pt={{ base: '50px', md: '159px' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
           gap={{ base: '30px', md: '102px' }}
         >
           <Box
-            width={{ base: '130px', md: '792px' }}
-            height={{ base: '180px', md: '898px' }}
+            width={{ base: '277px', md: '792px' }}
+            height={{ base: '314px', md: '898px' }}
             position="relative"
+            margin="0 auto"
           >
             <Image
               fill
-              src="/images/youngTofu.webp"
+              src="/images/lemonTea.webp"
               alt="excellent cook picture"
-              sizes="(max-width: 768px) 792px, 898px
-        (max-width: 1200px) 50vw,
-        33vw"
+              sizes="(max-width: 768px) 277px, 314px
+        (min-width: 1200px) 792px, 898px"
             />
           </Box>
           <UnorderedList
@@ -286,7 +296,7 @@ const Menu = ({ menu }: IMenuProps) => {
               </ListItem>
             ))}
           </UnorderedList>
-        </Grid>
+        </Flex>
       </Box>
 
       {/* Reservation Section */}
@@ -298,9 +308,9 @@ const Menu = ({ menu }: IMenuProps) => {
         <ReservationForm
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
-          handleSelectTime={handleSelectTime}
-          handleSelectPerson={handleSelectPerson}
+          onChangeField={handleChangeField}
           isDisableField={isDisableField}
+          isDisableButton={isDisableField || !reservation.date}
         />
       </Box>
     </>

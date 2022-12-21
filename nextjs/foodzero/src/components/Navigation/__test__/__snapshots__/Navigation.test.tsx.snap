@@ -22,7 +22,7 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
         class="css-14d0uaj"
       >
         <a
-          href="/"
+          href="/menu"
         >
           Menu
         </a>
@@ -31,7 +31,7 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
         class="css-14d0uaj"
       >
         <a
-          href="/"
+          href="/about"
         >
           About
         </a>
@@ -40,7 +40,7 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
         class="css-14d0uaj"
       >
         <a
-          href="/"
+          href="/contact"
         >
           Contact
         </a>

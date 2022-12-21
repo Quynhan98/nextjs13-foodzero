@@ -39,6 +39,7 @@ export const USERS_MOCK = [
     id: 'gff1',
     email: 'foodzero@gmail.com',
     password: '123456789',
+    reservations: [],
   },
 ]
 
