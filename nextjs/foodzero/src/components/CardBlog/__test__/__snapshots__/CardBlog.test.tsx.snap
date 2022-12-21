@@ -4,6 +4,7 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
 <div>
   <div
     class="css-79elbk"
+    numberofcomments="2"
   >
     <div
       class="css-1p10zp0"
@@ -64,7 +65,6 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
           <li
             class="css-1ru1j6w"
           >
-            2
              comments
           </li>
         </ul>

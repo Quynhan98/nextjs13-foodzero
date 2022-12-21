@@ -22,7 +22,7 @@ exports[`PriceList component Renders PriceList correctly 1`] = `
     <p
       class="chakra-text css-1eu2sr5"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
   </div>
   <span

@@ -13,7 +13,7 @@ interface CardBlogProps extends BoxProps {
   srcAvatar: string
   name: string
   date: string
-  numberOfComments: number
+  comments: number
 }
 
 const CardBlog = ({
@@ -24,7 +24,7 @@ const CardBlog = ({
   srcAvatar,
   name,
   date,
-  numberOfComments,
+  comments,
   ...rest
 }: CardBlogProps) => {
   return (
@@ -56,7 +56,7 @@ const CardBlog = ({
           src={srcAvatar}
           name={name}
           date={date}
-          numberOfComments={numberOfComments}
+          numberOfComments={comments}
         />
         <Heading
           as="h4"

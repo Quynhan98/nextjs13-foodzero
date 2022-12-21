@@ -7,5 +7,5 @@ export interface IPost {
   srcAvatar: string
   name: string
   date: string
-  numberOfComments: number
+  comments: number
 }

@@ -1,4 +1,10 @@
-import React, { FormEvent, useCallback, useMemo, useState } from 'react'
+import React, {
+  ChangeEvent,
+  FormEvent,
+  useCallback,
+  useMemo,
+  useState,
+} from 'react'
 import { GetStaticProps } from 'next'
 import Image from 'next/image'
 import {
@@ -48,31 +54,26 @@ import { SNACKBAR_BOOKING_SUCCESS } from '@constants/text'
 interface IHomeProps {
   menu: IOurMenu[]
   posts: IPost[]
-  error: string
 }
 
 export const getStaticProps: GetStaticProps = async () => {
   try {
-    const menu: IMenu[] = await fetcherInstance(MENU_ENDPOINT)
+    const menu: IMenu = await fetcherInstance(MENU_ENDPOINT)
     const posts: IPost[] = await fetcherInstance(POSTS_ENDPOINT)
 
     return {
       props: {
-        menu: menu[0].ourMenu,
+        menu: menu.ourMenu,
         posts,
       },
     }
   } catch (error) {
-    return {
-      props: {
-        error: SERVER_ERROR,
-      },
-    }
+    throw SERVER_ERROR
   }
 }
 
 const reservationInit = {
-  date: new Date(),
+  date: '' as unknown as Date,
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
 }
@@ -103,33 +104,31 @@ export default function Home({ menu, posts }: IHomeProps) {
           description: SERVER_ERROR,
           status: 'error',
           isClosable: true,
-          position: 'top-right',
+          position: 'bottom-left',
         })
       }
     },
     [booking, reservation],
   )
 
-  const handleChangeDate = useCallback(async (date: Date) => {
+  const handleChangeDate = useCallback((date: Date) => {
     setReservation((prev) => ({
       ...prev,
       date,
     }))
   }, [])
 
-  const handleSelectTime = useCallback(async (time: string) => {
-    setReservation((prev) => ({
-      ...prev,
-      time,
-    }))
-  }, [])
+  const handleChangeField = useCallback(
+    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      const selectValues = { [e.target.name]: e.target.value }
 
-  const handleSelectPerson = useCallback(async (person: string) => {
-    setReservation((prev) => ({
-      ...prev,
-      person,
-    }))
-  }, [])
+      setReservation((prev) => ({
+        ...prev,
+        ...selectValues,
+      }))
+    },
+    [],
+  )
 
   const renderChefSection = useMemo(
     () => (
@@ -433,9 +432,9 @@ export default function Home({ menu, posts }: IHomeProps) {
         <ReservationForm
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
-          handleSelectTime={handleSelectTime}
-          handleSelectPerson={handleSelectPerson}
+          onChangeField={handleChangeField}
           isDisableField={isDisableField}
+          isDisableButton={isDisableField || !reservation.date}
         />
       </Box>
 

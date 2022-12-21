@@ -18,10 +18,8 @@ import { NUMBER_OF_PERSON, RESERVATION_TIME } from '@constants/index'
 
 interface ReservationFormProps {
   onSubmitForm: (e: FormEvent<HTMLFormElement>) => void
-  onChangeForm?: (e: ChangeEvent<HTMLInputElement>) => void
+  onChangeField?: (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void
   handleChangeDate: (date: Date) => void
-  handleSelectTime: (time: string) => void
-  handleSelectPerson: (person: string) => void
   isShowFullField?: boolean
   isDisableButton?: boolean
   isDisableField?: boolean
@@ -29,10 +27,8 @@ interface ReservationFormProps {
 
 const ReservationForm = ({
   onSubmitForm,
-  onChangeForm,
+  onChangeField,
   handleChangeDate,
-  handleSelectTime,
-  handleSelectPerson,
   isShowFullField = false,
   isDisableButton,
   isDisableField,
@@ -71,14 +67,14 @@ const ReservationForm = ({
               gap={{ base: '0px', md: '48px' }}
             >
               <Input
-                onChange={onChangeForm}
+                onChange={onChangeField}
                 name="firstName"
                 type="text"
                 placeholder="First Name"
                 mb={{ base: '18px', md: '48px' }}
               />
               <Input
-                onChange={onChangeForm}
+                onChange={onChangeField}
                 name="lastName"
                 type="text"
                 placeholder="Last Name"
@@ -86,14 +82,14 @@ const ReservationForm = ({
               />
             </Flex>
             <Input
-              onChange={onChangeForm}
+              onChange={onChangeField}
               name="email"
               type="email"
               placeholder="Email"
               mb={{ base: '18px', md: '48px' }}
             />
             <Input
-              onChange={onChangeForm}
+              onChange={onChangeField}
               name="phone"
               type="text"
               placeholder="Phone"
@@ -126,18 +122,20 @@ const ReservationForm = ({
               />
             </Box>
             <SelectField
+              name="time"
               isDisabled={isDisableField}
               data-testid="selectTime"
               options={RESERVATION_TIME}
-              handleSelect={handleSelectTime}
+              onChangeSelect={onChangeField}
               width={{ base: '351px', md: isShowFullField ? '798px' : '516px' }}
             />
           </Flex>
           <SelectField
+            name="person"
             isDisabled={isDisableField}
             data-testid="selectPerson"
             options={NUMBER_OF_PERSON}
-            handleSelect={handleSelectPerson}
+            onChangeSelect={onChangeField}
           />
         </Flex>
         <Box

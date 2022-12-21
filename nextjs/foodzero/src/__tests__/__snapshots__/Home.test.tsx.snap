@@ -128,6 +128,7 @@ exports[`Home page Renders Home page correctly 1`] = `
       >
         <div
           class="css-0"
+          id="1"
         >
           <h4
             class="chakra-heading css-1ms7w9h"
@@ -146,7 +147,7 @@ exports[`Home page Renders Home page correctly 1`] = `
           <p
             class="chakra-text css-1eu2sr5"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
           </p>
         </div>
       </li>
@@ -155,12 +156,13 @@ exports[`Home page Renders Home page correctly 1`] = `
       >
         <div
           class="css-0"
+          id="2"
         >
           <h4
             class="chakra-heading css-1ms7w9h"
           >
             $
-            20
+            22
           </h4>
           <hr
             class="css-113h5p7"
@@ -168,12 +170,12 @@ exports[`Home page Renders Home page correctly 1`] = `
           <h3
             class="chakra-heading css-10d4fcy"
           >
-            Deep Sea Snow White Cod Fillet
+            Steak With Rosemary Butter
           </h3>
           <p
             class="chakra-text css-1eu2sr5"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
           </p>
         </div>
       </li>
@@ -182,12 +184,13 @@ exports[`Home page Renders Home page correctly 1`] = `
       >
         <div
           class="css-0"
+          id="3"
         >
           <h4
             class="chakra-heading css-1ms7w9h"
           >
             $
-            20
+            18
           </h4>
           <hr
             class="css-113h5p7"
@@ -195,12 +198,12 @@ exports[`Home page Renders Home page correctly 1`] = `
           <h3
             class="chakra-heading css-10d4fcy"
           >
-            Deep Sea Snow White Cod Fillet
+            Cucumber Salad
           </h3>
           <p
             class="chakra-text css-1eu2sr5"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
           </p>
         </div>
       </li>
@@ -209,12 +212,13 @@ exports[`Home page Renders Home page correctly 1`] = `
       >
         <div
           class="css-0"
+          id="4"
         >
           <h4
             class="chakra-heading css-1ms7w9h"
           >
             $
-            20
+            90
           </h4>
           <hr
             class="css-113h5p7"
@@ -222,12 +226,12 @@ exports[`Home page Renders Home page correctly 1`] = `
           <h3
             class="chakra-heading css-10d4fcy"
           >
-            Deep Sea Snow White Cod Fillet
+            Natural Wine Pairing
           </h3>
           <p
             class="chakra-text css-1eu2sr5"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
           </p>
         </div>
       </li>
@@ -323,20 +327,20 @@ exports[`Home page Renders Home page correctly 1`] = `
               decoding="async"
               loading="lazy"
               sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
           <p
             class="chakra-text css-jmhzzp"
           >
-            Premium Quality
+            Seasonal Vegetables
           </p>
           <p
             class="chakra-text css-pfln6y"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu1
           </p>
         </div>
       </li>
@@ -355,15 +359,15 @@ exports[`Home page Renders Home page correctly 1`] = `
               decoding="async"
               loading="lazy"
               sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+              src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
           <p
             class="chakra-text css-jmhzzp"
           >
-            Premium Quality
+            Fresh Fruit
           </p>
           <p
             class="chakra-text css-pfln6y"
@@ -386,6 +390,7 @@ exports[`Home page Renders Home page correctly 1`] = `
       >
         <div
           class="css-79elbk"
+          id="1"
         >
           <div
             class="css-1p10zp0"
@@ -414,10 +419,10 @@ exports[`Home page Renders Home page correctly 1`] = `
               class="css-70qvj9"
             >
               <span
-                class="chakra-avatar css-fup3kj"
+                class="chakra-avatar css-76h63l"
               >
                 <div
-                  aria-label="Julie Christie"
+                  aria-label="Julie Christies"
                   class="chakra-avatar__initials css-100o20p"
                   role="img"
                 >
@@ -431,12 +436,12 @@ exports[`Home page Renders Home page correctly 1`] = `
                 <li
                   class="css-18m884n"
                 >
-                  Julie Christie
+                  Julie Christies
                 </li>
                 <li
                   class="css-1bfqwby"
                 >
-                  December 06, 2022
+                  October 17, 2021
                 </li>
                 <li
                   class="css-1bfqwby"
@@ -462,7 +467,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             <p
               class="chakra-text css-17arz7z"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
             </p>
           </div>
         </div>
@@ -472,6 +477,7 @@ exports[`Home page Renders Home page correctly 1`] = `
       >
         <div
           class="css-79elbk"
+          id="2"
         >
           <div
             class="css-1p10zp0"
@@ -488,8 +494,8 @@ exports[`Home page Renders Home page correctly 1`] = `
             decoding="async"
             height="792"
             loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=828&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D766a34ea-32e0-40e7-90e6-299f9af22eb1&w=1920&q=75 2x"
+            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fasparagus.webp%3Falt%3Dmedia%26token%3Dd56ab468-1479-4181-844d-f5b231742244&w=1920&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fasparagus.webp%3Falt%3Dmedia%26token%3Dd56ab468-1479-4181-844d-f5b231742244&w=828&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fasparagus.webp%3Falt%3Dmedia%26token%3Dd56ab468-1479-4181-844d-f5b231742244&w=1920&q=75 2x"
             style="color: transparent;"
             width="792"
           />
@@ -500,14 +506,14 @@ exports[`Home page Renders Home page correctly 1`] = `
               class="css-70qvj9"
             >
               <span
-                class="chakra-avatar css-fup3kj"
+                class="chakra-avatar css-1c2y6uf"
               >
                 <div
-                  aria-label="Julie Christie"
+                  aria-label="Dianne Russell"
                   class="chakra-avatar__initials css-100o20p"
                   role="img"
                 >
-                  JC
+                  DR
                 </div>
               </span>
               <ul
@@ -517,12 +523,12 @@ exports[`Home page Renders Home page correctly 1`] = `
                 <li
                   class="css-18m884n"
                 >
-                  Julie Christie
+                  Dianne Russell
                 </li>
                 <li
                   class="css-1bfqwby"
                 >
-                  December 06, 2022
+                  October 17, 2021
                 </li>
                 <li
                   class="css-1bfqwby"
@@ -540,7 +546,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             <h4
               class="chakra-heading css-11p5r12"
             >
-              Fruit and vegetables and protection against diseases
+              Asparagus Spring Salad with Rocket, Goat's Cheese
             </h4>
             <hr
               class="css-113h5p7"
@@ -548,7 +554,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             <p
               class="chakra-text css-17arz7z"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
             </p>
           </div>
         </div>
@@ -560,7 +566,7 @@ exports[`Home page Renders Home page correctly 1`] = `
   >
     <form>
       <div
-        class="chakra-form-control css-1kufdmz"
+        class="chakra-form-control css-thxs3d"
         role="group"
       >
         <div
@@ -608,58 +614,50 @@ exports[`Home page Renders Home page correctly 1`] = `
                 class="chakra-select css-ph0mc"
                 data-testid="selectTime"
                 id="field-:r0:"
+                name="time"
                 style="padding-left: 40px;"
               >
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="11:00 am"
                 >
                   11:00 am
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="12:00 am"
                 >
                   12:00 am
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="13:00 pm"
                 >
                   13:00 pm
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="14:00 pm"
                 >
                   14:00 pm
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="15:00 pm"
                 >
                   15:00 pm
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="16:00 pm"
                 >
                   16:00 pm
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="17:00 pm"
                 >
                   17:00 pm
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="18:00 pm"
                 >
                   18:00 pm
                 </option>
                 <option
-                  class="chakra-text css-1pnsk7p"
                   value="19:00 pm"
                 >
                   19:00 pm
@@ -691,64 +689,55 @@ exports[`Home page Renders Home page correctly 1`] = `
               class="chakra-select css-ph0mc"
               data-testid="selectPerson"
               id="field-:r0:"
+              name="person"
               style="padding-left: 40px;"
             >
               <option
-                class="chakra-text css-1pnsk7p"
                 value="1 Person"
               >
                 1 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="2 Person"
               >
                 2 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="3 Person"
               >
                 3 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="4 Person"
               >
                 4 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="5 Person"
               >
                 5 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="6 Person"
               >
                 6 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="7 Person"
               >
                 7 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="8 Person"
               >
                 8 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="9 Person"
               >
                 9 Person
               </option>
               <option
-                class="chakra-text css-1pnsk7p"
                 value="10 Person"
               >
                 10 Person
@@ -778,6 +767,7 @@ exports[`Home page Renders Home page correctly 1`] = `
         >
           <button
             class="chakra-button css-h4ij4d"
+            disabled=""
             type="submit"
           >
             Book Now
@@ -862,7 +852,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             <p
               class="chakra-text css-jmhzzp"
             >
-              Starters
+              Mains
             </p>
             <a
               href="/"
@@ -886,8 +876,8 @@ exports[`Home page Renders Home page correctly 1`] = `
             decoding="async"
             height="711"
             loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D9dfe4f72-e8f5-4999-a007-849d7d9a0e48&w=1080&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D9dfe4f72-e8f5-4999-a007-849d7d9a0e48&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D9dfe4f72-e8f5-4999-a007-849d7d9a0e48&w=1080&q=75 2x"
             style="color: transparent;"
             width="508"
           />
@@ -905,7 +895,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             <p
               class="chakra-text css-jmhzzp"
             >
-              Starters
+              Soups
             </p>
             <a
               href="/"
@@ -929,8 +919,8 @@ exports[`Home page Renders Home page correctly 1`] = `
             decoding="async"
             height="711"
             loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D90c7bfa7-8295-498d-b7c0-7ff5900b2de2&w=1080&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D90c7bfa7-8295-498d-b7c0-7ff5900b2de2&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D90c7bfa7-8295-498d-b7c0-7ff5900b2de2&w=1080&q=75 2x"
             style="color: transparent;"
             width="508"
           />

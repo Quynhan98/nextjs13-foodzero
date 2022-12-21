@@ -38,7 +38,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
               >
                 <input
                   class="chakra-input css-nr8l43"
-                  id="field-:r3:"
+                  id="field-:r2:"
                   placeholder="MM/DD/YYYY"
                   value=""
                 />
@@ -51,7 +51,8 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
             <select
               class="chakra-select css-ph0mc"
               data-testid="selectTime"
-              id="field-:r3:"
+              id="field-:r2:"
+              name="time"
               style="padding-left: 40px;"
             >
               <option
@@ -125,7 +126,8 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
           <select
             class="chakra-select css-ph0mc"
             data-testid="selectPerson"
-            id="field-:r3:"
+            id="field-:r2:"
+            name="person"
             style="padding-left: 40px;"
           >
             <option
@@ -243,14 +245,14 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
       >
         <input
           class="chakra-input css-vsl0b9"
-          id="field-:r1:"
+          id="field-:r0:"
           name="firstName"
           placeholder="First Name"
           type="text"
         />
         <input
           class="chakra-input css-vsl0b9"
-          id="field-:r1:"
+          id="field-:r0:"
           name="lastName"
           placeholder="Last Name"
           type="text"
@@ -258,14 +260,14 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
       </div>
       <input
         class="chakra-input css-vsl0b9"
-        id="field-:r1:"
+        id="field-:r0:"
         name="email"
         placeholder="Email"
         type="email"
       />
       <input
         class="chakra-input css-vsl0b9"
-        id="field-:r1:"
+        id="field-:r0:"
         name="phone"
         placeholder="Phone"
         type="text"
@@ -287,7 +289,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
               >
                 <input
                   class="chakra-input css-130huxc"
-                  id="field-:r1:"
+                  id="field-:r0:"
                   placeholder="MM/DD/YYYY"
                   value=""
                 />
@@ -300,7 +302,8 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
             <select
               class="chakra-select css-ph0mc"
               data-testid="selectTime"
-              id="field-:r1:"
+              id="field-:r0:"
+              name="time"
               style="padding-left: 40px;"
             >
               <option
@@ -374,7 +377,8 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
           <select
             class="chakra-select css-ph0mc"
             data-testid="selectPerson"
-            id="field-:r1:"
+            id="field-:r0:"
+            name="person"
             style="padding-left: 40px;"
           >
             <option

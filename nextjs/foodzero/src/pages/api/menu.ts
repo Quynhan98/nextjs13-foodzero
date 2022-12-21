@@ -17,7 +17,7 @@ export default async function menuHandler(
 ) {
   if (req.method === 'GET') {
     try {
-      const data = await fetcherInstanceAPI(`${MENU_ENDPOINT}`)
+      const data = await fetcherInstanceAPI(`${MENU_ENDPOINT}/1`)
       if (data) {
         return res.status(SUCCESS_RESPONSE.OK).json(data)
       }
