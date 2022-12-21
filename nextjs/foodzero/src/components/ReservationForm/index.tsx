@@ -18,22 +18,20 @@ import { NUMBER_OF_PERSON, RESERVATION_TIME } from '@constants/index'
 
 interface ReservationFormProps {
   onSubmitForm: (e: FormEvent<HTMLFormElement>) => void
-  onChangeForm?: (e: ChangeEvent<HTMLInputElement>) => void
+  onChangeField?: (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void
   handleChangeDate: (date: Date) => void
-  handleSelectTime: (time: string) => void
-  handleSelectPerson: (person: string) => void
   isShowFullField?: boolean
-  isDisable?: boolean
+  isDisableButton?: boolean
+  isDisableField?: boolean
 }
 
 const ReservationForm = ({
   onSubmitForm,
-  onChangeForm,
+  onChangeField,
   handleChangeDate,
-  handleSelectTime,
-  handleSelectPerson,
   isShowFullField = false,
-  isDisable,
+  isDisableButton,
+  isDisableField,
 }: ReservationFormProps) => {
   return (
     <form onSubmit={onSubmitForm}>
@@ -41,6 +39,8 @@ const ReservationForm = ({
         display="flex"
         flexDirection="column"
         justifyContent="center"
+        width={{ base: '351px', md: '100%' }}
+        margin={{ base: '0 auto', md: 'unset' }}
       >
         <Flex flexDirection="column" justifyContent="center" margin="0 auto">
           <Heading
@@ -67,14 +67,14 @@ const ReservationForm = ({
               gap={{ base: '0px', md: '48px' }}
             >
               <Input
-                onChange={onChangeForm}
+                onChange={onChangeField}
                 name="firstName"
                 type="text"
                 placeholder="First Name"
                 mb={{ base: '18px', md: '48px' }}
               />
               <Input
-                onChange={onChangeForm}
+                onChange={onChangeField}
                 name="lastName"
                 type="text"
                 placeholder="Last Name"
@@ -82,14 +82,14 @@ const ReservationForm = ({
               />
             </Flex>
             <Input
-              onChange={onChangeForm}
+              onChange={onChangeField}
               name="email"
               type="email"
               placeholder="Email"
               mb={{ base: '18px', md: '48px' }}
             />
             <Input
-              onChange={onChangeForm}
+              onChange={onChangeField}
               name="phone"
               type="text"
               placeholder="Phone"
@@ -111,6 +111,7 @@ const ReservationForm = ({
           >
             <Box>
               <Picker
+                disabled={isDisableField}
                 width={{
                   base: '351px',
                   md: isShowFullField ? '798px' : '516px',
@@ -121,16 +122,20 @@ const ReservationForm = ({
               />
             </Box>
             <SelectField
+              name="time"
+              isDisabled={isDisableField}
               data-testid="selectTime"
               options={RESERVATION_TIME}
-              handleSelect={handleSelectTime}
+              onChangeSelect={onChangeField}
               width={{ base: '351px', md: isShowFullField ? '798px' : '516px' }}
             />
           </Flex>
           <SelectField
+            name="person"
+            isDisabled={isDisableField}
             data-testid="selectPerson"
             options={NUMBER_OF_PERSON}
-            handleSelect={handleSelectPerson}
+            onChangeSelect={onChangeField}
           />
         </Flex>
         <Box
@@ -141,7 +146,7 @@ const ReservationForm = ({
             type="submit"
             variant={isShowFullField ? 'default' : 'dark'}
             size="primary"
-            isDisabled={isDisable}
+            isDisabled={isDisableButton}
           >
             Book Now
           </Button>

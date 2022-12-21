@@ -1,7 +1,13 @@
 import React from 'react'
 
 // Utils
-import { render, screen, cleanup, fireEvent } from '@utils/testUtils'
+import {
+  render,
+  screen,
+  cleanup,
+  fireEvent,
+  RenderResult,
+} from '@utils/testUtils'
 
 // Components
 import ReservationForm from '@components/ReservationForm'
@@ -18,17 +24,17 @@ describe('ReservationForm', () => {
   }
 
   const props = {
-    onChangeForm: jest.fn(),
     onSubmitForm: jest.fn(),
     handleChangeDate: jest.fn(),
-    handleSelectTime: jest.fn(),
-    handleSelectPerson: jest.fn(),
+    onChangeField: jest.fn(),
     isDisable: false,
     isShowFullField: true,
   }
 
+  let wrapper: RenderResult
+
   beforeEach(() => {
-    render(<ReservationForm {...props} />)
+    wrapper = render(<ReservationForm {...props} />)
   })
 
   afterEach(() => {
@@ -36,7 +42,7 @@ describe('ReservationForm', () => {
   })
 
   it('ReservationForm with full field matches snapshot', () => {
-    const { container } = render(<ReservationForm {...props} />)
+    const { container } = wrapper
 
     expect(container).toMatchSnapshot()
   })
@@ -56,7 +62,7 @@ describe('ReservationForm', () => {
       target: { value: userMock.firstName },
     })
 
-    expect(props.onChangeForm).toBeCalled()
+    expect(props.onChangeField).toBeCalled()
     expect(firstName).toHaveValue(userMock.firstName)
   })
 
@@ -67,7 +73,7 @@ describe('ReservationForm', () => {
       target: { value: userMock.lastName },
     })
 
-    expect(props.onChangeForm).toBeCalled()
+    expect(props.onChangeField).toBeCalled()
     expect(lastName).toHaveValue(userMock.lastName)
   })
 
@@ -78,7 +84,7 @@ describe('ReservationForm', () => {
       target: { value: userMock.email },
     })
 
-    expect(props.onChangeForm).toBeCalled()
+    expect(props.onChangeField).toBeCalled()
     expect(email).toHaveValue(userMock.email)
   })
 
@@ -89,7 +95,7 @@ describe('ReservationForm', () => {
       target: { value: userMock.phone },
     })
 
-    expect(props.onChangeForm).toBeCalled()
+    expect(props.onChangeField).toBeCalled()
     expect(phone).toHaveValue(userMock.phone)
   })
 

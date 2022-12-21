@@ -98,3 +98,54 @@ export const NUMBER_OF_PERSON = [
 export const LOCAL_STORAGE_KEY = {
   USER_ID: 'userId',
 }
+
+export const FEATURES_SECTION = [
+  {
+    id: '1',
+    title: 'Premium Quality',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FCircleIcon.webp?alt=media&token=1df373f3-27a3-45f6-82fa-d997c47c718f',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu',
+  },
+  {
+    id: '2',
+    title: 'Seasonal Vegetables',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FCarrotIcon.webp?alt=media&token=4a46acaf-1445-4279-a269-19d2e9410c6e',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu1',
+  },
+  {
+    id: '3',
+    title: 'Fresh Fruit',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FlemonIcon.webp?alt=media&token=93224c37-decd-47bd-bc23-77016b87afe5',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu',
+  },
+]
+
+export const CATEGORY_SECTION = [
+  {
+    id: '1',
+    href: '/',
+    category: 'Starters',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
+  },
+  {
+    id: '2',
+    href: '/',
+    category: 'Mains',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FbakedRibs.webp?alt=media&token=9dfe4f72-e8f5-4999-a007-849d7d9a0e48',
+  },
+  {
+    id: '3',
+    href: '/',
+    category: 'Soups',
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fsoup.webp?alt=media&token=90c7bfa7-8295-498d-b7c0-7ff5900b2de2',
+  },
+]

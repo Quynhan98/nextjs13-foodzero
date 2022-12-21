@@ -1,4 +1,5 @@
 import React, { memo, useEffect } from 'react'
+import { SWRConfig } from 'swr'
 import { useRouter } from 'next/router'
 import { Box, Center } from '@chakra-ui/react'
 
@@ -14,6 +15,8 @@ import { AuthProvider } from '@contexts/AuthProvider'
 
 // Services
 import { getLocalStorage } from '@utils/localStorage'
+import { BookingProvider } from '@contexts/BookingProvider'
+import { fetcherInstanceAPI } from '@services/api'
 
 export interface IPageLayoutsProps {
   children: React.ReactNode
@@ -34,32 +37,38 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
   }, [isLoginPage, userId])
 
   return (
-    <AuthProvider>
-      {isLoginPage ? (
-        <Center
-          as="main"
-          minHeight="100vh"
-          pb="150px"
-          backgroundColor="alabaster"
-        >
-          {children}
-        </Center>
-      ) : (
-        <>
-          <Header />
-          <Box
+    <SWRConfig
+      value={{
+        fetcher: fetcherInstanceAPI,
+      }}
+    >
+      <AuthProvider>
+        {isLoginPage ? (
+          <Center
             as="main"
             minHeight="100vh"
-            maxWidth="1920px"
-            width="100%"
-            margin="0 auto"
+            pb="150px"
+            backgroundColor="alabaster"
           >
             {children}
-          </Box>
-          <Footer />
-        </>
-      )}
-    </AuthProvider>
+          </Center>
+        ) : (
+          <BookingProvider>
+            <Header />
+            <Box
+              as="main"
+              minHeight="100vh"
+              maxWidth="1920px"
+              width="100%"
+              margin="0 auto"
+            >
+              {children}
+            </Box>
+            <Footer />
+          </BookingProvider>
+        )}
+      </AuthProvider>
+    </SWRConfig>
   )
 }
 

@@ -4,7 +4,7 @@ export const AVATAR_MOCK =
 export const PRICE_LIST_MOCK = {
   name: 'Deep Sea Snow White Cod Fillet',
   price: 20,
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 }
 
 export const CARD_BLOG = {
@@ -16,7 +16,7 @@ export const CARD_BLOG = {
   srcAvatar: AVATAR_MOCK,
   name: 'Julie Christie',
   date: '2022-12-06T23:29:35.000Z',
-  numberOfComments: 2,
+  comments: 2,
 }
 
 export const CARD_FEATURE = {
@@ -73,18 +73,57 @@ export const QUOTE_MOCK = [
 ]
 
 export const OUR_MENU_MOCK = [
-  PRICE_LIST_MOCK,
-  PRICE_LIST_MOCK,
-  PRICE_LIST_MOCK,
-  PRICE_LIST_MOCK,
+  {
+    id: '1',
+    name: 'Deep Sea Snow White Cod Fillet',
+    price: 20,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit1.',
+  },
+  {
+    id: '2',
+    name: 'Steak With Rosemary Butter',
+    price: 22,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit2.',
+  },
+  {
+    id: '3',
+    name: 'Cucumber Salad',
+    price: 18,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit3.',
+  },
+  {
+    id: '4',
+    name: 'Natural Wine Pairing',
+    price: 90,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit4.',
+  },
 ]
 
-export const FEATURES_MOCK = [CARD_FEATURE, CARD_FEATURE, CARD_FEATURE]
-
-export const BLOG_SECTION_MOCK = [CARD_BLOG, CARD_BLOG]
-
-export const CATEGORY_SECTION_MOCK = [
-  CARD_CATEGORY,
-  CARD_CATEGORY,
-  CARD_CATEGORY,
+export const BLOG_SECTION_MOCK = [
+  {
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FFeature%20Image.webp?alt=media&token=766a34ea-32e0-40e7-90e6-299f9af22eb1',
+    title: 'Fruit and vegetables and protection against diseases',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit1.',
+    category: 'Fashion',
+    srcAvatar:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fjulie.webp?alt=media&token=c429d5f2-6f41-4233-970b-b2739746f7f1',
+    name: 'Julie Christies',
+    date: '2021-10-17T23:29:35.000Z',
+    comments: 2,
+    id: '1',
+  },
+  {
+    imageUrl:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fasparagus.webp?alt=media&token=d56ab468-1479-4181-844d-f5b231742244',
+    title: "Asparagus Spring Salad with Rocket, Goat's Cheese",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit2.',
+    category: 'Fashion',
+    srcAvatar:
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fdianne.webp?alt=media&token=ce3d7213-72ce-4caa-b43c-f6f07bb3b5b7',
+    name: 'Dianne Russell',
+    date: '2021-10-17T23:29:35.000Z',
+    comments: 2,
+    id: '2',
+  },
 ]

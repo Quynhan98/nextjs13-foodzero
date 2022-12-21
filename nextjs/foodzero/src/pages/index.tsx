@@ -1,4 +1,11 @@
-import React, { useMemo } from 'react'
+import React, {
+  ChangeEvent,
+  FormEvent,
+  useCallback,
+  useMemo,
+  useState,
+} from 'react'
+import { GetStaticProps } from 'next'
 import Image from 'next/image'
 import {
   Box,
@@ -9,6 +16,7 @@ import {
   ListItem,
   Text,
   UnorderedList,
+  useToast,
 } from '@chakra-ui/react'
 
 // Components
@@ -20,15 +28,108 @@ import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
 
 // Mocks
-import {
-  BLOG_SECTION_MOCK,
-  CATEGORY_SECTION_MOCK,
-  FEATURES_MOCK,
-  OUR_MENU_MOCK,
-  QUOTE_MOCK,
-} from '@mocks/mockData'
+import { QUOTE_MOCK } from '@mocks/mockData'
 
-export default function Home() {
+// Services
+import { fetcherInstance } from '@services/api'
+
+// Constants
+import {
+  CATEGORY_SECTION,
+  FEATURES_SECTION,
+  MENU_ENDPOINT,
+  NUMBER_OF_PERSON,
+  POSTS_ENDPOINT,
+  RESERVATION_TIME,
+  SERVER_ERROR,
+} from '@constants/index'
+
+// Types
+import { IPost } from '@self-types/Post'
+import { IMenu, IOurMenu } from '@self-types/Menu'
+import { useBookingContext } from '@hooks/useBookingContext'
+import { IBookingContext } from '@contexts/BookingProvider'
+import { SNACKBAR_BOOKING_SUCCESS } from '@constants/text'
+
+interface IHomeProps {
+  menu: IOurMenu[]
+  posts: IPost[]
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  try {
+    const menu: IMenu = await fetcherInstance(MENU_ENDPOINT)
+    const posts: IPost[] = await fetcherInstance(POSTS_ENDPOINT)
+
+    return {
+      props: {
+        menu: menu.ourMenu,
+        posts,
+      },
+    }
+  } catch (error) {
+    throw SERVER_ERROR
+  }
+}
+
+const reservationInit = {
+  date: '' as unknown as Date,
+  time: RESERVATION_TIME[0],
+  person: NUMBER_OF_PERSON[0],
+}
+export default function Home({ menu, posts }: IHomeProps) {
+  const toast = useToast()
+  const { booking, addBooking } = useBookingContext() as IBookingContext
+  const [reservation, setReservation] = useState(reservationInit)
+
+  const isDisableField = booking.length > 0
+
+  const handleSubmit = useCallback(
+    async (e: FormEvent<HTMLFormElement>) => {
+      e?.preventDefault()
+
+      try {
+        await addBooking([...booking, reservation])
+
+        toast({
+          title: 'Success',
+          description: SNACKBAR_BOOKING_SUCCESS,
+          status: 'success',
+          isClosable: true,
+          position: 'bottom-left',
+        })
+      } catch (error) {
+        toast({
+          title: 'Error',
+          description: SERVER_ERROR,
+          status: 'error',
+          isClosable: true,
+          position: 'bottom-left',
+        })
+      }
+    },
+    [booking, reservation],
+  )
+
+  const handleChangeDate = useCallback((date: Date) => {
+    setReservation((prev) => ({
+      ...prev,
+      date,
+    }))
+  }, [])
+
+  const handleChangeField = useCallback(
+    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      const selectValues = { [e.target.name]: e.target.value }
+
+      setReservation((prev) => ({
+        ...prev,
+        ...selectValues,
+      }))
+    },
+    [],
+  )
+
   const renderChefSection = useMemo(
     () => (
       <Flex gap={{ base: '10px', md: '61px' }} justifyContent="space-between">
@@ -236,8 +337,8 @@ export default function Home() {
           pt={{ base: '40px', md: '158px' }}
           gap={{ base: '30px', md: '60px' }}
         >
-          {OUR_MENU_MOCK.map((item) => (
-            <ListItem maxW="792px" key={`menu-${item.name}`}>
+          {menu.map((item) => (
+            <ListItem maxW="792px" key={`menu-${item.id}`}>
               <PriceList {...item} />
             </ListItem>
           ))}
@@ -292,8 +393,8 @@ export default function Home() {
           marginLeft="0px"
           gap="30px"
         >
-          {FEATURES_MOCK.map((item) => (
-            <ListItem key={`feature-${item.title}`}>
+          {FEATURES_SECTION.map((item) => (
+            <ListItem key={`feature-${item.id}`}>
               <CardFeature {...item} />
             </ListItem>
           ))}
@@ -314,8 +415,8 @@ export default function Home() {
           marginLeft="0px"
           gap="30px"
         >
-          {BLOG_SECTION_MOCK.map((item) => (
-            <ListItem maxW="792px" key={`blog-${item.title}`}>
+          {posts.map((item) => (
+            <ListItem maxW="792px" key={`blog-${item.id}`}>
               <CardBlog {...item} />
             </ListItem>
           ))}
@@ -329,10 +430,11 @@ export default function Home() {
         backgroundColor="alabaster"
       >
         <ReservationForm
-          onSubmitForm={() => undefined}
-          handleChangeDate={() => undefined}
-          handleSelectTime={() => undefined}
-          handleSelectPerson={() => undefined}
+          onSubmitForm={handleSubmit}
+          handleChangeDate={handleChangeDate}
+          onChangeField={handleChangeField}
+          isDisableField={isDisableField}
+          isDisableButton={isDisableField || !reservation.date}
         />
       </Box>
 
@@ -365,8 +467,8 @@ export default function Home() {
           pt={{ base: '50px', md: '126px' }}
           gap="30px"
         >
-          {CATEGORY_SECTION_MOCK.map((item) => (
-            <ListItem key={`category-${item.category}`}>
+          {CATEGORY_SECTION.map((item) => (
+            <ListItem key={`category-${item.id}`}>
               <CardCategory {...item} />
             </ListItem>
           ))}
