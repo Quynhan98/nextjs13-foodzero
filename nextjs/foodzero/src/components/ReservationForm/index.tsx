@@ -4,6 +4,7 @@ import {
   Button,
   Flex,
   FormControl,
+  FormErrorMessage,
   Heading,
   Input,
   Text,
@@ -23,6 +24,9 @@ interface ReservationFormProps {
   isShowFullField?: boolean
   isDisableButton?: boolean
   isDisableField?: boolean
+  phoneValue?: string
+  phoneError?: string
+  emailError?: string
 }
 
 const ReservationForm = ({
@@ -32,10 +36,14 @@ const ReservationForm = ({
   isShowFullField = false,
   isDisableButton,
   isDisableField,
+  phoneValue,
+  phoneError,
+  emailError,
 }: ReservationFormProps) => {
   return (
-    <form onSubmit={onSubmitForm}>
+    <form onSubmit={onSubmitForm} noValidate>
       <FormControl
+        isInvalid={!!(emailError || phoneError)}
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -67,6 +75,7 @@ const ReservationForm = ({
               gap={{ base: '0px', md: '48px' }}
             >
               <Input
+                disabled={isDisableField}
                 onChange={onChangeField}
                 name="firstName"
                 type="text"
@@ -74,6 +83,7 @@ const ReservationForm = ({
                 mb={{ base: '18px', md: '48px' }}
               />
               <Input
+                disabled={isDisableField}
                 onChange={onChangeField}
                 name="lastName"
                 type="text"
@@ -81,20 +91,35 @@ const ReservationForm = ({
                 mb={{ base: '18px', md: '48px' }}
               />
             </Flex>
-            <Input
-              onChange={onChangeField}
-              name="email"
-              type="email"
-              placeholder="Email"
-              mb={{ base: '18px', md: '48px' }}
-            />
-            <Input
-              onChange={onChangeField}
-              name="phone"
-              type="text"
-              placeholder="Phone"
-              mb={{ base: '18px', md: '48px' }}
-            />
+            <Box mb={{ base: '18px', md: '48px' }}>
+              <Input
+                disabled={isDisableField}
+                onChange={onChangeField}
+                name="email"
+                type="email"
+                placeholder="Email"
+              />
+              {emailError && (
+                <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+                  {emailError}
+                </FormErrorMessage>
+              )}
+            </Box>
+            <Box mb={{ base: '18px', md: '48px' }}>
+              <Input
+                value={phoneValue}
+                disabled={isDisableField}
+                onChange={onChangeField}
+                name="phone"
+                type="tel"
+                placeholder="Phone"
+              />
+              {phoneError && (
+                <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+                  {phoneError}
+                </FormErrorMessage>
+              )}
+            </Box>
           </>
         )}
         <Flex

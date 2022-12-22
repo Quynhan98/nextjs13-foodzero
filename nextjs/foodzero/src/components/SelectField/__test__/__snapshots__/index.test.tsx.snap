@@ -6,7 +6,7 @@ exports[`SelectField component Renders SelectField default correctly 1`] = `
     class="chakra-select__wrapper css-42b2qy"
   >
     <select
-      class="chakra-select css-ph0mc"
+      class="chakra-select css-1srlo7p"
       data-testid="select"
       style="padding-left: 40px;"
     >

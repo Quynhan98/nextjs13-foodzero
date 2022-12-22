@@ -149,3 +149,5 @@ export const CATEGORY_SECTION = [
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fsoup.webp?alt=media&token=90c7bfa7-8295-498d-b7c0-7ff5900b2de2',
   },
 ]
+
+export const COUNTRY_CODE = '+8'

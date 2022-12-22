@@ -1,3 +1,5 @@
+import { REGEX_REMOVE_BRACKETS } from '@constants/index'
+
 // Format date (Month, DD/YYYY)
 export const formattedDate = (date: string) => {
   return new Date(date).toLocaleDateString('en-US', {
@@ -40,3 +42,22 @@ export const findItemByValue = <T, U extends keyof T>({
   value: T[U]
   key: keyof T
 }): T | undefined => data.find((item) => item[key] === value)
+
+// Format phone number
+export const formatPhoneNumber = (value: string) => {
+  if (!value) return value
+
+  const phoneNumber = value.replace(REGEX_REMOVE_BRACKETS, '')
+
+  const phoneNumberLength = phoneNumber.length
+
+  if (phoneNumberLength < 4) return `${phoneNumber}`
+
+  if (phoneNumberLength < 7) {
+    return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}`
+  }
+  return `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(
+    3,
+    6,
+  )}-${phoneNumber.slice(6, 10)}`
+}

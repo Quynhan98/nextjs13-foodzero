@@ -10,6 +10,10 @@ export const Text: ComponentStyleConfig = {
       fontSize: 'common',
       lineHeight: 'base',
     },
+    common: {
+      fontSize: { base: 'xs', md: 'md' },
+      lineHeight: { base: 'xs', md: 'sm' },
+    },
     default: {
       fontSize: { base: 'xxs', md: 'sm' },
       lineHeight: { base: 'xxs', md: 'base' },

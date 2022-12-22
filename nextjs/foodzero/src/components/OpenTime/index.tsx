@@ -13,7 +13,7 @@ interface OpenTimeProps {
 
 const OpenTime = ({ openTime, businessHours }: OpenTimeProps) => {
   return (
-    <Box minW="310px">
+    <Box minW="310px" maxW="696px">
       <Flex
         justifyContent="space-between"
         pb={{ base: '20px', md: '38px' }}
