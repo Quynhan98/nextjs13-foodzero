@@ -34,6 +34,7 @@ const SelectField = ({
         boxShadow: '0 0 0 1px black',
       }}
       _hover={{ borderColor: 'black' }}
+      _invalid={{ borderColor: 'black' }}
       style={{ paddingLeft: '40px' }}
       name={name}
       onChange={onChangeSelect}
