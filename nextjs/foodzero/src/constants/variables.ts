@@ -151,3 +151,18 @@ export const CATEGORY_SECTION = [
 ]
 
 export const COUNTRY_CODE = '+8'
+
+export const LEADER_SHIP = {
+  restaurantManager: {
+    name: 'Carson Hugn',
+    avatar: '/images/managerAvatar.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl.',
+  },
+  executiveChef: {
+    name: 'Jane Cooper',
+    avatar: '/images/executiveChefAvatar.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi.',
+  },
+}
