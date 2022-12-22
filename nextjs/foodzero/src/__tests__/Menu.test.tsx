@@ -8,24 +8,25 @@ import {
   waitFor,
 } from '@utils/testUtils'
 
-// Home
-import Home from '@pages/index'
+// Pages
+import Menu from '@pages/menu'
 
 // Mocks
-import { BLOG_SECTION_MOCK, OUR_MENU_MOCK } from '@mocks/mockData'
+import { MENU_MOCK } from '@mocks/mockData'
 
 // Constants
 import { SNACKBAR_BOOKING_SUCCESS } from '@constants/text'
 import { SERVER_ERROR } from '@constants/index'
 
-describe('Home page', () => {
+describe('Menu page', () => {
   global.fetch = jest.fn(() =>
     Promise.resolve({
       json: () => Promise.resolve(),
     }),
   ) as jest.Mock
 
-  const props = { menu: OUR_MENU_MOCK, posts: BLOG_SECTION_MOCK }
+  const props = { menu: MENU_MOCK }
+
   const bookingMock = {
     date: '12/21/2022',
     time: '12:00 am',
@@ -35,14 +36,14 @@ describe('Home page', () => {
   let wrapper: RenderResult
 
   beforeEach(() => {
-    wrapper = render(<Home {...props} />)
+    wrapper = render(<Menu {...props} />)
   })
 
   afterEach(() => {
     cleanup()
   })
 
-  it('Renders Home page correctly', () => {
+  it('Renders Menu page correctly', () => {
     const { container } = wrapper
 
     expect(container).toMatchSnapshot()

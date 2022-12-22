@@ -39,6 +39,7 @@ export const USERS_MOCK = [
     id: 'gff1',
     email: 'foodzero@gmail.com',
     password: '123456789',
+    reservations: [],
   },
 ]
 
@@ -127,3 +128,11 @@ export const BLOG_SECTION_MOCK = [
     id: '2',
   },
 ]
+
+export const MENU_MOCK = {
+  id: '1',
+  ourMenu: OUR_MENU_MOCK,
+  starters: OUR_MENU_MOCK,
+  mains: OUR_MENU_MOCK,
+  pastriesAndDrinks: OUR_MENU_MOCK,
+}

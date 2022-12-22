@@ -1,0 +1,685 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu page Renders Menu page correctly 1`] = `
+<div>
+  <div
+    class="css-l62o64"
+  >
+    <h2
+      class="chakra-heading css-6rnogd"
+    >
+      View Our New Menu
+    </h2>
+    <p
+      class="chakra-text css-1ue3twu"
+    >
+      The freshest ingredients for you every day
+    </p>
+  </div>
+  <section
+    class="css-7q1w1r"
+  >
+    <h3
+      class="chakra-heading css-qofsxt"
+    >
+      Starters
+    </h3>
+    <p
+      class="chakra-text css-vb0nb2"
+    >
+      This is a section of your menu. Give your section a brief description
+    </p>
+    <div
+      class="css-ewxv54"
+    >
+      <div
+        class="css-1gsejy4"
+      >
+        <img
+          alt="excellent cook picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 314px (min-width: 1200px) 792px, 898px"
+          src="/_next/image?url=%2Fimages%2FyoungTofu.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FyoungTofu.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <ul
+        class="css-1pjkzi9"
+        role="list"
+      >
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="1"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="2"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              22
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Steak With Rosemary Butter
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="3"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              18
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Cucumber Salad
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="4"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              90
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Natural Wine Pairing
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section
+    class="css-qybtch"
+  >
+    <h3
+      class="chakra-heading css-qofsxt"
+    >
+      Mains
+    </h3>
+    <p
+      class="chakra-text css-vb0nb2"
+    >
+      This is a section of your menu. Give your section a brief description
+    </p>
+    <div
+      class="css-6byvna"
+    >
+      <ul
+        class="css-1pjkzi9"
+        role="list"
+      >
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="1"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="2"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              22
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Steak With Rosemary Butter
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="3"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              18
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Cucumber Salad
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="4"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              90
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Natural Wine Pairing
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div
+        class="css-1gsejy4"
+      >
+        <img
+          alt="excellent cook picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 314px (min-width: 1200px) 792px, 898px"
+          src="/_next/image?url=%2Fimages%2Fsteak.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fsteak.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fsteak.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fsteak.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fsteak.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fsteak.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fsteak.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fsteak.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fsteak.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fsteak.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fsteak.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fsteak.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fsteak.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fsteak.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+    </div>
+  </section>
+  <section
+    class="css-344vaf"
+  >
+    <h3
+      class="chakra-heading css-qofsxt"
+    >
+      Pastries & Drinks
+    </h3>
+    <p
+      class="chakra-text css-vb0nb2"
+    >
+      This is a section of your menu. Give your section a brief description
+    </p>
+    <div
+      class="css-x7ltkt"
+    >
+      <div
+        class="css-1gsejy4"
+      >
+        <img
+          alt="excellent cook picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 314px (min-width: 1200px) 792px, 898px"
+          src="/_next/image?url=%2Fimages%2FlemonTea.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FlemonTea.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <ul
+        class="css-1pjkzi9"
+        role="list"
+      >
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="1"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              20
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Deep Sea Snow White Cod Fillet
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="2"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              22
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Steak With Rosemary Butter
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="3"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              18
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Cucumber Salad
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
+            </p>
+          </div>
+        </li>
+        <li
+          class="css-vzuw6d"
+        >
+          <div
+            class="css-0"
+            id="4"
+          >
+            <h4
+              class="chakra-heading css-1ms7w9h"
+            >
+              $
+              90
+            </h4>
+            <hr
+              class="css-113h5p7"
+            />
+            <h3
+              class="chakra-heading css-10d4fcy"
+            >
+              Natural Wine Pairing
+            </h3>
+            <p
+              class="chakra-text css-1eu2sr5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section
+    class="css-628vpw"
+  >
+    <form>
+      <div
+        class="chakra-form-control css-thxs3d"
+        role="group"
+      >
+        <div
+          class="css-yjtq8f"
+        >
+          <h3
+            class="chakra-heading css-mxgfwf"
+          >
+            Make a Reservation
+          </h3>
+          <p
+            class="chakra-text css-11o6bb1"
+          >
+            Get in touch with restaurant
+          </p>
+        </div>
+        <div
+          class="css-6wfi37"
+        >
+          <div
+            class="css-pl1d54"
+          >
+            <div
+              class="css-0"
+            >
+              <div
+                class="react-datepicker-wrapper"
+              >
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-nr8l43"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="chakra-select__wrapper css-1uge2rn"
+            >
+              <select
+                class="chakra-select css-ph0mc"
+                data-testid="selectTime"
+                id="field-:r0:"
+                name="time"
+                style="padding-left: 40px;"
+              >
+                <option
+                  value="11:00 am"
+                >
+                  11:00 am
+                </option>
+                <option
+                  value="12:00 am"
+                >
+                  12:00 am
+                </option>
+                <option
+                  value="13:00 pm"
+                >
+                  13:00 pm
+                </option>
+                <option
+                  value="14:00 pm"
+                >
+                  14:00 pm
+                </option>
+                <option
+                  value="15:00 pm"
+                >
+                  15:00 pm
+                </option>
+                <option
+                  value="16:00 pm"
+                >
+                  16:00 pm
+                </option>
+                <option
+                  value="17:00 pm"
+                >
+                  17:00 pm
+                </option>
+                <option
+                  value="18:00 pm"
+                >
+                  18:00 pm
+                </option>
+                <option
+                  value="19:00 pm"
+                >
+                  19:00 pm
+                </option>
+              </select>
+              <div
+                class="chakra-select__icon-wrapper css-1rn5cz7"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-icon chakra-select__icon css-13wnv3o"
+                  focusable="false"
+                  role="presentation"
+                  style="width: 1em; height: 1em; color: currentColor;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-select__wrapper css-42b2qy"
+          >
+            <select
+              class="chakra-select css-ph0mc"
+              data-testid="selectPerson"
+              id="field-:r0:"
+              name="person"
+              style="padding-left: 40px;"
+            >
+              <option
+                value="1 Person"
+              >
+                1 Person
+              </option>
+              <option
+                value="2 Person"
+              >
+                2 Person
+              </option>
+              <option
+                value="3 Person"
+              >
+                3 Person
+              </option>
+              <option
+                value="4 Person"
+              >
+                4 Person
+              </option>
+              <option
+                value="5 Person"
+              >
+                5 Person
+              </option>
+              <option
+                value="6 Person"
+              >
+                6 Person
+              </option>
+              <option
+                value="7 Person"
+              >
+                7 Person
+              </option>
+              <option
+                value="8 Person"
+              >
+                8 Person
+              </option>
+              <option
+                value="9 Person"
+              >
+                9 Person
+              </option>
+              <option
+                value="10 Person"
+              >
+                10 Person
+              </option>
+            </select>
+            <div
+              class="chakra-select__icon-wrapper css-1rn5cz7"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-icon chakra-select__icon css-13wnv3o"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-1610dfo"
+        >
+          <button
+            class="chakra-button css-h4ij4d"
+            type="submit"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
