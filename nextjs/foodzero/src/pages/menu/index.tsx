@@ -38,7 +38,6 @@ import { IBookingContext } from '@contexts/BookingProvider'
 
 interface IMenuProps {
   menu: IMenu
-  error: string
 }
 
 export const getStaticProps: GetStaticProps = async () => {
