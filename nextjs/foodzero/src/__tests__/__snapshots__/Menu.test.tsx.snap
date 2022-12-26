@@ -3,15 +3,15 @@
 exports[`Menu page Renders Menu page correctly 1`] = `
 <div>
   <div
-    class="css-l62o64"
+    class="css-1s0gggk"
   >
     <h2
-      class="chakra-heading css-6rnogd"
+      class="chakra-heading css-fc8cht"
     >
       View Our New Menu
     </h2>
     <p
-      class="chakra-text css-1ue3twu"
+      class="chakra-text css-m22hx7"
     >
       The freshest ingredients for you every day
     </p>

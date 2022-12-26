@@ -3,18 +3,22 @@
 exports[`About page Renders Menu page correctly 1`] = `
 <div>
   <div
-    class="css-bliimo"
+    class="css-jbcq6i"
   >
-    <h2
-      class="chakra-heading css-6rnogd"
+    <div
+      class="css-3ig7em"
     >
-      View Our New Menu
-    </h2>
-    <p
-      class="chakra-text css-1ue3twu"
-    >
-      The freshest ingredients for you every day
-    </p>
+      <h2
+        class="chakra-heading css-1mps9r1"
+      >
+        Who We Are
+      </h2>
+      <p
+        class="chakra-text css-dxa8t2"
+      >
+        The most important thing for us is to give you the comfortable dining experience
+      </p>
+    </div>
   </div>
   <section
     class="css-1i91z04"

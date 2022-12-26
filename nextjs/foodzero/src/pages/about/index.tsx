@@ -83,25 +83,28 @@ const About = () => {
 
   return (
     <>
-      <Box
+      <Flex
         backgroundImage="/images/aboutBackground.webp"
         backgroundSize="cover"
         objectFit="cover"
         maxW="1920px"
         maxH="1080px"
-        padding={{ base: '90px 12px', md: '350px 138px 328px 138px' }}
+        padding={{ base: '90px 12px', md: '410px 138px 328px 138px' }}
+        justifyContent="flex-end"
       >
-        <Heading size="extraLarge" maxW={{ base: '200px', md: '779px' }}>
-          View Our New Menu
-        </Heading>
-        <Text
-          pt={{ base: '25px', md: '50px' }}
-          maxW={{ base: '200px', md: '779px' }}
-          variant="primary"
-        >
-          The freshest ingredients for you every day
-        </Text>
-      </Box>
+        <Box maxW="915px" mr="81px">
+          <Heading size="extraLarge">Who We Are</Heading>
+          <Text
+            pt={{ base: '10px', md: '50px' }}
+            variant="primary"
+            fontFamily="Rufina"
+            size="common"
+          >
+            The most important thing for us is to give you the comfortable
+            dining experience
+          </Text>
+        </Box>
+      </Flex>
 
       {/* Our Story section */}
       <Box
