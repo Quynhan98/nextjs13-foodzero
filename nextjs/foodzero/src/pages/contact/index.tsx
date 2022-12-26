@@ -143,11 +143,11 @@ const Contact = () => {
           Get in Touch
         </Heading>
         <Text
-          pt={{ base: '25px', md: '50px' }}
-          maxW={{ base: '200px', md: '915px' }}
-          fontSize={{ base: 'xxs', md: 'md' }}
-          fontWeight={{ base: 'xxs', md: 'sm' }}
+          pt={{ base: '10px', md: '50px' }}
+          maxW={{ base: '300px', md: '915px' }}
           variant="primary"
+          fontFamily="Rufina"
+          size="common"
         >
           The freshest ingredients for you every day
         </Text>

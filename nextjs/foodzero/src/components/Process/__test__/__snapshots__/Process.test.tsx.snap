@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Process component Renders Process correctly 1`] = `
+<div>
+  <div
+    class="css-1ewfrpj"
+  >
+    <div
+      class="css-12ewtsg"
+    >
+      <img
+        alt="split ribs picture"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="(max-width: 768px) 277px, 233px
+(min-width: 1200px) 792px, 638px"
+        src="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75"
+        srcset="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <div
+      class="css-1ga7sga"
+    >
+      <h4
+        class="chakra-heading css-1wkijxd"
+      >
+        01.
+        Slice
+      </h4>
+      <p
+        class="chakra-text css-19lr15o"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.
+      </p>
+    </div>
+  </div>
+  <div
+    class="css-cyiyvf"
+  >
+    <div
+      class="css-3d9pfu"
+    >
+      <div
+        class="css-6eirtp"
+      >
+        <img
+          alt="marinated ribs picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 227px
+(min-width: 1200px) 650px, 533px"
+          src="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <h4
+        class="chakra-heading css-1skdcpn"
+      >
+        02.
+        Pickled
+      </h4>
+      <p
+        class="chakra-text css-1e0l5jw"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
+      </p>
+    </div>
+    <div
+      class="css-16yzuai"
+    >
+      <div
+        class="css-akck1f"
+      >
+        <h4
+          class="chakra-heading css-1wkijxd"
+        >
+          03.
+          Bake  
+        </h4>
+        <p
+          class="chakra-text css-1vx5ae8"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
+        </p>
+      </div>
+      <div
+        class="css-nsxh3t"
+      >
+        <img
+          alt="grilled ribs picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 217px
+(min-width: 1200px) 650px, 509px"
+          src="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

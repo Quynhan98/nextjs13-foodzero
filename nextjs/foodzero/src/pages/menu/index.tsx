@@ -121,15 +121,17 @@ const Menu = ({ menu }: IMenuProps) => {
         objectFit="cover"
         maxW="1920px"
         maxH="1080px"
-        padding={{ base: '90px 12px', md: '350px 138px 328px 138px' }}
+        padding={{ base: '100px 12px', md: '350px 138px 328px 138px' }}
       >
-        <Heading size="extraLarge" maxW={{ base: '200px', md: '779px' }}>
+        <Heading size="extraLarge" maxW={{ base: '320px', md: '779px' }}>
           View Our New Menu
         </Heading>
         <Text
-          pt={{ base: '25px', md: '50px' }}
-          maxW={{ base: '200px', md: '779px' }}
+          pt={{ base: '10px', md: '50px' }}
+          maxW={{ base: '280px', md: '779px' }}
           variant="primary"
+          fontFamily="Rufina"
+          size="common"
         >
           The freshest ingredients for you every day
         </Text>

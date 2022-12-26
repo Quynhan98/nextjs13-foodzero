@@ -151,3 +151,42 @@ export const CATEGORY_SECTION = [
 ]
 
 export const COUNTRY_CODE = '+8'
+
+export const LEADER_SHIP = {
+  restaurantManager: {
+    name: 'Carson Hugn',
+    avatar: '/images/managerAvatar.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl.',
+  },
+  executiveChef: {
+    name: 'Jane Cooper',
+    avatar: '/images/executiveChefAvatar.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi.',
+  },
+}
+
+export const SOPHISTICATED_PROCESS = {
+  stepOne: {
+    title: 'Slice',
+    imageUrl: '/images/splitRibs.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.',
+  },
+  stepTwo: {
+    title: 'Pickled',
+    imageUrl: '/images/marinatedRibs.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.',
+  },
+  stepThree: {
+    title: 'Bake  ',
+    imageUrl: '/images/grilledRibs.webp',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.',
+  },
+}
+
+export const INTRO_VIDEO =
+  'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
