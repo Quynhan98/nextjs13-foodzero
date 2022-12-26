@@ -4,6 +4,7 @@ import { Box, useToast } from '@chakra-ui/react'
 
 // Component
 import LoginForm from '@components/LoginForm'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Types
 import { IUser, LoginAccount } from '@self-types/index'
@@ -26,6 +27,9 @@ import {
 // Services
 import { fetcherInstance } from '@services/api'
 
+// Contexts
+import { useLoadingContext } from '@hooks/useLoadingContext'
+
 const login: LoginAccount = {
   email: '',
   password: '',
@@ -40,6 +44,7 @@ const Login = () => {
   const router = useRouter()
   const toast = useToast()
   const { setUserId } = useAuthContext()
+  const { setLoading, loading } = useLoadingContext()
   const [loginAccount, setLoginAccount] = useState(login)
   const [errorMsgs, setErrorMsgs] = useState(initErrorMsgs)
 
@@ -67,6 +72,7 @@ const Login = () => {
       e?.preventDefault()
 
       try {
+        setLoading(true)
         const users: IUser[] = await fetcherInstance(LOGIN_ENDPOINT)
 
         const loginFormValidate = loginValidate(loginAccount, users)
@@ -92,6 +98,8 @@ const Login = () => {
           isClosable: true,
           position: 'top-right',
         })
+      } finally {
+        setLoading(false)
       }
     },
     [loginAccount.email, loginAccount.password],
@@ -106,6 +114,7 @@ const Login = () => {
         passwordError={errorMsgs.password}
         isDisable={isDisableButton}
       />
+      {loading && <LoadingIndicator size="lg" />}
     </Box>
   )
 }

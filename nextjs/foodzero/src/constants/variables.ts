@@ -129,21 +129,21 @@ export const FEATURES_SECTION = [
 export const CATEGORY_SECTION = [
   {
     id: '1',
-    href: '/',
+    href: '/menu',
     category: 'Starters',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
   },
   {
     id: '2',
-    href: '/',
+    href: '/menu',
     category: 'Mains',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FbakedRibs.webp?alt=media&token=9dfe4f72-e8f5-4999-a007-849d7d9a0e48',
   },
   {
     id: '3',
-    href: '/',
+    href: '/menu',
     category: 'Soups',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fsoup.webp?alt=media&token=90c7bfa7-8295-498d-b7c0-7ff5900b2de2',

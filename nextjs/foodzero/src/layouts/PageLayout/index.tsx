@@ -1,22 +1,26 @@
-import React, { memo, useEffect } from 'react'
+import React, { lazy, memo, Suspense, useEffect } from 'react'
 import { SWRConfig } from 'swr'
 import { useRouter } from 'next/router'
-import { Box, Center } from '@chakra-ui/react'
+import { Box, Center, Spinner } from '@chakra-ui/react'
 
-// Components
+// Layouts
 import Header from '@layouts/Header'
-import Footer from '@layouts/Footer'
 
 // Constants
 import { LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
 
 // Context
 import { AuthProvider } from '@contexts/AuthProvider'
+import { LoadingProvider } from '@contexts/LoadingProvider'
+import { BookingProvider } from '@contexts/BookingProvider'
 
 // Services
-import { getLocalStorage } from '@utils/localStorage'
-import { BookingProvider } from '@contexts/BookingProvider'
 import { fetcherInstanceAPI } from '@services/api'
+
+// Utils
+import { getLocalStorage } from '@utils/localStorage'
+
+const Footer = lazy(() => import('@layouts/Footer'))
 
 export interface IPageLayoutsProps {
   children: React.ReactNode
@@ -42,32 +46,36 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
         fetcher: fetcherInstanceAPI,
       }}
     >
-      <AuthProvider>
-        {isLoginPage ? (
-          <Center
-            as="main"
-            minHeight="100vh"
-            pb="150px"
-            backgroundColor="alabaster"
-          >
-            {children}
-          </Center>
-        ) : (
-          <BookingProvider>
-            <Header />
-            <Box
+      <LoadingProvider>
+        <AuthProvider>
+          {isLoginPage ? (
+            <Center
               as="main"
               minHeight="100vh"
-              maxWidth="1920px"
-              width="100%"
-              margin="0 auto"
+              pb="150px"
+              backgroundColor="alabaster"
             >
               {children}
-            </Box>
-            <Footer />
-          </BookingProvider>
-        )}
-      </AuthProvider>
+            </Center>
+          ) : (
+            <BookingProvider>
+              <Header />
+              <Box
+                as="main"
+                minHeight="100vh"
+                maxWidth="1920px"
+                width="100%"
+                margin="0 auto"
+              >
+                {children}
+              </Box>
+              <Suspense fallback={<Spinner />}>
+                <Footer />
+              </Suspense>
+            </BookingProvider>
+          )}
+        </AuthProvider>
+      </LoadingProvider>
     </SWRConfig>
   )
 }

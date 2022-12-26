@@ -22,7 +22,13 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
         width={{ base: '150px', md: '260px' }}
         height={{ base: '150px', md: '260px' }}
       >
-        <Image src={imageUrl} alt="blog wallpaper" fill />
+        <Image
+          src={imageUrl}
+          alt={`${title} picture`}
+          fill
+          sizes="(max-width: 768px) 150px, 150px
+                (min-width: 1200px) 260px, 260px"
+        />
       </Box>
       <Text
         size={{ base: 'large', md: 'extraLarge' }}

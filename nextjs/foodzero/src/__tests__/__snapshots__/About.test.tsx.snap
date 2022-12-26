@@ -41,7 +41,7 @@ exports[`About page Renders Menu page correctly 1`] = `
         </p>
       </div>
       <div
-        class="css-16evqwt"
+        class="css-16uv6pw"
       >
         <img
           alt="cooking picture"
@@ -56,7 +56,7 @@ exports[`About page Renders Menu page correctly 1`] = `
       </div>
     </div>
     <div
-      class="css-rwifgf"
+      class="css-mnmtw7"
     >
       <div
         class="css-1shj5xp"
@@ -72,7 +72,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           Carson Hugn
         </p>
         <div
-          class="css-1pl2hbo"
+          class="css-15pec45"
         >
           <img
             alt="Restaurant manager avatar"
@@ -114,7 +114,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           Jane Cooper
         </p>
         <div
-          class="css-1pl2hbo"
+          class="css-15pec45"
         >
           <img
             alt="Executive chef avatar"
@@ -249,6 +249,7 @@ exports[`About page Renders Menu page correctly 1`] = `
   </section>
   <section
     class="css-628vpw"
+    id="reservationSection"
   >
     <form
       novalidate=""

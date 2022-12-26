@@ -5,7 +5,7 @@ import React, {
   useMemo,
   useState,
 } from 'react'
-import { GetStaticProps } from 'next'
+import { GetServerSideProps } from 'next'
 import Image from 'next/image'
 import {
   Box,
@@ -26,6 +26,7 @@ import CardFeature from '@components/CardFeature'
 import CardReview from '@components/CardReview'
 import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Mocks
 import { QUOTE_MOCK } from '@mocks/mockData'
@@ -42,21 +43,26 @@ import {
   POSTS_ENDPOINT,
   RESERVATION_TIME,
   SERVER_ERROR,
+  SNACKBAR_BOOKING_SUCCESS,
 } from '@constants/index'
 
 // Types
 import { IPost } from '@self-types/Post'
 import { IMenu, IOurMenu } from '@self-types/Menu'
+
+// Hooks
 import { useBookingContext } from '@hooks/useBookingContext'
+import { useLoadingContext } from '@hooks/useLoadingContext'
+
+// Contexts
 import { IBookingContext } from '@contexts/BookingProvider'
-import { SNACKBAR_BOOKING_SUCCESS } from '@constants/text'
 
 interface IHomeProps {
   menu: IOurMenu[]
   posts: IPost[]
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   try {
     const menu: IMenu = await fetcherInstance(MENU_ENDPOINT)
     const posts: IPost[] = await fetcherInstance(POSTS_ENDPOINT)
@@ -77,9 +83,10 @@ const reservationInit = {
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
 }
-export default function Home({ menu, posts }: IHomeProps) {
+const Home = ({ menu, posts }: IHomeProps) => {
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
+  const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
 
   const isDisableField = booking.length > 0
@@ -89,6 +96,7 @@ export default function Home({ menu, posts }: IHomeProps) {
       e?.preventDefault()
 
       try {
+        setLoading(true)
         await addBooking([...booking, reservation])
 
         toast({
@@ -106,6 +114,8 @@ export default function Home({ menu, posts }: IHomeProps) {
           isClosable: true,
           position: 'bottom-left',
         })
+      } finally {
+        setLoading(false)
       }
     },
     [booking, reservation],
@@ -144,9 +154,8 @@ export default function Home({ menu, posts }: IHomeProps) {
             fill
             src="/images/excellentCook.webp"
             alt="excellent cook picture"
-            sizes="(max-width: 768px) 980px, 890px
-        (max-width: 1200px) 50vw,
-        33vw"
+            sizes="(max-width: 768px) 147px, 133px
+        (min-width: 1200px) 980px, 890px"
             style={{ objectFit: 'cover' }}
           />
         </Box>
@@ -239,12 +248,11 @@ export default function Home({ menu, posts }: IHomeProps) {
           >
             <Image
               fill
+              priority
               src="/images/spiceCups.webp"
               alt="spice cups picture"
-              sizes="(max-width: 768px) 854px, 240px
-                (max-width: 1200px) 50vw,
-                33vw"
-              style={{ objectFit: 'cover' }}
+              sizes="(max-width: 768px) 214px, 60px
+                (min-width: 1200px) 854px, 240px"
             />
           </Box>
         </Flex>
@@ -261,11 +269,11 @@ export default function Home({ menu, posts }: IHomeProps) {
             >
               <Image
                 fill
+                priority
                 src="/images/clamSoup.webp"
                 alt="clam soup picture"
-                sizes="(max-width: 768px) 792px, 560px
-                (max-width: 1200px) 50vw,
-                33vw"
+                sizes="(max-width: 768px) 198px, 140px
+                (min-width: 1200px) 792px, 560px"
                 style={{ objectFit: 'cover' }}
               />
             </Box>
@@ -293,11 +301,11 @@ export default function Home({ menu, posts }: IHomeProps) {
             >
               <Image
                 fill
+                priority
                 src="/images/spiceJar.webp"
                 alt="spice jar picture"
-                sizes="(max-width: 768px) 508px, 710px
-                (max-width: 1200px) 50vw,
-                33vw"
+                sizes="(max-width: 768px) 130px, 180px
+                (min-width: 1200px) 508px, 710px"
               />
             </Box>
           </Flex>
@@ -425,6 +433,7 @@ export default function Home({ menu, posts }: IHomeProps) {
 
       {/* Reservation Section */}
       <Box
+        id="reservationSection"
         as="section"
         padding={{ base: '70px 12px', md: '237px 138px 254px 138px' }}
         backgroundColor="alabaster"
@@ -495,6 +504,9 @@ export default function Home({ menu, posts }: IHomeProps) {
       >
         <CardReview quotes={QUOTE_MOCK} />
       </Box>
+      {loading && <LoadingIndicator size="lg" />}
     </>
   )
 }
+
+export default Home

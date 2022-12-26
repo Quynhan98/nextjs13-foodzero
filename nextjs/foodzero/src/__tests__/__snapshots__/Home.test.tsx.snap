@@ -42,11 +42,10 @@ exports[`Home page Renders Home page correctly 1`] = `
           alt="spice cups picture"
           data-nimg="fill"
           decoding="async"
-          loading="lazy"
-          sizes="(max-width: 768px) 854px, 240px (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 768px) 214px, 60px (min-width: 1200px) 854px, 240px"
           src="/_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75"
-          srcset="/_next/image?url=%2Fimages%2FspiceCups.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+          srcset="/_next/image?url=%2Fimages%2FspiceCups.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>
     </div>
@@ -63,10 +62,9 @@ exports[`Home page Renders Home page correctly 1`] = `
             alt="clam soup picture"
             data-nimg="fill"
             decoding="async"
-            loading="lazy"
-            sizes="(max-width: 768px) 792px, 560px (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 768px) 198px, 140px (min-width: 1200px) 792px, 560px"
             src="/_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75"
-            srcset="/_next/image?url=%2Fimages%2FclamSoup.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75 3840w"
+            srcset="/_next/image?url=%2Fimages%2FclamSoup.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75 3840w"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
           />
         </div>
@@ -96,10 +94,9 @@ exports[`Home page Renders Home page correctly 1`] = `
             alt="spice jar picture"
             data-nimg="fill"
             decoding="async"
-            loading="lazy"
-            sizes="(max-width: 768px) 508px, 710px (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 768px) 130px, 180px (min-width: 1200px) 508px, 710px"
             src="/_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75"
-            srcset="/_next/image?url=%2Fimages%2FspiceJar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75 3840w"
+            srcset="/_next/image?url=%2Fimages%2FspiceJar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75 3840w"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </div>
@@ -251,9 +248,9 @@ exports[`Home page Renders Home page correctly 1`] = `
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 980px, 890px (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 768px) 147px, 133px (min-width: 1200px) 980px, 890px"
           src="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75"
-          srcset="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75 3840w"
+          srcset="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
         />
       </div>
@@ -290,13 +287,13 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-ymn5md"
           >
             <img
-              alt="blog wallpaper"
+              alt="Premium Quality picture"
               data-nimg="fill"
               decoding="async"
               loading="lazy"
-              sizes="100vw"
+              sizes="(max-width: 768px) 150px, 150px (min-width: 1200px) 260px, 260px"
               src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
@@ -322,13 +319,13 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-ymn5md"
           >
             <img
-              alt="blog wallpaper"
+              alt="Seasonal Vegetables picture"
               data-nimg="fill"
               decoding="async"
               loading="lazy"
-              sizes="100vw"
+              sizes="(max-width: 768px) 150px, 150px (min-width: 1200px) 260px, 260px"
               src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75 3840w"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
@@ -354,13 +351,13 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-ymn5md"
           >
             <img
-              alt="blog wallpaper"
+              alt="Fresh Fruit picture"
               data-nimg="fill"
               decoding="async"
               loading="lazy"
-              sizes="100vw"
+              sizes="(max-width: 768px) 150px, 150px (min-width: 1200px) 260px, 260px"
               src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75 3840w"
+              srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
@@ -563,6 +560,7 @@ exports[`Home page Renders Home page correctly 1`] = `
   </section>
   <section
     class="css-628vpw"
+    id="reservationSection"
   >
     <form
       novalidate=""
@@ -814,18 +812,18 @@ exports[`Home page Renders Home page correctly 1`] = `
               Starters
             </p>
             <a
-              href="/"
+              href="/menu"
+              style="position: relative; width: 46px; height: 26px;"
             >
               <img
                 alt="right arrow icon"
-                data-nimg="1"
+                data-nimg="fill"
                 decoding="async"
-                height="26"
                 loading="lazy"
-                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
-                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
-                style="color: transparent;"
-                width="46"
+                sizes="(max-width: 768px) 36px, 20px (min-width: 1200px) 46px, 26px"
+                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75"
+                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
               />
             </a>
           </div>
@@ -857,18 +855,18 @@ exports[`Home page Renders Home page correctly 1`] = `
               Mains
             </p>
             <a
-              href="/"
+              href="/menu"
+              style="position: relative; width: 46px; height: 26px;"
             >
               <img
                 alt="right arrow icon"
-                data-nimg="1"
+                data-nimg="fill"
                 decoding="async"
-                height="26"
                 loading="lazy"
-                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
-                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
-                style="color: transparent;"
-                width="46"
+                sizes="(max-width: 768px) 36px, 20px (min-width: 1200px) 46px, 26px"
+                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75"
+                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
               />
             </a>
           </div>
@@ -900,18 +898,18 @@ exports[`Home page Renders Home page correctly 1`] = `
               Soups
             </p>
             <a
-              href="/"
+              href="/menu"
+              style="position: relative; width: 46px; height: 26px;"
             >
               <img
                 alt="right arrow icon"
-                data-nimg="1"
+                data-nimg="fill"
                 decoding="async"
-                height="26"
                 loading="lazy"
-                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75"
-                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 2x"
-                style="color: transparent;"
-                width="46"
+                sizes="(max-width: 768px) 36px, 20px (min-width: 1200px) 46px, 26px"
+                src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75"
+                srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
               />
             </a>
           </div>

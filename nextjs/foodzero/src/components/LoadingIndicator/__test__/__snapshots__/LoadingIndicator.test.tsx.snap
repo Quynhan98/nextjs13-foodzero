@@ -3,7 +3,7 @@
 exports[`LoadingIndicator component should be renders loading indicator snapshot 1`] = `
 <div>
   <div
-    class="css-tz01ec"
+    class="css-lzbkrm"
   >
     <div
       class="chakra-spinner css-nkpswe"

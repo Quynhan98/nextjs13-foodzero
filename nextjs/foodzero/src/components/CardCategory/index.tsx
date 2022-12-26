@@ -1,7 +1,8 @@
 import { memo } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Box, Flex, Text } from '@chakra-ui/react'
+import { Box, Flex, Text, useMediaQuery } from '@chakra-ui/react'
+import { BREAKPOINTS } from '@constants/index'
 
 interface CardCategoryProps {
   href: string
@@ -10,6 +11,8 @@ interface CardCategoryProps {
 }
 
 const CardCategory = ({ href, category, imageUrl }: CardCategoryProps) => {
+  const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
+
   return (
     <Box position="relative" maxW="508px" maxH="711px">
       <Flex
@@ -27,12 +30,20 @@ const CardCategory = ({ href, category, imageUrl }: CardCategoryProps) => {
         >
           {category}
         </Text>
-        <Link href={href}>
+        <Link
+          href={href}
+          style={{
+            position: 'relative',
+            width: isMobile ? '36px' : '46px',
+            height: isMobile ? '20px' : '26px',
+          }}
+        >
           <Image
-            width={46}
-            height={26}
+            fill
             src="/images/rightArrow.webp"
             alt="right arrow icon"
+            sizes="(max-width: 768px) 36px, 20px
+                (min-width: 1200px) 46px, 26px"
           />
         </Link>
       </Flex>

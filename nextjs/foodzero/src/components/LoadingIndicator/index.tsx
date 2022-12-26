@@ -5,7 +5,7 @@ const LoadingIndicator = ({ ...props }: SpinnerProps) => {
   return (
     <Center
       backgroundColor="silverFoil"
-      opacity={0.3}
+      opacity={0.5}
       position="fixed"
       backdropFilter="blur(3px)"
       inset={0}

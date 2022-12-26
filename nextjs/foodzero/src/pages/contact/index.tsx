@@ -20,9 +20,11 @@ import {
 // Components
 import ReservationForm from '@components/ReservationForm'
 import OpenTime from '@components/OpenTime'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Hooks
 import { useBookingContext } from '@hooks/useBookingContext'
+import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Context
 import { IBookingContext } from '@contexts/BookingProvider'
@@ -49,6 +51,7 @@ const initErrorMsgs = {
 const Contact = () => {
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
+  const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
   const [errorMessage, setErrorMessage] = useState(initErrorMsgs)
 
@@ -104,6 +107,7 @@ const Contact = () => {
         }))
       } else {
         try {
+          setLoading(true)
           setErrorMessage(initErrorMsgs)
 
           await addBooking([...booking, payload])
@@ -123,6 +127,8 @@ const Contact = () => {
             isClosable: true,
             position: 'bottom-left',
           })
+        } finally {
+          setLoading(false)
         }
       }
     },
@@ -184,14 +190,13 @@ const Contact = () => {
             width={{ base: '277px', md: '792px' }}
             height={{ base: '208px', md: '593px' }}
             position="relative"
-            margin={{ base: '0 auto', md: 'unset' }}
           >
             <Image
               fill
               src="/images/dinnerTable.webp"
               alt="excellent cook picture"
-              sizes="(max-width: 768px) 277px, 314px
-        (min-width: 1200px) 792px, 898px"
+              sizes="(max-width: 768px) 277px, 208px
+        (min-width: 1200px) 792px, 593px"
             />
           </Box>
           <Text
@@ -243,14 +248,13 @@ const Contact = () => {
             width={{ base: '277px', md: '792px' }}
             height={{ base: '347px', md: '990px' }}
             position="relative"
-            margin={{ base: '0 auto', md: 'unset' }}
           >
             <Image
               fill
               src="/images/address.webp"
               alt="excellent cook picture"
-              sizes="(max-width: 768px) 277px, 314px
-        (min-width: 1200px) 792px, 898px"
+              sizes="(max-width: 768px) 277px, 347px
+        (min-width: 1200px) 792px, 990px"
             />
           </Box>
         </Flex>
@@ -258,6 +262,7 @@ const Contact = () => {
 
       {/* Reservation Section */}
       <Box
+        id="reservationSection"
         as="section"
         padding={{ base: '70px 12px', md: '237px 138px 254px 138px' }}
         backgroundColor="alabaster"
@@ -274,6 +279,7 @@ const Contact = () => {
           isDisableButton={isDisableField || !reservation.date}
         />
       </Box>
+      {loading && <LoadingIndicator size="lg" />}
     </>
   )
 }
