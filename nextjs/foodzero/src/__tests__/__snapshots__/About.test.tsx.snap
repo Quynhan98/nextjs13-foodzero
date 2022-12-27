@@ -21,13 +21,13 @@ exports[`About page Renders Menu page correctly 1`] = `
     </div>
   </div>
   <section
-    class="css-1i91z04"
+    class="css-lquv2b"
   >
     <div
       class="css-1yk6b7l"
     >
       <div
-        class="css-wgq6a7"
+        class="css-upmy4p"
       >
         <h3
           class="chakra-heading css-tbjbi7"
@@ -35,7 +35,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           Our Story
         </h3>
         <p
-          class="chakra-text css-m585cg"
+          class="chakra-text css-1y85m0d"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.
         </p>
@@ -56,7 +56,7 @@ exports[`About page Renders Menu page correctly 1`] = `
       </div>
     </div>
     <div
-      class="css-mnmtw7"
+      class="css-rwifgf"
     >
       <div
         class="css-1shj5xp"
@@ -72,7 +72,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           Carson Hugn
         </p>
         <div
-          class="css-15pec45"
+          class="css-1pl2hbo"
         >
           <img
             alt="Restaurant manager avatar"
@@ -279,95 +279,95 @@ exports[`About page Renders Menu page correctly 1`] = `
             class="css-pl1d54"
           >
             <div
-              class="css-0"
+              class="react-datepicker-wrapper"
             >
               <div
-                class="react-datepicker-wrapper"
+                class="react-datepicker__input-container"
               >
-                <div
-                  class="react-datepicker__input-container"
-                >
-                  <input
-                    class="chakra-input css-nr8l43"
-                    id="field-:r0:"
-                    placeholder="MM/DD/YYYY"
-                    value=""
-                  />
-                </div>
+                <input
+                  class="chakra-input css-nr8l43"
+                  id="field-:r0:"
+                  placeholder="MM/DD/YYYY"
+                  value=""
+                />
               </div>
             </div>
             <div
-              class="chakra-select__wrapper css-1uge2rn"
+              class="css-0"
             >
-              <select
-                class="chakra-select css-1srlo7p"
-                data-testid="selectTime"
-                id="field-:r0:"
-                name="time"
-                style="padding-left: 40px;"
-              >
-                <option
-                  value="11:00 am"
-                >
-                  11:00 am
-                </option>
-                <option
-                  value="12:00 am"
-                >
-                  12:00 am
-                </option>
-                <option
-                  value="13:00 pm"
-                >
-                  13:00 pm
-                </option>
-                <option
-                  value="14:00 pm"
-                >
-                  14:00 pm
-                </option>
-                <option
-                  value="15:00 pm"
-                >
-                  15:00 pm
-                </option>
-                <option
-                  value="16:00 pm"
-                >
-                  16:00 pm
-                </option>
-                <option
-                  value="17:00 pm"
-                >
-                  17:00 pm
-                </option>
-                <option
-                  value="18:00 pm"
-                >
-                  18:00 pm
-                </option>
-                <option
-                  value="19:00 pm"
-                >
-                  19:00 pm
-                </option>
-              </select>
               <div
-                class="chakra-select__icon-wrapper css-1rn5cz7"
+                class="chakra-select__wrapper css-1uge2rn"
               >
-                <svg
-                  aria-hidden="true"
-                  class="chakra-icon chakra-select__icon css-13wnv3o"
-                  focusable="false"
-                  role="presentation"
-                  style="width: 1em; height: 1em; color: currentColor;"
-                  viewBox="0 0 24 24"
+                <select
+                  class="chakra-select css-1srlo7p"
+                  data-testid="selectTime"
+                  id="field-:r0:"
+                  name="time"
+                  style="padding-left: 40px;"
                 >
-                  <path
-                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                    fill="currentColor"
-                  />
-                </svg>
+                  <option
+                    value="11:00 am"
+                  >
+                    11:00 am
+                  </option>
+                  <option
+                    value="12:00 am"
+                  >
+                    12:00 am
+                  </option>
+                  <option
+                    value="13:00 pm"
+                  >
+                    13:00 pm
+                  </option>
+                  <option
+                    value="14:00 pm"
+                  >
+                    14:00 pm
+                  </option>
+                  <option
+                    value="15:00 pm"
+                  >
+                    15:00 pm
+                  </option>
+                  <option
+                    value="16:00 pm"
+                  >
+                    16:00 pm
+                  </option>
+                  <option
+                    value="17:00 pm"
+                  >
+                    17:00 pm
+                  </option>
+                  <option
+                    value="18:00 pm"
+                  >
+                    18:00 pm
+                  </option>
+                  <option
+                    value="19:00 pm"
+                  >
+                    19:00 pm
+                  </option>
+                </select>
+                <div
+                  class="chakra-select__icon-wrapper css-1rn5cz7"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="chakra-icon chakra-select__icon css-13wnv3o"
+                    focusable="false"
+                    role="presentation"
+                    style="width: 1em; height: 1em; color: currentColor;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>

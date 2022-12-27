@@ -10,6 +10,7 @@ import {
   RESERVATION_TIME,
   SERVER_ERROR,
   SNACKBAR_BOOKING_SUCCESS,
+  TIME_DUPLICATED_ERROR,
 } from '@constants/index'
 
 // Components
@@ -24,8 +25,11 @@ import { useLoadingContext } from '@hooks/useLoadingContext'
 // Context
 import { IBookingContext } from '@contexts/BookingProvider'
 
+// Utils
+import { findItemByValue, formatDate } from '@utils/index'
+
 const reservationInit = {
-  date: '' as unknown as Date,
+  date: '',
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
 }
@@ -35,8 +39,7 @@ const About = () => {
   const { booking, addBooking } = useBookingContext() as IBookingContext
   const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
-
-  const isDisableField = booking.length > 0
+  const [errorMessage, setErrorMessage] = useState<string>('')
 
   const handleSubmit = useCallback(
     async (e: FormEvent<HTMLFormElement>) => {
@@ -53,6 +56,8 @@ const About = () => {
           isClosable: true,
           position: 'bottom-left',
         })
+
+        setReservation(reservationInit)
       } catch (error) {
         toast({
           title: 'Error',
@@ -68,23 +73,53 @@ const About = () => {
     [booking, reservation],
   )
 
-  const handleChangeDate = useCallback((date: Date) => {
-    setReservation((prev) => ({
-      ...prev,
-      date,
-    }))
-  }, [])
+  const handleChangeDate = useCallback(
+    (date: Date) => {
+      const newDate = date && formatDate(date)
+      const dateDuplicated = booking.filter((item) => item.date === newDate)
 
-  const handleChangeField = useCallback(
-    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-      const selectValues = { [e.target.name]: e.target.value }
+      if (reservation.time) {
+        const timeDuplicated = findItemByValue({
+          data: dateDuplicated,
+          value: reservation.time,
+          key: 'time',
+        })
+
+        setErrorMessage(timeDuplicated ? TIME_DUPLICATED_ERROR : '')
+      }
 
       setReservation((prev) => ({
         ...prev,
-        ...selectValues,
+        date: newDate,
       }))
     },
-    [],
+    [booking, reservation.time],
+  )
+
+  const handleChangeField = useCallback(
+    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      const nameInput = e.target.name
+      const valueInput = e.target.value
+      const dateDuplicated = booking.filter(
+        (item) => item.date === reservation.date,
+      )
+
+      if (dateDuplicated.length > 0 && nameInput === 'time') {
+        const timeDuplicated = findItemByValue({
+          data: dateDuplicated,
+          value: valueInput,
+          key: 'time',
+        })
+
+        setErrorMessage(timeDuplicated ? TIME_DUPLICATED_ERROR : '')
+      }
+
+      setReservation((prev) => ({
+        ...prev,
+        [nameInput]: valueInput,
+      }))
+    },
+    [booking, reservation.date],
   )
 
   return (
@@ -123,7 +158,7 @@ const About = () => {
           width: { base: '92px', md: '355px' },
           height: { base: '78px', md: '300px' },
           top: { base: '20px', md: '112px' },
-          left: '33%',
+          left: '35%',
           backgroundImage: '/images/tomato.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -138,14 +173,13 @@ const About = () => {
           gap={{ base: '30px', md: '102px' }}
         >
           <Box
-            maxW="668px"
             pl={{ base: '10px', md: '77px' }}
             pt={{ base: '0px', md: '150px' }}
           >
             <Heading as="h3" size="large" variant="secondary">
               Our Story
             </Heading>
-            <Text pt="18px">
+            <Text pt="18px" maxW="668px">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
               lorem id penatibus imperdiet. Turpis egestas ultricies purus
               auctor tincidunt lacus nunc.
@@ -171,7 +205,6 @@ const About = () => {
           pl={{ base: 'unset', md: '33px' }}
           flexDirection={{ base: 'column', md: 'row' }}
           justifyContent={{ base: 'center', md: 'unset' }}
-          alignItems="center"
           gap={{ base: '10px', md: '111px' }}
         >
           <Flex flexDirection="column" gap={{ base: '10px', md: '24px' }}>
@@ -183,6 +216,7 @@ const About = () => {
               width={{ base: '254px', md: '726px' }}
               height={{ base: '301px', md: '861px' }}
               position="relative"
+              margin="0 auto"
             >
               <Image
                 fill
@@ -307,11 +341,12 @@ const About = () => {
         backgroundColor="alabaster"
       >
         <ReservationForm
+          pickerValue={reservation.date}
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
           onChangeField={handleChangeField}
-          isDisableField={isDisableField}
-          isDisableButton={isDisableField || !reservation.date}
+          timeError={errorMessage}
+          isDisableButton={!!errorMessage || !reservation.date}
         />
       </Box>
       {loading && <LoadingIndicator size="lg" />}

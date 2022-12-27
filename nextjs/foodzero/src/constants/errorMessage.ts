@@ -6,3 +6,5 @@ export const INVALID_PASSWORD = 'Invalid password.'
 export const SERVER_ERROR = 'Something went wrong. Please try again!'
 export const PHONE_ERROR_LENGTH = 'Please enter valid phone number.'
 export const API_ERROR_NOT_FOUND = '404 - Page Not Found!'
+export const TIME_DUPLICATED_ERROR =
+  'You made a reservation for this time slot.'

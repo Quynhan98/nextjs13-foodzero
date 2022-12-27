@@ -11,6 +11,7 @@ interface DatePickerProps extends InputProps {
   isMaxDate?: boolean
   onChangeDate: (date: Date) => void
   disabled?: boolean
+  pickerValue?: string
 }
 
 const Picker = ({
@@ -18,6 +19,7 @@ const Picker = ({
   isMaxDate,
   onChangeDate,
   disabled,
+  pickerValue,
   ...rest
 }: DatePickerProps) => {
   const [startDate, setStartDate] = useState<Date | null>()
@@ -29,7 +31,7 @@ const Picker = ({
 
   return (
     <DatePicker
-      selected={startDate}
+      selected={!pickerValue ? null : startDate}
       onChange={handleChange}
       placeholderText="MM/DD/YYYY"
       dropdownMode="scroll"
