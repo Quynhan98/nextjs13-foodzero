@@ -245,7 +245,7 @@ const About = () => {
         as="video"
         controls
         src={INTRO_VIDEO}
-        poster="/images/introPoster.jpg"
+        poster="/images/introPoster.webp"
         objectFit="cover"
         width="100%"
         height="100%"

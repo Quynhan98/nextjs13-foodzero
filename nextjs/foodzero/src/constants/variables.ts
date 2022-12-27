@@ -189,4 +189,4 @@ export const SOPHISTICATED_PROCESS = {
 }
 
 export const INTRO_VIDEO =
-  'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
+  'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FIntro%20Templates%20For%20Youtube%20Cooking%20Chan%20(You2Audio.Com).mp4?alt=media&token=52d3ef27-e3f9-467b-83f0-8d3e6ca250c7'
