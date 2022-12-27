@@ -15,9 +15,11 @@ import {
 // Components
 import ReservationForm from '@components/ReservationForm'
 import Process from '@components/Process'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Hooks
 import { useBookingContext } from '@hooks/useBookingContext'
+import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Context
 import { IBookingContext } from '@contexts/BookingProvider'
@@ -31,6 +33,7 @@ const reservationInit = {
 const About = () => {
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
+  const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
 
   const isDisableField = booking.length > 0
@@ -40,6 +43,7 @@ const About = () => {
       e?.preventDefault()
 
       try {
+        setLoading(true)
         await addBooking([...booking, reservation])
 
         toast({
@@ -57,6 +61,8 @@ const About = () => {
           isClosable: true,
           position: 'bottom-left',
         })
+      } finally {
+        setLoading(false)
       }
     },
     [booking, reservation],
@@ -149,7 +155,6 @@ const About = () => {
             width={{ base: '277px', md: '792px' }}
             height={{ base: '198px', md: '567px' }}
             position="relative"
-            margin="0 auto"
           >
             <Image
               fill
@@ -166,6 +171,7 @@ const About = () => {
           pl={{ base: 'unset', md: '33px' }}
           flexDirection={{ base: 'column', md: 'row' }}
           justifyContent={{ base: 'center', md: 'unset' }}
+          alignItems="center"
           gap={{ base: '10px', md: '111px' }}
         >
           <Flex flexDirection="column" gap={{ base: '10px', md: '24px' }}>
@@ -177,7 +183,6 @@ const About = () => {
               width={{ base: '254px', md: '726px' }}
               height={{ base: '301px', md: '861px' }}
               position="relative"
-              margin="0 auto"
             >
               <Image
                 fill
@@ -222,7 +227,6 @@ const About = () => {
               width={{ base: '254px', md: '726px' }}
               height={{ base: '301px', md: '861px' }}
               position="relative"
-              margin="0 auto"
             >
               <Image
                 fill
@@ -241,7 +245,7 @@ const About = () => {
         as="video"
         controls
         src={INTRO_VIDEO}
-        poster="/images/introPoster.jpg"
+        poster="/images/introPoster.webp"
         objectFit="cover"
         width="100%"
         height="100%"
@@ -297,6 +301,7 @@ const About = () => {
 
       {/* Reservation Section */}
       <Box
+        id="reservationSection"
         as="section"
         padding={{ base: '70px 12px', md: '237px 138px 254px 138px' }}
         backgroundColor="alabaster"
@@ -309,6 +314,7 @@ const About = () => {
           isDisableButton={isDisableField || !reservation.date}
         />
       </Box>
+      {loading && <LoadingIndicator size="lg" />}
     </>
   )
 }

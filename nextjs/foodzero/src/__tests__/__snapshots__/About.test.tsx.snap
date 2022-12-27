@@ -41,7 +41,7 @@ exports[`About page Renders Menu page correctly 1`] = `
         </p>
       </div>
       <div
-        class="css-16evqwt"
+        class="css-16uv6pw"
       >
         <img
           alt="cooking picture"
@@ -56,7 +56,7 @@ exports[`About page Renders Menu page correctly 1`] = `
       </div>
     </div>
     <div
-      class="css-rwifgf"
+      class="css-mnmtw7"
     >
       <div
         class="css-1shj5xp"
@@ -72,7 +72,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           Carson Hugn
         </p>
         <div
-          class="css-1pl2hbo"
+          class="css-15pec45"
         >
           <img
             alt="Restaurant manager avatar"
@@ -114,7 +114,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           Jane Cooper
         </p>
         <div
-          class="css-1pl2hbo"
+          class="css-15pec45"
         >
           <img
             alt="Executive chef avatar"
@@ -133,8 +133,8 @@ exports[`About page Renders Menu page correctly 1`] = `
   <video
     class="css-80kx6c"
     controls=""
-    poster="/images/introPoster.jpg"
-    src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+    poster="/images/introPoster.webp"
+    src="https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FIntro%20Templates%20For%20Youtube%20Cooking%20Chan%20(You2Audio.Com).mp4?alt=media&token=52d3ef27-e3f9-467b-83f0-8d3e6ca250c7"
   />
   <section
     class="css-1eps3gi"
@@ -249,6 +249,7 @@ exports[`About page Renders Menu page correctly 1`] = `
   </section>
   <section
     class="css-628vpw"
+    id="reservationSection"
   >
     <form
       novalidate=""

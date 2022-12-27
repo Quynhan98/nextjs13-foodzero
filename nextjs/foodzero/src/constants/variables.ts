@@ -129,21 +129,21 @@ export const FEATURES_SECTION = [
 export const CATEGORY_SECTION = [
   {
     id: '1',
-    href: '/',
+    href: '/menu',
     category: 'Starters',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
   },
   {
     id: '2',
-    href: '/',
+    href: '/menu',
     category: 'Mains',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FbakedRibs.webp?alt=media&token=9dfe4f72-e8f5-4999-a007-849d7d9a0e48',
   },
   {
     id: '3',
-    href: '/',
+    href: '/menu',
     category: 'Soups',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fsoup.webp?alt=media&token=90c7bfa7-8295-498d-b7c0-7ff5900b2de2',
@@ -189,4 +189,4 @@ export const SOPHISTICATED_PROCESS = {
 }
 
 export const INTRO_VIDEO =
-  'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
+  'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FIntro%20Templates%20For%20Youtube%20Cooking%20Chan%20(You2Audio.Com).mp4?alt=media&token=52d3ef27-e3f9-467b-83f0-8d3e6ca250c7'

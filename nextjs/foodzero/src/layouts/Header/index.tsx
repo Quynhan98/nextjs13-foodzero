@@ -24,10 +24,16 @@ import { BREAKPOINTS, CONTACT, NAV_LIST } from '@constants/index'
 // Components
 import Navigation from '@components/Navigation'
 import Contact from '@components/Contact'
+import { useRouter } from 'next/router'
 
 const Header = () => {
+  const router = useRouter()
   const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
   const { isOpen, onOpen, onClose } = useDisclosure()
+
+  const handClickReservationBtn = () => {
+    router.push('#reservationSection')
+  }
 
   const renderModalMenu = useMemo(() => {
     return (
@@ -135,6 +141,7 @@ const Header = () => {
           </Link>
         )}
         <Button
+          onClick={handClickReservationBtn}
           variant="primary"
           size={{ base: 'small', md: 'default' }}
           fontSize={isMobile ? 'xxs' : 'md'}

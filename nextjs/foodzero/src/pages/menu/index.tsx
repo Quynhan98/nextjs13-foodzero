@@ -1,6 +1,6 @@
 import { useState, useCallback, FormEvent, ChangeEvent } from 'react'
 import Image from 'next/image'
-import { GetStaticProps } from 'next'
+import { GetServerSideProps } from 'next'
 import {
   Box,
   Flex,
@@ -29,9 +29,11 @@ import { IMenu } from '@self-types/Menu'
 // Components
 import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Hooks
 import { useBookingContext } from '@hooks/useBookingContext'
+import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Context
 import { IBookingContext } from '@contexts/BookingProvider'
@@ -40,7 +42,7 @@ interface IMenuProps {
   menu: IMenu
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   try {
     const menu: IMenu = await fetcherInstance(`${MENU_ENDPOINT}`)
 
@@ -55,7 +57,7 @@ export const getStaticProps: GetStaticProps = async () => {
 }
 
 const reservationInit = {
-  date: new Date(),
+  date: '' as unknown as Date,
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
 }
@@ -63,6 +65,7 @@ const reservationInit = {
 const Menu = ({ menu }: IMenuProps) => {
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
+  const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
 
   const isDisableField = booking.length > 0
@@ -72,6 +75,7 @@ const Menu = ({ menu }: IMenuProps) => {
       e?.preventDefault()
 
       try {
+        setLoading(true)
         await addBooking([...booking, reservation])
 
         toast({
@@ -89,6 +93,8 @@ const Menu = ({ menu }: IMenuProps) => {
           isClosable: true,
           position: 'bottom-left',
         })
+      } finally {
+        setLoading(false)
       }
     },
     [booking, reservation],
@@ -175,6 +181,7 @@ const Menu = ({ menu }: IMenuProps) => {
           >
             <Image
               fill
+              priority
               src="/images/youngTofu.webp"
               alt="excellent cook picture"
               sizes="(max-width: 768px) 277px, 314px
@@ -302,6 +309,7 @@ const Menu = ({ menu }: IMenuProps) => {
 
       {/* Reservation Section */}
       <Box
+        id="reservationSection"
         as="section"
         padding={{ base: '70px 12px', md: '237px 138px 254px 138px' }}
         backgroundColor="alabaster"
@@ -314,6 +322,7 @@ const Menu = ({ menu }: IMenuProps) => {
           isDisableButton={isDisableField || !reservation.date}
         />
       </Box>
+      {loading && <LoadingIndicator size="lg" />}
     </>
   )
 }
