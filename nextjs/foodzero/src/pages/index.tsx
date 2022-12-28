@@ -178,11 +178,14 @@ const Home = ({ menu, posts }: IHomeProps) => {
 
   const renderChefSection = useMemo(
     () => (
-      <Flex gap={{ base: '10px', md: '61px' }} justifyContent="space-between">
+      <Flex
+        gap={{ base: '10px', '2xl': '61px' }}
+        justifyContent="space-between"
+      >
         <Box
           mt="20px"
-          width={{ base: '147px', md: '980px' }}
-          height={{ base: '133px', md: '890px' }}
+          width={{ base: '147px', md: '686px', '2xl': '980px' }}
+          height={{ base: '133px', md: '623px', '2xl': '890px' }}
           position="relative"
           zIndex={2}
         >
@@ -191,11 +194,12 @@ const Home = ({ menu, posts }: IHomeProps) => {
             src="/images/excellentCook.webp"
             alt="excellent cook picture"
             sizes="(max-width: 768px) 147px, 133px
-        (min-width: 1200px) 980px, 890px"
+              (min-width: 768px) 686px, 623px
+              (min-width: 1200px) 980px, 890px"
             style={{ objectFit: 'cover' }}
           />
         </Box>
-        <Box maxW={{ base: '200px', md: '620px' }}>
+        <Box maxW={{ base: '200px', md: '450px', '2xl': '620px' }}>
           <Heading as="h3" size="large" variant="secondary">
             Excellent cook
           </Heading>
@@ -216,7 +220,11 @@ const Home = ({ menu, posts }: IHomeProps) => {
       <Box
         top="0px"
         position="relative"
-        padding={{ base: '100px 12px', md: '310px 138px 222px 138px' }}
+        padding={{
+          base: '100px 12px',
+          md: '250px 50px 100px 50px',
+          '2xl': '310px 138px 222px 138px',
+        }}
         _before={{
           content: '""',
           position: 'absolute',
@@ -234,9 +242,9 @@ const Home = ({ menu, posts }: IHomeProps) => {
           _before={{
             content: '""',
             position: 'absolute',
-            width: { base: '198px', md: '792px' },
-            height: { base: '233px', md: '931px' },
-            top: { base: '82px', md: '124px' },
+            width: { base: '198px', md: '554px', '2xl': '792px' },
+            height: { base: '233px', md: '652px', '2xl': '931px' },
+            top: { base: '82px', '2xl': '124px' },
             right: '0px',
             backgroundImage: '/images/bigSteak.webp',
             backgroundRepeat: 'no-repeat',
@@ -244,19 +252,25 @@ const Home = ({ menu, posts }: IHomeProps) => {
             zIndex: -1,
           }}
         >
-          <Heading size="extraLarge">
+          <Heading
+            size="extraLarge"
+            maxW={{ base: '100%', md: '60%', '2xl': '100%' }}
+          >
             Healthy Eating is important part of lifestyle
           </Heading>
           <Text
-            pt={{ base: '25px', md: '50px' }}
-            maxW={{ base: '160px', md: '840px' }}
+            pt={{ base: '25px', '2xl': '50px' }}
+            maxW={{ base: '160px', md: '550px', '2xl': '840px' }}
             variant="primary"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
             congue arcu
           </Text>
         </Flex>
-        <Flex justifyContent="space-between" pt={{ base: '35px', md: '100px' }}>
+        <Flex
+          justifyContent="space-between"
+          pt={{ base: '35px', md: '70px', '2xl': '100px' }}
+        >
           <Flex
             flexDirection="column"
             alignItems="center"
@@ -266,20 +280,20 @@ const Home = ({ menu, posts }: IHomeProps) => {
               Scroll
             </Text>
             <Divider
-              height={{ base: '80px', md: '406px' }}
+              height={{ base: '80px', md: '270px', '2xl': '406px' }}
               variant="dashed"
               borderLeftWidth="2px"
               borderLeftColor="white"
               orientation="vertical"
-              opacity={1}
+              opacity={0.6}
             />
           </Flex>
           <Box
-            width={{ base: '214px', md: '854px' }}
-            height={{ base: '60px', md: '240px' }}
+            width={{ base: '214px', md: '598px', '2xl': '854px' }}
+            height={{ base: '60px', md: '168px', '2xl': '240px' }}
             position="relative"
-            mt={{ base: '0px', md: '225px' }}
-            mr={{ base: '65px', md: '285px' }}
+            mt={{ base: '0px', md: '130px', '2xl': '225px' }}
+            mr={{ base: '65px', md: '200px', '2xl': '285px' }}
             textAlign="center"
           >
             <Image
@@ -288,19 +302,20 @@ const Home = ({ menu, posts }: IHomeProps) => {
               src="/images/spiceCups.webp"
               alt="spice cups picture"
               sizes="(max-width: 768px) 214px, 60px
+                (min-width: 768px) 598px, 168px
                 (min-width: 1200px) 854px, 240px"
             />
           </Box>
         </Flex>
         <Flex
-          pt={{ base: '40px', md: '157px' }}
+          pt={{ base: '40px', md: '80px', '2xl': '157px' }}
           justifyContent="space-between"
           gap="15px"
         >
           <Flex flexDirection="column">
             <Box
-              width={{ base: '198px', md: '792px' }}
-              height={{ base: '140px', md: '560px' }}
+              width={{ base: '198px', md: '554px', '2xl': '792px' }}
+              height={{ base: '140px', md: '392px', '2xl': '560px' }}
               position="relative"
             >
               <Image
@@ -309,30 +324,34 @@ const Home = ({ menu, posts }: IHomeProps) => {
                 src="/images/clamSoup.webp"
                 alt="clam soup picture"
                 sizes="(max-width: 768px) 198px, 140px
-                (min-width: 1200px) 792px, 560px"
-                style={{ objectFit: 'cover' }}
+                  (min-width: 768px) 554px, 392px
+                  (min-width: 1200px) 792px, 560px"
               />
             </Box>
-            <Heading as="h3" maxW="500px" pt={{ base: '10px', md: '54px' }}>
+            <Heading
+              as="h3"
+              maxW={{ md: '350px', '2xl': '500px' }}
+              pt={{ base: '10px', '2xl': '54px' }}
+            >
               Start to plan your diet today
             </Heading>
             <Text
-              pt={{ base: '15px', md: '54px' }}
+              pt={{ base: '15px', '2xl': '54px' }}
               variant="primary"
-              maxW="565px"
+              maxW={{ md: '390px', '2xl': '565px' }}
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
               congue arcu
             </Text>
           </Flex>
-          <Flex flexDirection="column" maxW="508px">
-            <Text variant="primary" pb={{ base: '15px', md: '84px' }}>
+          <Flex flexDirection="column" maxW={{ md: '356px', '2xl': '508px' }}>
+            <Text variant="primary" pb={{ base: '15px', '2xl': '84px' }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
               congue arcu
             </Text>
             <Box
-              width={{ base: '130px', md: '508px' }}
-              height={{ base: '180px', md: '710px' }}
+              width={{ base: '130px', md: '356px', '2xl': '508px' }}
+              height={{ base: '180px', md: '497px', '2xl': '710px' }}
               position="relative"
             >
               <Image
@@ -341,7 +360,8 @@ const Home = ({ menu, posts }: IHomeProps) => {
                 src="/images/spiceJar.webp"
                 alt="spice jar picture"
                 sizes="(max-width: 768px) 130px, 180px
-                (min-width: 1200px) 508px, 710px"
+                  (min-width: 768px) 356px, 497px
+                  (min-width: 1200px) 508px, 710px"
               />
             </Box>
           </Flex>
@@ -351,14 +371,18 @@ const Home = ({ menu, posts }: IHomeProps) => {
       {/* Our Menu Section */}
       <Box
         as="section"
-        padding={{ base: '50px 12px', md: '176px 138px 218px 138px' }}
+        padding={{
+          base: '50px 12px',
+          md: '100px 50px',
+          '2xl': '176px 138px 218px 138px',
+        }}
         position="relative"
         minH="100vh"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '220px', md: '897px' },
-          height: { base: '236px', md: '897px' },
+          width: { base: '220px', md: '628px', '2xl': '897px' },
+          height: { base: '236px', md: '628px', '2xl': '897px' },
           top: '0px',
           right: '0px',
           backgroundImage: '/images/menuBackground.webp',
@@ -370,19 +394,29 @@ const Home = ({ menu, posts }: IHomeProps) => {
         <Heading as="h3" size="large" variant="secondary" pt="54px">
           Our Menu
         </Heading>
-        <Text pt={{ base: '10px', md: '54px' }} maxW="532px">
+        <Text
+          pt={{ base: '10px', '2xl': '54px' }}
+          maxW={{ md: '490px', '2xl': '532px' }}
+        >
           This is a section of your menu. Give your section a brief description
         </Text>
         <UnorderedList
           display="grid"
-          gridTemplateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
+          gridTemplateColumns={{
+            base: 'repeat(1, 1fr)',
+            md: 'repeat(2, 1fr)',
+          }}
           listStyleType="none"
           marginLeft="0px"
-          pt={{ base: '40px', md: '158px' }}
+          pt={{ base: '40px', md: '100px', '2xl': '158px' }}
           gap={{ base: '30px', md: '60px' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
         >
           {menu.map((item) => (
-            <ListItem maxW="792px" key={`menu-${item.id}`}>
+            <ListItem
+              maxW={{ md: '560px', '2xl': '792px' }}
+              key={`menu-${item.id}`}
+            >
               <PriceList {...item} />
             </ListItem>
           ))}
@@ -392,16 +426,20 @@ const Home = ({ menu, posts }: IHomeProps) => {
       {/* Chef Section */}
       <Box
         as="section"
-        padding={{ base: '50px 12px', md: '240px 138px 0px 110px' }}
+        padding={{
+          base: '50px 12px',
+          md: '140px 50px 0px 50px',
+          '2xl': '240px 138px 0px 110px',
+        }}
         backgroundColor="alabaster"
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '100px', md: '400px' },
-          height: { base: '80px', md: '320px' },
-          top: { base: '30px', md: '135px' },
-          left: { base: '12px', md: '85px' },
+          width: { base: '100px', md: '280px', '2xl': '400px' },
+          height: { base: '80px', md: '232px', '2xl': '320px' },
+          top: { base: '30px', md: '80px', '2xl': '135px' },
+          left: { base: '12px', md: '40px', '2xl': '85px' },
           backgroundImage: '/images/leafLeft.webp',
           backgroundSize: 'cover',
           objectFit: 'cover',
@@ -410,10 +448,10 @@ const Home = ({ menu, posts }: IHomeProps) => {
         _after={{
           content: '""',
           position: 'absolute',
-          width: { base: '113px', md: '450px' },
-          height: { base: '98px', md: '390px' },
-          bottom: { base: '20px', md: '30px' },
-          right: { base: '12px', md: '138px' },
+          width: { base: '113px', md: '315px', '2xl': '450px' },
+          height: { base: '98px', md: '273px', '2xl': '390px' },
+          bottom: { base: '20px', md: '25px', '2xl': '30px' },
+          right: { base: '12px', md: '50px', '2xl': '138px' },
           backgroundImage: '/images/leafRight.webp',
           backgroundSize: 'cover',
           objectFit: 'cover',
@@ -426,7 +464,11 @@ const Home = ({ menu, posts }: IHomeProps) => {
       {/* Features Section */}
       <Box
         as="section"
-        padding={{ base: '70px 12px', md: '207px 138px 190px 138px' }}
+        padding={{
+          base: '70px 12px',
+          md: '120px 50px',
+          '2xl': '207px 138px 190px 138px',
+        }}
       >
         <UnorderedList
           display="flex"
@@ -448,7 +490,11 @@ const Home = ({ menu, posts }: IHomeProps) => {
       {/* Recenter Post Section */}
       <Box
         as="section"
-        padding={{ base: '50px 12px', md: '130px 138px 105px 138px' }}
+        padding={{
+          base: '50px 12px',
+          md: '80px 50px',
+          '2xl': '130px 138px 105px 138px',
+        }}
       >
         <UnorderedList
           display="flex"
@@ -471,7 +517,11 @@ const Home = ({ menu, posts }: IHomeProps) => {
       <Box
         id="reservationSection"
         as="section"
-        padding={{ base: '70px 12px', md: '237px 138px 254px 138px' }}
+        padding={{
+          base: '70px 12px',
+          md: '120px 50px',
+          '2xl': '237px 138px 254px 138px',
+        }}
         backgroundColor="alabaster"
       >
         <ReservationForm
@@ -487,14 +537,18 @@ const Home = ({ menu, posts }: IHomeProps) => {
       {/* Category Section */}
       <Box
         as="section"
-        padding={{ base: '60px 12px', md: '128px 138px 136px 138px' }}
+        padding={{
+          base: '60px 12px',
+          md: '100px 50px',
+          '2xl': '128px 138px 136px 138px',
+        }}
       >
         <Center flexDirection="column">
           <Heading
             as="h3"
             size="large"
             variant="secondary"
-            maxW="1100px"
+            maxW={{ base: '350px', md: '800px', '2xl': '1100px' }}
             textAlign="center"
           >
             Calories Energy Balance
@@ -510,7 +564,7 @@ const Home = ({ menu, posts }: IHomeProps) => {
           justifyContent="space-between"
           listStyleType="none"
           marginLeft="0px"
-          pt={{ base: '50px', md: '126px' }}
+          pt={{ base: '50px', '2xl': '126px' }}
           gap="30px"
         >
           {CATEGORY_SECTION.map((item) => (
@@ -524,15 +578,19 @@ const Home = ({ menu, posts }: IHomeProps) => {
       {/* Testimonials Section */}
       <Box
         as="section"
-        padding={{ base: '50px 12px', md: '118px 138px 145px 246px' }}
+        padding={{
+          base: '50px 12px',
+          md: '100px 50px 100px 150px',
+          '2xl': '118px 138px 145px 246px',
+        }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '70px', md: '282px' },
-          height: { base: '58px', md: '234px' },
-          top: { base: '70px', md: '118px' },
-          right: { base: '15px', md: '255px' },
+          width: { base: '70px', md: '197px', '2xl': '282px' },
+          height: { base: '58px', md: '164px', '2xl': '234px' },
+          top: { base: '170px', md: '118px' },
+          right: { base: '15px', md: '180px', '2xl': '255px' },
           backgroundImage: '/images/quotationMarks.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',

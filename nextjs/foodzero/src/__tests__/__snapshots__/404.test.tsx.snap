@@ -6,7 +6,7 @@ exports[`NotFound render Should show match NotFound DOM Snapshot 1`] = `
     class="css-1wdafdy"
   >
     <p
-      class="chakra-text css-1v8em9k"
+      class="chakra-text css-90e7g7"
     >
       404 - Page Not Found!
     </p>
@@ -14,7 +14,7 @@ exports[`NotFound render Should show match NotFound DOM Snapshot 1`] = `
       href="/"
     >
       <p
-        class="chakra-text css-1b5u83m"
+        class="chakra-text css-ntbtgg"
       >
         Back To Home
       </p>

@@ -9,7 +9,7 @@ exports[`Picker Component renders picker component 1`] = `
       class="react-datepicker__input-container"
     >
       <input
-        class="chakra-input css-1lqzwk"
+        class="chakra-input css-bwnhm1"
         placeholder="MM/DD/YYYY"
         value=""
       />

@@ -21,10 +21,10 @@ describe('UserAvatar component', () => {
   it('Should render data correctly', () => {
     render(<UserAvatar {...props} />)
 
-    const name = screen.getByRole('heading')
-    const job = screen.getByText(/bloger/i)
+    const name = screen.getByText(props.name)
+    const job = screen.getByText(props.job)
 
-    expect(name).toHaveTextContent(props.name)
-    expect(job).toHaveTextContent(props.job)
+    expect(name).toBeTruthy()
+    expect(job).toBeTruthy()
   })
 })

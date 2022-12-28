@@ -6,51 +6,55 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
     novalidate=""
   >
     <div
-      class="chakra-form-control css-thxs3d"
+      class="chakra-form-control css-whvd6l"
       role="group"
     >
       <div
         class="css-yjtq8f"
       >
         <h3
-          class="chakra-heading css-mxgfwf"
+          class="chakra-heading css-17j5m7v"
         >
           Make a Reservation
         </h3>
         <p
-          class="chakra-text css-11o6bb1"
+          class="chakra-text css-1ce86fs"
         >
           Get in touch with restaurant
         </p>
       </div>
       <div
-        class="css-6wfi37"
+        class="css-krxe1m"
       >
         <div
-          class="css-pl1d54"
+          class="css-1payax8"
         >
           <div
-            class="react-datepicker-wrapper"
+            class="css-0"
           >
             <div
-              class="react-datepicker__input-container"
+              class="react-datepicker-wrapper"
             >
-              <input
-                class="chakra-input css-nr8l43"
-                id="field-:r2:"
-                placeholder="MM/DD/YYYY"
-                value=""
-              />
+              <div
+                class="react-datepicker__input-container"
+              >
+                <input
+                  class="chakra-input css-q7pni1"
+                  id="field-:r2:"
+                  placeholder="MM/DD/YYYY"
+                  value=""
+                />
+              </div>
             </div>
           </div>
           <div
             class="css-0"
           >
             <div
-              class="chakra-select__wrapper css-1uge2rn"
+              class="chakra-select__wrapper css-17qe6bp"
             >
               <select
-                class="chakra-select css-1srlo7p"
+                class="chakra-select css-lknr9b"
                 data-testid="selectTime"
                 id="field-:r2:"
                 name="time"
@@ -107,7 +111,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
               >
                 <svg
                   aria-hidden="true"
-                  class="chakra-icon chakra-select__icon css-13wnv3o"
+                  class="chakra-icon chakra-select__icon css-m73ylg"
                   focusable="false"
                   role="presentation"
                   style="width: 1em; height: 1em; color: currentColor;"
@@ -126,7 +130,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
           class="chakra-select__wrapper css-42b2qy"
         >
           <select
-            class="chakra-select css-1srlo7p"
+            class="chakra-select css-lknr9b"
             data-testid="selectPerson"
             id="field-:r2:"
             name="person"
@@ -188,7 +192,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="chakra-icon chakra-select__icon css-13wnv3o"
+              class="chakra-icon chakra-select__icon css-m73ylg"
               focusable="false"
               role="presentation"
               style="width: 1em; height: 1em; color: currentColor;"
@@ -203,10 +207,10 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
         </div>
       </div>
       <div
-        class="css-1610dfo"
+        class="css-1nx6xr5"
       >
         <button
-          class="chakra-button css-h4ij4d"
+          class="chakra-button css-5sg5i5"
           type="submit"
         >
           Book Now
@@ -227,28 +231,28 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
     novalidate=""
   >
     <div
-      class="chakra-form-control css-thxs3d"
+      class="chakra-form-control css-whvd6l"
       role="group"
     >
       <div
         class="css-yjtq8f"
       >
         <h3
-          class="chakra-heading css-mxgfwf"
+          class="chakra-heading css-17j5m7v"
         >
           Make a Reservation
         </h3>
         <p
-          class="chakra-text css-u5t5z0"
+          class="chakra-text css-1j19xza"
         >
           Get in touch with restaurant
         </p>
       </div>
       <div
-        class="css-shk6y1"
+        class="css-19580xy"
       >
         <input
-          class="chakra-input css-vsl0b9"
+          class="chakra-input css-1uzjkvw"
           id="field-:r0:"
           name="firstName"
           placeholder="First Name"
@@ -256,7 +260,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
           value=""
         />
         <input
-          class="chakra-input css-vsl0b9"
+          class="chakra-input css-1uzjkvw"
           id="field-:r0:"
           name="lastName"
           placeholder="Last Name"
@@ -265,10 +269,10 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         />
       </div>
       <div
-        class="css-9xs73v"
+        class="css-1qnzkxj"
       >
         <input
-          class="chakra-input css-1lqzwk"
+          class="chakra-input css-bwnhm1"
           id="field-:r0:"
           name="email"
           placeholder="Email"
@@ -277,10 +281,10 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         />
       </div>
       <div
-        class="css-9xs73v"
+        class="css-1qnzkxj"
       >
         <input
-          class="chakra-input css-1lqzwk"
+          class="chakra-input css-bwnhm1"
           id="field-:r0:"
           name="phone"
           placeholder="Phone"
@@ -289,33 +293,37 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         />
       </div>
       <div
-        class="css-1ctr036"
+        class="css-1pychye"
       >
         <div
-          class="css-pl1d54"
+          class="css-1payax8"
         >
           <div
-            class="react-datepicker-wrapper"
+            class="css-0"
           >
             <div
-              class="react-datepicker__input-container"
+              class="react-datepicker-wrapper"
             >
-              <input
-                class="chakra-input css-130huxc"
-                id="field-:r0:"
-                placeholder="MM/DD/YYYY"
-                value=""
-              />
+              <div
+                class="react-datepicker__input-container"
+              >
+                <input
+                  class="chakra-input css-1otkgi5"
+                  id="field-:r0:"
+                  placeholder="MM/DD/YYYY"
+                  value=""
+                />
+              </div>
             </div>
           </div>
           <div
             class="css-0"
           >
             <div
-              class="chakra-select__wrapper css-1bvc7kd"
+              class="chakra-select__wrapper css-sp79o5"
             >
               <select
-                class="chakra-select css-1srlo7p"
+                class="chakra-select css-lknr9b"
                 data-testid="selectTime"
                 id="field-:r0:"
                 name="time"
@@ -372,7 +380,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
               >
                 <svg
                   aria-hidden="true"
-                  class="chakra-icon chakra-select__icon css-13wnv3o"
+                  class="chakra-icon chakra-select__icon css-m73ylg"
                   focusable="false"
                   role="presentation"
                   style="width: 1em; height: 1em; color: currentColor;"
@@ -391,7 +399,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
           class="chakra-select__wrapper css-42b2qy"
         >
           <select
-            class="chakra-select css-1srlo7p"
+            class="chakra-select css-lknr9b"
             data-testid="selectPerson"
             id="field-:r0:"
             name="person"
@@ -453,7 +461,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
           >
             <svg
               aria-hidden="true"
-              class="chakra-icon chakra-select__icon css-13wnv3o"
+              class="chakra-icon chakra-select__icon css-m73ylg"
               focusable="false"
               role="presentation"
               style="width: 1em; height: 1em; color: currentColor;"
@@ -468,10 +476,10 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         </div>
       </div>
       <div
-        class="css-82fcae"
+        class="css-ffarb6"
       >
         <button
-          class="chakra-button css-6hbgfx"
+          class="chakra-button css-hp21p8"
           type="submit"
         >
           Book Now

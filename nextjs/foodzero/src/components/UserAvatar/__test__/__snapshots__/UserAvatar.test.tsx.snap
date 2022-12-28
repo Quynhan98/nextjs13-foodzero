@@ -3,10 +3,10 @@
 exports[`UserAvatar component Renders UserAvatar correctly 1`] = `
 <div>
   <div
-    class="css-mgvg8t"
+    class="css-10m2m6g"
   >
     <span
-      class="chakra-avatar css-1kva3cr"
+      class="chakra-avatar css-1kxg9m6"
     >
       <div
         aria-label="John Doe"
@@ -19,13 +19,13 @@ exports[`UserAvatar component Renders UserAvatar correctly 1`] = `
     <div
       class="css-0"
     >
-      <h5
-        class="chakra-heading css-gixbyc"
+      <p
+        class="chakra-text css-sz9fw"
       >
         John Doe
-      </h5>
+      </p>
       <p
-        class="chakra-text css-lv0zmh"
+        class="chakra-text css-18s7o9y"
       >
         Bloger
       </p>

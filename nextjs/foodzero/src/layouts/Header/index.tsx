@@ -49,7 +49,11 @@ const Header = () => {
           objectFit="cover"
           maxW="1920px"
           maxH="1080px"
-          padding={{ base: '50px 20px', md: '222px 186px 20px 300px' }}
+          padding={{
+            base: '50px 20px',
+            md: '150px',
+            '2xl': '222px 186px 20px 300px',
+          }}
           position="relative"
           _before={{
             content: '""',
@@ -68,7 +72,7 @@ const Header = () => {
             left={{ base: '15px', md: '50px' }}
             top={{ base: '15px', md: '40px' }}
             color="silverFoil"
-            fontSize={{ base: '20px', md: '30px' }}
+            fontSize={{ base: '20px', '2xl': '30px' }}
           />
           <ModalBody
             display="flex"
@@ -80,7 +84,7 @@ const Header = () => {
             <Flex
               width="100%"
               justifyContent="flex-end"
-              pt={{ base: '0px', md: '335px' }}
+              pt={{ base: '0px', md: '120px', '2xl': '335px' }}
             >
               <Contact {...CONTACT} isShowIcon />
             </Flex>
@@ -97,7 +101,11 @@ const Header = () => {
       justifyContent="space-between"
       alignItems="center"
       maxW="1920px"
-      padding={{ base: '12px', md: '46px 138px 149px 118px' }}
+      padding={{
+        base: '12px',
+        md: '30px 50px',
+        '2xl': '46px 138px 149px 118px',
+      }}
       top="0px"
       left="50%"
       transform="translateX(-50%)"
@@ -128,14 +136,18 @@ const Header = () => {
           data-testid="buttonMenu"
           onClick={onOpen}
           variant="light"
-          icon={<HamburgerIcon boxSize={{ base: '20px', md: '46px' }} />}
+          icon={
+            <HamburgerIcon
+              boxSize={{ base: '20px', md: '30px', '2xl': '46px' }}
+            />
+          }
           aria-label="menu"
         />
       </Flex>
       <Flex gap="36px" alignItems="center">
         {!isMobile && (
           <Link href={`tel:${CONTACT.phoneNumber}`}>
-            <Text size={{ base: 'small', md: 'large' }} variant="primary">
+            <Text size="large" variant="primary">
               {CONTACT.phoneNumber}
             </Text>
           </Link>
@@ -143,10 +155,10 @@ const Header = () => {
         <Button
           onClick={handClickReservationBtn}
           variant="primary"
-          size={{ base: 'small', md: 'default' }}
+          size={{ base: 'small', '2xl': 'default' }}
           fontSize={isMobile ? 'xxs' : 'md'}
           lineHeight={isMobile ? 'xxs' : 'sm'}
-          fontWeight={{ base: 'base', md: 'bold' }}
+          fontWeight={{ base: 'base', '2xl': 'bold' }}
         >
           Reservations
         </Button>

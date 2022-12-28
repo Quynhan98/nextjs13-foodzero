@@ -6,7 +6,7 @@ exports[`SelectField component Renders SelectField default correctly 1`] = `
     class="chakra-select__wrapper css-42b2qy"
   >
     <select
-      class="chakra-select css-1srlo7p"
+      class="chakra-select css-lknr9b"
       data-testid="select"
       style="padding-left: 40px;"
     >
@@ -61,7 +61,7 @@ exports[`SelectField component Renders SelectField default correctly 1`] = `
     >
       <svg
         aria-hidden="true"
-        class="chakra-icon chakra-select__icon css-13wnv3o"
+        class="chakra-icon chakra-select__icon css-m73ylg"
         focusable="false"
         role="presentation"
         style="width: 1em; height: 1em; color: currentColor;"

@@ -3,34 +3,34 @@
 exports[`Contact page Renders Contact page correctly 1`] = `
 <div>
   <div
-    class="css-nvhpv2"
+    class="css-mu4nrl"
   >
     <h2
-      class="chakra-heading css-1yuujut"
+      class="chakra-heading css-zkejbz"
     >
       Get in Touch
     </h2>
     <p
-      class="chakra-text css-1tw25a6"
+      class="chakra-text css-1ipvs3q"
     >
       The freshest ingredients for you every day
     </p>
     <div
-      class="css-1cnznuc"
+      class="css-1rr09ko"
     >
       <div
         class="css-ftk6jc"
       >
         <div
-          class="css-34hfx4"
+          class="css-17k3l2w"
         >
           <p
-            class="chakra-text css-sqdrsl"
+            class="chakra-text css-yqlfvc"
           >
             Open Time
           </p>
           <p
-            class="chakra-text css-1xhkjsw"
+            class="chakra-text css-1b6c49i"
           >
             Sunday - Friday
           </p>
@@ -39,19 +39,19 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           class="css-1iijbtl"
         />
         <ul
-          class="css-1o7naxv"
+          class="css-1s9u7va"
           role="list"
         >
           <li
             class="css-0"
           >
             <p
-              class="chakra-text css-1xhkjsw"
+              class="chakra-text css-1b6c49i"
             >
               Brunch
             </p>
             <p
-              class="chakra-text css-1xhkjsw"
+              class="chakra-text css-1b6c49i"
             >
               11:00–12:00
             </p>
@@ -60,12 +60,12 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             class="css-0"
           >
             <p
-              class="chakra-text css-1xhkjsw"
+              class="chakra-text css-1b6c49i"
             >
               Lunch
             </p>
             <p
-              class="chakra-text css-1xhkjsw"
+              class="chakra-text css-1b6c49i"
             >
               13:00–17:00
             </p>
@@ -74,12 +74,12 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             class="css-0"
           >
             <p
-              class="chakra-text css-1xhkjsw"
+              class="chakra-text css-1b6c49i"
             >
               Dinner
             </p>
             <p
-              class="chakra-text css-1xhkjsw"
+              class="chakra-text css-1b6c49i"
             >
               18:00–20:00
             </p>
@@ -89,13 +89,13 @@ exports[`Contact page Renders Contact page correctly 1`] = `
     </div>
   </div>
   <section
-    class="css-3sirfx"
+    class="css-12vc19o"
   >
     <div
-      class="css-o92bs3"
+      class="css-1yyqljj"
     >
       <div
-        class="css-hrt8a0"
+        class="css-107u57h"
       >
         <img
           alt="excellent cook picture"
@@ -109,7 +109,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
         />
       </div>
       <p
-        class="chakra-text css-1glnzsa"
+        class="chakra-text css-1w4i3vi"
       >
         We can be contacted 
         <br />
@@ -120,7 +120,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           href="mailto:info@foodzero.com"
         >
           <b
-            class="chakra-text css-5d3nhb"
+            class="chakra-text css-ycbatn"
           >
             info@foodzero.com
           </b>
@@ -133,7 +133,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           href="tel:+86 852 346 000"
         >
           <b
-            class="chakra-text css-5d3nhb"
+            class="chakra-text css-ycbatn"
           >
             +86 852 346 000
           </b>
@@ -141,16 +141,16 @@ exports[`Contact page Renders Contact page correctly 1`] = `
       </p>
     </div>
     <div
-      class="css-1475amg"
+      class="css-6s7gdj"
     >
       <p
-        class="chakra-text css-lav4hd"
+        class="chakra-text css-mm92or"
       >
         We are located in 
         1959 Sepulveda Blvd. Culver City, CA, 90230
       </p>
       <div
-        class="css-137rlpp"
+        class="css-1xd0b27"
       >
         <img
           alt="excellent cook picture"
@@ -166,35 +166,35 @@ exports[`Contact page Renders Contact page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-628vpw"
+    class="css-fdh48f"
     id="reservationSection"
   >
     <form
       novalidate=""
     >
       <div
-        class="chakra-form-control css-thxs3d"
+        class="chakra-form-control css-whvd6l"
         role="group"
       >
         <div
           class="css-yjtq8f"
         >
           <h3
-            class="chakra-heading css-mxgfwf"
+            class="chakra-heading css-17j5m7v"
           >
             Make a Reservation
           </h3>
           <p
-            class="chakra-text css-u5t5z0"
+            class="chakra-text css-1j19xza"
           >
             Get in touch with restaurant
           </p>
         </div>
         <div
-          class="css-shk6y1"
+          class="css-19580xy"
         >
           <input
-            class="chakra-input css-vsl0b9"
+            class="chakra-input css-1uzjkvw"
             id="field-:r0:"
             name="firstName"
             placeholder="First Name"
@@ -202,7 +202,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             value=""
           />
           <input
-            class="chakra-input css-vsl0b9"
+            class="chakra-input css-1uzjkvw"
             id="field-:r0:"
             name="lastName"
             placeholder="Last Name"
@@ -211,10 +211,10 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           />
         </div>
         <div
-          class="css-9xs73v"
+          class="css-1qnzkxj"
         >
           <input
-            class="chakra-input css-1lqzwk"
+            class="chakra-input css-bwnhm1"
             id="field-:r0:"
             name="email"
             placeholder="Email"
@@ -223,10 +223,10 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           />
         </div>
         <div
-          class="css-9xs73v"
+          class="css-1qnzkxj"
         >
           <input
-            class="chakra-input css-1lqzwk"
+            class="chakra-input css-bwnhm1"
             id="field-:r0:"
             name="phone"
             placeholder="Phone"
@@ -235,33 +235,37 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           />
         </div>
         <div
-          class="css-1ctr036"
+          class="css-1pychye"
         >
           <div
-            class="css-pl1d54"
+            class="css-1payax8"
           >
             <div
-              class="react-datepicker-wrapper"
+              class="css-0"
             >
               <div
-                class="react-datepicker__input-container"
+                class="react-datepicker-wrapper"
               >
-                <input
-                  class="chakra-input css-130huxc"
-                  id="field-:r0:"
-                  placeholder="MM/DD/YYYY"
-                  value=""
-                />
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-1otkgi5"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
               </div>
             </div>
             <div
               class="css-0"
             >
               <div
-                class="chakra-select__wrapper css-1bvc7kd"
+                class="chakra-select__wrapper css-sp79o5"
               >
                 <select
-                  class="chakra-select css-1srlo7p"
+                  class="chakra-select css-lknr9b"
                   data-testid="selectTime"
                   id="field-:r0:"
                   name="time"
@@ -323,7 +327,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="chakra-icon chakra-select__icon css-13wnv3o"
+                    class="chakra-icon chakra-select__icon css-m73ylg"
                     focusable="false"
                     role="presentation"
                     style="width: 1em; height: 1em; color: currentColor;"
@@ -342,7 +346,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             class="chakra-select__wrapper css-42b2qy"
           >
             <select
-              class="chakra-select css-1srlo7p"
+              class="chakra-select css-lknr9b"
               data-testid="selectPerson"
               id="field-:r0:"
               name="person"
@@ -409,7 +413,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="chakra-icon chakra-select__icon css-13wnv3o"
+                class="chakra-icon chakra-select__icon css-m73ylg"
                 focusable="false"
                 role="presentation"
                 style="width: 1em; height: 1em; color: currentColor;"
@@ -424,10 +428,10 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           </div>
         </div>
         <div
-          class="css-82fcae"
+          class="css-ffarb6"
         >
           <button
-            class="chakra-button css-6hbgfx"
+            class="chakra-button css-hp21p8"
             disabled=""
             type="submit"
           >

@@ -25,10 +25,10 @@ const Contact = ({
     <Box>
       <Text
         variant="primary"
-        fontSize={{ base: 'sm', md: 'md' }}
-        fontWeight="bold"
         fontFamily="Rufina"
-        pb={{ base: '8px', md: '18px' }}
+        size="common"
+        fontWeight="bold"
+        pb={{ base: '8px', '2xl': '18px' }}
       >
         Contact
       </Text>

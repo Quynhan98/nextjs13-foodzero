@@ -14,31 +14,32 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
-      gap={{ base: '10px', md: '39px' }}
+      gap={{ base: '10px', '2xl': '39px' }}
     >
       <Box
         position="relative"
         as="figure"
-        width={{ base: '150px', md: '260px' }}
-        height={{ base: '150px', md: '260px' }}
+        width={{ base: '150px', md: '200px', '2xl': '260px' }}
+        height={{ base: '150px', md: '200px', '2xl': '260px' }}
       >
         <Image
           src={imageUrl}
           alt={`${title} picture`}
           fill
           sizes="(max-width: 768px) 150px, 150px
-                (min-width: 1200px) 260px, 260px"
+            (min-width: 768px) 200px, 200px
+            (min-width: 1200px) 260px, 260px"
         />
       </Box>
       <Text
-        size={{ base: 'large', md: 'extraLarge' }}
+        size="extraLarge"
         variant="secondary"
         fontWeight="bold"
         fontFamily="Rufina"
       >
         {title}
       </Text>
-      <Text size={{ base: 'small', md: 'default' }} textAlign="center">
+      <Text size="default" textAlign="center">
         {description}
       </Text>
     </Flex>

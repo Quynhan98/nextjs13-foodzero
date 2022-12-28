@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Avatar, Box, Flex, Heading, Text } from '@chakra-ui/react'
+import { Avatar, Box, Flex, Text } from '@chakra-ui/react'
 
 interface UserAvatarProps {
   src: string
@@ -9,7 +9,12 @@ interface UserAvatarProps {
 
 const UserAvatar = ({ src, name, job }: UserAvatarProps) => {
   return (
-    <Flex alignItems="center" gap={{ base: '30px', md: '60px' }}>
+    <Flex
+      alignItems="center"
+      gap={{ base: '30px', md: '60px' }}
+      maxW="400px"
+      width="100%"
+    >
       <Avatar
         name={name}
         src={src}
@@ -17,14 +22,15 @@ const UserAvatar = ({ src, name, job }: UserAvatarProps) => {
         height={{ base: '80px', md: '170px' }}
       />
       <Box>
-        <Heading
-          as="h5"
+        <Text
+          size="common"
+          fontWeight="bold"
           variant="secondary"
-          size={{ base: 'extraSmall', md: 'small' }}
+          fontFamily="Rufina"
         >
           {name}
-        </Heading>
-        <Text size={{ base: 'small', md: 'base' }}>{job}</Text>
+        </Text>
+        <Text size="base">{job}</Text>
       </Box>
     </Flex>
   )

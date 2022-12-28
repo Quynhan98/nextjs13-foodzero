@@ -3,24 +3,28 @@
 exports[`Footer render Should Footer match Snapshot 1`] = `
 <div>
   <footer
-    class="css-1d0otq1"
+    class="css-1h5elg0"
   >
     <div
-      class="css-15ms0zq"
+      class="css-2alf4m"
     >
       <div
-        class="css-cl2fjb"
+        class="css-guz8ox"
       >
         <h1
-          class="chakra-heading css-t29nfr"
+          class="chakra-heading css-ov8mg4"
         >
-          Food Zero.
+          <a
+            href="/"
+          >
+            Food Zero.
+          </a>
         </h1>
         <div
           class="css-0"
         >
           <p
-            class="chakra-text css-craojw"
+            class="chakra-text css-1is94eo"
           >
             Contact
           </p>
@@ -28,7 +32,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
             href="tel:+86 852 346 000"
           >
             <p
-              class="chakra-text css-gz08eg"
+              class="chakra-text css-ptcdyg"
             >
               +86 852 346 000
             </p>
@@ -37,13 +41,13 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
             href="mailto:info@foodzero.com"
           >
             <p
-              class="chakra-text css-1oecnb9"
+              class="chakra-text css-uslr5m"
             >
               info@foodzero.com
             </p>
           </a>
           <p
-            class="chakra-text css-15kw7zj"
+            class="chakra-text css-1as2o8a"
           >
             1959 Sepulveda Blvd. Culver City, CA, 90230
           </p>
@@ -53,19 +57,19 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1wd7ih2"
+          class="chakra-text css-1u0m7e9"
         >
           Never Miss a Recipe
         </p>
         <div
-          class="css-1jn9ke7"
+          class="css-j6pfsw"
         >
           <input
-            class="chakra-input css-1rjerp5"
+            class="chakra-input css-59g4up"
             placeholder="Email Address"
           />
           <button
-            class="chakra-button css-1a1bbvk"
+            class="chakra-button css-13vrnz4"
             type="button"
           >
             Subscribe
@@ -80,18 +84,18 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
     </div>
     <hr
       aria-orientation="horizontal"
-      class="chakra-divider css-dua0ms"
+      class="chakra-divider css-1vyiomz"
     />
     <div
-      class="css-1b9jvdy"
+      class="css-k1zpb5"
     >
       <p
-        class="chakra-text css-1xhkjsw"
+        class="chakra-text css-1nxiabe"
       >
         © 2020 Zero Inc. All rights Reserved
       </p>
       <ul
-        class="css-shidlx"
+        class="css-qgpwd0"
         role="list"
       >
         <li

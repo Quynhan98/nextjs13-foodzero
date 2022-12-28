@@ -4,16 +4,16 @@ exports[`LoginForm LoginForm matches snapshot 1`] = `
 <div>
   <form>
     <label
-      class="chakra-form__label css-1e23bqj"
+      class="chakra-form__label css-1379mkf"
     >
       Login
     </label>
     <div
-      class="chakra-form-control css-rjfdrk"
+      class="chakra-form-control css-xj5wq"
       role="group"
     >
       <input
-        class="chakra-input css-1lqzwk"
+        class="chakra-input css-bwnhm1"
         data-testid="email"
         id="field-:r1:"
         name="email"
@@ -21,7 +21,7 @@ exports[`LoginForm LoginForm matches snapshot 1`] = `
         type="email"
       />
       <input
-        class="chakra-input css-znpptt"
+        class="chakra-input css-bd6zxt"
         data-testid="password"
         id="field-:r1:"
         name="password"
@@ -29,7 +29,7 @@ exports[`LoginForm LoginForm matches snapshot 1`] = `
         type="password"
       />
       <button
-        class="chakra-button css-omzjzl"
+        class="chakra-button css-1yv2ih2"
         type="submit"
       >
         Sign In

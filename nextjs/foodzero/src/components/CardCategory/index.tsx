@@ -20,10 +20,10 @@ const CardCategory = ({ href, category, imageUrl }: CardCategoryProps) => {
         zIndex="1"
         width="100%"
         justifyContent="space-between"
-        padding={{ base: '25px 20px', md: '50px 45px' }}
+        padding={{ base: '25px 20px', '2xl': '50px 45px' }}
       >
         <Text
-          size={{ base: 'large', md: 'extraLarge' }}
+          size="extraLarge"
           variant="secondary"
           fontWeight="bold"
           fontFamily="Rufina"

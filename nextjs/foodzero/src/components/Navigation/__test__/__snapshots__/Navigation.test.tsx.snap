@@ -6,11 +6,11 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
     class="css-0"
   >
     <ul
-      class="css-jfszk9"
+      class="css-1hgnqmf"
       role="list"
     >
       <li
-        class="css-14d0uaj"
+        class="css-18dlst6"
       >
         <a
           href="/"
@@ -19,7 +19,7 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
         </a>
       </li>
       <li
-        class="css-14d0uaj"
+        class="css-18dlst6"
       >
         <a
           href="/menu"
@@ -28,7 +28,7 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
         </a>
       </li>
       <li
-        class="css-14d0uaj"
+        class="css-18dlst6"
       >
         <a
           href="/about"
@@ -37,7 +37,7 @@ exports[`Navigation component Renders Navigation correctly 1`] = `
         </a>
       </li>
       <li
-        class="css-14d0uaj"
+        class="css-18dlst6"
       >
         <a
           href="/contact"

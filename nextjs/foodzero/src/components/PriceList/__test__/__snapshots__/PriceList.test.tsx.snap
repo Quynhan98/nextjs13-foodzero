@@ -6,7 +6,7 @@ exports[`PriceList component Renders PriceList correctly 1`] = `
     class="css-0"
   >
     <h4
-      class="chakra-heading css-1ms7w9h"
+      class="chakra-heading css-4jbmzn"
     >
       $
       20
@@ -15,12 +15,12 @@ exports[`PriceList component Renders PriceList correctly 1`] = `
       class="css-113h5p7"
     />
     <h3
-      class="chakra-heading css-10d4fcy"
+      class="chakra-heading css-u3uye4"
     >
       Deep Sea Snow White Cod Fillet
     </h3>
     <p
-      class="chakra-text css-1eu2sr5"
+      class="chakra-text css-1oh60g1"
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>

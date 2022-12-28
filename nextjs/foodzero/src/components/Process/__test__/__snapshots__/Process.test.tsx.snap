@@ -3,10 +3,10 @@
 exports[`Process component Renders Process correctly 1`] = `
 <div>
   <div
-    class="css-1ewfrpj"
+    class="css-77jowh"
   >
     <div
-      class="css-12ewtsg"
+      class="css-m7zs1j"
     >
       <img
         alt="split ribs picture"
@@ -21,29 +21,29 @@ exports[`Process component Renders Process correctly 1`] = `
       />
     </div>
     <div
-      class="css-1ga7sga"
+      class="css-1p4vxav"
     >
       <h4
-        class="chakra-heading css-1wkijxd"
+        class="chakra-heading css-4lgthp"
       >
         01.
         Slice
       </h4>
       <p
-        class="chakra-text css-19lr15o"
+        class="chakra-text css-u9nvjx"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.
       </p>
     </div>
   </div>
   <div
-    class="css-cyiyvf"
+    class="css-f2ozgw"
   >
     <div
-      class="css-3d9pfu"
+      class="css-oh2ipf"
     >
       <div
-        class="css-6eirtp"
+        class="css-i2mnd"
       >
         <img
           alt="marinated ribs picture"
@@ -58,37 +58,37 @@ exports[`Process component Renders Process correctly 1`] = `
         />
       </div>
       <h4
-        class="chakra-heading css-1skdcpn"
+        class="chakra-heading css-lkybp2"
       >
         02.
         Pickled
       </h4>
       <p
-        class="chakra-text css-1e0l5jw"
+        class="chakra-text css-kq3f6m"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
       </p>
     </div>
     <div
-      class="css-16yzuai"
+      class="css-u7de1j"
     >
       <div
-        class="css-akck1f"
+        class="css-1l3ne0m"
       >
         <h4
-          class="chakra-heading css-1wkijxd"
+          class="chakra-heading css-4lgthp"
         >
           03.
           Bake  
         </h4>
         <p
-          class="chakra-text css-1vx5ae8"
+          class="chakra-text css-1x954w"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
         </p>
       </div>
       <div
-        class="css-nsxh3t"
+        class="css-10z65vr"
       >
         <img
           alt="grilled ribs picture"

@@ -3,45 +3,45 @@
 exports[`About page Renders Menu page correctly 1`] = `
 <div>
   <div
-    class="css-jbcq6i"
+    class="css-12lq5w1"
   >
     <div
       class="css-3ig7em"
     >
       <h2
-        class="chakra-heading css-1mps9r1"
+        class="chakra-heading css-2g36on"
       >
         Who We Are
       </h2>
       <p
-        class="chakra-text css-dxa8t2"
+        class="chakra-text css-waioy9"
       >
         The most important thing for us is to give you the comfortable dining experience
       </p>
     </div>
   </div>
   <section
-    class="css-lquv2b"
+    class="css-1i88ipv"
   >
     <div
-      class="css-1yk6b7l"
+      class="css-ql7hr2"
     >
       <div
-        class="css-upmy4p"
+        class="css-15ydv0o"
       >
         <h3
-          class="chakra-heading css-tbjbi7"
+          class="chakra-heading css-1etlmf3"
         >
           Our Story
         </h3>
         <p
-          class="chakra-text css-1y85m0d"
+          class="chakra-text css-1xl4ppt"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.
         </p>
       </div>
       <div
-        class="css-16uv6pw"
+        class="css-1jt2jpu"
       >
         <img
           alt="cooking picture"
@@ -56,23 +56,23 @@ exports[`About page Renders Menu page correctly 1`] = `
       </div>
     </div>
     <div
-      class="css-rwifgf"
+      class="css-n0lr1a"
     >
       <div
-        class="css-1shj5xp"
+        class="css-ebp69w"
       >
         <h4
-          class="chakra-heading css-1iveov0"
+          class="chakra-heading css-1uehode"
         >
           Restaurant Manager
         </h4>
         <p
-          class="chakra-text css-o2982h"
+          class="chakra-text css-1ueitwp"
         >
           Carson Hugn
         </p>
         <div
-          class="css-1pl2hbo"
+          class="css-1u744b8"
         >
           <img
             alt="Restaurant manager avatar"
@@ -87,34 +87,34 @@ exports[`About page Renders Menu page correctly 1`] = `
         </div>
       </div>
       <p
-        class="chakra-text css-1a3488g"
+        class="chakra-text css-12krbz6"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl.
       </p>
     </div>
     <div
-      class="css-njzgzl"
+      class="css-at8nw"
     >
       <p
-        class="chakra-text css-1fzipxs"
+        class="chakra-text css-1skbazl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi.
       </p>
       <div
-        class="css-1shj5xp"
+        class="css-ebp69w"
       >
         <h4
-          class="chakra-heading css-1iveov0"
+          class="chakra-heading css-1uehode"
         >
           Executive Chef
         </h4>
         <p
-          class="chakra-text css-o2982h"
+          class="chakra-text css-1ueitwp"
         >
           Jane Cooper
         </p>
         <div
-          class="css-15pec45"
+          class="css-1p23696"
         >
           <img
             alt="Executive chef avatar"
@@ -131,24 +131,24 @@ exports[`About page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <video
-    class="css-80kx6c"
+    class="css-wh8rny"
     controls=""
     poster="/images/introPoster.webp"
     src="https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FIntro%20Templates%20For%20Youtube%20Cooking%20Chan%20(You2Audio.Com).mp4?alt=media&token=52d3ef27-e3f9-467b-83f0-8d3e6ca250c7"
   />
   <section
-    class="css-1eps3gi"
+    class="css-4g3ulk"
   >
     <h3
-      class="chakra-heading css-113u9o4"
+      class="chakra-heading css-1h6vz59"
     >
       Sophisticated Process
     </h3>
     <div
-      class="css-1ewfrpj"
+      class="css-77jowh"
     >
       <div
-        class="css-12ewtsg"
+        class="css-m7zs1j"
       >
         <img
           alt="split ribs picture"
@@ -163,29 +163,29 @@ exports[`About page Renders Menu page correctly 1`] = `
         />
       </div>
       <div
-        class="css-1ga7sga"
+        class="css-1p4vxav"
       >
         <h4
-          class="chakra-heading css-1wkijxd"
+          class="chakra-heading css-4lgthp"
         >
           01.
           Slice
         </h4>
         <p
-          class="chakra-text css-19lr15o"
+          class="chakra-text css-u9nvjx"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.
         </p>
       </div>
     </div>
     <div
-      class="css-cyiyvf"
+      class="css-f2ozgw"
     >
       <div
-        class="css-3d9pfu"
+        class="css-oh2ipf"
       >
         <div
-          class="css-6eirtp"
+          class="css-i2mnd"
         >
           <img
             alt="marinated ribs picture"
@@ -200,37 +200,37 @@ exports[`About page Renders Menu page correctly 1`] = `
           />
         </div>
         <h4
-          class="chakra-heading css-1skdcpn"
+          class="chakra-heading css-lkybp2"
         >
           02.
           Pickled
         </h4>
         <p
-          class="chakra-text css-1e0l5jw"
+          class="chakra-text css-kq3f6m"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
         </p>
       </div>
       <div
-        class="css-16yzuai"
+        class="css-u7de1j"
       >
         <div
-          class="css-akck1f"
+          class="css-1l3ne0m"
         >
           <h4
-            class="chakra-heading css-1wkijxd"
+            class="chakra-heading css-4lgthp"
           >
             03.
             Bake  
           </h4>
           <p
-            class="chakra-text css-1vx5ae8"
+            class="chakra-text css-1x954w"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
           </p>
         </div>
         <div
-          class="css-nsxh3t"
+          class="css-10z65vr"
         >
           <img
             alt="grilled ribs picture"
@@ -248,58 +248,62 @@ exports[`About page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-628vpw"
+    class="css-fdh48f"
     id="reservationSection"
   >
     <form
       novalidate=""
     >
       <div
-        class="chakra-form-control css-thxs3d"
+        class="chakra-form-control css-whvd6l"
         role="group"
       >
         <div
           class="css-yjtq8f"
         >
           <h3
-            class="chakra-heading css-mxgfwf"
+            class="chakra-heading css-17j5m7v"
           >
             Make a Reservation
           </h3>
           <p
-            class="chakra-text css-11o6bb1"
+            class="chakra-text css-1ce86fs"
           >
             Get in touch with restaurant
           </p>
         </div>
         <div
-          class="css-6wfi37"
+          class="css-krxe1m"
         >
           <div
-            class="css-pl1d54"
+            class="css-1payax8"
           >
             <div
-              class="react-datepicker-wrapper"
+              class="css-0"
             >
               <div
-                class="react-datepicker__input-container"
+                class="react-datepicker-wrapper"
               >
-                <input
-                  class="chakra-input css-nr8l43"
-                  id="field-:r0:"
-                  placeholder="MM/DD/YYYY"
-                  value=""
-                />
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-q7pni1"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
               </div>
             </div>
             <div
               class="css-0"
             >
               <div
-                class="chakra-select__wrapper css-1uge2rn"
+                class="chakra-select__wrapper css-17qe6bp"
               >
                 <select
-                  class="chakra-select css-1srlo7p"
+                  class="chakra-select css-lknr9b"
                   data-testid="selectTime"
                   id="field-:r0:"
                   name="time"
@@ -361,7 +365,7 @@ exports[`About page Renders Menu page correctly 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="chakra-icon chakra-select__icon css-13wnv3o"
+                    class="chakra-icon chakra-select__icon css-m73ylg"
                     focusable="false"
                     role="presentation"
                     style="width: 1em; height: 1em; color: currentColor;"
@@ -380,7 +384,7 @@ exports[`About page Renders Menu page correctly 1`] = `
             class="chakra-select__wrapper css-42b2qy"
           >
             <select
-              class="chakra-select css-1srlo7p"
+              class="chakra-select css-lknr9b"
               data-testid="selectPerson"
               id="field-:r0:"
               name="person"
@@ -447,7 +451,7 @@ exports[`About page Renders Menu page correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="chakra-icon chakra-select__icon css-13wnv3o"
+                class="chakra-icon chakra-select__icon css-m73ylg"
                 focusable="false"
                 role="presentation"
                 style="width: 1em; height: 1em; color: currentColor;"
@@ -462,10 +466,10 @@ exports[`About page Renders Menu page correctly 1`] = `
           </div>
         </div>
         <div
-          class="css-1610dfo"
+          class="css-1nx6xr5"
         >
           <button
-            class="chakra-button css-h4ij4d"
+            class="chakra-button css-5sg5i5"
             disabled=""
             type="submit"
           >

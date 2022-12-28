@@ -61,22 +61,22 @@ const ReservationForm = ({
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        width={{ base: '351px', md: '100%' }}
-        margin={{ base: '0 auto', md: 'unset' }}
+        maxW={{ base: '320px', md: '1148px', '2xl': '100%' }}
+        margin="0 auto"
       >
         <Flex flexDirection="column" justifyContent="center" margin="0 auto">
           <Heading
             as="h3"
-            size={{ base: 'small', md: 'large' }}
+            size="large"
             variant="secondary"
-            pb={{ base: '10px', md: '18px' }}
+            pb={{ base: '10px', '2xl': '18px' }}
           >
             Make a Reservation
           </Heading>
           <Text
-            pb={{ base: '50px', md: isShowFullField ? '115px' : '133px' }}
+            pb={{ base: '50px', '2xl': isShowFullField ? '115px' : '133px' }}
             textAlign={isShowFullField ? 'start' : 'center'}
-            size={{ base: 'small', md: 'default' }}
+            size="default"
           >
             Get in touch with restaurant
           </Text>
@@ -85,8 +85,8 @@ const ReservationForm = ({
         {isShowFullField && (
           <>
             <Flex
-              flexDirection={{ base: 'column', md: 'row' }}
-              gap={{ base: '0px', md: '48px' }}
+              flexDirection={{ base: 'column', '2xl': 'row' }}
+              gap={{ base: '0px', '2xl': '48px' }}
             >
               <Input
                 value={firstName}
@@ -95,7 +95,7 @@ const ReservationForm = ({
                 name="firstName"
                 type="text"
                 placeholder="First Name"
-                mb={{ base: '18px', md: '48px' }}
+                mb={{ base: '18px', '2xl': '48px' }}
               />
               <Input
                 value={lastName}
@@ -104,10 +104,10 @@ const ReservationForm = ({
                 name="lastName"
                 type="text"
                 placeholder="Last Name"
-                mb={{ base: '18px', md: '48px' }}
+                mb={{ base: '18px', '2xl': '48px' }}
               />
             </Flex>
-            <Box mb={{ base: '18px', md: '48px' }}>
+            <Box mb={{ base: '18px', '2xl': '48px' }}>
               <Input
                 value={email}
                 disabled={isDisableField}
@@ -117,12 +117,12 @@ const ReservationForm = ({
                 placeholder="Email"
               />
               {emailError && (
-                <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+                <FormErrorMessage fontSize={{ base: 'xxs', '2xl': 'base' }}>
                   {emailError}
                 </FormErrorMessage>
               )}
             </Box>
-            <Box mb={{ base: '18px', md: '48px' }}>
+            <Box mb={{ base: '18px', '2xl': '48px' }}>
               <Input
                 value={phone}
                 disabled={isDisableField}
@@ -132,7 +132,7 @@ const ReservationForm = ({
                 placeholder="Phone"
               />
               {phoneError && (
-                <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+                <FormErrorMessage fontSize={{ base: 'xxs', '2xl': 'base' }}>
                   {phoneError}
                 </FormErrorMessage>
               )}
@@ -151,18 +151,20 @@ const ReservationForm = ({
             flexDirection={{ base: 'column', md: 'unset' }}
             gap={{ base: '18px', md: '48px' }}
           >
-            <Picker
-              pickerValue={date}
-              disabled={isDisableField}
-              width={{
-                base: '351px',
-                md: isShowFullField ? '798px' : '516px',
-              }}
-              onChangeDate={handleChangeDate}
-              isMinDate
-              isMaxDate
-            />
-
+            <Box>
+              <Picker
+                pickerValue={date}
+                disabled={isDisableField}
+                width={{
+                  base: '320px',
+                  md: isShowFullField ? '550px' : '350px',
+                  '2xl': isShowFullField ? '798px' : '516px',
+                }}
+                onChangeDate={handleChangeDate}
+                isMinDate
+                isMaxDate
+              />
+            </Box>
             <Box>
               <SelectField
                 name="time"
@@ -173,12 +175,13 @@ const ReservationForm = ({
                 options={RESERVATION_TIME}
                 onChangeSelect={onChangeField}
                 width={{
-                  base: '351px',
-                  md: isShowFullField ? '798px' : '516px',
+                  base: '100%',
+                  md: isShowFullField ? '550px' : '350px',
+                  '2xl': isShowFullField ? '798px' : '516px',
                 }}
               />
               {timeError && (
-                <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+                <FormErrorMessage fontSize={{ base: 'xxs', '2xl': 'base' }}>
                   {timeError}
                 </FormErrorMessage>
               )}
@@ -196,7 +199,7 @@ const ReservationForm = ({
         </Flex>
         <Box
           margin="0 auto"
-          pt={{ base: '50px', md: isShowFullField ? '80px' : '133px' }}
+          pt={{ base: '50px', '2xl': isShowFullField ? '80px' : '133px' }}
         >
           <Button
             type="submit"

@@ -13,8 +13,8 @@ const PriceList = ({ price, name, description, ...rest }: PriceListProps) => {
       <Heading
         as="h4"
         variant="secondary"
-        size={{ base: 'small', md: 'base' }}
-        paddingBottom={{ base: '6px', md: '12px' }}
+        size={{ base: 'small', '2xl': 'base' }}
+        paddingBottom={{ base: '6px', '2xl': '12px' }}
         textAlign="right"
       >
         ${price}
@@ -23,12 +23,12 @@ const PriceList = ({ price, name, description, ...rest }: PriceListProps) => {
       <Heading
         as="h3"
         variant="secondary"
-        size={{ base: 'small', md: 'default' }}
-        padding={{ base: '10px 0px', md: '24px 0px' }}
+        size={{ base: 'small', '2xl': 'default' }}
+        padding={{ base: '10px 0px', '2xl': '24px 0px' }}
       >
         {name}
       </Heading>
-      <Text size={{ base: 'base', md: 'default' }}>{description}</Text>
+      <Text size={{ base: 'base', '2xl': 'default' }}>{description}</Text>
     </Box>
   )
 }

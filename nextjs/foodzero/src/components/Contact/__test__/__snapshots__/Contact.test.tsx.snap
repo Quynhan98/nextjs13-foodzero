@@ -6,7 +6,7 @@ exports[`Contact component Renders Contact default correctly 1`] = `
     class="css-0"
   >
     <p
-      class="chakra-text css-craojw"
+      class="chakra-text css-1is94eo"
     >
       Contact
     </p>
@@ -14,7 +14,7 @@ exports[`Contact component Renders Contact default correctly 1`] = `
       href="tel:+86 852 346 000"
     >
       <p
-        class="chakra-text css-gz08eg"
+        class="chakra-text css-ptcdyg"
       >
         +86 852 346 000
       </p>
@@ -23,13 +23,13 @@ exports[`Contact component Renders Contact default correctly 1`] = `
       href="mailto:info@foodzero.com"
     >
       <p
-        class="chakra-text css-1oecnb9"
+        class="chakra-text css-uslr5m"
       >
         info@foodzero.com
       </p>
     </a>
     <p
-      class="chakra-text css-15kw7zj"
+      class="chakra-text css-1as2o8a"
     >
       1959 Sepulveda Blvd. Culver City, CA, 90230
     </p>
@@ -47,18 +47,18 @@ exports[`Contact component Renders Contact with social icon correctly 1`] = `
     class="css-0"
   >
     <p
-      class="chakra-text css-craojw"
+      class="chakra-text css-1is94eo"
     >
       Contact
     </p>
     <hr
-      class="css-12mde4g"
+      class="css-8rhx5n"
     />
     <a
       href="tel:+86 852 346 000"
     >
       <p
-        class="chakra-text css-gz08eg"
+        class="chakra-text css-ptcdyg"
       >
         +86 852 346 000
       </p>
@@ -67,18 +67,18 @@ exports[`Contact component Renders Contact with social icon correctly 1`] = `
       href="mailto:info@foodzero.com"
     >
       <p
-        class="chakra-text css-1oecnb9"
+        class="chakra-text css-uslr5m"
       >
         info@foodzero.com
       </p>
     </a>
     <p
-      class="chakra-text css-15kw7zj"
+      class="chakra-text css-1as2o8a"
     >
       1959 Sepulveda Blvd. Culver City, CA, 90230
     </p>
     <ul
-      class="css-shidlx"
+      class="css-1vx1eml"
       role="list"
     >
       <li

@@ -52,10 +52,11 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
   return (
     <Box {...rest}>
       <Text
-        size={{ base: 'default', md: 'extraLarge' }}
+        size="extraLarge"
         variant="secondary"
         fontFamily="Rufina"
-        maxW="1262px"
+        fontWeight="bold"
+        maxW={{ base: '100%', md: '830px', '2xl': '1262px' }}
       >
         “ {quote.quote}
       </Text>
@@ -63,8 +64,8 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
         flexDirection={{ base: 'column', md: 'row' }}
         alignItems="center"
         justifyContent="space-between"
-        pt={{ base: '20px', md: '86px' }}
-        gap={{ base: '15px', md: '10px' }}
+        pt={{ base: '20px', '2xl': '86px' }}
+        gap={{ base: '15px', '2xl': '10px' }}
       >
         <UserAvatar
           src={quote.avatar}
@@ -73,7 +74,7 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
         />
         <Flex
           alignItems="center"
-          width={{ base: '100%', md: '40%' }}
+          width={{ base: '100%', '2xl': '40%' }}
           justifyContent="flex-end"
         >
           <Button
@@ -90,8 +91,8 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
           </Button>
           <Text
             fontFamily="rufina"
-            fontSize={{ base: 'base', md: 'md' }}
-            lineHeight={{ base: 'base', md: 'sm' }}
+            fontSize={{ base: 'base', '2xl': 'md' }}
+            lineHeight={{ base: 'base', '2xl': 'sm' }}
             variant="secondary"
           >
             {currentSlider}/{quotes.length}

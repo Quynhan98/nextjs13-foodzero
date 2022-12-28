@@ -16,18 +16,18 @@ const OpenTime = ({ openTime, businessHours }: OpenTimeProps) => {
     <Box minW="310px" maxW="696px">
       <Flex
         justifyContent="space-between"
-        pb={{ base: '20px', md: '38px' }}
+        pb={{ base: '20px', '2xl': '38px' }}
         alignItems="center"
       >
         <Text
           variant="primary"
-          fontSize={{ base: 'base', md: 'md' }}
+          fontSize={{ base: 'base', '2xl': 'md' }}
           fontWeight="bold"
           fontFamily="Rufina"
         >
           Open Time
         </Text>
-        <Text variant="primary" size={{ base: 'small', md: 'default' }}>
+        <Text variant="primary" size={{ base: 'small', '2xl': 'default' }}>
           {openTime}
         </Text>
       </Flex>
@@ -35,17 +35,17 @@ const OpenTime = ({ openTime, businessHours }: OpenTimeProps) => {
       <UnorderedList
         display="flex"
         justifyContent="space-between"
-        gap={{ base: '20px', md: '133px' }}
-        pt={{ base: '20px', md: '38px' }}
+        gap={{ base: '20px', '2xl': '133px' }}
+        pt={{ base: '20px', '2xl': '38px' }}
         listStyleType="none"
         marginLeft="0px"
       >
         {businessHours.map((item) => (
           <ListItem key={`business-hours-${item.meal}`}>
-            <Text variant="primary" size={{ base: 'small', md: 'default' }}>
+            <Text variant="primary" size={{ base: 'small', '2xl': 'default' }}>
               {item.meal}
             </Text>
-            <Text variant="primary" size={{ base: 'small', md: 'default' }}>
+            <Text variant="primary" size={{ base: 'small', '2xl': 'default' }}>
               {item.time}
             </Text>
           </ListItem>
