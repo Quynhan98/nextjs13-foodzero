@@ -350,7 +350,7 @@ const Menu = ({ menu }: IMenuProps) => {
         backgroundColor="alabaster"
       >
         <ReservationForm
-          pickerValue={reservation.date}
+          {...reservation}
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
           onChangeField={handleChangeField}

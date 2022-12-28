@@ -617,6 +617,11 @@ exports[`Home page Renders Home page correctly 1`] = `
                   style="padding-left: 40px;"
                 >
                   <option
+                    value=""
+                  >
+                    11:00 am
+                  </option>
+                  <option
                     value="11:00 am"
                   >
                     11:00 am
@@ -692,6 +697,11 @@ exports[`Home page Renders Home page correctly 1`] = `
               name="person"
               style="padding-left: 40px;"
             >
+              <option
+                value=""
+              >
+                1 Person
+              </option>
               <option
                 value="1 Person"
               >

@@ -7,13 +7,11 @@ import { BREAKPOINTS } from '@constants/variables'
 
 interface SelectFieldProps extends SelectProps {
   options: string[]
-  name?: string
   onChangeSelect?: (e: ChangeEvent<HTMLSelectElement>) => void
 }
 
 const SelectField = ({
   options,
-  name,
   onChangeSelect,
   ...rest
 }: SelectFieldProps) => {
@@ -36,7 +34,6 @@ const SelectField = ({
       _hover={{ borderColor: 'black' }}
       _invalid={{ borderColor: 'black' }}
       style={{ paddingLeft: '40px' }}
-      name={name}
       onChange={onChangeSelect}
       {...rest}
     >

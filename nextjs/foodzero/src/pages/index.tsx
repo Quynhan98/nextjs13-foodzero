@@ -475,7 +475,7 @@ const Home = ({ menu, posts }: IHomeProps) => {
         backgroundColor="alabaster"
       >
         <ReservationForm
-          pickerValue={reservation.date}
+          {...reservation}
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
           onChangeField={handleChangeField}

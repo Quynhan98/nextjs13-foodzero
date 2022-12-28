@@ -322,7 +322,6 @@ const Contact = () => {
       >
         <ReservationForm
           {...reservation}
-          pickerValue={reservation.date}
           timeError={errorMessage.time}
           emailError={errorMessage.email}
           phoneError={errorMessage.phone}

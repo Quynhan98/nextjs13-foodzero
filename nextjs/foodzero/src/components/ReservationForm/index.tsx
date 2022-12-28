@@ -27,11 +27,13 @@ interface ReservationFormProps {
   phoneError?: string
   emailError?: string
   timeError?: string
-  pickerValue?: string
+  date?: string
   phone?: string
   firstName?: string
   lastName?: string
   email?: string
+  time?: string
+  person?: string
 }
 
 const ReservationForm = ({
@@ -45,10 +47,12 @@ const ReservationForm = ({
   phoneError,
   emailError,
   timeError,
-  pickerValue,
+  date,
   firstName,
   lastName,
   email,
+  time,
+  person,
 }: ReservationFormProps) => {
   return (
     <form onSubmit={onSubmitForm} noValidate>
@@ -148,7 +152,7 @@ const ReservationForm = ({
             gap={{ base: '18px', md: '48px' }}
           >
             <Picker
-              pickerValue={pickerValue}
+              pickerValue={date}
               disabled={isDisableField}
               width={{
                 base: '351px',
@@ -162,6 +166,8 @@ const ReservationForm = ({
             <Box>
               <SelectField
                 name="time"
+                value={time}
+                placeholder={time}
                 isDisabled={isDisableField}
                 data-testid="selectTime"
                 options={RESERVATION_TIME}
@@ -180,8 +186,10 @@ const ReservationForm = ({
           </Flex>
           <SelectField
             name="person"
+            value={person}
             isDisabled={isDisableField}
             data-testid="selectPerson"
+            placeholder={person}
             options={NUMBER_OF_PERSON}
             onChangeSelect={onChangeField}
           />
