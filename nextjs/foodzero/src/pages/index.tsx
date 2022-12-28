@@ -44,6 +44,7 @@ import {
   RESERVATION_TIME,
   SERVER_ERROR,
   SNACKBAR_BOOKING_SUCCESS,
+  TIME_DUPLICATED_ERROR,
 } from '@constants/index'
 
 // Types
@@ -56,6 +57,9 @@ import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Contexts
 import { IBookingContext } from '@contexts/BookingProvider'
+
+// Utils
+import { findItemByValue, formatDate } from '@utils/index'
 
 interface IHomeProps {
   menu: IOurMenu[]
@@ -79,17 +83,17 @@ export const getServerSideProps: GetServerSideProps = async () => {
 }
 
 const reservationInit = {
-  date: '' as unknown as Date,
+  date: '',
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
 }
+
 const Home = ({ menu, posts }: IHomeProps) => {
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
   const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
-
-  const isDisableField = booking.length > 0
+  const [errorMessage, setErrorMessage] = useState<string>('')
 
   const handleSubmit = useCallback(
     async (e: FormEvent<HTMLFormElement>) => {
@@ -106,6 +110,8 @@ const Home = ({ menu, posts }: IHomeProps) => {
           isClosable: true,
           position: 'bottom-left',
         })
+
+        setReservation(reservationInit)
       } catch (error) {
         toast({
           title: 'Error',
@@ -121,23 +127,53 @@ const Home = ({ menu, posts }: IHomeProps) => {
     [booking, reservation],
   )
 
-  const handleChangeDate = useCallback((date: Date) => {
-    setReservation((prev) => ({
-      ...prev,
-      date,
-    }))
-  }, [])
+  const handleChangeDate = useCallback(
+    (date: Date) => {
+      const newDate = date && formatDate(date)
+      const dateDuplicated = booking.filter((item) => item.date === newDate)
 
-  const handleChangeField = useCallback(
-    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-      const selectValues = { [e.target.name]: e.target.value }
+      if (reservation.time) {
+        const timeDuplicated = findItemByValue({
+          data: dateDuplicated,
+          value: reservation.time,
+          key: 'time',
+        })
+
+        setErrorMessage(timeDuplicated ? TIME_DUPLICATED_ERROR : '')
+      }
 
       setReservation((prev) => ({
         ...prev,
-        ...selectValues,
+        date: newDate,
       }))
     },
-    [],
+    [booking, reservation.time],
+  )
+
+  const handleChangeField = useCallback(
+    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      const nameInput = e.target.name
+      const valueInput = e.target.value
+      const dateDuplicated = booking.filter(
+        (item) => item.date === reservation.date,
+      )
+
+      if (dateDuplicated.length > 0 && nameInput === 'time') {
+        const timeDuplicated = findItemByValue({
+          data: dateDuplicated,
+          value: valueInput,
+          key: 'time',
+        })
+
+        setErrorMessage(timeDuplicated ? TIME_DUPLICATED_ERROR : '')
+      }
+
+      setReservation((prev) => ({
+        ...prev,
+        [nameInput]: valueInput,
+      }))
+    },
+    [booking, reservation.date],
   )
 
   const renderChefSection = useMemo(
@@ -439,11 +475,12 @@ const Home = ({ menu, posts }: IHomeProps) => {
         backgroundColor="alabaster"
       >
         <ReservationForm
+          {...reservation}
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
           onChangeField={handleChangeField}
-          isDisableField={isDisableField}
-          isDisableButton={isDisableField || !reservation.date}
+          timeError={errorMessage}
+          isDisableButton={!!errorMessage || !reservation.date}
         />
       </Box>
 

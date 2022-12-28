@@ -24,9 +24,16 @@ interface ReservationFormProps {
   isShowFullField?: boolean
   isDisableButton?: boolean
   isDisableField?: boolean
-  phoneValue?: string
   phoneError?: string
   emailError?: string
+  timeError?: string
+  date?: string
+  phone?: string
+  firstName?: string
+  lastName?: string
+  email?: string
+  time?: string
+  person?: string
 }
 
 const ReservationForm = ({
@@ -36,14 +43,21 @@ const ReservationForm = ({
   isShowFullField = false,
   isDisableButton,
   isDisableField,
-  phoneValue,
+  phone,
   phoneError,
   emailError,
+  timeError,
+  date,
+  firstName,
+  lastName,
+  email,
+  time,
+  person,
 }: ReservationFormProps) => {
   return (
     <form onSubmit={onSubmitForm} noValidate>
       <FormControl
-        isInvalid={!!(emailError || phoneError)}
+        isInvalid={!!(emailError || phoneError || timeError)}
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -75,6 +89,7 @@ const ReservationForm = ({
               gap={{ base: '0px', md: '48px' }}
             >
               <Input
+                value={firstName}
                 disabled={isDisableField}
                 onChange={onChangeField}
                 name="firstName"
@@ -83,6 +98,7 @@ const ReservationForm = ({
                 mb={{ base: '18px', md: '48px' }}
               />
               <Input
+                value={lastName}
                 disabled={isDisableField}
                 onChange={onChangeField}
                 name="lastName"
@@ -93,6 +109,7 @@ const ReservationForm = ({
             </Flex>
             <Box mb={{ base: '18px', md: '48px' }}>
               <Input
+                value={email}
                 disabled={isDisableField}
                 onChange={onChangeField}
                 name="email"
@@ -107,7 +124,7 @@ const ReservationForm = ({
             </Box>
             <Box mb={{ base: '18px', md: '48px' }}>
               <Input
-                value={phoneValue}
+                value={phone}
                 disabled={isDisableField}
                 onChange={onChangeField}
                 name="phone"
@@ -134,31 +151,45 @@ const ReservationForm = ({
             flexDirection={{ base: 'column', md: 'unset' }}
             gap={{ base: '18px', md: '48px' }}
           >
+            <Picker
+              pickerValue={date}
+              disabled={isDisableField}
+              width={{
+                base: '351px',
+                md: isShowFullField ? '798px' : '516px',
+              }}
+              onChangeDate={handleChangeDate}
+              isMinDate
+              isMaxDate
+            />
+
             <Box>
-              <Picker
-                disabled={isDisableField}
+              <SelectField
+                name="time"
+                value={time}
+                placeholder={time}
+                isDisabled={isDisableField}
+                data-testid="selectTime"
+                options={RESERVATION_TIME}
+                onChangeSelect={onChangeField}
                 width={{
                   base: '351px',
                   md: isShowFullField ? '798px' : '516px',
                 }}
-                onChangeDate={handleChangeDate}
-                isMinDate
-                isMaxDate
               />
+              {timeError && (
+                <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+                  {timeError}
+                </FormErrorMessage>
+              )}
             </Box>
-            <SelectField
-              name="time"
-              isDisabled={isDisableField}
-              data-testid="selectTime"
-              options={RESERVATION_TIME}
-              onChangeSelect={onChangeField}
-              width={{ base: '351px', md: isShowFullField ? '798px' : '516px' }}
-            />
           </Flex>
           <SelectField
             name="person"
+            value={person}
             isDisabled={isDisableField}
             data-testid="selectPerson"
+            placeholder={person}
             options={NUMBER_OF_PERSON}
             onChangeSelect={onChangeField}
           />

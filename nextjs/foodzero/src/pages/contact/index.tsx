@@ -15,6 +15,7 @@ import {
   RESERVATION_TIME,
   SERVER_ERROR,
   SNACKBAR_BOOKING_SUCCESS,
+  TIME_DUPLICATED_ERROR,
 } from '@constants/index'
 
 // Components
@@ -30,11 +31,11 @@ import { useLoadingContext } from '@hooks/useLoadingContext'
 import { IBookingContext } from '@contexts/BookingProvider'
 
 // Utils
-import { formatPhoneNumber } from '@utils/index'
+import { findItemByValue, formatDate, formatPhoneNumber } from '@utils/index'
 import { checkValidate } from '@utils/validation'
 
 const reservationInit = {
-  date: '' as unknown as Date,
+  date: '',
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
   phone: '',
@@ -46,6 +47,7 @@ const reservationInit = {
 const initErrorMsgs = {
   email: '',
   phone: '',
+  time: '',
 }
 
 const Contact = () => {
@@ -55,30 +57,92 @@ const Contact = () => {
   const [reservation, setReservation] = useState(reservationInit)
   const [errorMessage, setErrorMessage] = useState(initErrorMsgs)
 
-  const phoneNumber = formatPhoneNumber(reservation.phone).replace(
-    REGEX_REMOVE_BRACKETS,
-    '',
+  // Check disable button
+  const isDisable = !!(
+    errorMessage.email ||
+    errorMessage.phone ||
+    errorMessage.time ||
+    !reservation.date
   )
 
-  const isDisableField = booking.length > 0
+  const handleChangeDate = useCallback(
+    (date: Date) => {
+      const newDate = date && formatDate(date)
+      const dateDuplicated = booking.filter((item) => item.date === newDate)
 
-  const handleChangeDate = useCallback((date: Date) => {
-    setReservation((prev) => ({
-      ...prev,
-      date,
-    }))
-  }, [])
+      if (reservation.time) {
+        const timeDuplicated = findItemByValue({
+          data: dateDuplicated,
+          value: reservation.time,
+          key: 'time',
+        })
 
-  const handleChangeField = useCallback(
-    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-      const selectValues = { [e.target.name]: e.target.value }
+        setErrorMessage((prev) => ({
+          ...prev,
+          time: timeDuplicated ? TIME_DUPLICATED_ERROR : '',
+        }))
+      }
 
       setReservation((prev) => ({
         ...prev,
-        ...selectValues,
+        date: newDate,
       }))
     },
-    [],
+    [booking, reservation.time],
+  )
+
+  const handleChangeField = useCallback(
+    (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      const nameInput = e.target.name
+      const valueInput = e.target.value
+      const dateDuplicated = booking.filter(
+        (item) => item.date === reservation.date,
+      )
+
+      if (nameInput === 'email') {
+        const validateEmail = checkValidate({
+          value: valueInput,
+          regex: REGEX_EMAIL,
+          errorMess: INVALID_EMAIL_FORMAT,
+        })
+
+        setErrorMessage((prev) => ({
+          ...prev,
+          email: validateEmail || '',
+        }))
+      }
+
+      if (nameInput === 'phone') {
+        const phone = formatPhoneNumber(valueInput).replace(
+          REGEX_REMOVE_BRACKETS,
+          '',
+        )
+
+        setErrorMessage((prev) => ({
+          ...prev,
+          phone: phone.length !== 10 ? PHONE_ERROR_LENGTH : '',
+        }))
+      }
+
+      if (dateDuplicated.length > 0 && nameInput === 'time') {
+        const timeDuplicated = findItemByValue({
+          data: dateDuplicated,
+          value: valueInput,
+          key: 'time',
+        })
+
+        setErrorMessage((prev) => ({
+          ...prev,
+          time: timeDuplicated ? TIME_DUPLICATED_ERROR : '',
+        }))
+      }
+
+      setReservation((prev) => ({
+        ...prev,
+        [nameInput]: valueInput,
+      }))
+    },
+    [booking, reservation.date],
   )
 
   const handleSubmit = useCallback(
@@ -87,52 +151,41 @@ const Contact = () => {
 
       const payload = {
         ...reservation,
-        phone: reservation.phone ? COUNTRY_CODE + phoneNumber : '',
+        phone: reservation.phone
+          ? COUNTRY_CODE +
+            formatPhoneNumber(reservation.phone).replace(
+              REGEX_REMOVE_BRACKETS,
+              '',
+            )
+          : '',
       }
 
-      const validateEmail = checkValidate({
-        value: reservation.email,
-        regex: REGEX_EMAIL,
-        errorMess: INVALID_EMAIL_FORMAT,
-      })
+      try {
+        setLoading(true)
+        await addBooking([...booking, payload])
 
-      if (
-        (phoneNumber && phoneNumber.length !== 10) ||
-        (reservation.email && validateEmail)
-      ) {
-        setErrorMessage((prev) => ({
-          ...prev,
-          phone: phoneNumber.length !== 10 ? PHONE_ERROR_LENGTH : '',
-          email: reservation.email ? validateEmail : '',
-        }))
-      } else {
-        try {
-          setLoading(true)
-          setErrorMessage(initErrorMsgs)
+        toast({
+          title: 'Success',
+          description: SNACKBAR_BOOKING_SUCCESS,
+          status: 'success',
+          isClosable: true,
+          position: 'bottom-left',
+        })
 
-          await addBooking([...booking, payload])
-
-          toast({
-            title: 'Success',
-            description: SNACKBAR_BOOKING_SUCCESS,
-            status: 'success',
-            isClosable: true,
-            position: 'bottom-left',
-          })
-        } catch (error) {
-          toast({
-            title: 'Error',
-            description: SERVER_ERROR,
-            status: 'error',
-            isClosable: true,
-            position: 'bottom-left',
-          })
-        } finally {
-          setLoading(false)
-        }
+        setReservation(reservationInit)
+      } catch (error) {
+        toast({
+          title: 'Error',
+          description: SERVER_ERROR,
+          status: 'error',
+          isClosable: true,
+          position: 'bottom-left',
+        })
+      } finally {
+        setLoading(false)
       }
     },
-    [booking, phoneNumber, reservation],
+    [booking, reservation],
   )
 
   return (
@@ -268,15 +321,16 @@ const Contact = () => {
         backgroundColor="alabaster"
       >
         <ReservationForm
+          {...reservation}
+          timeError={errorMessage.time}
           emailError={errorMessage.email}
           phoneError={errorMessage.phone}
           isShowFullField
-          phoneValue={formatPhoneNumber(reservation.phone)}
+          phone={formatPhoneNumber(reservation.phone)}
           onSubmitForm={handleSubmit}
           handleChangeDate={handleChangeDate}
           onChangeField={handleChangeField}
-          isDisableField={isDisableField}
-          isDisableButton={isDisableField || !reservation.date}
+          isDisableButton={isDisable}
         />
       </Box>
       {loading && <LoadingIndicator size="lg" />}
