@@ -162,14 +162,18 @@ const Menu = ({ menu }: IMenuProps) => {
         objectFit="cover"
         maxW="1920px"
         maxH="1080px"
-        padding={{ base: '100px 12px', '2xl': '350px 138px 328px 138px' }}
+        padding={{
+          base: '100px 12px',
+          md: '250px 50px 150px 50px',
+          '2xl': '350px 138px 328px 138px',
+        }}
       >
-        <Heading size="extraLarge" maxW={{ base: '320px', '2xl': '779px' }}>
+        <Heading size="extraLarge" maxW={{ base: '90%', md: '45%' }}>
           View Our New Menu
         </Heading>
         <Text
-          pt={{ base: '10px', '2xl': '50px' }}
-          maxW={{ base: '280px', '2xl': '779px' }}
+          pt={{ base: '10px', md: '50px' }}
+          maxW={{ base: '80%', md: '50%' }}
           variant="primary"
           fontFamily="Rufina"
           size="common"
@@ -181,13 +185,17 @@ const Menu = ({ menu }: IMenuProps) => {
       {/* Starters section */}
       <Box
         as="section"
-        padding={{ base: '60px 12px', '2xl': '122px 138px 140px 138px' }}
+        padding={{
+          base: '60px 12px',
+          md: '120px 50px',
+          '2xl': '122px 138px 140px 138px',
+        }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '118px', '2xl': '472px' },
-          height: { base: '97px', '2xl': '390px' },
+          width: { base: '118px', md: '325px', '2xl': '472px' },
+          height: { base: '97px', md: '268px', '2xl': '390px' },
           top: '0px',
           right: '0px',
           backgroundImage: '/images/blueberry.webp',
@@ -203,14 +211,14 @@ const Menu = ({ menu }: IMenuProps) => {
           This is a section of your menu. Give your section a brief description
         </Text>
         <Flex
-          pt={{ base: '40px', '2xl': '81px' }}
-          flexDirection={{ base: 'column', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'unset' }}
-          gap={{ base: '30px', '2xl': '102px' }}
+          pt={{ base: '40px', md: '81px' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'unset' }}
+          gap={{ base: '30px', md: '70px', '2xl': '102px' }}
         >
           <Box
-            width={{ base: '277px', '2xl': '792px' }}
-            height={{ base: '314px', '2xl': '898px' }}
+            width={{ base: '277px', md: '554px', '2xl': '792px' }}
+            height={{ base: '314px', md: '629px', '2xl': '898px' }}
             position="relative"
             margin="0 auto"
           >
@@ -220,16 +228,21 @@ const Menu = ({ menu }: IMenuProps) => {
               src="/images/youngTofu.webp"
               alt="excellent cook picture"
               sizes="(max-width: 768px) 277px, 314px
-        (min-width: 1200px) 792px, 898px"
+                (min-width: 768px) 554px, 629px
+                (min-width: 1200px) 792px, 898px"
             />
           </Box>
           <UnorderedList
             listStyleType="none"
             marginLeft="0px"
-            gap={{ base: '30px', '2xl': '60px' }}
+            display="flex"
+            flexDirection="column"
+            gap={{ base: '30px', md: '60px' }}
+            maxW="792px"
+            minW={{ base: '100%', md: '45%' }}
           >
             {menu.starters.map((item) => (
-              <ListItem maxW="792px" key={`states-${item.id}`}>
+              <ListItem key={`states-${item.id}`}>
                 <PriceList {...item} />
               </ListItem>
             ))}
@@ -240,7 +253,11 @@ const Menu = ({ menu }: IMenuProps) => {
       {/* Mains section */}
       <Box
         as="section"
-        padding={{ base: '40px 12px', '2xl': '82px 138px 65px 138px' }}
+        padding={{
+          base: '40px 12px',
+          md: '80px 50px',
+          '2xl': '82px 138px 65px 138px',
+        }}
       >
         <Heading as="h3" size="large" variant="secondary" textAlign="center">
           Mains
@@ -249,26 +266,30 @@ const Menu = ({ menu }: IMenuProps) => {
           This is a section of your menu. Give your section a brief description
         </Text>
         <Flex
-          pt={{ base: '40px', '2xl': '81px' }}
-          flexDirection={{ base: 'column-reverse', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'space-between' }}
-          gap={{ base: '30px', '2xl': '102px' }}
+          pt={{ base: '40px', md: '81px' }}
+          flexDirection={{ base: 'column-reverse', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
+          gap={{ base: '30px', md: '102px' }}
           margin="0 auto"
         >
           <UnorderedList
             listStyleType="none"
             marginLeft="0px"
+            display="flex"
+            flexDirection="column"
             gap={{ base: '30px', '2xl': '60px' }}
+            maxW="792px"
+            minW={{ base: '100%', md: '45%' }}
           >
             {menu.mains.map((item) => (
-              <ListItem maxW="792px" key={`mains-${item.id}`}>
+              <ListItem key={`mains-${item.id}`}>
                 <PriceList {...item} />
               </ListItem>
             ))}
           </UnorderedList>
           <Box
-            width={{ base: '277px', '2xl': '792px' }}
-            height={{ base: '314px', '2xl': '898px' }}
+            width={{ base: '277px', md: '554px', '2xl': '792px' }}
+            height={{ base: '314px', md: '629px', '2xl': '898px' }}
             position="relative"
             margin="0 auto"
           >
@@ -277,7 +298,8 @@ const Menu = ({ menu }: IMenuProps) => {
               src="/images/steak.webp"
               alt="excellent cook picture"
               sizes="(max-width: 768px) 277px, 314px
-        (min-width: 1200px) 792px, 898px"
+                (min-width: 768px) 554px, 629px
+                (min-width: 1200px) 792px, 898px"
             />
           </Box>
         </Flex>
@@ -287,13 +309,17 @@ const Menu = ({ menu }: IMenuProps) => {
 
       <Box
         as="section"
-        padding={{ base: '50px 12px', '2xl': '122px 138px 140px 138px' }}
+        padding={{
+          base: '50px 12px',
+          md: '80px 50px',
+          '2xl': '122px 138px 140px 138px',
+        }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '87px', '2xl': '348px' },
-          height: { base: '104px', '2xl': '415px' },
+          width: { base: '87px', md: '244px', '2xl': '348px' },
+          height: { base: '104px', md: '290px', '2xl': '415px' },
           top: '0px',
           left: '45%',
           backgroundImage: '/images/avocado.webp',
@@ -309,14 +335,14 @@ const Menu = ({ menu }: IMenuProps) => {
           This is a section of your menu. Give your section a brief description
         </Text>
         <Flex
-          pt={{ base: '50px', '2xl': '159px' }}
-          flexDirection={{ base: 'column', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'space-between' }}
-          gap={{ base: '30px', '2xl': '102px' }}
+          pt={{ base: '50px', md: '159px' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
+          gap={{ base: '30px', md: '102px' }}
         >
           <Box
-            width={{ base: '277px', '2xl': '792px' }}
-            height={{ base: '314px', '2xl': '898px' }}
+            width={{ base: '277px', md: '554px', '2xl': '792px' }}
+            height={{ base: '314px', md: '629px', '2xl': '898px' }}
             position="relative"
             margin="0 auto"
           >
@@ -325,16 +351,21 @@ const Menu = ({ menu }: IMenuProps) => {
               src="/images/lemonTea.webp"
               alt="excellent cook picture"
               sizes="(max-width: 768px) 277px, 314px
-        (min-width: 1200px) 792px, 898px"
+                (min-width: 768px) 554px, 629px
+                (min-width: 1200px) 792px, 898px"
             />
           </Box>
           <UnorderedList
             listStyleType="none"
             marginLeft="0px"
-            gap={{ base: '30px', '2xl': '60px' }}
+            display="flex"
+            flexDirection="column"
+            gap={{ base: '30px', md: '60px' }}
+            maxW="792px"
+            minW={{ base: '100%', md: '45%' }}
           >
             {menu.pastriesAndDrinks.map((item) => (
-              <ListItem maxW="792px" key={`pastries-and-drinks-${item.id}`}>
+              <ListItem key={`pastries-and-drinks-${item.id}`}>
                 <PriceList {...item} />
               </ListItem>
             ))}
@@ -346,7 +377,11 @@ const Menu = ({ menu }: IMenuProps) => {
       <Box
         id="reservationSection"
         as="section"
-        padding={{ base: '70px 12px', '2xl': '237px 138px 254px 138px' }}
+        padding={{
+          base: '70px 12px',
+          md: '200px 50px',
+          '2xl': '237px 138px 254px 138px',
+        }}
         backgroundColor="alabaster"
       >
         <ReservationForm

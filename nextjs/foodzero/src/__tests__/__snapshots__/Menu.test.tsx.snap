@@ -3,21 +3,21 @@
 exports[`Menu page Renders Menu page correctly 1`] = `
 <div>
   <div
-    class="css-1vcrksb"
+    class="css-7obpig"
   >
     <h2
-      class="chakra-heading css-gvfohi"
+      class="chakra-heading css-2ka32n"
     >
       View Our New Menu
     </h2>
     <p
-      class="chakra-text css-1csw8c4"
+      class="chakra-text css-1fqvw6m"
     >
       The freshest ingredients for you every day
     </p>
   </div>
   <section
-    class="css-5or40f"
+    class="css-mjcp4"
   >
     <h3
       class="chakra-heading css-14bagvu"
@@ -30,27 +30,27 @@ exports[`Menu page Renders Menu page correctly 1`] = `
       This is a section of your menu. Give your section a brief description
     </p>
     <div
-      class="css-1pyw6ef"
+      class="css-1qe38uk"
     >
       <div
-        class="css-cyeby5"
+        class="css-1wh39tp"
       >
         <img
           alt="excellent cook picture"
           data-nimg="fill"
           decoding="async"
-          sizes="(max-width: 768px) 277px, 314px (min-width: 1200px) 792px, 898px"
+          sizes="(max-width: 768px) 277px, 314px (min-width: 768px) 554px, 629px (min-width: 1200px) 792px, 898px"
           src="/_next/image?url=%2Fimages%2FyoungTofu.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FyoungTofu.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>
       <ul
-        class="css-1mpu2xx"
+        class="css-yjlmq8"
         role="list"
       >
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -78,7 +78,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -106,7 +106,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -134,7 +134,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -165,7 +165,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-1ge04mf"
+    class="css-oklxer"
   >
     <h3
       class="chakra-heading css-14bagvu"
@@ -178,14 +178,14 @@ exports[`Menu page Renders Menu page correctly 1`] = `
       This is a section of your menu. Give your section a brief description
     </p>
     <div
-      class="css-94t78a"
+      class="css-ijaihs"
     >
       <ul
-        class="css-1mpu2xx"
+        class="css-1fvuai0"
         role="list"
       >
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -213,7 +213,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -241,7 +241,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -269,7 +269,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -298,14 +298,14 @@ exports[`Menu page Renders Menu page correctly 1`] = `
         </li>
       </ul>
       <div
-        class="css-cyeby5"
+        class="css-1wh39tp"
       >
         <img
           alt="excellent cook picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 277px, 314px (min-width: 1200px) 792px, 898px"
+          sizes="(max-width: 768px) 277px, 314px (min-width: 768px) 554px, 629px (min-width: 1200px) 792px, 898px"
           src="/_next/image?url=%2Fimages%2Fsteak.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2Fsteak.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fsteak.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fsteak.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fsteak.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fsteak.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fsteak.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fsteak.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fsteak.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fsteak.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fsteak.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fsteak.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fsteak.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fsteak.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
@@ -314,7 +314,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-147uu4d"
+    class="css-17zsyi1"
   >
     <h3
       class="chakra-heading css-14bagvu"
@@ -327,28 +327,28 @@ exports[`Menu page Renders Menu page correctly 1`] = `
       This is a section of your menu. Give your section a brief description
     </p>
     <div
-      class="css-18cek3a"
+      class="css-1yhbdt5"
     >
       <div
-        class="css-cyeby5"
+        class="css-1wh39tp"
       >
         <img
           alt="excellent cook picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 277px, 314px (min-width: 1200px) 792px, 898px"
+          sizes="(max-width: 768px) 277px, 314px (min-width: 768px) 554px, 629px (min-width: 1200px) 792px, 898px"
           src="/_next/image?url=%2Fimages%2FlemonTea.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FlemonTea.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>
       <ul
-        class="css-1mpu2xx"
+        class="css-yjlmq8"
         role="list"
       >
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -376,7 +376,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -404,7 +404,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -432,7 +432,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </li>
         <li
-          class="css-vzuw6d"
+          class="css-0"
         >
           <div
             class="css-0"
@@ -463,7 +463,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-fdh48f"
+    class="css-9baf2d"
     id="reservationSection"
   >
     <form

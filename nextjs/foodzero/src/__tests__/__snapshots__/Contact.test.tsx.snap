@@ -3,34 +3,34 @@
 exports[`Contact page Renders Contact page correctly 1`] = `
 <div>
   <div
-    class="css-mu4nrl"
+    class="css-1ypnufc"
   >
     <h2
-      class="chakra-heading css-zkejbz"
+      class="chakra-heading css-idxew5"
     >
       Get in Touch
     </h2>
     <p
-      class="chakra-text css-1ipvs3q"
+      class="chakra-text css-1rpvtox"
     >
       The freshest ingredients for you every day
     </p>
     <div
-      class="css-1rr09ko"
+      class="css-kns484"
     >
       <div
-        class="css-ftk6jc"
+        class="css-lex2vo"
       >
         <div
-          class="css-17k3l2w"
+          class="css-1rdnf7o"
         >
           <p
-            class="chakra-text css-yqlfvc"
+            class="chakra-text css-qiaoji"
           >
             Open Time
           </p>
           <p
-            class="chakra-text css-1b6c49i"
+            class="chakra-text css-1nxiabe"
           >
             Sunday - Friday
           </p>
@@ -39,19 +39,19 @@ exports[`Contact page Renders Contact page correctly 1`] = `
           class="css-1iijbtl"
         />
         <ul
-          class="css-1s9u7va"
+          class="css-y465uq"
           role="list"
         >
           <li
             class="css-0"
           >
             <p
-              class="chakra-text css-1b6c49i"
+              class="chakra-text css-1nxiabe"
             >
               Brunch
             </p>
             <p
-              class="chakra-text css-1b6c49i"
+              class="chakra-text css-1nxiabe"
             >
               11:00–12:00
             </p>
@@ -60,12 +60,12 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             class="css-0"
           >
             <p
-              class="chakra-text css-1b6c49i"
+              class="chakra-text css-1nxiabe"
             >
               Lunch
             </p>
             <p
-              class="chakra-text css-1b6c49i"
+              class="chakra-text css-1nxiabe"
             >
               13:00–17:00
             </p>
@@ -74,12 +74,12 @@ exports[`Contact page Renders Contact page correctly 1`] = `
             class="css-0"
           >
             <p
-              class="chakra-text css-1b6c49i"
+              class="chakra-text css-1nxiabe"
             >
               Dinner
             </p>
             <p
-              class="chakra-text css-1b6c49i"
+              class="chakra-text css-1nxiabe"
             >
               18:00–20:00
             </p>
@@ -89,27 +89,27 @@ exports[`Contact page Renders Contact page correctly 1`] = `
     </div>
   </div>
   <section
-    class="css-12vc19o"
+    class="css-25f137"
   >
     <div
-      class="css-1yyqljj"
+      class="css-uktyfy"
     >
       <div
-        class="css-107u57h"
+        class="css-314wmh"
       >
         <img
           alt="excellent cook picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 277px, 208px (min-width: 1200px) 792px, 593px"
+          sizes="(max-width: 768px) 277px, 208px (min-width: 768px) 544px, 415px (min-width: 1200px) 792px, 593px"
           src="/_next/image?url=%2Fimages%2FdinnerTable.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FdinnerTable.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>
       <p
-        class="chakra-text css-1w4i3vi"
+        class="chakra-text css-55wrg5"
       >
         We can be contacted 
         <br />
@@ -141,23 +141,23 @@ exports[`Contact page Renders Contact page correctly 1`] = `
       </p>
     </div>
     <div
-      class="css-6s7gdj"
+      class="css-6mdup3"
     >
       <p
-        class="chakra-text css-mm92or"
+        class="chakra-text css-1gmynnl"
       >
         We are located in 
         1959 Sepulveda Blvd. Culver City, CA, 90230
       </p>
       <div
-        class="css-1xd0b27"
+        class="css-1j5gmxr"
       >
         <img
           alt="excellent cook picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 277px, 347px (min-width: 1200px) 792px, 990px"
+          sizes="(max-width: 768px) 277px, 347px (min-width: 768px) 554px, 630px (min-width: 1200px) 792px, 990px"
           src="/_next/image?url=%2Fimages%2Faddress.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2Faddress.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Faddress.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Faddress.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Faddress.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Faddress.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Faddress.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Faddress.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Faddress.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Faddress.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Faddress.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Faddress.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Faddress.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Faddress.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Faddress.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Faddress.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Faddress.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
@@ -166,7 +166,7 @@ exports[`Contact page Renders Contact page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-fdh48f"
+    class="css-2ce55m"
     id="reservationSection"
   >
     <form

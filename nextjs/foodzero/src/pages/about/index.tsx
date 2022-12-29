@@ -130,13 +130,17 @@ const About = () => {
         objectFit="cover"
         maxW="1920px"
         maxH="1080px"
-        padding={{ base: '90px 12px', '2xl': '410px 138px 328px 138px' }}
+        padding={{
+          base: '90px 12px',
+          md: '300px 50px',
+          '2xl': '410px 138px 328px 138px',
+        }}
         justifyContent="flex-end"
       >
-        <Box maxW="915px" mr="81px">
+        <Box maxW={{ base: '80%', md: '60%' }} mr="81px">
           <Heading size="extraLarge">Who We Are</Heading>
           <Text
-            pt={{ base: '10px', '2xl': '50px' }}
+            pt={{ base: '10px', md: '50px' }}
             variant="primary"
             fontFamily="Rufina"
             size="common"
@@ -150,15 +154,19 @@ const About = () => {
       {/* Our Story section */}
       <Box
         as="section"
-        padding={{ base: '60px 12px', '2xl': '218px 138px 299px 138px' }}
+        padding={{
+          base: '80px 12px',
+          md: '190px 50px',
+          '2xl': '218px 138px 299px 138px',
+        }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '92px', '2xl': '355px' },
-          height: { base: '78px', '2xl': '300px' },
-          top: { base: '20px', '2xl': '112px' },
-          left: '35%',
+          width: { base: '107px', md: '249px', '2xl': '355px' },
+          height: { base: '91px', md: '210px', '2xl': '300px' },
+          top: { base: '20px', md: '112px' },
+          left: { base: '38%', md: '40%', '2xl': '35%' },
           backgroundImage: '/images/tomato.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -167,14 +175,14 @@ const About = () => {
       >
         {/* Our Story */}
         <Flex
-          flexDirection={{ base: 'column', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'space-between' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
           alignItems="center"
-          gap={{ base: '30px', '2xl': '102px' }}
+          gap={{ base: '30px', md: '102px' }}
         >
           <Box
-            pl={{ base: '10px', '2xl': '77px' }}
-            pt={{ base: '0px', '2xl': '150px' }}
+            pl={{ base: '10px', md: '77px' }}
+            pt={{ base: '0px', md: '80px', '2xl': '150px' }}
           >
             <Heading as="h3" size="large" variant="secondary">
               Our Story
@@ -186,8 +194,8 @@ const About = () => {
             </Text>
           </Box>
           <Box
-            width={{ base: '277px', '2xl': '792px' }}
-            height={{ base: '198px', '2xl': '567px' }}
+            width={{ base: '277px', md: '634px', '2xl': '792px' }}
+            height={{ base: '198px', md: '454px', '2xl': '567px' }}
             position="relative"
           >
             <Image
@@ -195,17 +203,18 @@ const About = () => {
               src="/images/cooking.webp"
               alt="cooking picture"
               sizes="(max-width: 768px) 277px, 198px
-        (min-width: 1200px) 792px, 567px"
+                (min-width: 768px) 634px, 454px
+                (min-width: 1200px) 792px, 567px"
             />
           </Box>
         </Flex>
         {/* Restaurant Manager */}
         <Flex
-          pt={{ base: '70px', '2xl': '162px' }}
-          pl={{ base: 'unset', '2xl': '33px' }}
-          flexDirection={{ base: 'column', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'unset' }}
-          gap={{ base: '10px', '2xl': '111px' }}
+          pt={{ base: '70px', md: '162px' }}
+          pl={{ base: 'unset', md: '33px' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'unset' }}
+          gap={{ base: '10px', md: '90px', '2xl': '111px' }}
         >
           <Flex flexDirection="column" gap={{ base: '10px', '2xl': '24px' }}>
             <Heading as="h4" variant="secondary" textAlign="center">
@@ -213,8 +222,8 @@ const About = () => {
             </Heading>
             <Text textAlign="center">{LEADER_SHIP.restaurantManager.name}</Text>
             <Box
-              width={{ base: '254px', '2xl': '726px' }}
-              height={{ base: '301px', '2xl': '861px' }}
+              width={{ base: '254px', md: '508px', '2xl': '726px' }}
+              height={{ base: '301px', md: '571px', '2xl': '861px' }}
               position="relative"
               margin="0 auto"
             >
@@ -223,43 +232,44 @@ const About = () => {
                 src={LEADER_SHIP.restaurantManager.avatar}
                 alt="Restaurant manager avatar"
                 sizes="(max-width: 768px) 254px, 301px
-        (min-width: 1200px) 726px, 861px"
+                  (min-width: 768px) 508px, 571px
+                  (min-width: 1200px) 726px, 861px"
               />
             </Box>
           </Flex>
           <Text
-            pt={{ base: '10px', '2xl': '160px' }}
-            maxW={{ base: '254px', '2xl': '510px' }}
-            margin={{ base: '0 auto', '2xl': 'unset' }}
+            pt={{ base: '10px', md: '110px', '2xl': '160px' }}
+            maxW={{ base: '90%', md: '30%' }}
+            margin={{ base: '0 auto', md: 'unset' }}
           >
             {LEADER_SHIP.restaurantManager.description}
           </Text>
         </Flex>
         {/* Executive Chef */}
         <Flex
-          flexDirection={{ base: 'column-reverse', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'flex-end' }}
-          alignItems={{ base: 'center', '2xl': 'end' }}
-          gap={{ base: '10px', '2xl': '111px' }}
-          mt={{ base: '30px', '2xl': '-438px' }}
-          pr={{ base: 'unset', '2xl': '38px' }}
+          flexDirection={{ base: 'column-reverse', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'flex-end' }}
+          alignItems={{ base: 'center', md: 'end' }}
+          gap={{ base: '10px', md: '90px', '2xl': '111px' }}
+          mt={{ base: '30px', md: '-300px', '2xl': '-438px' }}
+          pr={{ base: 'unset', md: '38px' }}
         >
           <Text
-            pt={{ base: '10px', '2xl': '160px' }}
-            maxW={{ base: '254px', '2xl': '510px' }}
-            margin={{ base: '0 auto', '2xl': 'unset' }}
-            textAlign={{ base: 'start', '2xl': 'end' }}
+            pt={{ base: '10px', md: '160px' }}
+            maxW={{ base: '90%', md: '30%' }}
+            margin={{ base: '0 auto', md: 'unset' }}
+            textAlign={{ base: 'start', md: 'end' }}
           >
             {LEADER_SHIP.executiveChef.description}
           </Text>
-          <Flex flexDirection="column" gap={{ base: '10px', '2xl': '24px' }}>
+          <Flex flexDirection="column" gap={{ base: '10px', md: '24px' }}>
             <Heading as="h4" variant="secondary" textAlign="center">
               Executive Chef
             </Heading>
             <Text textAlign="center">{LEADER_SHIP.executiveChef.name}</Text>
             <Box
-              width={{ base: '254px', '2xl': '726px' }}
-              height={{ base: '301px', '2xl': '861px' }}
+              width={{ base: '254px', md: '508px', '2xl': '726px' }}
+              height={{ base: '301px', md: '571px', '2xl': '861px' }}
               position="relative"
             >
               <Image
@@ -267,7 +277,8 @@ const About = () => {
                 src={LEADER_SHIP.executiveChef.avatar}
                 alt="Executive chef avatar"
                 sizes="(max-width: 768px) 254px, 301px
-        (min-width: 1200px) 726px, 861px"
+                  (min-width: 768px) 508px, 571px
+                  (min-width: 1200px) 726px, 861px"
               />
             </Box>
           </Flex>
@@ -283,7 +294,7 @@ const About = () => {
         objectFit="cover"
         width="100%"
         height="100%"
-        maxH={{ base: '159px', '2xl': '814px' }}
+        maxH={{ base: '159px', md: '814px' }}
         css={{
           '&::-webkit-media-controls-panel': {
             display: 'none',
@@ -294,13 +305,17 @@ const About = () => {
       {/* Process section */}
       <Box
         as="section"
-        padding={{ base: '60px 12px', '2xl': '267px 138px 320px 138px' }}
+        padding={{
+          base: '60px 12px',
+          md: '200px 50px',
+          '2xl': '267px 138px 320px 138px',
+        }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '117px', '2xl': '468px' },
-          height: { base: '136px', '2xl': '547px' },
+          width: { base: '117px', md: '328px', '2xl': '468px' },
+          height: { base: '136px', md: '383px', '2xl': '547px' },
           top: '8px',
           right: '0px',
           backgroundImage: '/images/rosemaryRight.webp',
@@ -311,9 +326,9 @@ const About = () => {
         _after={{
           content: '""',
           position: 'absolute',
-          width: { base: '82px', '2xl': '320px' },
-          height: { base: '83px', '2xl': '330px' },
-          bottom: { base: '8px', '2xl': '32px' },
+          width: { base: '82px', md: '224px', '2xl': '320px' },
+          height: { base: '83px', md: '231px', '2xl': '330px' },
+          bottom: { base: '8px', md: '32px' },
           left: '0px',
           backgroundImage: '/images/rosemaryLeft.webp',
           backgroundRepeat: 'no-repeat',
@@ -326,7 +341,7 @@ const About = () => {
           size="large"
           variant="secondary"
           textAlign="center"
-          pr={{ base: '30px', '2xl': '65px' }}
+          pr={{ base: '30px', md: '65px' }}
         >
           Sophisticated Process
         </Heading>
@@ -337,7 +352,11 @@ const About = () => {
       <Box
         id="reservationSection"
         as="section"
-        padding={{ base: '70px 12px', '2xl': '237px 138px 254px 138px' }}
+        padding={{
+          base: '70px 12px',
+          md: '200px 50px',
+          '2xl': '237px 138px 254px 138px',
+        }}
         backgroundColor="alabaster"
       >
         <ReservationForm

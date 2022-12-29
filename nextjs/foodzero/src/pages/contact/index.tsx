@@ -196,21 +196,28 @@ const Contact = () => {
         objectFit="cover"
         maxW="1920px"
         maxH="1080px"
-        padding={{ base: '90px 12px', '2xl': '415px 138px 130px 138px' }}
+        padding={{
+          base: '90px 12px',
+          md: '300px 50px 100px 50px',
+          '2xl': '415px 138px 130px 138px',
+        }}
       >
-        <Heading size="extraLarge" maxW={{ base: '200px', '2xl': '915px' }}>
+        <Heading size="extraLarge" maxW={{ base: '100%', md: '60%' }}>
           Get in Touch
         </Heading>
         <Text
           pt={{ base: '10px', '2xl': '50px' }}
-          maxW={{ base: '300px', '2xl': '915px' }}
+          maxW="80%"
           variant="primary"
           fontFamily="Rufina"
           size="common"
         >
           The freshest ingredients for you every day
         </Text>
-        <Flex pt="93px" justifyContent={{ base: 'center', '2xl': 'flex-end' }}>
+        <Flex
+          pt={{ base: '60px', md: '93px' }}
+          justifyContent={{ base: 'center', md: 'flex-end' }}
+        >
           <OpenTime {...OPEN_TIME} />
         </Flex>
       </Box>
@@ -218,15 +225,19 @@ const Contact = () => {
       {/* Address section */}
       <Box
         as="section"
-        padding={{ base: '60px 12px', '2xl': '272px 138px 186px 138px' }}
+        padding={{
+          base: '80px 12px',
+          md: '170px 50px',
+          '2xl': '272px 138px 186px 138px',
+        }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '112px', '2xl': '446px' },
-          height: { base: '98px', '2xl': '391px' },
-          top: '152px',
-          left: '40%',
+          width: { base: '134px', md: '312px', '2xl': '446px' },
+          height: { base: '117px', md: '274px', '2xl': '391px' },
+          top: { base: '10px', md: '100px', '2xl': '152px' },
+          left: { base: '65%', md: '40%' },
           backgroundImage: '/images/orange.webp',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -234,14 +245,14 @@ const Contact = () => {
         }}
       >
         <Flex
-          flexDirection={{ base: 'column', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'unset' }}
+          flexDirection={{ base: 'column', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'unset' }}
           alignItems="center"
-          gap={{ base: '20px', '2xl': '202px' }}
+          gap={{ base: '20px', md: '150px', '2xl': '202px' }}
         >
           <Box
-            width={{ base: '277px', '2xl': '792px' }}
-            height={{ base: '208px', '2xl': '593px' }}
+            width={{ base: '277px', md: '544px', '2xl': '792px' }}
+            height={{ base: '208px', md: '415px', '2xl': '593px' }}
             position="relative"
           >
             <Image
@@ -249,11 +260,12 @@ const Contact = () => {
               src="/images/dinnerTable.webp"
               alt="excellent cook picture"
               sizes="(max-width: 768px) 277px, 208px
-        (min-width: 1200px) 792px, 593px"
+                (min-width: 768px) 544px, 415px
+                (min-width: 1200px) 792px, 593px"
             />
           </Box>
           <Text
-            pt={{ base: '0px', '2xl': '230px' }}
+            pt={{ base: '0px', md: '190px', '2xl': '230px' }}
             size="common"
             fontFamily="Rufina"
             fontWeight="bold"
@@ -282,24 +294,25 @@ const Contact = () => {
           </Text>
         </Flex>
         <Flex
-          pt={{ base: '60px', '2xl': '145px' }}
-          flexDirection={{ base: 'column-reverse', '2xl': 'row' }}
-          justifyContent={{ base: 'center', '2xl': 'space-between' }}
+          pt={{ base: '60px', md: '145px' }}
+          flexDirection={{ base: 'column-reverse', md: 'row' }}
+          justifyContent={{ base: 'center', md: 'space-between' }}
           alignItems="center"
-          gap={{ base: '20px', '2xl': '60px' }}
+          gap={{ base: '20px', md: '60px' }}
+          ml={{ base: '0px', md: '44px' }}
         >
           <Text
             size="common"
             fontFamily="Rufina"
             fontWeight="bold"
             variant="secondary"
-            maxW={{ base: '275px', '2xl': '748px' }}
+            maxW={{ base: '277px', md: '45%' }}
           >
             We are located in {CONTACT.address}
           </Text>
           <Box
-            width={{ base: '277px', '2xl': '792px' }}
-            height={{ base: '347px', '2xl': '990px' }}
+            width={{ base: '277px', md: '554px', '2xl': '792px' }}
+            height={{ base: '347px', md: '630px', '2xl': '990px' }}
             position="relative"
           >
             <Image
@@ -307,7 +320,8 @@ const Contact = () => {
               src="/images/address.webp"
               alt="excellent cook picture"
               sizes="(max-width: 768px) 277px, 347px
-        (min-width: 1200px) 792px, 990px"
+                (min-width: 768px) 554px, 630px
+                (min-width: 1200px) 792px, 990px"
             />
           </Box>
         </Flex>
@@ -317,8 +331,25 @@ const Contact = () => {
       <Box
         id="reservationSection"
         as="section"
-        padding={{ base: '70px 12px', '2xl': '237px 138px 254px 138px' }}
+        padding={{
+          base: '70px 12px',
+          md: '180px 50px',
+          '2xl': '237px 138px 254px 138px',
+        }}
         backgroundColor="alabaster"
+        position="relative"
+        _before={{
+          content: '""',
+          position: 'absolute',
+          width: { base: '153px', md: '358px', '2xl': '511px' },
+          height: { base: '104px', md: '243px', '2xl': '347px' },
+          top: { base: '15px', md: '50px' },
+          left: { base: '18px', md: '50px', '2xl': '159px' },
+          backgroundImage: '/images/mint.webp',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          zIndex: 0,
+        }}
       >
         <ReservationForm
           {...reservation}

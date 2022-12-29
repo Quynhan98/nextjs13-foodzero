@@ -3,100 +3,97 @@
 exports[`Process component Renders Process correctly 1`] = `
 <div>
   <div
-    class="css-77jowh"
+    class="css-1nwebte"
   >
     <div
-      class="css-m7zs1j"
+      class="css-115fs0x"
     >
       <img
         alt="split ribs picture"
         data-nimg="fill"
         decoding="async"
         loading="lazy"
-        sizes="(max-width: 768px) 277px, 233px
-(min-width: 1200px) 792px, 638px"
+        sizes="(max-width: 768px) 277px, 233px (min-width: 768px) 634px, 447px (min-width: 1200px) 792px, 638px"
         src="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75"
         srcset="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75 3840w"
         style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
       />
     </div>
     <div
-      class="css-1p4vxav"
+      class="css-1xpzrde"
     >
       <h4
-        class="chakra-heading css-4lgthp"
+        class="chakra-heading css-sqbc2k"
       >
         01.
         Slice
       </h4>
       <p
-        class="chakra-text css-u9nvjx"
+        class="chakra-text css-8j6lav"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.
       </p>
     </div>
   </div>
   <div
-    class="css-f2ozgw"
+    class="css-gh6j68"
   >
     <div
-      class="css-oh2ipf"
+      class="css-0"
     >
       <div
-        class="css-i2mnd"
+        class="css-14jff95"
       >
         <img
           alt="marinated ribs picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 277px, 227px
-(min-width: 1200px) 650px, 533px"
+          sizes="(max-width: 768px) 277px, 227px (min-width: 768px) 455px, 373px (min-width: 1200px) 650px, 533px"
           src="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
         />
       </div>
       <h4
-        class="chakra-heading css-lkybp2"
+        class="chakra-heading css-ysd11w"
       >
         02.
         Pickled
       </h4>
       <p
-        class="chakra-text css-kq3f6m"
+        class="chakra-text css-lg3a2o"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
       </p>
     </div>
     <div
-      class="css-u7de1j"
+      class="css-a5uq8u"
     >
       <div
-        class="css-1l3ne0m"
+        class="css-1dnyehg"
       >
         <h4
-          class="chakra-heading css-4lgthp"
+          class="chakra-heading css-sqbc2k"
         >
           03.
           Bake  
         </h4>
         <p
-          class="chakra-text css-1x954w"
+          class="chakra-text css-8j6lav"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
         </p>
       </div>
       <div
-        class="css-10z65vr"
+        class="css-19jted4"
       >
         <img
           alt="grilled ribs picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 277px, 217px
-(min-width: 1200px) 650px, 509px"
+          sizes="(max-width: 768px) 277px, 217px (min-width: 768px) 455px, 356px (min-width: 1200px) 650px, 509px"
           src="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
