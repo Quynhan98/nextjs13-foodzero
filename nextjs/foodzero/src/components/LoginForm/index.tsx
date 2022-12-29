@@ -25,11 +25,11 @@ const LoginForm = ({
   return (
     <form onSubmit={onSubmitForm}>
       <FormLabel
-        fontSize={{ base: 'md', md: 'lg' }}
+        fontSize={{ base: 'md', '2xl': 'lg' }}
         fontWeight="bold"
         fontFamily="Rufina"
         textAlign="center"
-        pb={{ base: '58px', md: '115px' }}
+        pb={{ base: '58px', '2xl': '115px' }}
       >
         Login
       </FormLabel>
@@ -39,7 +39,7 @@ const LoginForm = ({
         flexDirection="column"
         justifyContent="center"
         isInvalid={!!(emailError || passwordError)}
-        padding={{ base: '25px', md: '50px' }}
+        padding={{ base: '25px', '2xl': '50px' }}
       >
         <Input
           data-testid="email"
@@ -49,7 +49,7 @@ const LoginForm = ({
           onChange={onChangeForm}
         />
         {emailError && (
-          <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+          <FormErrorMessage fontSize={{ base: 'xxs', '2xl': 'base' }}>
             {emailError}
           </FormErrorMessage>
         )}
@@ -59,15 +59,15 @@ const LoginForm = ({
           name="password"
           placeholder="Password"
           onChange={onChangeForm}
-          mt={{ base: '25px', md: '50px' }}
+          mt={{ base: '25px', '2xl': '50px' }}
         />
         {passwordError && (
-          <FormErrorMessage fontSize={{ base: 'xxs', md: 'base' }}>
+          <FormErrorMessage fontSize={{ base: 'xxs', '2xl': 'base' }}>
             {passwordError}
           </FormErrorMessage>
         )}
         <Button
-          mt={{ base: '40px', md: '80px' }}
+          mt={{ base: '40px', '2xl': '80px' }}
           type="submit"
           isDisabled={isDisable}
           _hover={{ backgroundColor: 'none' }}

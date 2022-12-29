@@ -3,46 +3,46 @@
 exports[`Home page Renders Home page correctly 1`] = `
 <div>
   <div
-    class="css-fyent0"
+    class="css-6b1a55"
   >
     <div
-      class="css-1szuyxh"
+      class="css-mjjemm"
     >
       <h2
-        class="chakra-heading css-1mps9r1"
+        class="chakra-heading css-14yh45j"
       >
         Healthy Eating is important part of lifestyle
       </h2>
       <p
-        class="chakra-text css-f1hsh4"
+        class="chakra-text css-1aboo2m"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
       </p>
     </div>
     <div
-      class="css-1alpf7l"
+      class="css-1syz4f5"
     >
       <div
-        class="css-jh3ck9"
+        class="css-x2v69j"
       >
         <p
-          class="chakra-text css-1b3jnye"
+          class="chakra-text css-m2dr97"
         >
           Scroll
         </p>
         <hr
           aria-orientation="vertical"
-          class="chakra-divider css-otqcbu"
+          class="chakra-divider css-1q4nsxf"
         />
       </div>
       <div
-        class="css-1096bl5"
+        class="css-i4pm7v"
       >
         <img
           alt="spice cups picture"
           data-nimg="fill"
           decoding="async"
-          sizes="(max-width: 768px) 214px, 60px (min-width: 1200px) 854px, 240px"
+          sizes="(max-width: 768px) 214px, 60px (min-width: 768px) 598px, 168px (min-width: 1200px) 854px, 240px"
           src="/_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FspiceCups.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceCups.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
@@ -50,51 +50,51 @@ exports[`Home page Renders Home page correctly 1`] = `
       </div>
     </div>
     <div
-      class="css-16k79a5"
+      class="css-1ti52i3"
     >
       <div
         class="css-j7qwjs"
       >
         <div
-          class="css-6yaygn"
+          class="css-1kmyrtj"
         >
           <img
             alt="clam soup picture"
             data-nimg="fill"
             decoding="async"
-            sizes="(max-width: 768px) 198px, 140px (min-width: 1200px) 792px, 560px"
+            sizes="(max-width: 768px) 198px, 140px (min-width: 768px) 554px, 392px (min-width: 1200px) 792px, 560px"
             src="/_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FclamSoup.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75 3840w"
-            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </div>
         <h3
-          class="chakra-heading css-p8ox3r"
+          class="chakra-heading css-fy45gc"
         >
           Start to plan your diet today
         </h3>
         <p
-          class="chakra-text css-6an3ov"
+          class="chakra-text css-1u4qhjx"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
         </p>
       </div>
       <div
-        class="css-s9p0un"
+        class="css-11ds2t7"
       >
         <p
-          class="chakra-text css-4p4ije"
+          class="chakra-text css-19o1xt2"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
         </p>
         <div
-          class="css-1agpdb0"
+          class="css-59ig12"
         >
           <img
             alt="spice jar picture"
             data-nimg="fill"
             decoding="async"
-            sizes="(max-width: 768px) 130px, 180px (min-width: 1200px) 508px, 710px"
+            sizes="(max-width: 768px) 130px, 180px (min-width: 768px) 356px, 497px (min-width: 1200px) 508px, 710px"
             src="/_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FspiceJar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75 3840w"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
@@ -104,31 +104,31 @@ exports[`Home page Renders Home page correctly 1`] = `
     </div>
   </div>
   <section
-    class="css-1e56ev9"
+    class="css-uf1mtq"
   >
     <h3
-      class="chakra-heading css-1orayqf"
+      class="chakra-heading css-6qzpdi"
     >
       Our Menu
     </h3>
     <p
-      class="chakra-text css-1el53v2"
+      class="chakra-text css-optmvd"
     >
       This is a section of your menu. Give your section a brief description
     </p>
     <ul
-      class="css-1hbb6hp"
+      class="css-joxoph"
       role="list"
     >
       <li
-        class="css-vzuw6d"
+        class="css-1wyzg89"
       >
         <div
           class="css-0"
           id="1"
         >
           <h4
-            class="chakra-heading css-1ms7w9h"
+            class="chakra-heading css-4jbmzn"
           >
             $
             20
@@ -137,26 +137,26 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-113h5p7"
           />
           <h3
-            class="chakra-heading css-10d4fcy"
+            class="chakra-heading css-u3uye4"
           >
             Deep Sea Snow White Cod Fillet
           </h3>
           <p
-            class="chakra-text css-1eu2sr5"
+            class="chakra-text css-1oh60g1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
           </p>
         </div>
       </li>
       <li
-        class="css-vzuw6d"
+        class="css-1wyzg89"
       >
         <div
           class="css-0"
           id="2"
         >
           <h4
-            class="chakra-heading css-1ms7w9h"
+            class="chakra-heading css-4jbmzn"
           >
             $
             22
@@ -165,26 +165,26 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-113h5p7"
           />
           <h3
-            class="chakra-heading css-10d4fcy"
+            class="chakra-heading css-u3uye4"
           >
             Steak With Rosemary Butter
           </h3>
           <p
-            class="chakra-text css-1eu2sr5"
+            class="chakra-text css-1oh60g1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
           </p>
         </div>
       </li>
       <li
-        class="css-vzuw6d"
+        class="css-1wyzg89"
       >
         <div
           class="css-0"
           id="3"
         >
           <h4
-            class="chakra-heading css-1ms7w9h"
+            class="chakra-heading css-4jbmzn"
           >
             $
             18
@@ -193,26 +193,26 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-113h5p7"
           />
           <h3
-            class="chakra-heading css-10d4fcy"
+            class="chakra-heading css-u3uye4"
           >
             Cucumber Salad
           </h3>
           <p
-            class="chakra-text css-1eu2sr5"
+            class="chakra-text css-1oh60g1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
           </p>
         </div>
       </li>
       <li
-        class="css-vzuw6d"
+        class="css-1wyzg89"
       >
         <div
           class="css-0"
           id="4"
         >
           <h4
-            class="chakra-heading css-1ms7w9h"
+            class="chakra-heading css-4jbmzn"
           >
             $
             90
@@ -221,12 +221,12 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="css-113h5p7"
           />
           <h3
-            class="chakra-heading css-10d4fcy"
+            class="chakra-heading css-u3uye4"
           >
             Natural Wine Pairing
           </h3>
           <p
-            class="chakra-text css-1eu2sr5"
+            class="chakra-text css-1oh60g1"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
           </p>
@@ -235,35 +235,35 @@ exports[`Home page Renders Home page correctly 1`] = `
     </ul>
   </section>
   <section
-    class="css-1ihkgue"
+    class="css-za718d"
   >
     <div
-      class="css-1fq278e"
+      class="css-2i44xq"
     >
       <div
-        class="css-1025zi6"
+        class="css-14y20u2"
       >
         <img
           alt="excellent cook picture"
           data-nimg="fill"
           decoding="async"
           loading="lazy"
-          sizes="(max-width: 768px) 147px, 133px (min-width: 1200px) 980px, 890px"
+          sizes="(max-width: 768px) 147px, 133px (min-width: 768px) 686px, 623px (min-width: 1200px) 980px, 890px"
           src="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FexcellentCook.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FexcellentCook.webp&w=3840&q=75 3840w"
           style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
         />
       </div>
       <div
-        class="css-lkjjsm"
+        class="css-1tp50un"
       >
         <h3
-          class="chakra-heading css-tbjbi7"
+          class="chakra-heading css-1etlmf3"
         >
           Excellent cook
         </h3>
         <p
-          class="chakra-text css-m585cg"
+          class="chakra-text css-fn4vrx"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.
         </p>
@@ -271,39 +271,39 @@ exports[`Home page Renders Home page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-1vblrna"
+    class="css-7oypz5"
   >
     <ul
-      class="css-xxnhnf"
+      class="css-1r3jfa7"
       role="list"
     >
       <li
         class="css-0"
       >
         <div
-          class="css-1zzgv0"
+          class="css-1kgkcud"
         >
           <figure
-            class="css-ymn5md"
+            class="css-1fk92ed"
           >
             <img
               alt="Premium Quality picture"
               data-nimg="fill"
               decoding="async"
               loading="lazy"
-              sizes="(max-width: 768px) 150px, 150px (min-width: 1200px) 260px, 260px"
+              sizes="(max-width: 768px) 150px, 150px (min-width: 768px) 200px, 200px (min-width: 1200px) 260px, 260px"
               src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
               srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
           <p
-            class="chakra-text css-jmhzzp"
+            class="chakra-text css-1x99fdl"
           >
             Premium Quality
           </p>
           <p
-            class="chakra-text css-pfln6y"
+            class="chakra-text css-1ueitwp"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
           </p>
@@ -313,29 +313,29 @@ exports[`Home page Renders Home page correctly 1`] = `
         class="css-0"
       >
         <div
-          class="css-1zzgv0"
+          class="css-1kgkcud"
         >
           <figure
-            class="css-ymn5md"
+            class="css-1fk92ed"
           >
             <img
               alt="Seasonal Vegetables picture"
               data-nimg="fill"
               decoding="async"
               loading="lazy"
-              sizes="(max-width: 768px) 150px, 150px (min-width: 1200px) 260px, 260px"
+              sizes="(max-width: 768px) 150px, 150px (min-width: 768px) 200px, 200px (min-width: 1200px) 260px, 260px"
               src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75"
               srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCarrotIcon.webp%3Falt%3Dmedia%26token%3D4a46acaf-1445-4279-a269-19d2e9410c6e&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
           <p
-            class="chakra-text css-jmhzzp"
+            class="chakra-text css-1x99fdl"
           >
             Seasonal Vegetables
           </p>
           <p
-            class="chakra-text css-pfln6y"
+            class="chakra-text css-1ueitwp"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu1
           </p>
@@ -345,29 +345,29 @@ exports[`Home page Renders Home page correctly 1`] = `
         class="css-0"
       >
         <div
-          class="css-1zzgv0"
+          class="css-1kgkcud"
         >
           <figure
-            class="css-ymn5md"
+            class="css-1fk92ed"
           >
             <img
               alt="Fresh Fruit picture"
               data-nimg="fill"
               decoding="async"
               loading="lazy"
-              sizes="(max-width: 768px) 150px, 150px (min-width: 1200px) 260px, 260px"
+              sizes="(max-width: 768px) 150px, 150px (min-width: 768px) 200px, 200px (min-width: 1200px) 260px, 260px"
               src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75"
               srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FlemonIcon.webp%3Falt%3Dmedia%26token%3D93224c37-decd-47bd-bc23-77016b87afe5&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </figure>
           <p
-            class="chakra-text css-jmhzzp"
+            class="chakra-text css-1x99fdl"
           >
             Fresh Fruit
           </p>
           <p
-            class="chakra-text css-pfln6y"
+            class="chakra-text css-1ueitwp"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
           </p>
@@ -376,10 +376,10 @@ exports[`Home page Renders Home page correctly 1`] = `
     </ul>
   </section>
   <section
-    class="css-1bx81p1"
+    class="css-nkydss"
   >
     <ul
-      class="css-193tyk2"
+      class="css-e4tlx8"
       role="list"
     >
       <li
@@ -390,13 +390,13 @@ exports[`Home page Renders Home page correctly 1`] = `
           id="1"
         >
           <div
-            class="css-1p10zp0"
+            class="css-1frtpwp"
           >
-            <h6
-              class="chakra-heading css-19hfhgc"
+            <p
+              class="chakra-text css-1148kbg"
             >
               Fashion
-            </h6>
+            </p>
           </div>
           <img
             alt="blog wallpaper"
@@ -410,17 +410,17 @@ exports[`Home page Renders Home page correctly 1`] = `
             width="792"
           />
           <div
-            class="css-18kc6l"
+            class="css-1w5suxd"
           >
             <div
               class="css-70qvj9"
             >
               <span
-                class="chakra-avatar css-76h63l"
+                class="chakra-avatar css-1lxxt8y"
               >
                 <div
                   aria-label="Julie Christies"
-                  class="chakra-avatar__initials css-100o20p"
+                  class="chakra-avatar__initials css-184jamk"
                   role="img"
                 >
                   JC
@@ -431,22 +431,22 @@ exports[`Home page Renders Home page correctly 1`] = `
                 role="list"
               >
                 <li
-                  class="css-18m884n"
+                  class="css-1xi7oxx"
                 >
                   Julie Christies
                 </li>
                 <li
-                  class="css-1bfqwby"
+                  class="css-8ri12f"
                 >
                   October 17, 2021
                 </li>
                 <li
-                  class="css-1bfqwby"
+                  class="css-8ri12f"
                 >
                   06:29 AM
                 </li>
                 <li
-                  class="css-1ru1j6w"
+                  class="css-1rh9xtx"
                 >
                   2
                    comments
@@ -454,7 +454,7 @@ exports[`Home page Renders Home page correctly 1`] = `
               </ul>
             </div>
             <h4
-              class="chakra-heading css-11p5r12"
+              class="chakra-heading css-28jvh4"
             >
               Fruit and vegetables and protection against diseases
             </h4>
@@ -462,7 +462,7 @@ exports[`Home page Renders Home page correctly 1`] = `
               class="css-113h5p7"
             />
             <p
-              class="chakra-text css-17arz7z"
+              class="chakra-text css-17gtsc2"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
             </p>
@@ -477,13 +477,13 @@ exports[`Home page Renders Home page correctly 1`] = `
           id="2"
         >
           <div
-            class="css-1p10zp0"
+            class="css-1frtpwp"
           >
-            <h6
-              class="chakra-heading css-19hfhgc"
+            <p
+              class="chakra-text css-1148kbg"
             >
               Fashion
-            </h6>
+            </p>
           </div>
           <img
             alt="blog wallpaper"
@@ -497,17 +497,17 @@ exports[`Home page Renders Home page correctly 1`] = `
             width="792"
           />
           <div
-            class="css-18kc6l"
+            class="css-1w5suxd"
           >
             <div
               class="css-70qvj9"
             >
               <span
-                class="chakra-avatar css-1c2y6uf"
+                class="chakra-avatar css-13h4thk"
               >
                 <div
                   aria-label="Dianne Russell"
-                  class="chakra-avatar__initials css-100o20p"
+                  class="chakra-avatar__initials css-184jamk"
                   role="img"
                 >
                   DR
@@ -518,22 +518,22 @@ exports[`Home page Renders Home page correctly 1`] = `
                 role="list"
               >
                 <li
-                  class="css-18m884n"
+                  class="css-1xi7oxx"
                 >
                   Dianne Russell
                 </li>
                 <li
-                  class="css-1bfqwby"
+                  class="css-8ri12f"
                 >
                   October 17, 2021
                 </li>
                 <li
-                  class="css-1bfqwby"
+                  class="css-8ri12f"
                 >
                   06:29 AM
                 </li>
                 <li
-                  class="css-1ru1j6w"
+                  class="css-1rh9xtx"
                 >
                   2
                    comments
@@ -541,7 +541,7 @@ exports[`Home page Renders Home page correctly 1`] = `
               </ul>
             </div>
             <h4
-              class="chakra-heading css-11p5r12"
+              class="chakra-heading css-28jvh4"
             >
               Asparagus Spring Salad with Rocket, Goat's Cheese
             </h4>
@@ -549,7 +549,7 @@ exports[`Home page Renders Home page correctly 1`] = `
               class="css-113h5p7"
             />
             <p
-              class="chakra-text css-17arz7z"
+              class="chakra-text css-17gtsc2"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
             </p>
@@ -559,58 +559,62 @@ exports[`Home page Renders Home page correctly 1`] = `
     </ul>
   </section>
   <section
-    class="css-628vpw"
+    class="css-z59nmy"
     id="reservationSection"
   >
     <form
       novalidate=""
     >
       <div
-        class="chakra-form-control css-thxs3d"
+        class="chakra-form-control css-whvd6l"
         role="group"
       >
         <div
           class="css-yjtq8f"
         >
           <h3
-            class="chakra-heading css-mxgfwf"
+            class="chakra-heading css-17j5m7v"
           >
             Make a Reservation
           </h3>
           <p
-            class="chakra-text css-11o6bb1"
+            class="chakra-text css-1ce86fs"
           >
             Get in touch with restaurant
           </p>
         </div>
         <div
-          class="css-6wfi37"
+          class="css-krxe1m"
         >
           <div
-            class="css-pl1d54"
+            class="css-1payax8"
           >
             <div
-              class="react-datepicker-wrapper"
+              class="css-0"
             >
               <div
-                class="react-datepicker__input-container"
+                class="react-datepicker-wrapper"
               >
-                <input
-                  class="chakra-input css-nr8l43"
-                  id="field-:r0:"
-                  placeholder="MM/DD/YYYY"
-                  value=""
-                />
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-q7pni1"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
               </div>
             </div>
             <div
               class="css-0"
             >
               <div
-                class="chakra-select__wrapper css-1uge2rn"
+                class="chakra-select__wrapper css-17qe6bp"
               >
                 <select
-                  class="chakra-select css-1srlo7p"
+                  class="chakra-select css-lknr9b"
                   data-testid="selectTime"
                   id="field-:r0:"
                   name="time"
@@ -672,7 +676,7 @@ exports[`Home page Renders Home page correctly 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="chakra-icon chakra-select__icon css-13wnv3o"
+                    class="chakra-icon chakra-select__icon css-m73ylg"
                     focusable="false"
                     role="presentation"
                     style="width: 1em; height: 1em; color: currentColor;"
@@ -691,7 +695,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             class="chakra-select__wrapper css-42b2qy"
           >
             <select
-              class="chakra-select css-1srlo7p"
+              class="chakra-select css-lknr9b"
               data-testid="selectPerson"
               id="field-:r0:"
               name="person"
@@ -758,7 +762,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="chakra-icon chakra-select__icon css-13wnv3o"
+                class="chakra-icon chakra-select__icon css-m73ylg"
                 focusable="false"
                 role="presentation"
                 style="width: 1em; height: 1em; color: currentColor;"
@@ -773,10 +777,10 @@ exports[`Home page Renders Home page correctly 1`] = `
           </div>
         </div>
         <div
-          class="css-1610dfo"
+          class="css-1nx6xr5"
         >
           <button
-            class="chakra-button css-h4ij4d"
+            class="chakra-button css-5sg5i5"
             disabled=""
             type="submit"
           >
@@ -787,24 +791,24 @@ exports[`Home page Renders Home page correctly 1`] = `
     </form>
   </section>
   <section
-    class="css-1wr7sr5"
+    class="css-pgcinj"
   >
     <div
       class="css-b93e9j"
     >
       <h3
-        class="chakra-heading css-tfa5m7"
+        class="chakra-heading css-e3n61m"
       >
         Calories Energy Balance
       </h3>
       <p
-        class="chakra-text css-m585cg"
+        class="chakra-text css-fn4vrx"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
     </div>
     <ul
-      class="css-1tpt0do"
+      class="css-rqmgcr"
       role="list"
     >
       <li
@@ -814,10 +818,10 @@ exports[`Home page Renders Home page correctly 1`] = `
           class="css-hfnpep"
         >
           <div
-            class="css-fyv2te"
+            class="css-ix7fvz"
           >
             <p
-              class="chakra-text css-jmhzzp"
+              class="chakra-text css-1x99fdl"
             >
               Starters
             </p>
@@ -857,10 +861,10 @@ exports[`Home page Renders Home page correctly 1`] = `
           class="css-hfnpep"
         >
           <div
-            class="css-fyv2te"
+            class="css-ix7fvz"
           >
             <p
-              class="chakra-text css-jmhzzp"
+              class="chakra-text css-1x99fdl"
             >
               Mains
             </p>
@@ -900,10 +904,10 @@ exports[`Home page Renders Home page correctly 1`] = `
           class="css-hfnpep"
         >
           <div
-            class="css-fyv2te"
+            class="css-ix7fvz"
           >
             <p
-              class="chakra-text css-jmhzzp"
+              class="chakra-text css-1x99fdl"
             >
               Soups
             </p>
@@ -939,25 +943,25 @@ exports[`Home page Renders Home page correctly 1`] = `
     </ul>
   </section>
   <section
-    class="css-1a5p0a6"
+    class="css-3v69vv"
   >
     <div
       class="css-0"
     >
       <p
-        class="chakra-text css-1ij7pag"
+        class="chakra-text css-1oolg1q"
       >
         “ 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus impedient. Turpis egestas ultricies purus  Lorem ipsum dolor sit amet.
       </p>
       <div
-        class="css-1vjcr4l"
+        class="css-wmid3a"
       >
         <div
-          class="css-mgvg8t"
+          class="css-10m2m6g"
         >
           <span
-            class="chakra-avatar css-1kva3cr"
+            class="chakra-avatar css-1kxg9m6"
           >
             <div
               aria-label="John Doe"
@@ -970,23 +974,23 @@ exports[`Home page Renders Home page correctly 1`] = `
           <div
             class="css-0"
           >
-            <h5
-              class="chakra-heading css-gixbyc"
+            <p
+              class="chakra-text css-sz9fw"
             >
               John Doe
-            </h5>
+            </p>
             <p
-              class="chakra-text css-lv0zmh"
+              class="chakra-text css-18s7o9y"
             >
               Blogger
             </p>
           </div>
         </div>
         <div
-          class="css-11yd5ay"
+          class="css-1sal2c8"
         >
           <button
-            class="chakra-button css-yvsqkp"
+            class="chakra-button css-t28kes"
             data-testid="buttonBack"
             type="button"
           >
@@ -1003,14 +1007,14 @@ exports[`Home page Renders Home page correctly 1`] = `
             />
           </button>
           <p
-            class="chakra-text css-37ekto"
+            class="chakra-text css-1sii6qu"
           >
             1
             /
             3
           </p>
           <button
-            class="chakra-button css-yvsqkp"
+            class="chakra-button css-t28kes"
             data-testid="buttonNext"
             type="button"
           >

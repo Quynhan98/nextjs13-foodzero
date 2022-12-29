@@ -23,9 +23,9 @@ const SelectField = ({
       borderRadius="0px"
       border="2px"
       borderColor="black"
-      fontSize={{ base: 'xs', md: 'sm' }}
-      height={{ base: '50px', md: '96px' }}
-      icon={<ChevronDownIcon marginRight={{ base: '40px', md: '45px' }} />}
+      fontSize={{ base: 'xs', '2xl': 'sm' }}
+      height={{ base: '50px', '2xl': '96px' }}
+      icon={<ChevronDownIcon marginRight={{ base: '40px', '2xl': '45px' }} />}
       iconSize={isMobile ? '25px' : '45px'}
       _focus={{
         borderColor: 'black',

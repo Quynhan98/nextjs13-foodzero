@@ -35,8 +35,8 @@ export class ErrorBoundary extends Component<Props, State> {
           <Text
             color="warning"
             fontWeight="bold"
-            size={{ base: 'default', md: 'large' }}
-            paddingBottom={{ base: '25px', md: '50px' }}
+            size={{ base: 'default', '2xl': 'large' }}
+            paddingBottom={{ base: '25px', '2xl': '50px' }}
           >
             {SERVER_ERROR}
           </Text>

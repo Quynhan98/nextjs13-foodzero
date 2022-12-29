@@ -3,28 +3,28 @@ import { ComponentStyleConfig } from '@chakra-ui/react'
 export const Text: ComponentStyleConfig = {
   sizes: {
     extraLarge: {
-      fontSize: { base: 'base', md: 'lg' },
-      lineHeight: { base: 'base', md: 'md' },
+      fontSize: { base: 'base', md: 'md', '2xl': 'lg' },
+      lineHeight: { base: 'base', md: 'sm', '2xl': 'md' },
     },
     large: {
-      fontSize: 'common',
-      lineHeight: 'base',
+      fontSize: { base: 'xs', md: 'base', '2xl': 'common' },
+      lineHeight: { base: 'xs', md: 'base', '2xl': 'base' },
     },
     common: {
-      fontSize: { base: 'xs', md: 'md' },
-      lineHeight: { base: 'xs', md: 'sm' },
+      fontSize: { base: 'xs', md: 'sm', '2xl': 'md' },
+      lineHeight: { base: 'xs', md: 'base', '2xl': 'sm' },
     },
     default: {
-      fontSize: { base: 'xxs', md: 'sm' },
-      lineHeight: { base: 'xxs', md: 'base' },
+      fontSize: { base: 'xxs', md: 'base', '2xl': 'sm' },
+      lineHeight: { base: 'xxs', md: 'base', '2xl': 'base' },
     },
     medium: {
       fontSize: 'base',
       lineHeight: 'base',
     },
     base: {
-      fontSize: 'xs',
-      lineHeight: 'xs',
+      fontSize: { base: 'xxs', md: 'xs' },
+      lineHeight: { base: 'xxs', md: 'xs' },
     },
     small: {
       fontSize: 'xxs',

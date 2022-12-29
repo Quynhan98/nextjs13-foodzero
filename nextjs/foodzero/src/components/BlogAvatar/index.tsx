@@ -18,26 +18,29 @@ const BlogAvatar = ({ src, name, date, numberOfComments }: BlogAvatarProps) => {
       <UnorderedList display="flex" gap="30px">
         <ListItem
           listStyleType="none"
-          fontSize={{ base: 'xxs', md: 'xs' }}
+          fontSize={{ base: 'xxs', md: 'xs', '2xl': 'xs' }}
           color="bronzeYellow"
         >
           {name}
         </ListItem>
         <ListItem
-          display={{ base: 'none', md: 'list-item' }}
-          fontSize={{ base: 'xxs', md: 'xs' }}
+          display={{ base: 'none', '2xl': 'list-item' }}
+          fontSize={{ base: 'xxs', md: 'xs', '2xl': 'xs' }}
           color="bronzeYellow"
         >
           {formattedDate(date)}
         </ListItem>
         <ListItem
-          display={{ base: 'none', md: 'list-item' }}
-          fontSize={{ base: 'xxs', md: 'xs' }}
+          display={{ base: 'none', '2xl': 'list-item' }}
+          fontSize={{ base: 'xxs', md: 'xs', '2xl': 'xs' }}
           color="bronzeYellow"
         >
           {formattedHour(date)}
         </ListItem>
-        <ListItem fontSize={{ base: 'xxs', md: 'xs' }} color="bronzeYellow">
+        <ListItem
+          fontSize={{ base: 'xxs', md: 'xs', '2xl': 'xs' }}
+          color="bronzeYellow"
+        >
           {numberOfComments} comments
         </ListItem>
       </UnorderedList>

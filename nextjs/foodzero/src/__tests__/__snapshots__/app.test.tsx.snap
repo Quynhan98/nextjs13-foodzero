@@ -3,20 +3,20 @@
 exports[`App render Should show match App DOM Snapshot 1`] = `
 <div>
   <header
-    class="chakra-container css-bmm793"
+    class="chakra-container css-2mqkvj"
   >
     <div
-      class="css-f1oc3g"
+      class="css-1psvhc8"
     >
       <h1
-        class="chakra-heading css-1k8hiri"
+        class="chakra-heading css-vqcpt4"
       >
         <a
           class="chakra-link css-spn4bz"
           href="/"
         >
           <div
-            class="css-1pthsoj"
+            class="css-1tm3rfb"
           >
             <img
               alt="Logo FoodZero"
@@ -32,13 +32,13 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
       </h1>
       <button
         aria-label="menu"
-        class="chakra-button css-1trbkkh"
+        class="chakra-button css-1wb5yzf"
         data-testid="buttonMenu"
         type="button"
       >
         <svg
           aria-hidden="true"
-          class="chakra-icon css-1k6ehyi"
+          class="chakra-icon css-189f5bz"
           focusable="false"
           viewBox="0 0 24 24"
         >
@@ -57,13 +57,13 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
         href="tel:+86 852 346 000"
       >
         <p
-          class="chakra-text css-z99krb"
+          class="chakra-text css-1efn3iv"
         >
           +86 852 346 000
         </p>
       </a>
       <button
-        class="chakra-button css-555q6y"
+        class="chakra-button css-1cqvr3p"
         type="button"
       >
         Reservations

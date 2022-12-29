@@ -6,11 +6,11 @@ exports[`BlogAvatar component Renders BlogAvatar correctly 1`] = `
     class="css-70qvj9"
   >
     <span
-      class="chakra-avatar css-fup3kj"
+      class="chakra-avatar css-em63j9"
     >
       <div
         aria-label="Julie Christie"
-        class="chakra-avatar__initials css-100o20p"
+        class="chakra-avatar__initials css-184jamk"
         role="img"
       >
         JC
@@ -21,22 +21,22 @@ exports[`BlogAvatar component Renders BlogAvatar correctly 1`] = `
       role="list"
     >
       <li
-        class="css-18m884n"
+        class="css-1xi7oxx"
       >
         Julie Christie
       </li>
       <li
-        class="css-1bfqwby"
+        class="css-8ri12f"
       >
         December 06, 2022
       </li>
       <li
-        class="css-1bfqwby"
+        class="css-8ri12f"
       >
         06:29 AM
       </li>
       <li
-        class="css-1ru1j6w"
+        class="css-1rh9xtx"
       >
         2
          comments

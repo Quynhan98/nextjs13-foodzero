@@ -6,13 +6,13 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
     class="css-79elbk"
   >
     <div
-      class="css-1p10zp0"
+      class="css-1frtpwp"
     >
-      <h6
-        class="chakra-heading css-19hfhgc"
+      <p
+        class="chakra-text css-1148kbg"
       >
         Fashion
-      </h6>
+      </p>
     </div>
     <img
       alt="blog wallpaper"
@@ -26,17 +26,17 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
       width="792"
     />
     <div
-      class="css-18kc6l"
+      class="css-1w5suxd"
     >
       <div
         class="css-70qvj9"
       >
         <span
-          class="chakra-avatar css-fup3kj"
+          class="chakra-avatar css-em63j9"
         >
           <div
             aria-label="Julie Christie"
-            class="chakra-avatar__initials css-100o20p"
+            class="chakra-avatar__initials css-184jamk"
             role="img"
           >
             JC
@@ -47,22 +47,22 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
           role="list"
         >
           <li
-            class="css-18m884n"
+            class="css-1xi7oxx"
           >
             Julie Christie
           </li>
           <li
-            class="css-1bfqwby"
+            class="css-8ri12f"
           >
             December 06, 2022
           </li>
           <li
-            class="css-1bfqwby"
+            class="css-8ri12f"
           >
             06:29 AM
           </li>
           <li
-            class="css-1ru1j6w"
+            class="css-1rh9xtx"
           >
             2
              comments
@@ -70,7 +70,7 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
         </ul>
       </div>
       <h4
-        class="chakra-heading css-11p5r12"
+        class="chakra-heading css-28jvh4"
       >
         Fruit and vegetables and protection against diseases
       </h4>
@@ -78,7 +78,7 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
         class="css-113h5p7"
       />
       <p
-        class="chakra-text css-17arz7z"
+        class="chakra-text css-17gtsc2"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>

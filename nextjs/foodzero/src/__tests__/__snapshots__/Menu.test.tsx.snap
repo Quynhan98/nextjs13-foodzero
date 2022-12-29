@@ -3,37 +3,37 @@
 exports[`Menu page Renders Menu page correctly 1`] = `
 <div>
   <div
-    class="css-1s0gggk"
+    class="css-1vcrksb"
   >
     <h2
-      class="chakra-heading css-fc8cht"
+      class="chakra-heading css-gvfohi"
     >
       View Our New Menu
     </h2>
     <p
-      class="chakra-text css-m22hx7"
+      class="chakra-text css-1csw8c4"
     >
       The freshest ingredients for you every day
     </p>
   </div>
   <section
-    class="css-7q1w1r"
+    class="css-5or40f"
   >
     <h3
-      class="chakra-heading css-qofsxt"
+      class="chakra-heading css-14bagvu"
     >
       Starters
     </h3>
     <p
-      class="chakra-text css-vb0nb2"
+      class="chakra-text css-ot837d"
     >
       This is a section of your menu. Give your section a brief description
     </p>
     <div
-      class="css-ewxv54"
+      class="css-1pyw6ef"
     >
       <div
-        class="css-1gsejy4"
+        class="css-cyeby5"
       >
         <img
           alt="excellent cook picture"
@@ -46,7 +46,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
         />
       </div>
       <ul
-        class="css-1pjkzi9"
+        class="css-1mpu2xx"
         role="list"
       >
         <li
@@ -57,7 +57,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="1"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               20
@@ -66,12 +66,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Deep Sea Snow White Cod Fillet
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
             </p>
@@ -85,7 +85,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="2"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               22
@@ -94,12 +94,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Steak With Rosemary Butter
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
             </p>
@@ -113,7 +113,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="3"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               18
@@ -122,12 +122,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Cucumber Salad
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
             </p>
@@ -141,7 +141,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="4"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               90
@@ -150,12 +150,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Natural Wine Pairing
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
             </p>
@@ -165,23 +165,23 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-qybtch"
+    class="css-1ge04mf"
   >
     <h3
-      class="chakra-heading css-qofsxt"
+      class="chakra-heading css-14bagvu"
     >
       Mains
     </h3>
     <p
-      class="chakra-text css-vb0nb2"
+      class="chakra-text css-ot837d"
     >
       This is a section of your menu. Give your section a brief description
     </p>
     <div
-      class="css-6byvna"
+      class="css-94t78a"
     >
       <ul
-        class="css-1pjkzi9"
+        class="css-1mpu2xx"
         role="list"
       >
         <li
@@ -192,7 +192,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="1"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               20
@@ -201,12 +201,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Deep Sea Snow White Cod Fillet
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
             </p>
@@ -220,7 +220,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="2"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               22
@@ -229,12 +229,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Steak With Rosemary Butter
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
             </p>
@@ -248,7 +248,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="3"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               18
@@ -257,12 +257,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Cucumber Salad
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
             </p>
@@ -276,7 +276,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="4"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               90
@@ -285,12 +285,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Natural Wine Pairing
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
             </p>
@@ -298,7 +298,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
         </li>
       </ul>
       <div
-        class="css-1gsejy4"
+        class="css-cyeby5"
       >
         <img
           alt="excellent cook picture"
@@ -314,23 +314,23 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-344vaf"
+    class="css-147uu4d"
   >
     <h3
-      class="chakra-heading css-qofsxt"
+      class="chakra-heading css-14bagvu"
     >
       Pastries & Drinks
     </h3>
     <p
-      class="chakra-text css-vb0nb2"
+      class="chakra-text css-ot837d"
     >
       This is a section of your menu. Give your section a brief description
     </p>
     <div
-      class="css-x7ltkt"
+      class="css-18cek3a"
     >
       <div
-        class="css-1gsejy4"
+        class="css-cyeby5"
       >
         <img
           alt="excellent cook picture"
@@ -344,7 +344,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
         />
       </div>
       <ul
-        class="css-1pjkzi9"
+        class="css-1mpu2xx"
         role="list"
       >
         <li
@@ -355,7 +355,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="1"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               20
@@ -364,12 +364,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Deep Sea Snow White Cod Fillet
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit1.
             </p>
@@ -383,7 +383,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="2"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               22
@@ -392,12 +392,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Steak With Rosemary Butter
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit2.
             </p>
@@ -411,7 +411,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="3"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               18
@@ -420,12 +420,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Cucumber Salad
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit3.
             </p>
@@ -439,7 +439,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             id="4"
           >
             <h4
-              class="chakra-heading css-1ms7w9h"
+              class="chakra-heading css-4jbmzn"
             >
               $
               90
@@ -448,12 +448,12 @@ exports[`Menu page Renders Menu page correctly 1`] = `
               class="css-113h5p7"
             />
             <h3
-              class="chakra-heading css-10d4fcy"
+              class="chakra-heading css-u3uye4"
             >
               Natural Wine Pairing
             </h3>
             <p
-              class="chakra-text css-1eu2sr5"
+              class="chakra-text css-1oh60g1"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit4.
             </p>
@@ -463,58 +463,62 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     </div>
   </section>
   <section
-    class="css-628vpw"
+    class="css-fdh48f"
     id="reservationSection"
   >
     <form
       novalidate=""
     >
       <div
-        class="chakra-form-control css-thxs3d"
+        class="chakra-form-control css-whvd6l"
         role="group"
       >
         <div
           class="css-yjtq8f"
         >
           <h3
-            class="chakra-heading css-mxgfwf"
+            class="chakra-heading css-17j5m7v"
           >
             Make a Reservation
           </h3>
           <p
-            class="chakra-text css-11o6bb1"
+            class="chakra-text css-1ce86fs"
           >
             Get in touch with restaurant
           </p>
         </div>
         <div
-          class="css-6wfi37"
+          class="css-krxe1m"
         >
           <div
-            class="css-pl1d54"
+            class="css-1payax8"
           >
             <div
-              class="react-datepicker-wrapper"
+              class="css-0"
             >
               <div
-                class="react-datepicker__input-container"
+                class="react-datepicker-wrapper"
               >
-                <input
-                  class="chakra-input css-nr8l43"
-                  id="field-:r0:"
-                  placeholder="MM/DD/YYYY"
-                  value=""
-                />
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-q7pni1"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
               </div>
             </div>
             <div
               class="css-0"
             >
               <div
-                class="chakra-select__wrapper css-1uge2rn"
+                class="chakra-select__wrapper css-17qe6bp"
               >
                 <select
-                  class="chakra-select css-1srlo7p"
+                  class="chakra-select css-lknr9b"
                   data-testid="selectTime"
                   id="field-:r0:"
                   name="time"
@@ -576,7 +580,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    class="chakra-icon chakra-select__icon css-13wnv3o"
+                    class="chakra-icon chakra-select__icon css-m73ylg"
                     focusable="false"
                     role="presentation"
                     style="width: 1em; height: 1em; color: currentColor;"
@@ -595,7 +599,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             class="chakra-select__wrapper css-42b2qy"
           >
             <select
-              class="chakra-select css-1srlo7p"
+              class="chakra-select css-lknr9b"
               data-testid="selectPerson"
               id="field-:r0:"
               name="person"
@@ -662,7 +666,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="chakra-icon chakra-select__icon css-13wnv3o"
+                class="chakra-icon chakra-select__icon css-m73ylg"
                 focusable="false"
                 role="presentation"
                 style="width: 1em; height: 1em; color: currentColor;"
@@ -677,10 +681,10 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           </div>
         </div>
         <div
-          class="css-1610dfo"
+          class="css-1nx6xr5"
         >
           <button
-            class="chakra-button css-h4ij4d"
+            class="chakra-button css-5sg5i5"
             disabled=""
             type="submit"
           >

@@ -5,8 +5,8 @@ export const Input: ComponentStyleConfig = {
     field: {
       border: '2px',
       borderRadius: '0px',
-      fontSize: { base: 'xs', md: 'sm' },
-      height: { base: '50px', md: '96px' },
+      fontSize: { base: 'xs', '2xl': 'sm' },
+      height: { base: '50px', '2xl': '96px' },
       paddingLeft: '40px',
       backgroundColor: 'inherit',
     },
@@ -15,7 +15,7 @@ export const Input: ComponentStyleConfig = {
     default: {
       field: {
         width: '100%',
-        height: { base: '50px', md: '96px' },
+        height: { base: '50px', '2xl': '96px' },
       },
     },
   },

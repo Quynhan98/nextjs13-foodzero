@@ -196,21 +196,21 @@ const Contact = () => {
         objectFit="cover"
         maxW="1920px"
         maxH="1080px"
-        padding={{ base: '90px 12px', md: '415px 138px 130px 138px' }}
+        padding={{ base: '90px 12px', '2xl': '415px 138px 130px 138px' }}
       >
-        <Heading size="extraLarge" maxW={{ base: '200px', md: '915px' }}>
+        <Heading size="extraLarge" maxW={{ base: '200px', '2xl': '915px' }}>
           Get in Touch
         </Heading>
         <Text
-          pt={{ base: '10px', md: '50px' }}
-          maxW={{ base: '300px', md: '915px' }}
+          pt={{ base: '10px', '2xl': '50px' }}
+          maxW={{ base: '300px', '2xl': '915px' }}
           variant="primary"
           fontFamily="Rufina"
           size="common"
         >
           The freshest ingredients for you every day
         </Text>
-        <Flex pt="93px" justifyContent={{ base: 'center', md: 'flex-end' }}>
+        <Flex pt="93px" justifyContent={{ base: 'center', '2xl': 'flex-end' }}>
           <OpenTime {...OPEN_TIME} />
         </Flex>
       </Box>
@@ -218,13 +218,13 @@ const Contact = () => {
       {/* Address section */}
       <Box
         as="section"
-        padding={{ base: '60px 12px', md: '272px 138px 186px 138px' }}
+        padding={{ base: '60px 12px', '2xl': '272px 138px 186px 138px' }}
         position="relative"
         _before={{
           content: '""',
           position: 'absolute',
-          width: { base: '112px', md: '446px' },
-          height: { base: '98px', md: '391px' },
+          width: { base: '112px', '2xl': '446px' },
+          height: { base: '98px', '2xl': '391px' },
           top: '152px',
           left: '40%',
           backgroundImage: '/images/orange.webp',
@@ -234,14 +234,14 @@ const Contact = () => {
         }}
       >
         <Flex
-          flexDirection={{ base: 'column', md: 'row' }}
-          justifyContent={{ base: 'center', md: 'unset' }}
+          flexDirection={{ base: 'column', '2xl': 'row' }}
+          justifyContent={{ base: 'center', '2xl': 'unset' }}
           alignItems="center"
-          gap={{ base: '20px', md: '202px' }}
+          gap={{ base: '20px', '2xl': '202px' }}
         >
           <Box
-            width={{ base: '277px', md: '792px' }}
-            height={{ base: '208px', md: '593px' }}
+            width={{ base: '277px', '2xl': '792px' }}
+            height={{ base: '208px', '2xl': '593px' }}
             position="relative"
           >
             <Image
@@ -253,7 +253,7 @@ const Contact = () => {
             />
           </Box>
           <Text
-            pt={{ base: '0px', md: '230px' }}
+            pt={{ base: '0px', '2xl': '230px' }}
             size="common"
             fontFamily="Rufina"
             fontWeight="bold"
@@ -282,24 +282,24 @@ const Contact = () => {
           </Text>
         </Flex>
         <Flex
-          pt={{ base: '60px', md: '145px' }}
-          flexDirection={{ base: 'column-reverse', md: 'row' }}
-          justifyContent={{ base: 'center', md: 'space-between' }}
+          pt={{ base: '60px', '2xl': '145px' }}
+          flexDirection={{ base: 'column-reverse', '2xl': 'row' }}
+          justifyContent={{ base: 'center', '2xl': 'space-between' }}
           alignItems="center"
-          gap={{ base: '20px', md: '60px' }}
+          gap={{ base: '20px', '2xl': '60px' }}
         >
           <Text
             size="common"
             fontFamily="Rufina"
             fontWeight="bold"
             variant="secondary"
-            maxW={{ base: '275px', md: '748px' }}
+            maxW={{ base: '275px', '2xl': '748px' }}
           >
             We are located in {CONTACT.address}
           </Text>
           <Box
-            width={{ base: '277px', md: '792px' }}
-            height={{ base: '347px', md: '990px' }}
+            width={{ base: '277px', '2xl': '792px' }}
+            height={{ base: '347px', '2xl': '990px' }}
             position="relative"
           >
             <Image
@@ -317,7 +317,7 @@ const Contact = () => {
       <Box
         id="reservationSection"
         as="section"
-        padding={{ base: '70px 12px', md: '237px 138px 254px 138px' }}
+        padding={{ base: '70px 12px', '2xl': '237px 138px 254px 138px' }}
         backgroundColor="alabaster"
       >
         <ReservationForm
