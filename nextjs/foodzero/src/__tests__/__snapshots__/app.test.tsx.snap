@@ -32,7 +32,7 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
       </h1>
       <button
         aria-label="menu"
-        class="chakra-button css-1wb5yzf"
+        class="chakra-button css-tbso18"
         data-testid="buttonMenu"
         type="button"
       >
@@ -53,7 +53,7 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
       class="css-1y4a8vd"
     >
       <a
-        class="chakra-link css-spn4bz"
+        class="chakra-link css-l7kert"
         href="tel:+86 852 346 000"
       >
         <p
@@ -63,7 +63,7 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
         </p>
       </a>
       <button
-        class="chakra-button css-1cqvr3p"
+        class="chakra-button css-it7ljf"
         type="button"
       >
         Reservations

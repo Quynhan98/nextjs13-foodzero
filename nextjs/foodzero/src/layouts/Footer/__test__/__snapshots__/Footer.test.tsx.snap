@@ -69,7 +69,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
             placeholder="Email Address"
           />
           <button
-            class="chakra-button css-13vrnz4"
+            class="chakra-button css-1jzubo8"
             type="button"
           >
             Subscribe

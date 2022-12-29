@@ -780,7 +780,7 @@ exports[`Home page Renders Home page correctly 1`] = `
           class="css-1nx6xr5"
         >
           <button
-            class="chakra-button css-5sg5i5"
+            class="chakra-button css-1u5v212"
             disabled=""
             type="submit"
           >
@@ -990,7 +990,7 @@ exports[`Home page Renders Home page correctly 1`] = `
           class="css-1sal2c8"
         >
           <button
-            class="chakra-button css-t28kes"
+            class="chakra-button css-1niyhv8"
             data-testid="buttonBack"
             type="button"
           >
@@ -1014,7 +1014,7 @@ exports[`Home page Renders Home page correctly 1`] = `
             3
           </p>
           <button
-            class="chakra-button css-t28kes"
+            class="chakra-button css-1niyhv8"
             data-testid="buttonNext"
             type="button"
           >
