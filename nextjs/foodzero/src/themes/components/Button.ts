@@ -14,17 +14,19 @@ export const Button: ComponentStyleConfig = {
   sizes: {
     large: {
       width: '100%',
-      pt: { base: '10px', md: '20px' },
-      pb: { base: '10px', md: '20px' },
+      height: { base: '42px', md: '88px' },
     },
     default: {
-      padding: { base: '7px 10px', md: '20px 46px' },
+      width: { base: '152px', md: '285px' },
+      height: { base: '50px', md: '88px' },
     },
     primary: {
-      padding: { base: '10px 48px', md: '20px 95px' },
+      width: { base: '200px', md: '344px' },
+      height: { base: '50px', md: '88px' },
     },
     small: {
-      padding: '7px 10px',
+      width: { base: '30px', md: '40px', '2xl': '50px' },
+      height: { base: '30px', md: '40px', '2xl': '50px' },
     },
   },
 

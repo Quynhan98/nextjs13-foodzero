@@ -114,8 +114,8 @@ const Header = () => {
         <Heading as="h1">
           <Link href="/">
             <Box
-              width={{ base: '123px', lg: '307px' }}
-              height={{ base: '46px', lg: '115px' }}
+              width={{ base: '134px', lg: '307px' }}
+              height={{ base: '50px', lg: '115px' }}
               position="relative"
             >
               <Image
@@ -124,8 +124,8 @@ const Header = () => {
                 priority
                 fill
                 sizes="(max-width: 768px) 307px, 115px
-                (max-width: 1200px) 50vw,
-                33vw"
+                (min-width: 768px) 134px, 50px
+                (min-width: 1200px) 307px, 115px"
               />
             </Box>
           </Link>
@@ -134,6 +134,7 @@ const Header = () => {
           data-testid="buttonMenu"
           onClick={onOpen}
           variant="light"
+          size="small"
           icon={
             <HamburgerIcon
               boxSize={{ base: '20px', md: '30px', '2xl': '46px' }}

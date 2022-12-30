@@ -466,7 +466,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           class="css-1nx6xr5"
         >
           <button
-            class="chakra-button css-1u5v212"
+            class="chakra-button css-t1h88h"
             disabled=""
             type="submit"
           >

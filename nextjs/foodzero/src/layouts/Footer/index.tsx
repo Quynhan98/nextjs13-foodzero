@@ -55,16 +55,19 @@ const Footer = () => {
           >
             Never Miss a Recipe
           </Text>
-          <Flex gap={{ base: '10px', md: '30px' }} pb="10px">
+          <Flex
+            gap={{ base: '10px', md: '30px' }}
+            pb="10px"
+            alignItems="center"
+          >
             <Input
-              width={{ base: '100%', md: '400px', '2xl': '523px' }}
+              width={{ base: '80%', md: '400px', '2xl': '523px' }}
               variant="primary"
               placeholder="Email Address"
               _placeholder={{ color: 'white' }}
             />
             <Button
               variant="secondary"
-              size={{ base: 'small', md: 'default' }}
               fontWeight={{ base: 'base', md: 'bold' }}
             >
               Subscribe
