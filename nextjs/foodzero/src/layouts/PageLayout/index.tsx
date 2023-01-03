@@ -7,7 +7,7 @@ import { Box, Center, Spinner } from '@chakra-ui/react'
 import Header from '@layouts/Header'
 
 // Constants
-import { LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
+import { BASE_URL, LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
 
 // Context
 import { AuthProvider } from '@contexts/AuthProvider'
@@ -19,6 +19,9 @@ import { fetcherInstanceAPI } from '@services/api'
 
 // Utils
 import { getLocalStorage } from '@utils/localStorage'
+
+// Components
+import SEO from '@components/SEO'
 
 const Footer = lazy(() => import('@layouts/Footer'))
 
@@ -48,6 +51,11 @@ const PageLayouts = ({ children }: IPageLayoutsProps) => {
     >
       <LoadingProvider>
         <AuthProvider>
+          <SEO
+            title="Foodzero"
+            description="This is a food restaurant"
+            urlLink={BASE_URL}
+          />
           {isLoginPage ? (
             <Center
               as="main"

@@ -62,14 +62,14 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
           Never Miss a Recipe
         </p>
         <div
-          class="css-j6pfsw"
+          class="css-l2hbqj"
         >
           <input
-            class="chakra-input css-59g4up"
+            class="chakra-input css-17j1iuu"
             placeholder="Email Address"
           />
           <button
-            class="chakra-button css-13vrnz4"
+            class="chakra-button css-jzq63o"
             type="button"
           >
             Subscribe

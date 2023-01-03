@@ -12,19 +12,18 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
         class="chakra-heading css-vqcpt4"
       >
         <a
-          class="chakra-link css-spn4bz"
           href="/"
         >
           <div
-            class="css-1tm3rfb"
+            class="css-1cqdkzb"
           >
             <img
               alt="Logo FoodZero"
               data-nimg="fill"
               decoding="async"
-              sizes="(max-width: 768px) 307px, 115px (max-width: 1200px) 50vw, 33vw"
+              sizes="(max-width: 768px) 307px, 115px (min-width: 768px) 134px, 50px (min-width: 1200px) 307px, 115px"
               src="/_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75"
-              srcset="/_next/image?url=%2Fimages%2Flogo.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75 3840w"
+              srcset="/_next/image?url=%2Fimages%2Flogo.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Flogo.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Flogo.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Flogo.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Flogo.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Flogo.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Flogo.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Flogo.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Flogo.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Flogo.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Flogo.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Flogo.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Flogo.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Flogo.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Flogo.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Flogo.webp&w=3840&q=75 3840w"
               style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
             />
           </div>
@@ -32,7 +31,7 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
       </h1>
       <button
         aria-label="menu"
-        class="chakra-button css-1wb5yzf"
+        class="chakra-button css-1iizpuw"
         data-testid="buttonMenu"
         type="button"
       >
@@ -52,18 +51,21 @@ exports[`App render Should show match App DOM Snapshot 1`] = `
     <div
       class="css-1y4a8vd"
     >
-      <a
-        class="chakra-link css-spn4bz"
-        href="tel:+86 852 346 000"
+      <div
+        class="css-jl5ft5"
       >
-        <p
-          class="chakra-text css-1efn3iv"
+        <a
+          href="tel:+86 852 346 000"
         >
-          +86 852 346 000
-        </p>
-      </a>
+          <p
+            class="chakra-text css-1efn3iv"
+          >
+            +86 852 346 000
+          </p>
+        </a>
+      </div>
       <button
-        class="chakra-button css-1cqvr3p"
+        class="chakra-button css-1exwhky"
         type="button"
       >
         Reservations

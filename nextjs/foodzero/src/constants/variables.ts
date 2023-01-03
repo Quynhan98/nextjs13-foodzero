@@ -132,21 +132,21 @@ export const CATEGORY_SECTION = [
     href: '/menu',
     category: 'Starters',
     imageUrl:
-      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=4e7dcf6c-2a66-4695-917d-af1d578d9a30',
   },
   {
     id: '2',
     href: '/menu',
     category: 'Mains',
     imageUrl:
-      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FbakedRibs.webp?alt=media&token=9dfe4f72-e8f5-4999-a007-849d7d9a0e48',
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FbakedRibs.webp?alt=media&token=73258243-cb2a-4646-8e4a-62a78c893c8b',
   },
   {
     id: '3',
     href: '/menu',
     category: 'Soups',
     imageUrl:
-      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fsoup.webp?alt=media&token=90c7bfa7-8295-498d-b7c0-7ff5900b2de2',
+      'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fsoup.webp?alt=media&token=07af9c6d-bee4-42e3-a8e8-5bd22397ff08',
   },
 ]
 

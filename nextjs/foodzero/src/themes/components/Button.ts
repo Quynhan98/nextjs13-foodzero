@@ -2,8 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const Button: ComponentStyleConfig = {
   baseStyle: {
-    fontSize: { base: 'base', '2xl': 'md' },
-    lineHeight: { base: 'xs', '2xl': 'sm' },
+    fontSize: { base: 'xs', md: 'common', '2xl': 'md' },
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -14,17 +13,19 @@ export const Button: ComponentStyleConfig = {
   sizes: {
     large: {
       width: '100%',
-      pt: { base: '10px', '2xl': '20px' },
-      pb: { base: '10px', '2xl': '20px' },
+      height: { base: '50px', '2xl': '96px' },
     },
     default: {
-      padding: { base: '10px 23px', '2xl': '20px 46px' },
+      width: { base: '130px', md: '200px', '2xl': '285px' },
+      height: { base: '50px', '2xl': '96px' },
     },
     primary: {
-      padding: { base: '10px 48px', '2xl': '20px 95px' },
+      width: { base: '200px', md: '260px', '2xl': '344px' },
+      height: { base: '50px', md: '50px', '2xl': '96px' },
     },
     small: {
-      padding: '7px 10px',
+      width: { base: '30px', md: '40px', '2xl': '50px' },
+      height: { base: '30px', md: '40px', '2xl': '50px' },
     },
   },
 
@@ -36,7 +37,7 @@ export const Button: ComponentStyleConfig = {
     },
     primary: {
       backgroundColor: 'inherit',
-      border: { base: '1px', '2xl': '2px' },
+      border: { base: '1px', md: '2px' },
       borderColor: 'white',
     },
     secondary: {

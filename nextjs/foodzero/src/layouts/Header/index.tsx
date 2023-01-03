@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import {
@@ -8,18 +9,16 @@ import {
   Flex,
   Heading,
   IconButton,
-  Link,
   Modal,
   ModalBody,
   ModalCloseButton,
   ModalContent,
   Text,
   useDisclosure,
-  useMediaQuery,
 } from '@chakra-ui/react'
 
 // Constants
-import { BREAKPOINTS, CONTACT, NAV_LIST } from '@constants/index'
+import { CONTACT, NAV_LIST } from '@constants/index'
 
 // Components
 import Navigation from '@components/Navigation'
@@ -28,7 +27,6 @@ import { useRouter } from 'next/router'
 
 const Header = () => {
   const router = useRouter()
-  const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const handClickReservationBtn = () => {
@@ -114,10 +112,10 @@ const Header = () => {
     >
       <Flex gap={{ base: '20px', md: '45px' }} alignItems="center">
         <Heading as="h1">
-          <Link href="/">
+          <Link href="/" prefetch={false}>
             <Box
-              width={{ base: '123px', lg: '307px' }}
-              height={{ base: '46px', lg: '115px' }}
+              width={{ base: '134px', lg: '307px' }}
+              height={{ base: '50px', lg: '115px' }}
               position="relative"
             >
               <Image
@@ -126,8 +124,8 @@ const Header = () => {
                 priority
                 fill
                 sizes="(max-width: 768px) 307px, 115px
-                (max-width: 1200px) 50vw,
-                33vw"
+                (min-width: 768px) 134px, 50px
+                (min-width: 1200px) 307px, 115px"
               />
             </Box>
           </Link>
@@ -136,6 +134,7 @@ const Header = () => {
           data-testid="buttonMenu"
           onClick={onOpen}
           variant="light"
+          size="small"
           icon={
             <HamburgerIcon
               boxSize={{ base: '20px', md: '30px', '2xl': '46px' }}
@@ -145,20 +144,17 @@ const Header = () => {
         />
       </Flex>
       <Flex gap="36px" alignItems="center">
-        {!isMobile && (
+        <Box display={{ base: 'none', md: 'block' }}>
           <Link href={`tel:${CONTACT.phoneNumber}`}>
             <Text size="large" variant="primary">
               {CONTACT.phoneNumber}
             </Text>
           </Link>
-        )}
+        </Box>
         <Button
           onClick={handClickReservationBtn}
           variant="primary"
-          size={{ base: 'small', '2xl': 'default' }}
-          fontSize={isMobile ? 'xxs' : 'md'}
-          lineHeight={isMobile ? 'xxs' : 'sm'}
-          fontWeight={{ base: 'base', '2xl': 'bold' }}
+          fontWeight={{ base: 'normal', md: 'bold' }}
         >
           Reservations
         </Button>

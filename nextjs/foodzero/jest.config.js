@@ -14,6 +14,7 @@ module.exports = {
     '!<rootDir>/.next/**',
     '!<rootDir>/*.config.js',
     '!<rootDir>/coverage/**',
+    '!<rootDir>/src/pages/api/**',
     '!<rootDir>/src/types/**',
     '!**/*fileSystem.ts',
     '!<rootDir>/src/assets/**',

@@ -6,10 +6,10 @@ exports[`Home page Renders Home page correctly 1`] = `
     class="css-6b1a55"
   >
     <div
-      class="css-mjjemm"
+      class="css-vvlw11"
     >
       <h2
-        class="chakra-heading css-14yh45j"
+        class="chakra-heading css-14k0bhv"
       >
         Healthy Eating is important part of lifestyle
       </h2>
@@ -20,7 +20,7 @@ exports[`Home page Renders Home page correctly 1`] = `
       </p>
     </div>
     <div
-      class="css-1syz4f5"
+      class="css-1w050v0"
     >
       <div
         class="css-x2v69j"
@@ -50,37 +50,37 @@ exports[`Home page Renders Home page correctly 1`] = `
       </div>
     </div>
     <div
-      class="css-1ti52i3"
+      class="css-q8vh3s"
     >
       <div
         class="css-j7qwjs"
       >
         <div
-          class="css-1kmyrtj"
+          class="css-1qtow6s"
         >
           <img
             alt="clam soup picture"
             data-nimg="fill"
             decoding="async"
-            sizes="(max-width: 768px) 198px, 140px (min-width: 768px) 554px, 392px (min-width: 1200px) 792px, 560px"
+            sizes="(max-width: 768px) 180px, 127px (min-width: 768px) 554px, 392px (min-width: 1200px) 792px, 560px"
             src="/_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FclamSoup.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FclamSoup.webp&w=3840&q=75 3840w"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
           />
         </div>
         <h3
-          class="chakra-heading css-fy45gc"
+          class="chakra-heading css-1q6goxx"
         >
           Start to plan your diet today
         </h3>
         <p
-          class="chakra-text css-1u4qhjx"
+          class="chakra-text css-1ss4z3r"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
         </p>
       </div>
       <div
-        class="css-11ds2t7"
+        class="css-vnu2c5"
       >
         <p
           class="chakra-text css-19o1xt2"
@@ -88,13 +88,13 @@ exports[`Home page Renders Home page correctly 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
         </p>
         <div
-          class="css-59ig12"
+          class="css-1cm9t46"
         >
           <img
             alt="spice jar picture"
             data-nimg="fill"
             decoding="async"
-            sizes="(max-width: 768px) 130px, 180px (min-width: 768px) 356px, 497px (min-width: 1200px) 508px, 710px"
+            sizes="(max-width: 768px) 150px, 210px (min-width: 768px) 356px, 497px (min-width: 1200px) 508px, 710px"
             src="/_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FspiceJar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FspiceJar.webp&w=3840&q=75 3840w"
             style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
@@ -780,7 +780,7 @@ exports[`Home page Renders Home page correctly 1`] = `
           class="css-1nx6xr5"
         >
           <button
-            class="chakra-button css-5sg5i5"
+            class="chakra-button css-1a21hrr"
             disabled=""
             type="submit"
           >
@@ -847,8 +847,8 @@ exports[`Home page Renders Home page correctly 1`] = `
             decoding="async"
             height="711"
             loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=1080&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=1080&q=75 2x"
             style="color: transparent;"
             width="508"
           />
@@ -890,8 +890,8 @@ exports[`Home page Renders Home page correctly 1`] = `
             decoding="async"
             height="711"
             loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D9dfe4f72-e8f5-4999-a007-849d7d9a0e48&w=1080&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D9dfe4f72-e8f5-4999-a007-849d7d9a0e48&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D9dfe4f72-e8f5-4999-a007-849d7d9a0e48&w=1080&q=75 2x"
+            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D73258243-cb2a-4646-8e4a-62a78c893c8b&w=1080&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D73258243-cb2a-4646-8e4a-62a78c893c8b&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FbakedRibs.webp%3Falt%3Dmedia%26token%3D73258243-cb2a-4646-8e4a-62a78c893c8b&w=1080&q=75 2x"
             style="color: transparent;"
             width="508"
           />
@@ -933,8 +933,8 @@ exports[`Home page Renders Home page correctly 1`] = `
             decoding="async"
             height="711"
             loading="lazy"
-            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D90c7bfa7-8295-498d-b7c0-7ff5900b2de2&w=1080&q=75"
-            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D90c7bfa7-8295-498d-b7c0-7ff5900b2de2&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D90c7bfa7-8295-498d-b7c0-7ff5900b2de2&w=1080&q=75 2x"
+            src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D07af9c6d-bee4-42e3-a8e8-5bd22397ff08&w=1080&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D07af9c6d-bee4-42e3-a8e8-5bd22397ff08&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fsoup.webp%3Falt%3Dmedia%26token%3D07af9c6d-bee4-42e3-a8e8-5bd22397ff08&w=1080&q=75 2x"
             style="color: transparent;"
             width="508"
           />
@@ -987,10 +987,10 @@ exports[`Home page Renders Home page correctly 1`] = `
           </div>
         </div>
         <div
-          class="css-1sal2c8"
+          class="css-4c6vfm"
         >
           <button
-            class="chakra-button css-t28kes"
+            class="chakra-button css-evuxd7"
             data-testid="buttonBack"
             type="button"
           >
@@ -1007,14 +1007,14 @@ exports[`Home page Renders Home page correctly 1`] = `
             />
           </button>
           <p
-            class="chakra-text css-1sii6qu"
+            class="chakra-text css-n4431i"
           >
             1
             /
             3
           </p>
           <button
-            class="chakra-button css-t28kes"
+            class="chakra-button css-evuxd7"
             data-testid="buttonNext"
             type="button"
           >

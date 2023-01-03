@@ -72,15 +72,12 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
           name={quote.authorName}
           job={quote.job}
         />
-        <Flex
-          alignItems="center"
-          width={{ base: '100%', '2xl': '40%' }}
-          justifyContent="flex-end"
-        >
+        <Flex alignItems="center" width="100%" justifyContent="flex-end">
           <Button
             data-testid="buttonBack"
             onClick={handleGoBack}
             variant="light"
+            size="small"
           >
             <Image
               width={isMobile ? 23 : 46}
@@ -94,10 +91,18 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
             fontSize={{ base: 'base', '2xl': 'md' }}
             lineHeight={{ base: 'base', '2xl': 'sm' }}
             variant="secondary"
+            textAlign="center"
+            pl={{ base: '20px', md: '30px', '2xl': '40px' }}
+            pr={{ base: '20px', md: '30px', '2xl': '40px' }}
           >
             {currentSlider}/{quotes.length}
           </Text>
-          <Button data-testid="buttonNext" onClick={handleNext} variant="light">
+          <Button
+            data-testid="buttonNext"
+            onClick={handleNext}
+            variant="light"
+            size="small"
+          >
             <Image
               width={isMobile ? 23 : 46}
               height={isMobile ? 13 : 26}
