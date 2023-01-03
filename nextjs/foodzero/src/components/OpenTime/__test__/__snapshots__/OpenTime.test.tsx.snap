@@ -3,18 +3,18 @@
 exports[`OpenTime component Renders OpenTime default correctly 1`] = `
 <div>
   <div
-    class="css-ftk6jc"
+    class="css-lex2vo"
   >
     <div
-      class="css-17k3l2w"
+      class="css-1rdnf7o"
     >
       <p
-        class="chakra-text css-yqlfvc"
+        class="chakra-text css-qiaoji"
       >
         Open Time
       </p>
       <p
-        class="chakra-text css-1b6c49i"
+        class="chakra-text css-1nxiabe"
       >
         Sunday - Friday
       </p>
@@ -23,19 +23,19 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
       class="css-1iijbtl"
     />
     <ul
-      class="css-1s9u7va"
+      class="css-y465uq"
       role="list"
     >
       <li
         class="css-0"
       >
         <p
-          class="chakra-text css-1b6c49i"
+          class="chakra-text css-1nxiabe"
         >
           Brunch
         </p>
         <p
-          class="chakra-text css-1b6c49i"
+          class="chakra-text css-1nxiabe"
         >
           11:00–12:00
         </p>
@@ -44,12 +44,12 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1b6c49i"
+          class="chakra-text css-1nxiabe"
         >
           Lunch
         </p>
         <p
-          class="chakra-text css-1b6c49i"
+          class="chakra-text css-1nxiabe"
         >
           13:00–17:00
         </p>
@@ -58,12 +58,12 @@ exports[`OpenTime component Renders OpenTime default correctly 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1b6c49i"
+          class="chakra-text css-1nxiabe"
         >
           Dinner
         </p>
         <p
-          class="chakra-text css-1b6c49i"
+          class="chakra-text css-1nxiabe"
         >
           18:00–20:00
         </p>

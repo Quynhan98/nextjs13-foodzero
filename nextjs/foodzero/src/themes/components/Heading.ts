@@ -12,8 +12,8 @@ export const Heading: ComponentStyleConfig = {
       lineHeight: { base: 'base', md: 'xl', '2xl': 'xxl' },
     },
     medium: {
-      fontSize: { base: 'common', '2xl': 'xl' },
-      lineHeight: { base: 'base', '2xl': 'xl' },
+      fontSize: { base: 'common', md: 'default', '2xl': 'xl' },
+      lineHeight: { base: 'base', md: 'lg', '2xl': 'xl' },
     },
     default: {
       fontSize: { base: 'common', md: 'lg', '2xl': 'default' },
