@@ -2,7 +2,7 @@
 import { render } from '@utils/testUtils'
 
 // Components
-import Footer from '@layouts/Footer'
+import Footer from '@components/Footer'
 
 describe('Footer render', () => {
   it('Should Footer match Snapshot', () => {

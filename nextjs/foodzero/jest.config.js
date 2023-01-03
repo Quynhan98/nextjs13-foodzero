@@ -26,7 +26,6 @@ module.exports = {
     '@pages/(.*)': '<rootDir>/src/pages/$1',
     '^@components/(.*)$': '<rootDir>/src/components/$1',
     '^@constants/(.*)$': '<rootDir>/src/constants/$1',
-    '^@layouts/(.*)$': '<rootDir>/src/layouts/$1',
     '^@services/(.*)$': '<rootDir>/src/services/$1',
     '^@themes/(.*)$': '<rootDir>/src/themes/$1',
     '^@utils/(.*)$': '<rootDir>/src/utils/$1',

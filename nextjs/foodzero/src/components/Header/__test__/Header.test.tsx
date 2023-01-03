@@ -5,7 +5,7 @@ import { fireEvent, render, screen, waitFor } from '@utils/testUtils'
 import { NextRouterProvider } from '@utils/nextRouterProvider'
 
 // Components
-import Header from '@layouts/Header'
+import Header from '@components/Header'
 
 // Constants
 import { NAV_LIST, PAGE_URL } from '@constants/index'

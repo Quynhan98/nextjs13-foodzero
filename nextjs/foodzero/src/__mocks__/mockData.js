@@ -9,7 +9,7 @@ export const PRICE_LIST_MOCK = {
 
 export const CARD_BLOG = {
   imageUrl:
-    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FFeature%20Image.webp?alt=media&token=766a34ea-32e0-40e7-90e6-299f9af22eb1',
+    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FFeature%20Image.webp?alt=media&token=0a725961-6c86-4dcd-ab48-e5d7e2eb48fd',
   title: 'Fruit and vegetables and protection against diseases',
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   category: 'Fashion',
@@ -31,7 +31,7 @@ export const CARD_CATEGORY = {
   href: '/',
   category: 'Starters',
   imageUrl:
-    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=9f307d7c-b242-479d-943a-4ae672ac601e',
+    'https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2Fcategory.webp?alt=media&token=4e7dcf6c-2a66-4695-917d-af1d578d9a30',
 }
 
 export const USERS_MOCK = [

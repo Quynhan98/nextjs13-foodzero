@@ -2,10 +2,10 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import { Box } from '@chakra-ui/react'
 
 // Components
-import Header from '@layouts/Header'
+import Header from '@components/Header'
 
 export default {
-  title: 'Layouts/Header',
+  title: 'Component/Header',
   component: Header,
 } as ComponentMeta<typeof Header>
 

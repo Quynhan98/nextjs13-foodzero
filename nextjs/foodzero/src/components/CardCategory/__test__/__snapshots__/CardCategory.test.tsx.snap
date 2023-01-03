@@ -35,8 +35,8 @@ exports[`CardCategory component Renders CardCategory correctly 1`] = `
       decoding="async"
       height="711"
       loading="lazy"
-      src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75"
-      srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D9f307d7c-b242-479d-943a-4ae672ac601e&w=1080&q=75 2x"
+      src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=1080&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=1080&q=75 2x"
       style="color: transparent;"
       width="508"
     />
