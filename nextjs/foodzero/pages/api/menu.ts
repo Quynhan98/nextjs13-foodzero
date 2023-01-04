@@ -1,3 +1,5 @@
+'use client'
+
 import { NextApiRequest, NextApiResponse } from 'next'
 
 // Constants
@@ -17,7 +19,10 @@ export default async function menuHandler(
 ) {
   if (req.method === 'GET') {
     try {
-      const data = await fetcherInstanceAPI(`${MENU_ENDPOINT}/1`)
+      const data = await fetcherInstanceAPI({
+        endpoint: `${MENU_ENDPOINT}/1`,
+        fetchingMethod: 'SSR',
+      })
       if (data) {
         return res.status(SUCCESS_RESPONSE.OK).json(data)
       }

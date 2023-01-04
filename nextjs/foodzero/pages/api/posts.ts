@@ -1,3 +1,5 @@
+'use client'
+
 import { NextApiRequest, NextApiResponse } from 'next'
 
 // Constants
@@ -17,7 +19,10 @@ export default async function postsHandler(
 ) {
   if (req.method === 'GET') {
     try {
-      const data = await fetcherInstanceAPI(`${POSTS_ENDPOINT}`)
+      const data = await fetcherInstanceAPI({
+        endpoint: POSTS_ENDPOINT,
+        fetchingMethod: 'SSR',
+      })
       if (data) {
         return res.status(SUCCESS_RESPONSE.OK).json(data)
       }
