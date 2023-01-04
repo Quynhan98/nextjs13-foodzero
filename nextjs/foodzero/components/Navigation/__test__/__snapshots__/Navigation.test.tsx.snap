@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component Renders Navigation correctly 1`] = `
+<div>
+  <nav
+    class="css-0"
+  >
+    <ul
+      class="css-1hgnqmf"
+      role="list"
+    >
+      <li
+        class="css-18dlst6"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="css-18dlst6"
+      >
+        <a
+          href="/menu"
+        >
+          Menu
+        </a>
+      </li>
+      <li
+        class="css-18dlst6"
+      >
+        <a
+          href="/about"
+        >
+          About
+        </a>
+      </li>
+      <li
+        class="css-18dlst6"
+      >
+        <a
+          href="/contact"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picker Component renders picker component 1`] = `
+<div>
+  <div
+    class="react-datepicker-wrapper"
+  >
+    <div
+      class="react-datepicker__input-container"
+    >
+      <input
+        class="chakra-input css-1njo91c"
+        placeholder="MM/DD/YYYY"
+        value=""
+      />
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

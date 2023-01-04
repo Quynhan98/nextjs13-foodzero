@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardCategory component Renders CardCategory correctly 1`] = `
+<div>
+  <div
+    class="css-hfnpep"
+  >
+    <div
+      class="css-ix7fvz"
+    >
+      <p
+        class="chakra-text css-1x99fdl"
+      >
+        Starters
+      </p>
+      <a
+        href="/"
+        style="position: relative; width: 46px; height: 26px;"
+      >
+        <img
+          alt="right arrow icon"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 36px, 20px (min-width: 1200px) 46px, 26px"
+          src="/_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FrightArrow.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FrightArrow.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </a>
+    </div>
+    <img
+      alt="background of the category card"
+      data-nimg="1"
+      decoding="async"
+      height="711"
+      loading="lazy"
+      src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=1080&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252Fcategory.webp%3Falt%3Dmedia%26token%3D4e7dcf6c-2a66-4695-917d-af1d578d9a30&w=1080&q=75 2x"
+      style="color: transparent;"
+      width="508"
+    />
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceList component Renders PriceList correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <h4
+      class="chakra-heading css-4jbmzn"
+    >
+      $
+      20
+    </h4>
+    <hr
+      class="css-113h5p7"
+    />
+    <h3
+      class="chakra-heading css-u3uye4"
+    >
+      Deep Sea Snow White Cod Fillet
+    </h3>
+    <p
+      class="chakra-text css-1oh60g1"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

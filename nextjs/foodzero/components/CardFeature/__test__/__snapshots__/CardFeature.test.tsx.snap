@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardFeature component Renders CardFeature correctly 1`] = `
+<div>
+  <div
+    class="css-1kgkcud"
+  >
+    <figure
+      class="css-1fk92ed"
+    >
+      <img
+        alt="Premium Quality picture"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="(max-width: 768px) 150px, 150px (min-width: 768px) 200px, 200px (min-width: 1200px) 260px, 260px"
+        src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FCircleIcon.webp%3Falt%3Dmedia%26token%3D1df373f3-27a3-45f6-82fa-d997c47c718f&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </figure>
+    <p
+      class="chakra-text css-1x99fdl"
+    >
+      Premium Quality
+    </p>
+    <p
+      class="chakra-text css-1ueitwp"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque congue arcu
+    </p>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

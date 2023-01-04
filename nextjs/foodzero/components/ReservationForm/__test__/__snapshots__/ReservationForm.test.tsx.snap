@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
+<div>
+  <form
+    novalidate=""
+  >
+    <div
+      class="chakra-form-control css-whvd6l"
+      role="group"
+    >
+      <div
+        class="css-yjtq8f"
+      >
+        <h3
+          class="chakra-heading css-17j5m7v"
+        >
+          Make a Reservation
+        </h3>
+        <p
+          class="chakra-text css-1ce86fs"
+        >
+          Get in touch with restaurant
+        </p>
+      </div>
+      <div
+        class="css-krxe1m"
+      >
+        <div
+          class="css-1payax8"
+        >
+          <div
+            class="css-0"
+          >
+            <div
+              class="react-datepicker-wrapper"
+            >
+              <div
+                class="react-datepicker__input-container"
+              >
+                <input
+                  class="chakra-input css-1sz8sj0"
+                  id="field-:r2:"
+                  placeholder="MM/DD/YYYY"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-0"
+          >
+            <div
+              class="chakra-select__wrapper css-17qe6bp"
+            >
+              <select
+                class="chakra-select css-lknr9b"
+                data-testid="selectTime"
+                id="field-:r2:"
+                name="time"
+                style="padding-left: 40px;"
+              >
+                <option
+                  value="11:00 am"
+                >
+                  11:00 am
+                </option>
+                <option
+                  value="12:00 am"
+                >
+                  12:00 am
+                </option>
+                <option
+                  value="13:00 pm"
+                >
+                  13:00 pm
+                </option>
+                <option
+                  value="14:00 pm"
+                >
+                  14:00 pm
+                </option>
+                <option
+                  value="15:00 pm"
+                >
+                  15:00 pm
+                </option>
+                <option
+                  value="16:00 pm"
+                >
+                  16:00 pm
+                </option>
+                <option
+                  value="17:00 pm"
+                >
+                  17:00 pm
+                </option>
+                <option
+                  value="18:00 pm"
+                >
+                  18:00 pm
+                </option>
+                <option
+                  value="19:00 pm"
+                >
+                  19:00 pm
+                </option>
+              </select>
+              <div
+                class="chakra-select__icon-wrapper css-1rn5cz7"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-icon chakra-select__icon css-m73ylg"
+                  focusable="false"
+                  role="presentation"
+                  style="width: 1em; height: 1em; color: currentColor;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="chakra-select__wrapper css-42b2qy"
+        >
+          <select
+            class="chakra-select css-lknr9b"
+            data-testid="selectPerson"
+            id="field-:r2:"
+            name="person"
+            style="padding-left: 40px;"
+          >
+            <option
+              value="1 Person"
+            >
+              1 Person
+            </option>
+            <option
+              value="2 Person"
+            >
+              2 Person
+            </option>
+            <option
+              value="3 Person"
+            >
+              3 Person
+            </option>
+            <option
+              value="4 Person"
+            >
+              4 Person
+            </option>
+            <option
+              value="5 Person"
+            >
+              5 Person
+            </option>
+            <option
+              value="6 Person"
+            >
+              6 Person
+            </option>
+            <option
+              value="7 Person"
+            >
+              7 Person
+            </option>
+            <option
+              value="8 Person"
+            >
+              8 Person
+            </option>
+            <option
+              value="9 Person"
+            >
+              9 Person
+            </option>
+            <option
+              value="10 Person"
+            >
+              10 Person
+            </option>
+          </select>
+          <div
+            class="chakra-select__icon-wrapper css-1rn5cz7"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon chakra-select__icon css-m73ylg"
+              focusable="false"
+              role="presentation"
+              style="width: 1em; height: 1em; color: currentColor;"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1nx6xr5"
+      >
+        <button
+          class="chakra-button css-1a21hrr"
+          type="submit"
+        >
+          Book Now
+        </button>
+      </div>
+    </div>
+  </form>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
+
+exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = `
+<div>
+  <form
+    novalidate=""
+  >
+    <div
+      class="chakra-form-control css-whvd6l"
+      role="group"
+    >
+      <div
+        class="css-yjtq8f"
+      >
+        <h3
+          class="chakra-heading css-17j5m7v"
+        >
+          Make a Reservation
+        </h3>
+        <p
+          class="chakra-text css-1j19xza"
+        >
+          Get in touch with restaurant
+        </p>
+      </div>
+      <div
+        class="css-19580xy"
+      >
+        <input
+          class="chakra-input css-sw9qjs"
+          id="field-:r0:"
+          name="firstName"
+          placeholder="First Name"
+          type="text"
+          value=""
+        />
+        <input
+          class="chakra-input css-sw9qjs"
+          id="field-:r0:"
+          name="lastName"
+          placeholder="Last Name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="css-1qnzkxj"
+      >
+        <input
+          class="chakra-input css-1njo91c"
+          id="field-:r0:"
+          name="email"
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="css-1qnzkxj"
+      >
+        <input
+          class="chakra-input css-1njo91c"
+          id="field-:r0:"
+          name="phone"
+          placeholder="Phone"
+          type="tel"
+          value=""
+        />
+      </div>
+      <div
+        class="css-1pychye"
+      >
+        <div
+          class="css-1payax8"
+        >
+          <div
+            class="css-0"
+          >
+            <div
+              class="react-datepicker-wrapper"
+            >
+              <div
+                class="react-datepicker__input-container"
+              >
+                <input
+                  class="chakra-input css-1cwrfhe"
+                  id="field-:r0:"
+                  placeholder="MM/DD/YYYY"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-0"
+          >
+            <div
+              class="chakra-select__wrapper css-sp79o5"
+            >
+              <select
+                class="chakra-select css-lknr9b"
+                data-testid="selectTime"
+                id="field-:r0:"
+                name="time"
+                style="padding-left: 40px;"
+              >
+                <option
+                  value="11:00 am"
+                >
+                  11:00 am
+                </option>
+                <option
+                  value="12:00 am"
+                >
+                  12:00 am
+                </option>
+                <option
+                  value="13:00 pm"
+                >
+                  13:00 pm
+                </option>
+                <option
+                  value="14:00 pm"
+                >
+                  14:00 pm
+                </option>
+                <option
+                  value="15:00 pm"
+                >
+                  15:00 pm
+                </option>
+                <option
+                  value="16:00 pm"
+                >
+                  16:00 pm
+                </option>
+                <option
+                  value="17:00 pm"
+                >
+                  17:00 pm
+                </option>
+                <option
+                  value="18:00 pm"
+                >
+                  18:00 pm
+                </option>
+                <option
+                  value="19:00 pm"
+                >
+                  19:00 pm
+                </option>
+              </select>
+              <div
+                class="chakra-select__icon-wrapper css-1rn5cz7"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-icon chakra-select__icon css-m73ylg"
+                  focusable="false"
+                  role="presentation"
+                  style="width: 1em; height: 1em; color: currentColor;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="chakra-select__wrapper css-42b2qy"
+        >
+          <select
+            class="chakra-select css-lknr9b"
+            data-testid="selectPerson"
+            id="field-:r0:"
+            name="person"
+            style="padding-left: 40px;"
+          >
+            <option
+              value="1 Person"
+            >
+              1 Person
+            </option>
+            <option
+              value="2 Person"
+            >
+              2 Person
+            </option>
+            <option
+              value="3 Person"
+            >
+              3 Person
+            </option>
+            <option
+              value="4 Person"
+            >
+              4 Person
+            </option>
+            <option
+              value="5 Person"
+            >
+              5 Person
+            </option>
+            <option
+              value="6 Person"
+            >
+              6 Person
+            </option>
+            <option
+              value="7 Person"
+            >
+              7 Person
+            </option>
+            <option
+              value="8 Person"
+            >
+              8 Person
+            </option>
+            <option
+              value="9 Person"
+            >
+              9 Person
+            </option>
+            <option
+              value="10 Person"
+            >
+              10 Person
+            </option>
+          </select>
+          <div
+            class="chakra-select__icon-wrapper css-1rn5cz7"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon chakra-select__icon css-m73ylg"
+              focusable="false"
+              role="presentation"
+              style="width: 1em; height: 1em; color: currentColor;"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-ffarb6"
+      >
+        <button
+          class="chakra-button css-enx18o"
+          type="submit"
+        >
+          Book Now
+        </button>
+      </div>
+    </div>
+  </form>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
