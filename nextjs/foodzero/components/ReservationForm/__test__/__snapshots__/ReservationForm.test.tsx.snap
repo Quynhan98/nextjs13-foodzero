@@ -39,7 +39,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
                 class="react-datepicker__input-container"
               >
                 <input
-                  class="chakra-input css-q7pni1"
+                  class="chakra-input css-1sz8sj0"
                   id="field-:r2:"
                   placeholder="MM/DD/YYYY"
                   value=""
@@ -252,7 +252,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         class="css-19580xy"
       >
         <input
-          class="chakra-input css-1uzjkvw"
+          class="chakra-input css-sw9qjs"
           id="field-:r0:"
           name="firstName"
           placeholder="First Name"
@@ -260,7 +260,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
           value=""
         />
         <input
-          class="chakra-input css-1uzjkvw"
+          class="chakra-input css-sw9qjs"
           id="field-:r0:"
           name="lastName"
           placeholder="Last Name"
@@ -272,7 +272,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         class="css-1qnzkxj"
       >
         <input
-          class="chakra-input css-bwnhm1"
+          class="chakra-input css-1njo91c"
           id="field-:r0:"
           name="email"
           placeholder="Email"
@@ -284,7 +284,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         class="css-1qnzkxj"
       >
         <input
-          class="chakra-input css-bwnhm1"
+          class="chakra-input css-1njo91c"
           id="field-:r0:"
           name="phone"
           placeholder="Phone"
@@ -308,7 +308,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
                 class="react-datepicker__input-container"
               >
                 <input
-                  class="chakra-input css-1otkgi5"
+                  class="chakra-input css-1cwrfhe"
                   id="field-:r0:"
                   placeholder="MM/DD/YYYY"
                   value=""

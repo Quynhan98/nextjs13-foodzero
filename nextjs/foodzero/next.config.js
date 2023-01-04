@@ -14,6 +14,9 @@ const nextConfig = {
     deviceSizes: [480, 1280, 1920],
     imageSizes: [40, 128],
   },
+  experimental: {
+    appDir: true,
+  },
 }
 
 module.exports = nextConfig

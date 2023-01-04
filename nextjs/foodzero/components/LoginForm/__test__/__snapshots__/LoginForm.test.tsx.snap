@@ -13,7 +13,7 @@ exports[`LoginForm LoginForm matches snapshot 1`] = `
       role="group"
     >
       <input
-        class="chakra-input css-bwnhm1"
+        class="chakra-input css-1njo91c"
         data-testid="email"
         id="field-:r1:"
         name="email"
@@ -21,7 +21,7 @@ exports[`LoginForm LoginForm matches snapshot 1`] = `
         type="email"
       />
       <input
-        class="chakra-input css-bd6zxt"
+        class="chakra-input css-1abompr"
         data-testid="password"
         id="field-:r1:"
         name="password"
