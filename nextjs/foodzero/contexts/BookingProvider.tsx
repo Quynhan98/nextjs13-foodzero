@@ -22,7 +22,6 @@ export type TBookingContext = {
   children: ReactNode
 }
 
-export const initBooking = []
 export const BookingContext = createContext<IBookingContext | null>(null)
 
 export const BookingProvider = ({ children }: TBookingContext): JSX.Element => {

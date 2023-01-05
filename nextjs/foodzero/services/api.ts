@@ -67,3 +67,9 @@ export const fetcherInstanceAPI = async ({
     fetchingMethod,
   })
 }
+
+export const swrFetcher = async (url: string) => {
+  const response = await fetch(`${BASE_API_URL}${url}`)
+
+  return response.json()
+}
