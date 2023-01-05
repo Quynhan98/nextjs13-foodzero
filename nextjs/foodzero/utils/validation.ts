@@ -10,10 +10,10 @@ import {
 } from '@constants/index'
 
 // Types
-import { findItemByValue } from '@utils/index'
-import { IUser, LoginAccount } from '../types/index'
+import { IUser, LoginAccount } from '@self-types/index'
 
 // Utils
+import { findItemByValue } from '@utils/index'
 
 type ErrorMsgs = { email: string; password: string }
 

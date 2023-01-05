@@ -9,6 +9,7 @@ export const Input: ComponentStyleConfig = {
       height: { base: '50px', '2xl': '96px' },
       paddingLeft: '40px',
       backgroundColor: 'inherit',
+      _placeholder: { color: 'silverFoil' },
     },
   },
   sizes: {

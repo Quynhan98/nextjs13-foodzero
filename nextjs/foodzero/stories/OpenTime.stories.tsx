@@ -8,7 +8,7 @@ import OpenTime from '@components/OpenTime'
 import { OPEN_TIME } from '@constants/index'
 
 export default {
-  title: 's/OpenTime',
+  title: 'Components/OpenTime',
   component: OpenTime,
 } as ComponentMeta<typeof OpenTime>
 

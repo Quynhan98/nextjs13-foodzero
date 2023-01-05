@@ -65,7 +65,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
           class="css-l2hbqj"
         >
           <input
-            class="chakra-input css-17j1iuu"
+            class="chakra-input css-1xd2edz"
             placeholder="Email Address"
           />
           <button
