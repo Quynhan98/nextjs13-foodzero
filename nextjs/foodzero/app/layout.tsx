@@ -16,7 +16,7 @@ import { AuthProvider } from '@contexts/AuthProvider'
 import { BookingProvider } from '@contexts/BookingProvider'
 
 // Services
-import { fetcherInstanceAPI } from '@services/api'
+import { swrFetcher } from '@services/api'
 
 // Utils
 import { getLocalStorage } from '@utils/localStorage'
@@ -68,7 +68,7 @@ export default function RootLayout({ children }: IRootLayoutProps) {
       <body>
         <SWRConfig
           value={{
-            fetcher: fetcherInstanceAPI,
+            fetcher: swrFetcher,
           }}
         >
           <AuthProvider>

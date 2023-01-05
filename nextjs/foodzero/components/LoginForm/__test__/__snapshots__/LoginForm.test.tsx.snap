@@ -32,7 +32,7 @@ exports[`LoginForm LoginForm matches snapshot 1`] = `
         class="chakra-button css-157j7mr"
         type="submit"
       >
-        Sign In
+        Login
       </button>
     </div>
   </form>
