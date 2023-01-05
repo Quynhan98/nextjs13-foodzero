@@ -73,7 +73,7 @@ const LoginForm = ({
           _hover={{ backgroundColor: 'none' }}
           size="large"
         >
-          Sign In
+          Login
         </Button>
       </FormControl>
     </form>
