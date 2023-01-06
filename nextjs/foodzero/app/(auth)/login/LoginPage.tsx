@@ -38,7 +38,7 @@ const initErrorMsgs = {
   password: '',
 }
 
-const Login = () => {
+const LoginPage = () => {
   const router = useRouter()
   const toast = useToast()
   const { setUserId } = useAuthContext()
@@ -114,4 +114,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default LoginPage

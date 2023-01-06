@@ -232,7 +232,7 @@ const HomePage = ({ contents }: { contents: string }) => {
         >
           <Heading
             size="extraLarge"
-            maxW={{ base: '100%', md: '60%', '2xl': '68%' }}
+            maxW={{ base: '80%', md: '60%', '2xl': '68%' }}
           >
             Healthy Eating is important part of lifestyle
           </Heading>
@@ -286,7 +286,7 @@ const HomePage = ({ contents }: { contents: string }) => {
           </Box>
         </Flex>
         <Flex
-          pt={{ base: '40px', md: '80px', '2xl': '157px' }}
+          pt={{ base: '20px', md: '80px', '2xl': '157px' }}
           justifyContent="space-between"
         >
           <Flex flexDirection="column">
