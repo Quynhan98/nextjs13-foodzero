@@ -1,5 +1,8 @@
 'use client'
 
+import '@fontsource/lato'
+import '@fontsource/rufina'
+
 import { useState, useCallback, FormEvent, ChangeEvent } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'

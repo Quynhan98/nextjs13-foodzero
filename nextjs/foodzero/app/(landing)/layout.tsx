@@ -1,19 +1,17 @@
 'use client'
 
-import '@fontsource/lato'
-import '@fontsource/rufina'
-
 import React, { useEffect } from 'react'
 import { SWRConfig } from 'swr'
 import { useRouter, usePathname } from 'next/navigation'
-import { Box, Center, ChakraProvider } from '@chakra-ui/react'
+import { Box, ChakraProvider } from '@chakra-ui/react'
 
 // Constants
-import { BASE_URL, LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
+import { LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
 
-// Context
+// Contexts
 import { AuthProvider } from '@contexts/AuthProvider'
 import { BookingProvider } from '@contexts/BookingProvider'
+import { LoadingProvider } from '@contexts/LoadingProvider'
 
 // Services
 import { swrFetcher } from '@services/api'
@@ -48,41 +46,15 @@ export default function RootLayout({ children }: IRootLayoutProps) {
 
   return (
     <html lang="en">
-      <head>
-        <title>Foodzero</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="Foodzero" />
-        <meta name="description" content="This is a food restaurant" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Foodzero" />
-        <meta property="og:description" content="This is a food restaurant" />
-        <meta property="og:url" content={BASE_URL} />
-        <meta property="twitter:card" content="summary" />
-        <meta property="twitter:title" content="Foodzero" />
-        <meta
-          property="twitter:description"
-          content="This is a food restaurant"
-        />
-        <link rel="icon" href="/images/logo.webp" />
-      </head>
       <body>
         <SWRConfig
           value={{
             fetcher: swrFetcher,
           }}
         >
-          <AuthProvider>
-            <ChakraProvider theme={customTheme}>
-              {isLoginPage ? (
-                <Center
-                  as="main"
-                  minHeight="100vh"
-                  pb="150px"
-                  backgroundColor="alabaster"
-                >
-                  {children}
-                </Center>
-              ) : (
+          <ChakraProvider theme={customTheme}>
+            <LoadingProvider>
+              <AuthProvider>
                 <BookingProvider>
                   <Header />
                   <Box
@@ -96,9 +68,9 @@ export default function RootLayout({ children }: IRootLayoutProps) {
                   </Box>
                   <Footer />
                 </BookingProvider>
-              )}
-            </ChakraProvider>
-          </AuthProvider>
+              </AuthProvider>
+            </LoadingProvider>
+          </ChakraProvider>
         </SWRConfig>
       </body>
     </html>

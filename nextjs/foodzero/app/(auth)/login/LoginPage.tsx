@@ -1,5 +1,8 @@
 'use client'
 
+import '@fontsource/lato'
+import '@fontsource/rufina'
+
 import React, { ChangeEvent, FormEvent, useCallback, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { Box, useToast } from '@chakra-ui/react'
@@ -38,7 +41,7 @@ const initErrorMsgs = {
   password: '',
 }
 
-const Login = () => {
+const LoginPage = () => {
   const router = useRouter()
   const toast = useToast()
   const { setUserId } = useAuthContext()
@@ -114,4 +117,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default LoginPage
