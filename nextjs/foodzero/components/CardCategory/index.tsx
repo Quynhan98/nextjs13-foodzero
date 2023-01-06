@@ -6,6 +6,9 @@ import { Box, Flex, Text, useMediaQuery } from '@chakra-ui/react'
 // Constants
 import { BREAKPOINTS } from '@constants/index'
 
+// Themes
+import { rufina } from '@themes/index'
+
 interface CardCategoryProps {
   href: string
   category: string
@@ -28,7 +31,7 @@ const CardCategory = ({ href, category, imageUrl }: CardCategoryProps) => {
           size="extraLarge"
           variant="secondary"
           fontWeight="bold"
-          fontFamily="Rufina"
+          fontFamily={rufina.style.fontFamily}
         >
           {category}
         </Text>

@@ -1,8 +1,5 @@
 'use client'
 
-import '@fontsource/lato'
-import '@fontsource/rufina'
-
 import React, {
   ChangeEvent,
   FormEvent,

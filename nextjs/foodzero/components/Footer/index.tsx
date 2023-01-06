@@ -16,6 +16,9 @@ import ListSocial from '@components/ListSocial'
 // Constants
 import { CONTACT, SOCIAL_LIST } from '@constants/index'
 
+// Themes
+import { rufina } from '@themes/index'
+
 const Footer = () => {
   return (
     <Box
@@ -49,7 +52,7 @@ const Footer = () => {
         <Box>
           <Text
             variant="primary"
-            fontFamily="Rufina"
+            fontFamily={rufina.style.fontFamily}
             fontWeight="bold"
             size="common"
             pb={{ base: '15px', md: '55px' }}

@@ -1,6 +1,9 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
+// Themes
+import { rufina } from '@themes/index'
+
 interface CardFeatureProps {
   imageUrl: string
   title: string
@@ -35,7 +38,7 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
         size="extraLarge"
         variant="secondary"
         fontWeight="bold"
-        fontFamily="Rufina"
+        fontFamily={rufina.style.fontFamily}
       >
         {title}
       </Text>

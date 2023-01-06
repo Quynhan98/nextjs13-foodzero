@@ -30,6 +30,9 @@ import { useLoadingContext } from '@hooks/useLoadingContext'
 // Utils
 import { findItemByValue, formatDate } from '@utils/index'
 
+// Themes
+import { rufina } from '@themes/index'
+
 const reservationInit = {
   date: '',
   time: RESERVATION_TIME[0],
@@ -144,7 +147,7 @@ const AboutPage = () => {
           <Text
             pt={{ base: '10px', md: '50px' }}
             variant="primary"
-            fontFamily="Rufina"
+            fontFamily={rufina.style.fontFamily}
             size="common"
           >
             The most important thing for us is to give you the comfortable

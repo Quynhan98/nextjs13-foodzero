@@ -6,7 +6,7 @@ exports[`Contact component Renders Contact default correctly 1`] = `
     class="css-0"
   >
     <p
-      class="chakra-text css-1is94eo"
+      class="chakra-text css-1f333of"
     >
       Contact
     </p>
@@ -47,7 +47,7 @@ exports[`Contact component Renders Contact with social icon correctly 1`] = `
     class="css-0"
   >
     <p
-      class="chakra-text css-1is94eo"
+      class="chakra-text css-1f333of"
     >
       Contact
     </p>
