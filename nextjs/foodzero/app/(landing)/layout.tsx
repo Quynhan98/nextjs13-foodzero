@@ -1,8 +1,5 @@
 'use client'
 
-import '@fontsource/lato'
-import '@fontsource/rufina'
-
 import React, { useEffect } from 'react'
 import { SWRConfig } from 'swr'
 import { useRouter, usePathname } from 'next/navigation'
@@ -54,8 +51,8 @@ export default function RootLayout({ children }: IRootLayoutProps) {
             fetcher: swrFetcher,
           }}
         >
-          <AuthProvider>
-            <ChakraProvider theme={customTheme}>
+          <ChakraProvider theme={customTheme}>
+            <AuthProvider>
               <BookingProvider>
                 <Header />
                 <Box
@@ -69,8 +66,8 @@ export default function RootLayout({ children }: IRootLayoutProps) {
                 </Box>
                 <Footer />
               </BookingProvider>
-            </ChakraProvider>
-          </AuthProvider>
+            </AuthProvider>
+          </ChakraProvider>
         </SWRConfig>
       </body>
     </html>
