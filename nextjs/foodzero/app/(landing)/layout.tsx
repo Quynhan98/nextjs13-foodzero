@@ -8,9 +8,10 @@ import { Box, ChakraProvider } from '@chakra-ui/react'
 // Constants
 import { LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
 
-// Context
+// Contexts
 import { AuthProvider } from '@contexts/AuthProvider'
 import { BookingProvider } from '@contexts/BookingProvider'
+import { LoadingProvider } from '@contexts/LoadingProvider'
 
 // Services
 import { swrFetcher } from '@services/api'
@@ -52,21 +53,23 @@ export default function RootLayout({ children }: IRootLayoutProps) {
           }}
         >
           <ChakraProvider theme={customTheme}>
-            <AuthProvider>
-              <BookingProvider>
-                <Header />
-                <Box
-                  as="main"
-                  minHeight="100vh"
-                  maxWidth="1920px"
-                  width="100%"
-                  margin="0 auto"
-                >
-                  {children}
-                </Box>
-                <Footer />
-              </BookingProvider>
-            </AuthProvider>
+            <LoadingProvider>
+              <AuthProvider>
+                <BookingProvider>
+                  <Header />
+                  <Box
+                    as="main"
+                    minHeight="100vh"
+                    maxWidth="1920px"
+                    width="100%"
+                    margin="0 auto"
+                  >
+                    {children}
+                  </Box>
+                  <Footer />
+                </BookingProvider>
+              </AuthProvider>
+            </LoadingProvider>
           </ChakraProvider>
         </SWRConfig>
       </body>

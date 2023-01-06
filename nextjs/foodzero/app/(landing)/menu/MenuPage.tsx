@@ -30,12 +30,14 @@ import { IMenu } from '@self-types/Menu'
 // Components
 import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Hooks
 import { useBookingContext } from '@hooks/useBookingContext'
 
-// Context
+// Contexts
 import { IBookingContext } from '@contexts/BookingProvider'
+import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Utils
 import { findItemByValue, formatDate } from '@utils/index'
@@ -56,6 +58,7 @@ const Menu = ({ content }: { content: string }) => {
 
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
+  const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
   const [errorMessage, setErrorMessage] = useState<string>('')
 
@@ -64,6 +67,7 @@ const Menu = ({ content }: { content: string }) => {
       e?.preventDefault()
 
       try {
+        setLoading(true)
         await addBooking([...booking, reservation])
 
         toast({
@@ -83,6 +87,8 @@ const Menu = ({ content }: { content: string }) => {
           isClosable: true,
           position: 'bottom-left',
         })
+      } finally {
+        setLoading(false)
       }
     },
     [booking, reservation],
@@ -376,6 +382,7 @@ const Menu = ({ content }: { content: string }) => {
           isDisableButton={!!errorMessage || !reservation.date}
         />
       </Box>
+      {loading && <LoadingIndicator size="lg" />}
     </>
   )
 }
