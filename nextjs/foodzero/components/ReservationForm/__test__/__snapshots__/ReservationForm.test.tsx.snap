@@ -210,7 +210,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
         class="css-1nx6xr5"
       >
         <button
-          class="chakra-button css-1a21hrr"
+          class="chakra-button css-156b4l8"
           type="submit"
         >
           Book Now
@@ -479,7 +479,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
         class="css-ffarb6"
       >
         <button
-          class="chakra-button css-enx18o"
+          class="chakra-button css-vjoqr8"
           type="submit"
         >
           Book Now

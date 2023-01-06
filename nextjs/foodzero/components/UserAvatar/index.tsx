@@ -1,6 +1,9 @@
 import { memo } from 'react'
 import { Avatar, Box, Flex, Text } from '@chakra-ui/react'
 
+// Themes
+import { rufina } from '@themes/index'
+
 interface UserAvatarProps {
   src: string
   name: string
@@ -26,7 +29,7 @@ const UserAvatar = ({ src, name, job }: UserAvatarProps) => {
           size="common"
           fontWeight="bold"
           variant="secondary"
-          fontFamily="Rufina"
+          fontFamily={rufina.style.fontFamily}
         >
           {name}
         </Text>

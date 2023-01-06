@@ -1,8 +1,5 @@
 'use client'
 
-import '@fontsource/lato'
-import '@fontsource/rufina'
-
 import { useState, useCallback, FormEvent, ChangeEvent } from 'react'
 import Image from 'next/image'
 import {
@@ -41,6 +38,9 @@ import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Utils
 import { findItemByValue, formatDate } from '@utils/index'
+
+// Themes
+import { rufina } from '@themes/index'
 
 interface IMenuProps {
   menu: IMenu
@@ -164,7 +164,7 @@ const Menu = ({ content }: { content: string }) => {
           pt={{ base: '10px', md: '50px' }}
           maxW={{ base: '80%', md: '50%' }}
           variant="primary"
-          fontFamily="Rufina"
+          fontFamily={rufina.style.fontFamily}
           size="common"
         >
           The freshest ingredients for you every day
