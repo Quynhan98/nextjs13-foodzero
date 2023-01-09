@@ -1,6 +1,3 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react'
-import { Center } from '@chakra-ui/react'
-
 // Components
 import ListSocial from '@components/ListSocial'
 
@@ -10,15 +7,16 @@ import { SOCIAL_LIST } from '@constants/index'
 export default {
   title: 'Components/ListSocial',
   component: ListSocial,
-} as ComponentMeta<typeof ListSocial>
+  parameters: {
+    backgrounds: {
+      default: 'background',
+      values: [{ name: 'background', value: '#233000' }],
+    },
+  },
+}
 
-const Template: ComponentStory<typeof ListSocial> = (args) => (
-  <Center backgroundColor="zinnwalditeBrown" height="100vh">
-    <ListSocial {...args} />
-  </Center>
-)
-
-export const Default = Template.bind({})
-Default.args = {
-  listSocial: SOCIAL_LIST,
+export const Default = {
+  args: {
+    listSocial: SOCIAL_LIST,
+  },
 }

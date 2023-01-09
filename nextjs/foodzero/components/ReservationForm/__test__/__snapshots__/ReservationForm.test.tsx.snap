@@ -6,7 +6,7 @@ exports[`ReservationForm ReservationForm default matches snapshot 1`] = `
     novalidate=""
   >
     <div
-      class="chakra-form-control css-whvd6l"
+      class="chakra-form-control css-qjxwnb"
       role="group"
     >
       <div
@@ -231,7 +231,7 @@ exports[`ReservationForm ReservationForm with full field matches snapshot 1`] = 
     novalidate=""
   >
     <div
-      class="chakra-form-control css-whvd6l"
+      class="chakra-form-control css-qjxwnb"
       role="group"
     >
       <div

@@ -1,5 +1,3 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react'
-
 // Mocks
 import { CARD_CATEGORY } from '@mocks/mockData'
 
@@ -9,13 +7,10 @@ import CardCategory from '@components/CardCategory'
 export default {
   title: 'Components/CardCategory',
   component: CardCategory,
-} as ComponentMeta<typeof CardCategory>
+}
 
-const Template: ComponentStory<typeof CardCategory> = (args) => (
-  <CardCategory {...args} />
-)
-
-export const Default = Template.bind({})
-Default.args = {
-  ...CARD_CATEGORY,
+export const Default = {
+  args: {
+    ...CARD_CATEGORY,
+  },
 }

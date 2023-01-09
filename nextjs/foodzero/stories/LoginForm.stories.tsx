@@ -1,6 +1,5 @@
 import { useState, useCallback, ChangeEvent, FormEvent } from 'react'
-import { ComponentMeta, ComponentStory } from '@storybook/react'
-import { Box } from '@chakra-ui/react'
+import { Meta } from '@storybook/react'
 
 // Mocks
 import { USERS_MOCK } from '@mocks/mockData'
@@ -14,10 +13,25 @@ import { loginValidate } from '@utils/validation'
 // Types
 import { LoginAccount } from '../types/index'
 
-export default {
+const meta: Meta<typeof LoginForm> = {
   title: 'Components/LoginForm',
   component: LoginForm,
-} as ComponentMeta<typeof LoginForm>
+  parameters: {
+    backgrounds: {
+      default: 'alabaster',
+      values: [{ name: 'alabaster', value: '#EBF0E4' }],
+    },
+  },
+  decorators: [
+    (Story) => (
+      <div style={{ maxWidth: '1644px', margin: '0 auto', paddingTop: '50px' }}>
+        <Story />
+      </div>
+    ),
+  ],
+}
+
+export default meta
 
 const login: LoginAccount = {
   email: '',
@@ -29,7 +43,7 @@ const initErrorMsgs = {
   password: '',
 }
 
-const Template: ComponentStory<typeof LoginForm> = (args) => {
+const LoginWithHooks = () => {
   const [loginAccount, setLoginAccount] = useState(login)
   const [errorMsgs, setErrorMsgs] = useState(initErrorMsgs)
 
@@ -69,17 +83,16 @@ const Template: ComponentStory<typeof LoginForm> = (args) => {
   )
 
   return (
-    <Box maxW="1644px" backgroundColor="alabaster">
-      <LoginForm
-        {...args}
-        onSubmitForm={handleSubmitForm}
-        onChangeForm={handleChange}
-        emailError={errorMsgs.email}
-        passwordError={errorMsgs.password}
-        isDisable={isDisableButton}
-      />
-    </Box>
+    <LoginForm
+      onSubmitForm={handleSubmitForm}
+      onChangeForm={handleChange}
+      emailError={errorMsgs.email}
+      passwordError={errorMsgs.password}
+      isDisable={isDisableButton}
+    />
   )
 }
 
-export const Default = Template.bind({})
+export const Default = {
+  render: () => <LoginWithHooks />,
+}
