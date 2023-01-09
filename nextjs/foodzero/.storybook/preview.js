@@ -1,3 +1,4 @@
+// Themes
 import { customTheme } from '@themes/index'
 
 export const parameters = {
@@ -10,5 +11,8 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+  },
+  nextjs: {
+    appDirectory: true,
   },
 }

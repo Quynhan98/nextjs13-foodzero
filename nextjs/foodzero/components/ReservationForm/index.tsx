@@ -61,7 +61,7 @@ const ReservationForm = ({
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        maxW={{ base: '320px', md: '1148px', '2xl': '100%' }}
+        maxW={{ base: '320px', md: '1148px', '2xl': '1644px' }}
         margin="0 auto"
       >
         <Flex flexDirection="column" justifyContent="center" margin="0 auto">
