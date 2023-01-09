@@ -6,15 +6,21 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
-    'storybook-addon-next',
     '@chakra-ui/storybook-addon',
+    'storybook-addon-next',
   ],
-  framework: '@storybook/react',
+  framework: {
+    name: '@storybook/nextjs',
+    options: {
+      nextConfigPath: path.resolve(__dirname, '../next.config.js'),
+    },
+  },
   features: {
     emotionAlias: false,
-  },
-  core: {
-    builder: '@storybook/builder-webpack5',
+    previewCsfV3: true,
   },
   staticDirs: ['../public'],
+  docs: {
+    autodocs: false,
+  },
 }
