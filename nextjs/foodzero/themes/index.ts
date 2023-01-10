@@ -10,14 +10,17 @@ import { Text } from '@themes/components/Text'
 import { Input } from '@themes/components/Input'
 import { Button } from '@themes/components/Button'
 
-export const rufina = Rufina({
+export const rufinaFont = Rufina({
   subsets: ['latin'],
   weight: '700',
 })
-export const lato = Lato({
+export const latoFont = Lato({
   subsets: ['latin'],
   weight: '400',
 })
+
+export const rufina = rufinaFont.style.fontFamily
+export const lato = latoFont.style.fontFamily
 
 export const customTheme = extendTheme({
   colors,
@@ -25,8 +28,8 @@ export const customTheme = extendTheme({
   lineHeights,
   fontWeights,
   fonts: {
-    heading: rufina.style.fontFamily,
-    body: lato.style.fontFamily,
+    heading: rufina,
+    body: lato,
   },
   components: {
     Heading,

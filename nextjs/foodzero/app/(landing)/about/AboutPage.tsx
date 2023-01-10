@@ -147,7 +147,7 @@ const AboutPage = () => {
           <Text
             pt={{ base: '10px', md: '50px' }}
             variant="primary"
-            fontFamily={rufina.style.fontFamily}
+            fontFamily={rufina}
             size="common"
           >
             The most important thing for us is to give you the comfortable

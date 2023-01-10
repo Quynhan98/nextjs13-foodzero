@@ -31,7 +31,7 @@ const CardCategory = ({ href, category, imageUrl }: CardCategoryProps) => {
           size="extraLarge"
           variant="secondary"
           fontWeight="bold"
-          fontFamily={rufina.style.fontFamily}
+          fontFamily={rufina}
         >
           {category}
         </Text>

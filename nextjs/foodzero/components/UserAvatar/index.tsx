@@ -29,7 +29,7 @@ const UserAvatar = ({ src, name, job }: UserAvatarProps) => {
           size="common"
           fontWeight="bold"
           variant="secondary"
-          fontFamily={rufina.style.fontFamily}
+          fontFamily={rufina}
         >
           {name}
         </Text>

@@ -43,7 +43,7 @@ const CardBlog = ({
         <Text
           size="large"
           variant="primary"
-          fontFamily={rufina.style.fontFamily}
+          fontFamily={rufina}
           fontWeight="bold"
         >
           {category}

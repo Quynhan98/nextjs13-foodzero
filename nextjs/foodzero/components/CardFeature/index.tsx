@@ -38,7 +38,7 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
         size="extraLarge"
         variant="secondary"
         fontWeight="bold"
-        fontFamily={rufina.style.fontFamily}
+        fontFamily={rufina}
       >
         {title}
       </Text>

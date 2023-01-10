@@ -57,7 +57,7 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
       <Text
         size="extraLarge"
         variant="secondary"
-        fontFamily={rufina.style.fontFamily}
+        fontFamily={rufina}
         fontWeight="bold"
         maxW={{ base: '100%', md: '830px', '2xl': '1262px' }}
       >
@@ -90,7 +90,7 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
             />
           </Button>
           <Text
-            fontFamily={rufina.style.fontFamily}
+            fontFamily={rufina}
             fontSize={{ base: 'base', '2xl': 'md' }}
             lineHeight={{ base: 'base', '2xl': 'sm' }}
             variant="secondary"

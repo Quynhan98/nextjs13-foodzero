@@ -30,7 +30,7 @@ const LoginForm = ({
       <FormLabel
         fontSize={{ base: 'md', md: 'lg' }}
         fontWeight="bold"
-        fontFamily={rufina.style.fontFamily}
+        fontFamily={rufina}
         textAlign="center"
         pb={{ base: '58px', '2xl': '115px' }}
       >

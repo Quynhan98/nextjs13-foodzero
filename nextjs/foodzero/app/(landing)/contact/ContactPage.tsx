@@ -215,7 +215,7 @@ const ContactPage = () => {
           pt={{ base: '10px', '2xl': '50px' }}
           maxW="80%"
           variant="primary"
-          fontFamily={rufina.style.fontFamily}
+          fontFamily={rufina}
           size="common"
         >
           The freshest ingredients for you every day
@@ -273,7 +273,7 @@ const ContactPage = () => {
           <Text
             pt={{ base: '0px', md: '190px', '2xl': '230px' }}
             size="common"
-            fontFamily={rufina.style.fontFamily}
+            fontFamily={rufina}
             fontWeight="bold"
             variant="secondary"
             maxW="507px"
@@ -311,7 +311,7 @@ const ContactPage = () => {
         >
           <Text
             size="common"
-            fontFamily={rufina.style.fontFamily}
+            fontFamily={rufina}
             fontWeight="bold"
             variant="secondary"
             maxW={{ base: '277px', md: '45%' }}

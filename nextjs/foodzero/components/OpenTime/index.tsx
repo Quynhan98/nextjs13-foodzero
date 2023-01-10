@@ -26,7 +26,7 @@ const OpenTime = ({ openTime, businessHours }: OpenTimeProps) => {
           variant="primary"
           size="common"
           fontWeight="bold"
-          fontFamily={rufina.style.fontFamily}
+          fontFamily={rufina}
         >
           Open Time
         </Text>
