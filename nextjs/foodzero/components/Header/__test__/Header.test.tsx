@@ -1,38 +1,27 @@
 // Utils
-import { render } from '@utils/testUtils'
+import { fireEvent, render, screen } from '@utils/testUtils'
 
 // Components
 import Header from '@components/Header'
+import { NAV_LIST } from '@constants/index'
 
-// Mocks useRouter
-const useRouter = jest.spyOn(require('next/navigation'), 'useRouter')
-
-export function mockNextUseRouter(props: {
-  route: string
-  pathname: string
-  query: string
-  asPath: string
-}) {
-  useRouter.mockImplementationOnce(() => ({
-    route: props.route,
-    pathname: props.pathname,
-    query: props.query,
-    asPath: props.asPath,
-  }))
-}
+jest.mock('next/navigation', () => ({
+  useRouter: jest.fn(),
+}))
 
 describe('Header render', () => {
-  // Mocks Next.js route
-  mockNextUseRouter({
-    route: '/',
-    pathname: '/',
-    query: '',
-    asPath: `/?error=${encodeURIComponent('Uh oh - something went wrong')}`,
-  })
-
   it('Should Header match Snapshot', () => {
     const { container } = render(<Header />)
 
     expect(container).toMatchSnapshot()
+  })
+
+  it('Should render navigation modal', () => {
+    render(<Header />)
+
+    const buttonMenu = screen.getByTestId('buttonMenu')
+
+    fireEvent.click(buttonMenu)
+    expect(screen.getByText(NAV_LIST[0].name)).toBeTruthy()
   })
 })

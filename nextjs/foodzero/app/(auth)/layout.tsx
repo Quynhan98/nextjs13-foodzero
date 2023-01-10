@@ -13,7 +13,7 @@ export interface IAuthLayoutProps {
   children: React.ReactNode
 }
 
-export default function RootLayout({ children }: IAuthLayoutProps) {
+export default function AuthLayout({ children }: IAuthLayoutProps) {
   return (
     <html lang="en">
       <body>

@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RootLayout render Should RootLayout match Snapshot 1`] = `
+<div>
+  <html
+    lang="en"
+  >
+    <body>
+      <header
+        class="chakra-container css-2mqkvj"
+      >
+        <div
+          class="css-1psvhc8"
+        >
+          <h1
+            class="chakra-heading css-vqcpt4"
+          >
+            <a
+              href="/"
+            >
+              <img
+                alt="Logo FoodZero"
+                data-nimg="1"
+                decoding="async"
+                height="115"
+                src="/_next/image?url=%2Fimages%2Flogo.webp&w=640&q=75"
+                srcset="/_next/image?url=%2Fimages%2Flogo.webp&w=384&q=75 1x, /_next/image?url=%2Fimages%2Flogo.webp&w=640&q=75 2x"
+                style="color: transparent;"
+                width="307"
+              />
+            </a>
+          </h1>
+          <button
+            aria-label="menu"
+            class="chakra-button css-toj1ua"
+            data-testid="buttonMenu"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-189f5bz"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-9b14ac"
+        >
+          <div
+            class="css-jl5ft5"
+          >
+            <a
+              href="tel:+86 852 346 000"
+            >
+              <p
+                class="chakra-text css-1efn3iv"
+              >
+                +86 852 346 000
+              </p>
+            </a>
+          </div>
+          <button
+            class="chakra-button css-ko3vlm"
+            type="button"
+          >
+            Reservations
+          </button>
+        </div>
+      </header>
+      <main
+        class="css-1o2vtvx"
+      >
+        Contents Page
+      </main>
+      <footer
+        class="css-1h5elg0"
+      >
+        <div
+          class="css-2alf4m"
+        >
+          <div
+            class="css-guz8ox"
+          >
+            <h1
+              class="chakra-heading css-ov8mg4"
+            >
+              <a
+                href="/"
+              >
+                Food Zero.
+              </a>
+            </h1>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-1f333of"
+              >
+                Contact
+              </p>
+              <a
+                href="tel:+86 852 346 000"
+              >
+                <p
+                  class="chakra-text css-ptcdyg"
+                >
+                  +86 852 346 000
+                </p>
+              </a>
+              <a
+                href="mailto:info@foodzero.com"
+              >
+                <p
+                  class="chakra-text css-uslr5m"
+                >
+                  info@foodzero.com
+                </p>
+              </a>
+              <p
+                class="chakra-text css-1as2o8a"
+              >
+                1959 Sepulveda Blvd. Culver City, CA, 90230
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1q2x7af"
+            >
+              Never Miss a Recipe
+            </p>
+            <div
+              class="css-l2hbqj"
+            >
+              <input
+                class="chakra-input css-1xd2edz"
+                placeholder="Email Address"
+              />
+              <button
+                class="chakra-button css-10xxqht"
+                type="button"
+              >
+                Subscribe
+              </button>
+            </div>
+            <p
+              class="chakra-text css-3firl6"
+            >
+              Join our subscribers and get best recipe delivered each week!
+            </p>
+          </div>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          class="chakra-divider css-1vyiomz"
+        />
+        <div
+          class="css-k1zpb5"
+        >
+          <p
+            class="chakra-text css-1nxiabe"
+          >
+            © 2020 Zero Inc. All rights Reserved
+          </p>
+          <ul
+            class="css-qgpwd0"
+            role="list"
+          >
+            <li
+              class="css-155za0w"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Instagram"
+                  data-nimg="1"
+                  decoding="async"
+                  height="28"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2Finstagram.webp&w=64&q=75"
+                  srcset="/_next/image?url=%2Fimages%2Finstagram.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Finstagram.webp&w=64&q=75 2x"
+                  style="color: transparent;"
+                  value="1"
+                  width="28"
+                />
+              </a>
+            </li>
+            <li
+              class="css-155za0w"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Twitter"
+                  data-nimg="1"
+                  decoding="async"
+                  height="28"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2Ftwitter.webp&w=64&q=75"
+                  srcset="/_next/image?url=%2Fimages%2Ftwitter.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ftwitter.webp&w=64&q=75 2x"
+                  style="color: transparent;"
+                  value="2"
+                  width="28"
+                />
+              </a>
+            </li>
+            <li
+              class="css-155za0w"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Facebook"
+                  data-nimg="1"
+                  decoding="async"
+                  height="28"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75"
+                  srcset="/_next/image?url=%2Fimages%2Ffacebook.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Ffacebook.webp&w=64&q=75 2x"
+                  style="color: transparent;"
+                  value="3"
+                  width="28"
+                />
+              </a>
+            </li>
+            <li
+              class="css-155za0w"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="youtube"
+                  data-nimg="1"
+                  decoding="async"
+                  height="28"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimages%2Fyoutube.webp&w=64&q=75"
+                  srcset="/_next/image?url=%2Fimages%2Fyoutube.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Fyoutube.webp&w=64&q=75 2x"
+                  style="color: transparent;"
+                  value="4"
+                  width="28"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <span
+        hidden=""
+        id="__chakra_env"
+      />
+    </body>
+  </html>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
