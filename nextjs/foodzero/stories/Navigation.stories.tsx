@@ -1,5 +1,4 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react'
-import { Center } from '@chakra-ui/react'
+import type { Meta } from '@storybook/react'
 
 // Components
 import Navigation from '@components/Navigation'
@@ -7,18 +6,28 @@ import Navigation from '@components/Navigation'
 // Constants
 import { NAV_LIST } from '@constants/index'
 
-export default {
+const meta: Meta<typeof Navigation> = {
   title: 'Components/Navigation',
   component: Navigation,
-} as ComponentMeta<typeof Navigation>
+  parameters: {
+    backgrounds: {
+      default: 'zinnwalditeBrown',
+      values: [{ name: 'zinnwalditeBrown', value: '#233000' }],
+    },
+  },
+  decorators: [
+    (Story) => (
+      <div style={{ margin: '50px' }}>
+        <Story />
+      </div>
+    ),
+  ],
+}
 
-const Template: ComponentStory<typeof Navigation> = (args) => (
-  <Center backgroundColor="zinnwalditeBrown" height="100vh">
-    <Navigation {...args} />
-  </Center>
-)
+export default meta
 
-export const Default = Template.bind({})
-Default.args = {
-  navList: NAV_LIST,
+export const Default = {
+  args: {
+    navList: NAV_LIST,
+  },
 }

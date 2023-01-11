@@ -1,27 +1,26 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react'
-import { Box } from '@chakra-ui/react'
-
 // Components
 import ReservationForm from '@components/ReservationForm'
 
 export default {
   title: 'Components/ReservationForm',
   component: ReservationForm,
-} as ComponentMeta<typeof ReservationForm>
+  parameters: {
+    backgrounds: {
+      default: 'alabaster',
+      values: [{ name: 'alabaster', value: '#EBF0E4' }],
+    },
+  },
+}
 
-const Template: ComponentStory<typeof ReservationForm> = (args) => (
-  <Box
-    maxW="1844px"
-    padding={{ base: '15px', md: '100px' }}
-    backgroundColor="alabaster"
-  >
-    <ReservationForm {...args} />
-  </Box>
-)
+export const Primary = {
+  args: {
+    date: new Date(),
+  },
+}
 
-export const Primary = Template.bind({})
-
-export const Secondary = Template.bind({})
-Secondary.args = {
-  isShowFullField: true,
+export const Secondary = {
+  args: {
+    date: new Date(),
+    isShowFullField: true,
+  },
 }

@@ -1,5 +1,4 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react'
-import { Center } from '@chakra-ui/react'
+import { Meta } from '@storybook/react'
 
 // Components
 import OpenTime from '@components/OpenTime'
@@ -7,18 +6,28 @@ import OpenTime from '@components/OpenTime'
 // Constants
 import { OPEN_TIME } from '@constants/index'
 
-export default {
+const meta: Meta<typeof OpenTime> = {
   title: 'Components/OpenTime',
   component: OpenTime,
-} as ComponentMeta<typeof OpenTime>
+  parameters: {
+    backgrounds: {
+      default: 'zinnwalditeBrown',
+      values: [{ name: 'zinnwalditeBrown', value: '#233000' }],
+    },
+  },
+  decorators: [
+    (Story) => (
+      <div style={{ maxWidth: '900px' }}>
+        <Story />
+      </div>
+    ),
+  ],
+}
 
-const Template: ComponentStory<typeof OpenTime> = (args) => (
-  <Center backgroundColor="zinnwalditeBrown" height="100vh">
-    <OpenTime {...args} />{' '}
-  </Center>
-)
+export default meta
 
-export const Default = Template.bind({})
-Default.args = {
-  ...OPEN_TIME,
+export const Default = {
+  args: {
+    ...OPEN_TIME,
+  },
 }
