@@ -61,12 +61,15 @@ exports[`Header render Should Header match Snapshot 1`] = `
           </p>
         </a>
       </div>
-      <button
-        class="chakra-button css-ko3vlm"
-        type="button"
+      <a
+        href="#reservationSection"
       >
-        Reservations
-      </button>
+        <p
+          class="chakra-text css-bc36fq"
+        >
+          Reservations
+        </p>
+      </a>
     </div>
   </header>
   <span

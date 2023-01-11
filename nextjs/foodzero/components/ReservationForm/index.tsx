@@ -144,7 +144,7 @@ const ReservationForm = ({
             base: 'column',
             md: isShowFullField ? 'column' : 'row',
           }}
-          gap={{ base: '18px', md: '48px' }}
+          gap={{ base: '18px', '2xl': '48px' }}
         >
           <Flex
             justifyContent="space-between"
