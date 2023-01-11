@@ -1,10 +1,8 @@
-import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import {
   Box,
-  Button,
   Container,
   Flex,
   Heading,
@@ -19,13 +17,11 @@ import { CONTACT } from '@constants/index'
 // Components
 import Menu from '@components/Menu'
 
-const Header = () => {
-  const router = useRouter()
-  const { isOpen, onOpen, onClose } = useDisclosure()
+// Themes
+import { rufina } from '@themes/index'
 
-  const handClickReservationBtn = () => {
-    router.push('#reservationSection')
-  }
+const Header = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure()
 
   return (
     <Container
@@ -78,13 +74,22 @@ const Header = () => {
             </Text>
           </Link>
         </Box>
-        <Button
-          onClick={handClickReservationBtn}
-          variant="primary"
-          fontWeight={{ base: 'normal', md: 'bold' }}
-        >
-          Reservations
-        </Button>
+
+        {/* TODO: NextJS 13 - Scroll to #HashID not working in appDir
+         * Using an <a> tag when the URL contains a #
+         */}
+        <a href="#reservationSection">
+          <Text
+            size="common"
+            variant="primary"
+            fontWeight="bold"
+            fontFamily={rufina}
+            border={{ base: '1px', md: '2px' }}
+            padding={{ base: '5px 10px', md: '15px 30px', '2xl': '20px 46px' }}
+          >
+            Reservations
+          </Text>
+        </a>
       </Flex>
       {isOpen && <Menu isOpen={isOpen} onClose={onClose} />}
     </Container>

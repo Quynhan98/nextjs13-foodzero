@@ -52,7 +52,7 @@ const Footer = () => {
         <Box>
           <Text
             variant="primary"
-            fontFamily={rufina.style.fontFamily}
+            fontFamily={rufina}
             fontWeight="bold"
             size="common"
             pb={{ base: '15px', md: '55px' }}

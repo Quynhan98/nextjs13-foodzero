@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Head render Should Head match Snapshot 1`] = `
+<div>
+  <title>
+    Foodzero
+  </title>
+  <meta
+    content="width=device-width, initial-scale=1.0"
+    name="viewport"
+  />
+  <meta
+    content="Foodzero"
+    name="title"
+  />
+  <meta
+    content="This is a food restaurant"
+    name="description"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="Foodzero"
+    property="og:title"
+  />
+  <meta
+    content="This is a food restaurant"
+    property="og:description"
+  />
+  <meta
+    property="og:url"
+  />
+  <meta
+    content="summary"
+    property="twitter:card"
+  />
+  <meta
+    content="Foodzero"
+    property="twitter:title"
+  />
+  <meta
+    content="This is a food restaurant"
+    property="twitter:description"
+  />
+  <link
+    href="/images/logo.webp"
+    rel="icon"
+  />
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

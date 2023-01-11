@@ -28,7 +28,7 @@ const Contact = ({
     <Box>
       <Text
         variant="primary"
-        fontFamily={rufina.style.fontFamily}
+        fontFamily={rufina}
         size="common"
         fontWeight="bold"
         pb={{ base: '8px', '2xl': '18px' }}

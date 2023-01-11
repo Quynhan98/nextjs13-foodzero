@@ -164,7 +164,7 @@ const Menu = ({ content }: { content: string }) => {
           pt={{ base: '10px', md: '50px' }}
           maxW={{ base: '80%', md: '50%' }}
           variant="primary"
-          fontFamily={rufina.style.fontFamily}
+          fontFamily={rufina}
           size="common"
         >
           The freshest ingredients for you every day

@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About render Should About match Snapshot 1`] = `
+<div>
+  <div
+    class="css-1osdkls"
+  >
+    <div
+      class="css-8yww"
+    >
+      <h2
+        class="chakra-heading css-2g36on"
+      >
+        Who We Are
+      </h2>
+      <p
+        class="chakra-text css-5dpuxw"
+      >
+        The most important thing for us is to give you the comfortable dining experience
+      </p>
+    </div>
+  </div>
+  <section
+    class="css-3v7u8f"
+  >
+    <div
+      class="css-fr60qa"
+    >
+      <div
+        class="css-1q0aa7z"
+      >
+        <h3
+          class="chakra-heading css-1etlmf3"
+        >
+          Our Story
+        </h3>
+        <p
+          class="chakra-text css-1xl4ppt"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc.
+        </p>
+      </div>
+      <div
+        class="css-1lqszd5"
+      >
+        <img
+          alt="cooking picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 198px (min-width: 768px) 634px, 454px (min-width: 1200px) 792px, 567px"
+          src="/_next/image?url=%2Fimages%2Fcooking.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fcooking.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fcooking.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fcooking.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fcooking.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fcooking.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fcooking.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fcooking.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fcooking.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fcooking.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fcooking.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fcooking.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fcooking.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fcooking.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fcooking.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fcooking.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fcooking.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+    </div>
+    <div
+      class="css-1ntan6q"
+    >
+      <div
+        class="css-ebp69w"
+      >
+        <h4
+          class="chakra-heading css-1uehode"
+        >
+          Restaurant Manager
+        </h4>
+        <p
+          class="chakra-text css-1ueitwp"
+        >
+          Carson Hugn
+        </p>
+        <div
+          class="css-wzakd4"
+        >
+          <img
+            alt="Restaurant manager avatar"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 254px, 301px (min-width: 768px) 508px, 571px (min-width: 1200px) 726px, 861px"
+            src="/_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+      </div>
+      <p
+        class="chakra-text css-144aj59"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl.
+      </p>
+    </div>
+    <div
+      class="css-hgtrow"
+    >
+      <p
+        class="chakra-text css-jps00c"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi.
+      </p>
+      <div
+        class="css-nh62tj"
+      >
+        <h4
+          class="chakra-heading css-1uehode"
+        >
+          Executive Chef
+        </h4>
+        <p
+          class="chakra-text css-1ueitwp"
+        >
+          Jane Cooper
+        </p>
+        <div
+          class="css-1wy9en7"
+        >
+          <img
+            alt="Executive chef avatar"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 254px, 301px (min-width: 768px) 508px, 571px (min-width: 1200px) 726px, 861px"
+            src="/_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <video
+    class="css-1p15pfm"
+    controls=""
+    poster="/images/introPoster.webp"
+    src="https://firebasestorage.googleapis.com/v0/b/image-blog-155e2.appspot.com/o/foodzero%2FIntro%20Templates%20For%20Youtube%20Cooking%20Chan%20(You2Audio.Com).mp4?alt=media&token=52d3ef27-e3f9-467b-83f0-8d3e6ca250c7"
+  />
+  <section
+    class="css-1i784it"
+  >
+    <h3
+      class="chakra-heading css-2ofoye"
+    >
+      Sophisticated Process
+    </h3>
+    <div
+      class="css-1nwebte"
+    >
+      <div
+        class="css-115fs0x"
+      >
+        <img
+          alt="split ribs picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 233px (min-width: 768px) 634px, 447px (min-width: 1200px) 792px, 638px"
+          src="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <div
+        class="css-1xpzrde"
+      >
+        <h4
+          class="chakra-heading css-sqbc2k"
+        >
+          01.
+          Slice
+        </h4>
+        <p
+          class="chakra-text css-8j6lav"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. Turpis egestas ultricies purus auctor tincidunt lacus nunc. Convallis pellentesque quis fringilla sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.
+        </p>
+      </div>
+    </div>
+    <div
+      class="css-gh6j68"
+    >
+      <div
+        class="css-0"
+      >
+        <div
+          class="css-14jff95"
+        >
+          <img
+            alt="marinated ribs picture"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 277px, 227px (min-width: 768px) 455px, 373px (min-width: 1200px) 650px, 533px"
+            src="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+        <h4
+          class="chakra-heading css-ysd11w"
+        >
+          02.
+          Pickled
+        </h4>
+        <p
+          class="chakra-text css-lg3a2o"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
+        </p>
+      </div>
+      <div
+        class="css-a5uq8u"
+      >
+        <div
+          class="css-1dnyehg"
+        >
+          <h4
+            class="chakra-heading css-sqbc2k"
+          >
+            03.
+            Bake  
+          </h4>
+          <p
+            class="chakra-text css-8j6lav"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.
+          </p>
+        </div>
+        <div
+          class="css-19jted4"
+        >
+          <img
+            alt="grilled ribs picture"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 277px, 217px (min-width: 768px) 455px, 356px (min-width: 1200px) 650px, 509px"
+            src="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75"
+            srcset="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="css-9baf2d"
+    id="reservationSection"
+  >
+    <form
+      novalidate=""
+    >
+      <div
+        class="chakra-form-control css-qjxwnb"
+        role="group"
+      >
+        <div
+          class="css-yjtq8f"
+        >
+          <h3
+            class="chakra-heading css-17j5m7v"
+          >
+            Make a Reservation
+          </h3>
+          <p
+            class="chakra-text css-1ce86fs"
+          >
+            Get in touch with restaurant
+          </p>
+        </div>
+        <div
+          class="css-4yycd6"
+        >
+          <div
+            class="css-1payax8"
+          >
+            <div
+              class="css-0"
+            >
+              <div
+                class="react-datepicker-wrapper"
+              >
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-1sz8sj0"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-0"
+            >
+              <div
+                class="chakra-select__wrapper css-17qe6bp"
+              >
+                <select
+                  class="chakra-select css-lknr9b"
+                  data-testid="selectTime"
+                  id="field-:r0:"
+                  name="time"
+                  style="padding-left: 40px;"
+                >
+                  <option
+                    value=""
+                  >
+                    11:00 am
+                  </option>
+                  <option
+                    value="11:00 am"
+                  >
+                    11:00 am
+                  </option>
+                  <option
+                    value="12:00 am"
+                  >
+                    12:00 am
+                  </option>
+                  <option
+                    value="13:00 pm"
+                  >
+                    13:00 pm
+                  </option>
+                  <option
+                    value="14:00 pm"
+                  >
+                    14:00 pm
+                  </option>
+                  <option
+                    value="15:00 pm"
+                  >
+                    15:00 pm
+                  </option>
+                  <option
+                    value="16:00 pm"
+                  >
+                    16:00 pm
+                  </option>
+                  <option
+                    value="17:00 pm"
+                  >
+                    17:00 pm
+                  </option>
+                  <option
+                    value="18:00 pm"
+                  >
+                    18:00 pm
+                  </option>
+                  <option
+                    value="19:00 pm"
+                  >
+                    19:00 pm
+                  </option>
+                </select>
+                <div
+                  class="chakra-select__icon-wrapper css-1rn5cz7"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="chakra-icon chakra-select__icon css-m73ylg"
+                    focusable="false"
+                    role="presentation"
+                    style="width: 1em; height: 1em; color: currentColor;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-select__wrapper css-42b2qy"
+          >
+            <select
+              class="chakra-select css-lknr9b"
+              data-testid="selectPerson"
+              id="field-:r0:"
+              name="person"
+              style="padding-left: 40px;"
+            >
+              <option
+                value=""
+              >
+                1 Person
+              </option>
+              <option
+                value="1 Person"
+              >
+                1 Person
+              </option>
+              <option
+                value="2 Person"
+              >
+                2 Person
+              </option>
+              <option
+                value="3 Person"
+              >
+                3 Person
+              </option>
+              <option
+                value="4 Person"
+              >
+                4 Person
+              </option>
+              <option
+                value="5 Person"
+              >
+                5 Person
+              </option>
+              <option
+                value="6 Person"
+              >
+                6 Person
+              </option>
+              <option
+                value="7 Person"
+              >
+                7 Person
+              </option>
+              <option
+                value="8 Person"
+              >
+                8 Person
+              </option>
+              <option
+                value="9 Person"
+              >
+                9 Person
+              </option>
+              <option
+                value="10 Person"
+              >
+                10 Person
+              </option>
+            </select>
+            <div
+              class="chakra-select__icon-wrapper css-1rn5cz7"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-icon chakra-select__icon css-m73ylg"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-1nx6xr5"
+        >
+          <button
+            class="chakra-button css-156b4l8"
+            disabled=""
+            type="submit"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
