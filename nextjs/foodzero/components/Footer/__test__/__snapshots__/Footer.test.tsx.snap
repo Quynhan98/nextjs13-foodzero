@@ -24,7 +24,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
           class="css-0"
         >
           <p
-            class="chakra-text css-1is94eo"
+            class="chakra-text css-1f333of"
           >
             Contact
           </p>
@@ -57,7 +57,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
         class="css-0"
       >
         <p
-          class="chakra-text css-1u0m7e9"
+          class="chakra-text css-1q2x7af"
         >
           Never Miss a Recipe
         </p>
@@ -69,7 +69,7 @@ exports[`Footer render Should Footer match Snapshot 1`] = `
             placeholder="Email Address"
           />
           <button
-            class="chakra-button css-jzq63o"
+            class="chakra-button css-10xxqht"
             type="button"
           >
             Subscribe

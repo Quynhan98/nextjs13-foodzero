@@ -7,6 +7,9 @@ import {
   Button,
 } from '@chakra-ui/react'
 
+// Themes
+import { rufina } from '@themes/index'
+
 interface LoginFormProps {
   onSubmitForm?: (e: FormEvent<HTMLFormElement>) => void
   onChangeForm?: (e: ChangeEvent<HTMLInputElement>) => void
@@ -27,7 +30,7 @@ const LoginForm = ({
       <FormLabel
         fontSize={{ base: 'md', md: 'lg' }}
         fontWeight="bold"
-        fontFamily="Rufina"
+        fontFamily={rufina}
         textAlign="center"
         pb={{ base: '58px', '2xl': '115px' }}
       >

@@ -5,6 +5,9 @@ import { Box, BoxProps, Heading, Text } from '@chakra-ui/react'
 // Component
 import BlogAvatar from '@components/BlogAvatar'
 
+// Themes
+import { rufina } from '@themes/index'
+
 interface CardBlogProps extends BoxProps {
   imageUrl: string
   title: string
@@ -40,7 +43,7 @@ const CardBlog = ({
         <Text
           size="large"
           variant="primary"
-          fontFamily="Rufina"
+          fontFamily={rufina}
           fontWeight="bold"
         >
           {category}

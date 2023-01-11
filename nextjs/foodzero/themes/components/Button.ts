@@ -1,4 +1,13 @@
+import { Rufina } from '@next/font/google'
+
 import { ComponentStyleConfig } from '@chakra-ui/react'
+
+export const rufinaFont = Rufina({
+  subsets: ['latin'],
+  weight: '700',
+})
+
+const rufina = rufinaFont.style.fontFamily
 
 export const Button: ComponentStyleConfig = {
   baseStyle: {
@@ -6,7 +15,7 @@ export const Button: ComponentStyleConfig = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    fontFamily: 'Rufina',
+    fontFamily: rufina,
     borderRadius: '0px',
     color: 'white',
   },

@@ -1,6 +1,9 @@
 import { memo } from 'react'
 import { Box, Flex, ListItem, Text, UnorderedList } from '@chakra-ui/react'
 
+// Themes
+import { rufina } from '@themes/index'
+
 type BusinessHours = {
   meal: string
   time: string
@@ -23,7 +26,7 @@ const OpenTime = ({ openTime, businessHours }: OpenTimeProps) => {
           variant="primary"
           size="common"
           fontWeight="bold"
-          fontFamily="Rufina"
+          fontFamily={rufina}
         >
           Open Time
         </Text>

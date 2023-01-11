@@ -27,6 +27,7 @@ import CardFeature from '@components/CardFeature'
 import CardReview from '@components/CardReview'
 import PriceList from '@components/PriceList'
 import ReservationForm from '@components/ReservationForm'
+import LoadingIndicator from '@components/LoadingIndicator'
 
 // Mocks
 import { QUOTE_MOCK } from '@mocks/mockData'
@@ -51,6 +52,7 @@ import { useBookingContext } from '@hooks/useBookingContext'
 
 // Contexts
 import { IBookingContext } from '@contexts/BookingProvider'
+import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Utils
 import { findItemByValue, formatDate } from '@utils/index'
@@ -73,6 +75,7 @@ const HomePage = ({ contents }: { contents: string }) => {
 
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
+  const { setLoading, loading } = useLoadingContext()
   const [reservation, setReservation] = useState(reservationInit)
   const [errorMessage, setErrorMessage] = useState<string>('')
 
@@ -81,6 +84,7 @@ const HomePage = ({ contents }: { contents: string }) => {
       e?.preventDefault()
 
       try {
+        setLoading(true)
         await addBooking([...booking, reservation])
 
         toast({
@@ -100,6 +104,8 @@ const HomePage = ({ contents }: { contents: string }) => {
           isClosable: true,
           position: 'bottom-left',
         })
+      } finally {
+        setLoading(false)
       }
     },
     [booking, reservation],
@@ -232,7 +238,7 @@ const HomePage = ({ contents }: { contents: string }) => {
         >
           <Heading
             size="extraLarge"
-            maxW={{ base: '100%', md: '60%', '2xl': '68%' }}
+            maxW={{ base: '80%', md: '60%', '2xl': '68%' }}
           >
             Healthy Eating is important part of lifestyle
           </Heading>
@@ -286,7 +292,7 @@ const HomePage = ({ contents }: { contents: string }) => {
           </Box>
         </Flex>
         <Flex
-          pt={{ base: '40px', md: '80px', '2xl': '157px' }}
+          pt={{ base: '20px', md: '80px', '2xl': '157px' }}
           justifyContent="space-between"
         >
           <Flex flexDirection="column">
@@ -579,6 +585,7 @@ const HomePage = ({ contents }: { contents: string }) => {
       >
         <CardReview quotes={QUOTE_MOCK} />
       </Box>
+      {loading && <LoadingIndicator size="lg" />}
     </>
   )
 }

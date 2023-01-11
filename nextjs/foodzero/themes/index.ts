@@ -1,3 +1,5 @@
+import { Rufina, Lato } from '@next/font/google'
+
 import { extendTheme } from '@chakra-ui/react'
 
 // Themes
@@ -8,14 +10,26 @@ import { Text } from '@themes/components/Text'
 import { Input } from '@themes/components/Input'
 import { Button } from '@themes/components/Button'
 
+export const rufinaFont = Rufina({
+  subsets: ['latin'],
+  weight: '700',
+})
+export const latoFont = Lato({
+  subsets: ['latin'],
+  weight: '400',
+})
+
+export const rufina = rufinaFont.style.fontFamily
+export const lato = latoFont.style.fontFamily
+
 export const customTheme = extendTheme({
   colors,
   fontSizes,
   lineHeights,
   fontWeights,
   fonts: {
-    heading: `'Rufina', sans-serif`,
-    body: `'Lato', sans-serif`,
+    heading: rufina,
+    body: lato,
   },
   components: {
     Heading,

@@ -8,6 +8,9 @@ import ListSocial from '@components/ListSocial'
 // Constants
 import { SOCIAL_LIST } from '@constants/index'
 
+// Themes
+import { rufina } from '@themes/index'
+
 interface ContactProps {
   phoneNumber: string
   email: string
@@ -25,7 +28,7 @@ const Contact = ({
     <Box>
       <Text
         variant="primary"
-        fontFamily="Rufina"
+        fontFamily={rufina}
         size="common"
         fontWeight="bold"
         pb={{ base: '8px', '2xl': '18px' }}

@@ -15,6 +15,9 @@ import UserAvatar from '@components/UserAvatar'
 // Constants
 import { BREAKPOINTS } from '@constants/index'
 
+// Themes
+import { rufina } from '@themes/index'
+
 type QuoteType = {
   id: string
   authorName: string
@@ -54,7 +57,7 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
       <Text
         size="extraLarge"
         variant="secondary"
-        fontFamily="Rufina"
+        fontFamily={rufina}
         fontWeight="bold"
         maxW={{ base: '100%', md: '830px', '2xl': '1262px' }}
       >
@@ -87,7 +90,7 @@ const CardReview = ({ quotes, ...rest }: CardReviewProps) => {
             />
           </Button>
           <Text
-            fontFamily="rufina"
+            fontFamily={rufina}
             fontSize={{ base: 'base', '2xl': 'md' }}
             lineHeight={{ base: 'base', '2xl': 'sm' }}
             variant="secondary"
