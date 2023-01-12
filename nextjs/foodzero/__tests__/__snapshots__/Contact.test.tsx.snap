@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact render Should Contact match Snapshot 1`] = `
+<div>
+  <div
+    class="css-1ypnufc"
+  >
+    <h2
+      class="chakra-heading css-idxew5"
+    >
+      Get in Touch
+    </h2>
+    <p
+      class="chakra-text css-4odzap"
+    >
+      The freshest ingredients for you every day
+    </p>
+    <div
+      class="css-kns484"
+    >
+      <div
+        class="css-lex2vo"
+      >
+        <div
+          class="css-1rdnf7o"
+        >
+          <p
+            class="chakra-text css-1j8yc53"
+          >
+            Open Time
+          </p>
+          <p
+            class="chakra-text css-1nxiabe"
+          >
+            Sunday - Friday
+          </p>
+        </div>
+        <hr
+          class="css-1iijbtl"
+        />
+        <ul
+          class="css-y465uq"
+          role="list"
+        >
+          <li
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1nxiabe"
+            >
+              Brunch
+            </p>
+            <p
+              class="chakra-text css-1nxiabe"
+            >
+              11:00–12:00
+            </p>
+          </li>
+          <li
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1nxiabe"
+            >
+              Lunch
+            </p>
+            <p
+              class="chakra-text css-1nxiabe"
+            >
+              13:00–17:00
+            </p>
+          </li>
+          <li
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1nxiabe"
+            >
+              Dinner
+            </p>
+            <p
+              class="chakra-text css-1nxiabe"
+            >
+              18:00–20:00
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <section
+    class="css-25f137"
+  >
+    <div
+      class="css-uktyfy"
+    >
+      <div
+        class="css-314wmh"
+      >
+        <img
+          alt="excellent cook picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 208px (min-width: 768px) 544px, 415px (min-width: 1200px) 792px, 593px"
+          src="/_next/image?url=%2Fimages%2FdinnerTable.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2FdinnerTable.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+      <p
+        class="chakra-text css-19q5b95"
+      >
+        We can be contacted 
+        <br />
+         via email
+         
+        <a
+          href="mailto:info@foodzero.com"
+          style="text-decoration: none;"
+        >
+          <b
+            class="chakra-text css-ycbatn"
+          >
+            info@foodzero.com
+          </b>
+        </a>
+        <br />
+        or telephone on
+         
+        <a
+          href="tel:+86 852 346 000"
+          style="text-decoration: none;"
+        >
+          <b
+            class="chakra-text css-ycbatn"
+          >
+            +86 852 346 000
+          </b>
+        </a>
+      </p>
+    </div>
+    <div
+      class="css-6mdup3"
+    >
+      <p
+        class="chakra-text css-shftav"
+      >
+        We are located in 
+        1959 Sepulveda Blvd. Culver City, CA, 90230
+      </p>
+      <div
+        class="css-1j5gmxr"
+      >
+        <img
+          alt="excellent cook picture"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="(max-width: 768px) 277px, 347px (min-width: 768px) 554px, 630px (min-width: 1200px) 792px, 990px"
+          src="/_next/image?url=%2Fimages%2Faddress.webp&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Faddress.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Faddress.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Faddress.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Faddress.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Faddress.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Faddress.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Faddress.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Faddress.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Faddress.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Faddress.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Faddress.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Faddress.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Faddress.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Faddress.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Faddress.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Faddress.webp&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+        />
+      </div>
+    </div>
+  </section>
+  <section
+    class="css-2ce55m"
+    id="reservationSection"
+  >
+    <form
+      novalidate=""
+    >
+      <div
+        class="chakra-form-control css-qjxwnb"
+        role="group"
+      >
+        <div
+          class="css-yjtq8f"
+        >
+          <h3
+            class="chakra-heading css-17j5m7v"
+          >
+            Make a Reservation
+          </h3>
+          <p
+            class="chakra-text css-1j19xza"
+          >
+            Get in touch with restaurant
+          </p>
+        </div>
+        <div
+          class="css-19580xy"
+        >
+          <input
+            class="chakra-input css-sw9qjs"
+            id="field-:r0:"
+            name="firstName"
+            placeholder="First Name"
+            type="text"
+            value=""
+          />
+          <input
+            class="chakra-input css-sw9qjs"
+            id="field-:r0:"
+            name="lastName"
+            placeholder="Last Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="css-1qnzkxj"
+        >
+          <input
+            class="chakra-input css-1njo91c"
+            id="field-:r0:"
+            name="email"
+            placeholder="Email"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          class="css-1qnzkxj"
+        >
+          <input
+            class="chakra-input css-1njo91c"
+            id="field-:r0:"
+            name="phone"
+            placeholder="Phone"
+            type="tel"
+            value=""
+          />
+        </div>
+        <div
+          class="css-r2rtav"
+        >
+          <div
+            class="css-1payax8"
+          >
+            <div
+              class="css-0"
+            >
+              <div
+                class="react-datepicker-wrapper"
+              >
+                <div
+                  class="react-datepicker__input-container"
+                >
+                  <input
+                    class="chakra-input css-1cwrfhe"
+                    id="field-:r0:"
+                    placeholder="MM/DD/YYYY"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-0"
+            >
+              <div
+                class="chakra-select__wrapper css-sp79o5"
+              >
+                <select
+                  class="chakra-select css-lknr9b"
+                  data-testid="selectTime"
+                  id="field-:r0:"
+                  name="time"
+                  style="padding-left: 40px;"
+                >
+                  <option
+                    value=""
+                  >
+                    11:00 am
+                  </option>
+                  <option
+                    value="11:00 am"
+                  >
+                    11:00 am
+                  </option>
+                  <option
+                    value="12:00 am"
+                  >
+                    12:00 am
+                  </option>
+                  <option
+                    value="13:00 pm"
+                  >
+                    13:00 pm
+                  </option>
+                  <option
+                    value="14:00 pm"
+                  >
+                    14:00 pm
+                  </option>
+                  <option
+                    value="15:00 pm"
+                  >
+                    15:00 pm
+                  </option>
+                  <option
+                    value="16:00 pm"
+                  >
+                    16:00 pm
+                  </option>
+                  <option
+                    value="17:00 pm"
+                  >
+                    17:00 pm
+                  </option>
+                  <option
+                    value="18:00 pm"
+                  >
+                    18:00 pm
+                  </option>
+                  <option
+                    value="19:00 pm"
+                  >
+                    19:00 pm
+                  </option>
+                </select>
+                <div
+                  class="chakra-select__icon-wrapper css-1rn5cz7"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="chakra-icon chakra-select__icon css-m73ylg"
+                    focusable="false"
+                    role="presentation"
+                    style="width: 1em; height: 1em; color: currentColor;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-select__wrapper css-42b2qy"
+          >
+            <select
+              class="chakra-select css-lknr9b"
+              data-testid="selectPerson"
+              id="field-:r0:"
+              name="person"
+              style="padding-left: 40px;"
+            >
+              <option
+                value=""
+              >
+                1 Person
+              </option>
+              <option
+                value="1 Person"
+              >
+                1 Person
+              </option>
+              <option
+                value="2 Person"
+              >
+                2 Person
+              </option>
+              <option
+                value="3 Person"
+              >
+                3 Person
+              </option>
+              <option
+                value="4 Person"
+              >
+                4 Person
+              </option>
+              <option
+                value="5 Person"
+              >
+                5 Person
+              </option>
+              <option
+                value="6 Person"
+              >
+                6 Person
+              </option>
+              <option
+                value="7 Person"
+              >
+                7 Person
+              </option>
+              <option
+                value="8 Person"
+              >
+                8 Person
+              </option>
+              <option
+                value="9 Person"
+              >
+                9 Person
+              </option>
+              <option
+                value="10 Person"
+              >
+                10 Person
+              </option>
+            </select>
+            <div
+              class="chakra-select__icon-wrapper css-1rn5cz7"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-icon chakra-select__icon css-m73ylg"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-ffarb6"
+        >
+          <button
+            class="chakra-button css-vjoqr8"
+            disabled=""
+            type="submit"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+    </form>
+  </section>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

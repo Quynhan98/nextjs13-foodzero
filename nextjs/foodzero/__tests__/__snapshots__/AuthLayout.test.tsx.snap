@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth Layout render Should Auth Layout match Snapshot 1`] = `
+<div>
+  <html
+    lang="en"
+  >
+    <body>
+      <main
+        class="css-lepva3"
+      >
+        Contents Page
+      </main>
+      <span
+        hidden=""
+        id="__chakra_env"
+      />
+    </body>
+  </html>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
