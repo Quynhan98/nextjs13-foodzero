@@ -5,7 +5,12 @@ import { SERVER_ERROR } from '@constants/index'
 import { USERS_MOCK } from '@mocks/mockData'
 
 // Services
-import { basicFetch, fetcherInstanceAPI, swrFetcher } from '@services/api'
+import {
+  basicFetch,
+  fetcherInstance,
+  fetcherInstanceAPI,
+  swrFetcher,
+} from '@services/api'
 
 describe('Test swrFetcher', () => {
   global.fetch = jest.fn(() =>
@@ -112,6 +117,31 @@ describe('Test fetcherInstanceAPI', () => {
   test('Test function fetcherInstanceAPI is success', async () => {
     try {
       const response = await fetcherInstanceAPI({
+        endpoint: '/users',
+        fetchingMethod: 'SSR',
+      })
+      const responseData = await response.json()
+
+      if (response) {
+        expect(response).toBeCalled()
+        expect(responseData.length).toEqual(USERS_MOCK.length)
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  })
+})
+
+describe('Test fetcherInstance', () => {
+  global.fetch = jest.fn(() =>
+    Promise.resolve({
+      json: () => Promise.resolve(USERS_MOCK),
+    }),
+  ) as jest.Mock
+
+  test('Test function fetcherInstance is success', async () => {
+    try {
+      const response = await fetcherInstance({
         endpoint: '/users',
         fetchingMethod: 'SSR',
       })
