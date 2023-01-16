@@ -5,35 +5,41 @@ import { NextApiRequest, NextApiResponse } from 'next'
 // Constants
 import {
   CLIENT_ERROR_RESPONSE,
-  SERVER_ERROR,
+  EMAIL_NOT_EXIST,
+  INVALID_PASSWORD,
   SUCCESS_RESPONSE,
-  USERS_ENDPOINT,
 } from '@constants/index'
 
 // Services
-import { fetcherInstanceAPI } from '@services/api'
+import { userControllers } from 'controllers/userControllers'
 
 export default async function loginHandler(
   req: NextApiRequest,
   res: NextApiResponse,
 ) {
-  if (req.method === 'GET') {
-    try {
-      const data = await fetcherInstanceAPI({
-        endpoint: USERS_ENDPOINT,
-        fetchingMethod: 'SSR',
-      })
+  const { password, email } = req.body
 
-      if (data) {
-        return res.status(SUCCESS_RESPONSE.OK).json(data)
-      }
-      return res.status(SUCCESS_RESPONSE.OK).json([])
-    } catch (error) {
-      return res.status(CLIENT_ERROR_RESPONSE.NOT_FOUND).send(SERVER_ERROR)
-    }
-  } else {
+  const { findExistedUser, isMatchPassword } = userControllers
+
+  const currentUser = await findExistedUser('email', email)
+  const matchPassword = currentUser && isMatchPassword(password, currentUser)
+
+  // Email not match
+  if (!currentUser) {
     return res
       .status(CLIENT_ERROR_RESPONSE.NOT_FOUND)
-      .json({ message: SERVER_ERROR })
+      .json({ field: 'email', message: EMAIL_NOT_EXIST })
   }
+
+  // Email match, password not match
+  if (currentUser && !matchPassword) {
+    return res
+      .status(CLIENT_ERROR_RESPONSE.NOT_FOUND)
+      .json({ field: 'password', message: INVALID_PASSWORD })
+  }
+
+  // Email and password match
+  return res
+    .status(SUCCESS_RESPONSE.OK)
+    .json({ id: currentUser.id, email: currentUser.email })
 }

@@ -1,7 +1,5 @@
 // Constants
 import {
-  EMAIL_NOT_EXIST,
-  INVALID_PASSWORD,
   INVALID_EMAIL_FORMAT,
   INVALID_PASSWORD_FORMAT,
   REGEX_EMAIL,
@@ -10,10 +8,7 @@ import {
 } from '@constants/index'
 
 // Types
-import { IUser, LoginAccount } from '@self-types/index'
-
-// Utils
-import { findItemByValue } from '@utils/index'
+import { LoginAccount } from '@self-types/index'
 
 type ErrorMsgs = { email: string; password: string }
 
@@ -25,7 +20,6 @@ export interface checkValidateProps {
 
 export interface ValidationResult {
   isValid: boolean
-  data?: { userId?: string }
   error?: ErrorMsgs
 }
 
@@ -44,17 +38,8 @@ export const checkValidate = (args: checkValidateProps): string => {
   }
 }
 
-export const loginValidate = (
-  loginAccount: LoginAccount,
-  users: IUser[] | [],
-): ValidationResult => {
-  const user = findItemByValue({
-    data: users,
-    value: loginAccount.email,
-    key: 'email',
-  })
-
-  const result: ValidationResult = { isValid: true, data: { userId: user?.id } }
+export const loginValidate = (loginAccount: LoginAccount): ValidationResult => {
+  const result: ValidationResult = { isValid: true }
   result.error = { email: '', password: '' }
 
   const validateEmail = checkValidate({
@@ -70,18 +55,11 @@ export const loginValidate = (
   })
 
   // Email
-  if (!user) {
-    result.error.email = EMAIL_NOT_EXIST
-  }
   if (validateEmail) {
     result.error.email = validateEmail
   }
 
   // Password
-  if (loginAccount.password !== user?.password) {
-    result.error.password = INVALID_PASSWORD
-  }
-
   if (validatePassword) {
     result.error.password = validatePassword
   }

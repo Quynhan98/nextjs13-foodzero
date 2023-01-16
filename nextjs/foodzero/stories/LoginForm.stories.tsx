@@ -9,9 +9,13 @@ import LoginForm from '@components/LoginForm'
 
 // Utils
 import { loginValidate } from '@utils/validation'
+import { findItemByValue } from '@utils/index'
 
 // Types
-import { LoginAccount } from '../types/index'
+import { LoginAccount } from '@self-types/index'
+
+// Constants
+import { EMAIL_NOT_EXIST, INVALID_PASSWORD } from '@constants/index'
 
 const meta: Meta<typeof LoginForm> = {
   title: 'Components/LoginForm',
@@ -51,32 +55,47 @@ const LoginWithHooks = () => {
   const isDisableButton = !loginAccount.email || !loginAccount.password
 
   // Get input value
-  const handleChange = useCallback(
-    (e: ChangeEvent<HTMLInputElement>): void => {
-      const inputValues = { [e.target.name]: e.target.value }
+  const handleChange = useCallback((e: ChangeEvent<HTMLInputElement>): void => {
+    const inputValues = { [e.target.name]: e.target.value }
 
-      setLoginAccount((prev) => ({
-        ...prev,
-        ...inputValues,
-      }))
+    setLoginAccount((prev) => ({
+      ...prev,
+      ...inputValues,
+    }))
 
-      setErrorMsgs(errorMsgs)
-    },
-    [errorMsgs],
-  )
+    setErrorMsgs(initErrorMsgs)
+  }, [])
 
   // Function submit login form
   const handleSubmitForm = useCallback(
     (e: FormEvent<HTMLFormElement>) => {
       e?.preventDefault()
-      const loginFormValidate = loginValidate(loginAccount, USERS_MOCK)
+      const loginFormValidate = loginValidate(loginAccount)
 
       if (!loginFormValidate.isValid && loginFormValidate.error) {
         setErrorMsgs(loginFormValidate.error)
       } else {
-        alert(`Login Successfully!`)
+        const users = findItemByValue({
+          data: USERS_MOCK,
+          value: loginAccount.email,
+          key: 'email',
+        })
 
-        setErrorMsgs(initErrorMsgs)
+        if (!users) {
+          setErrorMsgs((prev) => ({
+            ...prev,
+            email: EMAIL_NOT_EXIST,
+          }))
+        } else if (users && users.password !== loginAccount.password) {
+          setErrorMsgs((prev) => ({
+            ...prev,
+            password: INVALID_PASSWORD,
+          }))
+        } else {
+          alert(`Login Successfully!`)
+
+          setErrorMsgs(initErrorMsgs)
+        }
       }
     },
     [loginAccount],

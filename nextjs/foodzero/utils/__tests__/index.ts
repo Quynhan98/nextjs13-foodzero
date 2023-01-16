@@ -1,9 +1,11 @@
 // Utils
+import { PAGE_URL } from '@constants/index'
 import {
   formattedDate,
   formattedHour,
   formatDate,
   formatPhoneNumber,
+  findItemByValue,
 } from '@utils/index'
 
 describe('Get format date(Month DD, YYYY) and time', () => {
@@ -49,5 +51,17 @@ describe('Get format phone number', () => {
     const phoneFormat = formatPhoneNumber('1234567891')
 
     expect(phoneFormat).toEqual('(123) 456-7891')
+  })
+})
+
+describe('Find item by value', () => {
+  it('should return correct item by value', () => {
+    const item = findItemByValue({
+      data: Object.values(PAGE_URL),
+      key: 'URL',
+      value: '/login',
+    })
+
+    expect(item).toEqual({ TITLE: 'Login', URL: '/login' })
   })
 })

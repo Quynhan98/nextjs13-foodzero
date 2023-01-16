@@ -4,9 +4,6 @@ import { INVALID_EMAIL_FORMAT, REGEX_EMAIL, REQUIRED } from '@constants/index'
 // Validation
 import { checkValidate, loginValidate } from '@utils/validation'
 
-// Mocks
-import { USERS_MOCK } from '@mocks/mockData'
-
 describe('checkValidate data', () => {
   it('should returns an error when the input value is empty', () => {
     const props = {
@@ -43,19 +40,19 @@ describe('loginValidate', () => {
   }
 
   it('should login invalid', () => {
-    const response = loginValidate(accountMock, [])
+    const response = loginValidate(accountMockError)
 
     expect(response.isValid).toEqual(false)
   })
 
   it('should login valid', () => {
-    const response = loginValidate(accountMock, USERS_MOCK)
+    const response = loginValidate(accountMock)
 
     expect(response.isValid).toEqual(true)
   })
 
   it('should error when logging in email and password is not valid', () => {
-    const response = loginValidate(accountMockError, USERS_MOCK)
+    const response = loginValidate(accountMockError)
 
     expect(response.isValid).toEqual(false)
     expect(response.error).toBeTruthy()
