@@ -6,6 +6,10 @@ exports[`RootLayout render Should RootLayout match Snapshot 1`] = `
     lang="en"
   >
     <body>
+      <noscript>
+        &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVSQVJS"
+            height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
+      </noscript>
       <header
         class="chakra-container css-2mqkvj"
       >

@@ -244,7 +244,7 @@ const HomePage = ({ contents }: { contents: string }) => {
           </Heading>
           <Text
             pt={{ base: '25px', '2xl': '50px' }}
-            maxW={{ base: '160px', md: '550px', '2xl': '840px' }}
+            maxW={{ base: '135px', md: '550px', '2xl': '840px' }}
             variant="primary"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque

@@ -18,6 +18,14 @@ export default function AuthLayout({ children }: IAuthLayoutProps) {
   return (
     <html lang="en">
       <body>
+        <noscript
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVSQVJS"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+          }}
+        />
+
         <ChakraProvider theme={customTheme}>
           <LoadingProvider>
             <AuthProvider>
