@@ -43,7 +43,7 @@ const initErrorMsgs = {
 const LoginPage = () => {
   const router = useRouter()
   const toast = useToast()
-  const { setUserId } = useAuthContext()
+  const { userSection, login } = useAuthContext()
   const { setLoading, loading } = useLoadingContext()
   const [loginAccount, setLoginAccount] = useState(login)
   const [errorMsgs, setErrorMsgs] = useState(initErrorMsgs)

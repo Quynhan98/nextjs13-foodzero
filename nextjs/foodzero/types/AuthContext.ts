@@ -1,4 +1,10 @@
-export interface IAuthContext {
+import { LoginAccount } from '@self-types/index'
+
+export interface UserSection {
   userId: string
-  setUserId: (id: string) => void
+}
+
+export interface IAuthContext {
+  userSection: UserSection
+  login: (account: LoginAccount) => Promise<void>
 }
