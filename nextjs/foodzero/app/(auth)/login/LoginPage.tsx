@@ -13,24 +13,23 @@ import { LoginAccount } from '@self-types/index'
 
 // Utils
 import { loginValidate } from '@utils/validation'
-import { setLocalStorage } from '@utils/localStorage'
 
 // Hooks
 import { useAuthContext } from '@hooks/useAuthContext'
 import { useLoadingContext } from '@hooks/useLoadingContext'
 
 // Constants
-import { LOCAL_STORAGE_KEY, PAGE_URL, SERVER_ERROR } from '@constants/index'
+import { PAGE_URL, SERVER_ERROR } from '@constants/index'
 
 // Services
-import { loginUser } from '@services/index'
+import { IAuthContext } from '@self-types/AuthContext'
 
 enum ErrorField {
   Email = 'email',
   Password = 'password',
 }
 
-const login: LoginAccount = {
+const loginInit: LoginAccount = {
   email: '',
   password: '',
 }
@@ -43,9 +42,9 @@ const initErrorMsgs = {
 const LoginPage = () => {
   const router = useRouter()
   const toast = useToast()
-  const { userSection, login } = useAuthContext()
+  const { login } = useAuthContext() as IAuthContext
   const { setLoading, loading } = useLoadingContext()
-  const [loginAccount, setLoginAccount] = useState(login)
+  const [loginAccount, setLoginAccount] = useState(loginInit)
   const [errorMsgs, setErrorMsgs] = useState(initErrorMsgs)
 
   // Check disable button login
@@ -75,12 +74,9 @@ const LoginPage = () => {
       } else {
         try {
           setLoading(true)
-          const response = await loginUser(loginAccount)
+          const response = await login(loginAccount)
 
           if (response.id) {
-            setUserId(response.id)
-            setLocalStorage(LOCAL_STORAGE_KEY.USER_ID, response.id)
-
             router.push(PAGE_URL.HOME.URL)
           }
 
@@ -89,15 +85,21 @@ const LoginPage = () => {
             message: string
           }
 
-          if (responseError.field === ErrorField.Email) {
+          if (responseError.field) {
+            const errorField = {
+              email:
+                responseError.field === ErrorField.Email
+                  ? responseError.message
+                  : '',
+              password:
+                responseError.field === ErrorField.Password
+                  ? responseError.message
+                  : '',
+            }
+
             setErrorMsgs((prev) => ({
               ...prev,
-              email: responseError.message,
-            }))
-          } else if (responseError.field === ErrorField.Password) {
-            setErrorMsgs((prev) => ({
-              ...prev,
-              password: responseError.message,
+              ...errorField,
             }))
           }
         } catch (error) {

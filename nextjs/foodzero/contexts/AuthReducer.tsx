@@ -1,23 +1,26 @@
-import { UserSection } from '@self-types/AuthContext'
-
 export enum USER_ACTION {
   SET_USER = 'SET_USER',
 }
 
 interface SetSessionAction {
   type: USER_ACTION.SET_USER
-  userSection: UserSection
+  userId: string
 }
 
-const AuthReducer = (state: UserSection | null, action: SetSessionAction) => {
-  if (action.type) {
-    return {
-      ...state,
-      ...action.userSection,
-    }
-  }
+const AuthReducer = (
+  state: { userId: string } | null,
+  action: SetSessionAction,
+) => {
+  // eslint-disable-next-line sonarjs/no-small-switch
+  switch (action.type) {
+    case USER_ACTION.SET_USER:
+      return {
+        userId: action.userId,
+      }
 
-  return state
+    default:
+      return state
+  }
 }
 
 export default AuthReducer
