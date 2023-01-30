@@ -16,7 +16,7 @@ describe('Set local storage correctly', () => {
   it('should set local storage correctly', () => {
     jest.spyOn(Object.getPrototypeOf(window.localStorage), 'setItem')
 
-    setLocalStorage(LOCAL_STORAGE_KEY.USER_ID, userIdMock)
+    setLocalStorage(LOCAL_STORAGE_KEY.USER_SESSION, userIdMock)
 
     expect(localStorage.setItem).toHaveBeenCalled()
   })
@@ -26,7 +26,7 @@ describe('Set local storage correctly', () => {
       throw new Error('ERROR')
     })
 
-    setLocalStorage(LOCAL_STORAGE_KEY.USER_ID, userIdMock)
+    setLocalStorage(LOCAL_STORAGE_KEY.USER_SESSION, userIdMock)
 
     expect(localStorage.setItem).toHaveBeenCalled()
   })
@@ -39,7 +39,7 @@ describe('Get local storage correctly', () => {
   const userIdMock = 'gff1'
 
   it('should return defined string on get set key', () => {
-    const result = getLocalStorage(LOCAL_STORAGE_KEY.USER_ID)
+    const result = getLocalStorage(LOCAL_STORAGE_KEY.USER_SESSION)
 
     expect(result).toBe(userIdMock)
   })

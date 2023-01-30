@@ -96,7 +96,7 @@ export const NUMBER_OF_PERSON = [
 ]
 
 export const LOCAL_STORAGE_KEY = {
-  USER_ID: 'userId',
+  USER_SESSION: 'userSession',
 }
 
 export const FEATURES_SECTION = [
