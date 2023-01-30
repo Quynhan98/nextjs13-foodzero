@@ -13,7 +13,8 @@
     "lint-staged": "lint-staged --config lint-staged.config.js",
     "prepare": "cd ../.. && husky install nextjs/foodzero/.husky",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
