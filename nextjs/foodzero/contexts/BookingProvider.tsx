@@ -26,19 +26,22 @@ export type TBookingContext = {
 export const BookingContext = createContext<IBookingContext | null>(null)
 
 export const BookingProvider = ({ children }: TBookingContext): JSX.Element => {
-  const { userId } = useAuthContext() as IAuthContext
-  const { data: users, mutate } = useSWR<IUser>(`${USERS_ENDPOINT}/${userId}`)
+  const { userSession } = useAuthContext() as IAuthContext
+
+  const { data: users, mutate } = useSWR<IUser>(
+    `${USERS_ENDPOINT}/${userSession?.userId}`,
+  )
 
   const addBooking = useCallback(
     async (booking: IReservations[]) => {
       await addToBooking(
         { reservations: booking },
-        `${USERS_ENDPOINT}/${userId}`,
+        `${USERS_ENDPOINT}/${userSession?.userId}`,
       )
 
       mutate(users)
     },
-    [userId, users],
+    [userSession?.userId, users],
   )
 
   const value = useMemo(

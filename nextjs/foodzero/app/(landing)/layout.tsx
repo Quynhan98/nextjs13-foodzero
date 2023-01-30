@@ -26,6 +26,9 @@ import Footer from '@components/Footer'
 // Themes
 import { customTheme } from '@themes/index'
 
+// Types
+import { UserSession } from '@self-types/AuthContext'
+
 export interface IRootLayoutProps {
   children: React.ReactNode
 }
@@ -33,16 +36,18 @@ export interface IRootLayoutProps {
 export default function RootLayout({ children }: IRootLayoutProps) {
   const router = useRouter()
   const pathname = usePathname()
-  const userId = getLocalStorage(LOCAL_STORAGE_KEY.USER_ID)
+  const userSession: UserSession = getLocalStorage(
+    LOCAL_STORAGE_KEY.USER_SESSION,
+  )
 
   const isLoginPage = pathname === PAGE_URL.LOGIN.URL
 
   useEffect(() => {
     // Redirect to Login page with unauthorized user
-    if (!userId && !isLoginPage) {
+    if (!userSession.userId && !isLoginPage) {
       router.push(PAGE_URL.LOGIN.URL)
     }
-  }, [isLoginPage, userId])
+  }, [isLoginPage, userSession.userId])
 
   return (
     <html lang="en">

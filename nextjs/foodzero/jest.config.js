@@ -19,6 +19,7 @@ module.exports = {
     '!**/*fileSystem.ts',
     '!<rootDir>/assets/**',
     '!<rootDir>/.storybook/**',
+    '!<rootDir>/storybook-static/**',
     '!<rootDir>/.eslintrc.js',
   ],
   moduleNameMapper: {

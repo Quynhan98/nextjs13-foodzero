@@ -10,7 +10,7 @@ export const setLocalStorage = <T>(key: string, data: T): boolean => {
 }
 
 // Get local storage
-export const getLocalStorage = (key: string): string => {
+export const getLocalStorage = (key: string) => {
   try {
     return JSON.parse(localStorage.getItem(key) || '')
   } catch {

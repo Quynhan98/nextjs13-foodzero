@@ -18,8 +18,12 @@ import AuthReducer, { USER_ACTION } from '@contexts/AuthReducer'
 export const AuthContext = createContext<IAuthContext | null>(null)
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const [userId, dispatch] = useReducer(AuthReducer, {}, () =>
-    JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY.USER_ID)),
+  const [userSession, dispatch] = useReducer(AuthReducer, {}, () =>
+    JSON.parse(
+      typeof window !== 'undefined'
+        ? localStorage.getItem(LOCAL_STORAGE_KEY.USER_SESSION) || 'null'
+        : 'null',
+    ),
   )
 
   const login = useCallback(
@@ -29,10 +33,13 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       if (response.id) {
         dispatch({
           type: USER_ACTION.SET_USER,
-          userId: response.id,
+          userSession: { userId: response.id },
         })
 
-        localStorage.setItem('userId', JSON.stringify(response.id))
+        localStorage.setItem(
+          LOCAL_STORAGE_KEY.USER_SESSION,
+          JSON.stringify({ userId: response.id }),
+        )
       }
 
       return response
@@ -40,10 +47,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     [dispatch],
   )
 
-  const value = useMemo(
-    () => ({ userId, login }),
-    [userId],
-  ) as unknown as IAuthContext
+  const value = useMemo(() => ({ userSession, login }), [login, userSession])
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }

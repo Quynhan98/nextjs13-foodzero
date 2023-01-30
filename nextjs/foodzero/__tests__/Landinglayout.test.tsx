@@ -1,4 +1,5 @@
 // Utils
+import { LOCAL_STORAGE_KEY } from '@constants/variables'
 import { render } from '@utils/testUtils'
 
 // App
@@ -15,7 +16,10 @@ describe('RootLayout render', () => {
   })
 
   it('Should RootLayout match Snapshot', () => {
-    window.localStorage.setItem('userId', JSON.stringify('gff1'))
+    window.localStorage.setItem(
+      LOCAL_STORAGE_KEY.USER_SESSION,
+      JSON.stringify({ userId: 'gff1' }),
+    )
 
     const { container } = render(<RootLayout>Contents Page</RootLayout>)
 
