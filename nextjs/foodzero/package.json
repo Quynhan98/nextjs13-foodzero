@@ -78,5 +78,7 @@
   "lint-staged": {
     "*.{ts,tsx,js}": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "foodzero@0.1.0"
 }
