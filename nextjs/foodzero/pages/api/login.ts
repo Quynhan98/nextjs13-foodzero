@@ -10,7 +10,7 @@ import {
   SUCCESS_RESPONSE,
 } from '@constants/index'
 
-// Services
+// Controllers
 import { userControllers } from 'controllers/userControllers'
 
 export default async function loginHandler(

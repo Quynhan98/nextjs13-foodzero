@@ -20,7 +20,6 @@ const nextConfig = {
       { loader: '@next/font/google', options: { subsets: ['latin'] } },
     ],
   },
-  skipTrailingSlashRedirect: true,
 }
 
 module.exports = nextConfig

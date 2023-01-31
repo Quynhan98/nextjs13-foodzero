@@ -1,5 +1,3 @@
-'use client'
-
 import React, { createContext, useCallback, useMemo, useReducer } from 'react'
 
 // Constants
