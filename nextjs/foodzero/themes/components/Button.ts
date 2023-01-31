@@ -43,6 +43,7 @@ export const Button: ComponentStyleConfig = {
       backgroundColor: 'bronzeYellow',
       border: '2px',
       borderColor: 'black',
+      _hover: { _disabled: { backgroundColor: 'bronzeYellow' } },
     },
     primary: {
       backgroundColor: 'inherit',
@@ -51,11 +52,13 @@ export const Button: ComponentStyleConfig = {
     },
     secondary: {
       backgroundColor: 'bronzeYellow',
+      _hover: { _disabled: { backgroundColor: 'bronzeYellow' } },
     },
     dark: {
       backgroundColor: 'zinnwalditeBrown',
       border: '2px',
       borderColor: 'black',
+      _hover: { _disabled: { backgroundColor: 'zinnwalditeBrown' } },
     },
     light: {
       backgroundColor: 'inherit',

@@ -431,7 +431,7 @@ exports[`Contact render Should Contact match Snapshot 1`] = `
           class="css-ffarb6"
         >
           <button
-            class="chakra-button css-vjoqr8"
+            class="chakra-button css-mqrzow"
             disabled=""
             type="submit"
           >
