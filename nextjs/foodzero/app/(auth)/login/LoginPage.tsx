@@ -24,9 +24,9 @@ import { PAGE_URL, SERVER_ERROR } from '@constants/index'
 // Services
 import { IAuthContext } from '@self-types/AuthContext'
 
-enum ErrorField {
-  Email = 'email',
-  Password = 'password',
+type ErrorMessage = {
+  email?: string
+  password?: string
 }
 
 const loginInit: LoginAccount = {
@@ -45,7 +45,7 @@ const LoginPage = () => {
   const { login } = useAuthContext() as IAuthContext
   const { setLoading, loading } = useLoadingContext()
   const [loginAccount, setLoginAccount] = useState(loginInit)
-  const [errorMsgs, setErrorMsgs] = useState(initErrorMsgs)
+  const [errorMsgs, setErrorMsgs] = useState<ErrorMessage>(initErrorMsgs)
 
   // Check disable button login
   const isDisableButton = !loginAccount.email || !loginAccount.password
@@ -81,27 +81,13 @@ const LoginPage = () => {
           }
 
           const responseError = response as unknown as {
-            field: ErrorField
-            message: string
+            error: ErrorMessage
           }
 
-          if (responseError.field) {
-            const errorField = {
-              email:
-                responseError.field === ErrorField.Email
-                  ? responseError.message
-                  : '',
-              password:
-                responseError.field === ErrorField.Password
-                  ? responseError.message
-                  : '',
-            }
-
-            setErrorMsgs((prev) => ({
-              ...prev,
-              ...errorField,
-            }))
-          }
+          setErrorMsgs((prev) => ({
+            ...prev,
+            ...responseError.error,
+          }))
         } catch (error) {
           toast({
             title: 'Error',

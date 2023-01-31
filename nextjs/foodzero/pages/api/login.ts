@@ -11,7 +11,7 @@ import {
 } from '@constants/index'
 
 // Controllers
-import { userControllers } from 'controllers/userControllers'
+import { findExistedUser } from 'controllers/userControllers'
 
 export default async function loginHandler(
   req: NextApiRequest,
@@ -19,23 +19,20 @@ export default async function loginHandler(
 ) {
   const { password, email } = req.body
 
-  const { findExistedUser, isMatchPassword } = userControllers
-
   const currentUser = await findExistedUser('email', email)
-  const matchPassword = currentUser && isMatchPassword(password, currentUser)
 
   // Email not match
   if (!currentUser) {
     return res
       .status(CLIENT_ERROR_RESPONSE.NOT_FOUND)
-      .json({ field: 'email', message: EMAIL_NOT_EXIST })
+      .json({ error: { email: EMAIL_NOT_EXIST } })
   }
 
   // Email match, password not match
-  if (currentUser && !matchPassword) {
+  if (currentUser && currentUser.password !== password) {
     return res
       .status(CLIENT_ERROR_RESPONSE.NOT_FOUND)
-      .json({ field: 'password', message: INVALID_PASSWORD })
+      .json({ error: { password: INVALID_PASSWORD } })
   }
 
   // Email and password match
