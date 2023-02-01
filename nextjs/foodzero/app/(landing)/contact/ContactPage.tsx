@@ -41,7 +41,7 @@ import { checkValidate } from '@utils/validation'
 import { rufina } from '@themes/index'
 
 const reservationInit = {
-  date: '',
+  date: '' as unknown as Date,
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
   phone: '',
@@ -74,9 +74,11 @@ const ContactPage = () => {
   const handleChangeDate = useCallback(
     (date: Date) => {
       const newDate = date && formatDate(date)
-      const dateDuplicated = booking.filter((item) => item.date === newDate)
+      const dateDuplicated = booking.filter(
+        (item) => formatDate(new Date(item.date)) === newDate,
+      )
 
-      if (reservation.time) {
+      if (dateDuplicated.length > 0) {
         const timeDuplicated = findItemByValue({
           data: dateDuplicated,
           value: reservation.time,
@@ -87,11 +89,16 @@ const ContactPage = () => {
           ...prev,
           time: timeDuplicated ? TIME_DUPLICATED_ERROR : '',
         }))
+      } else {
+        setErrorMessage((prev) => ({
+          ...prev,
+          time: '',
+        }))
       }
 
       setReservation((prev) => ({
         ...prev,
-        date: newDate,
+        date,
       }))
     },
     [booking, reservation.time],
@@ -101,9 +108,12 @@ const ContactPage = () => {
     (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
       const nameInput = e.target.name
       const valueInput = e.target.value
-      const dateDuplicated = booking.filter(
-        (item) => item.date === reservation.date,
-      )
+      const dateDuplicated =
+        reservation.date &&
+        booking.filter(
+          (item) =>
+            formatDate(new Date(item.date)) === formatDate(reservation.date),
+        )
 
       if (nameInput === 'email') {
         const validateEmail = checkValidate({

@@ -7,7 +7,7 @@ import { CARD_BLOG } from '@mocks/mockData'
 import CardBlog from '@components/CardBlog'
 
 describe('CardBlog component', () => {
-  const props = { ...CARD_BLOG }
+  const props = { ...CARD_BLOG, date: new Date(CARD_BLOG.date) }
 
   it('Renders CardBlog correctly', () => {
     const { container } = render(<CardBlog {...props} />)

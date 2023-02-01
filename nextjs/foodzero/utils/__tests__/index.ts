@@ -9,7 +9,7 @@ import {
 } from '@utils/index'
 
 describe('Get format date(Month DD, YYYY) and time', () => {
-  const date = '2022-12-06T23:29:35.000Z'
+  const date = new Date('2022-12-06T23:29:35.000Z')
 
   it('should get date (Month DD, YYYY)', () => {
     const newDate = formattedDate(date)

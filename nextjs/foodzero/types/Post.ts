@@ -6,6 +6,6 @@ export interface IPost {
   category: string
   srcAvatar: string
   name: string
-  date: string
+  date: Date
   comments: number
 }

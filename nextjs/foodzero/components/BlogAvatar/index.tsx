@@ -7,7 +7,7 @@ import { formattedDate, formattedHour } from '@utils/index'
 interface BlogAvatarProps {
   src: string
   name: string
-  date: string
+  date: Date
   numberOfComments: number
 }
 

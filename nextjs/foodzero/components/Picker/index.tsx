@@ -11,7 +11,7 @@ interface DatePickerProps extends InputProps {
   isMaxDate?: boolean
   onChangeDate: (date: Date) => void
   disabled?: boolean
-  pickerValue?: string
+  pickerValue?: Date
 }
 
 const Picker = ({

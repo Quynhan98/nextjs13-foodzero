@@ -27,7 +27,7 @@ interface ReservationFormProps {
   phoneError?: string
   emailError?: string
   timeError?: string
-  date?: string
+  date?: Date
   phone?: string
   firstName?: string
   lastName?: string

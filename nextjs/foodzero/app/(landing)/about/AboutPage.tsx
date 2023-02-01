@@ -34,7 +34,7 @@ import { findItemByValue, formatDate } from '@utils/index'
 import { rufina } from '@themes/index'
 
 const reservationInit = {
-  date: '',
+  date: '' as unknown as Date,
   time: RESERVATION_TIME[0],
   person: NUMBER_OF_PERSON[0],
 }
@@ -81,9 +81,11 @@ const AboutPage = () => {
   const handleChangeDate = useCallback(
     (date: Date) => {
       const newDate = date && formatDate(date)
-      const dateDuplicated = booking.filter((item) => item.date === newDate)
+      const dateDuplicated = booking.filter(
+        (item) => formatDate(new Date(item.date)) === newDate,
+      )
 
-      if (reservation.time) {
+      if (dateDuplicated.length > 0) {
         const timeDuplicated = findItemByValue({
           data: dateDuplicated,
           value: reservation.time,
@@ -91,11 +93,13 @@ const AboutPage = () => {
         })
 
         setErrorMessage(timeDuplicated ? TIME_DUPLICATED_ERROR : '')
+      } else {
+        setErrorMessage('')
       }
 
       setReservation((prev) => ({
         ...prev,
-        date: newDate,
+        date,
       }))
     },
     [booking, reservation.time],
@@ -106,7 +110,8 @@ const AboutPage = () => {
       const nameInput = e.target.name
       const valueInput = e.target.value
       const dateDuplicated = booking.filter(
-        (item) => item.date === reservation.date,
+        (item) =>
+          formatDate(new Date(item.date)) === formatDate(reservation.date),
       )
 
       if (dateDuplicated.length > 0 && nameInput === 'time') {
