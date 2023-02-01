@@ -2,7 +2,7 @@
 
 exports[`Menu page Renders Menu page correctly 1`] = `
 <div>
-  <div
+  <section
     class="css-7obpig"
   >
     <h2
@@ -15,7 +15,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
     >
       The freshest ingredients for you every day
     </p>
-  </div>
+  </section>
   <section
     class="css-mjcp4"
   >

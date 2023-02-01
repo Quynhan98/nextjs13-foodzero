@@ -6,7 +6,48 @@ import { SOPHISTICATED_PROCESS } from '@constants/index'
 
 const Process = () => {
   return (
-    <>
+    <Box
+      as="section"
+      padding={{
+        base: '60px 12px',
+        md: '200px 50px',
+        '2xl': '267px 138px 320px 138px',
+      }}
+      position="relative"
+      _before={{
+        content: '""',
+        position: 'absolute',
+        width: { base: '117px', md: '328px', '2xl': '468px' },
+        height: { base: '136px', md: '383px', '2xl': '547px' },
+        top: '8px',
+        right: '0px',
+        backgroundImage: '/images/rosemaryRight.webp',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        zIndex: -1,
+      }}
+      _after={{
+        content: '""',
+        position: 'absolute',
+        width: { base: '82px', md: '224px', '2xl': '320px' },
+        height: { base: '83px', md: '231px', '2xl': '330px' },
+        bottom: { base: '8px', md: '32px' },
+        left: '0px',
+        backgroundImage: '/images/rosemaryLeft.webp',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        zIndex: -1,
+      }}
+    >
+      <Heading
+        as="h3"
+        size="large"
+        variant="secondary"
+        textAlign="center"
+        pr={{ base: '30px', md: '65px' }}
+      >
+        Sophisticated Process
+      </Heading>
       <Flex
         flexDirection={{ base: 'column', md: 'row' }}
         justifyContent={{ base: 'center', md: 'space-between' }}
@@ -114,7 +155,7 @@ const Process = () => {
           </Box>
         </Flex>
       </Flex>
-    </>
+    </Box>
   )
 }
 

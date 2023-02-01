@@ -1,7 +1,7 @@
 import { render } from '@utils/testUtils'
 
 // Components
-import Process from '@components/Process'
+import Process from '@components/Sections/Process'
 
 describe('Process component', () => {
   it('Renders Process correctly', () => {

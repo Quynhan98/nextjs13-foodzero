@@ -2,7 +2,7 @@
 
 exports[`Home page Renders Home page correctly 1`] = `
 <div>
-  <div
+  <section
     class="css-6b1a55"
   >
     <div
@@ -102,7 +102,7 @@ exports[`Home page Renders Home page correctly 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <section
     class="css-uf1mtq"
   >
