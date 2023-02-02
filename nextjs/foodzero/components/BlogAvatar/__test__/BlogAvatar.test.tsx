@@ -10,7 +10,7 @@ describe('BlogAvatar component', () => {
   const props = {
     src: AVATAR_MOCK,
     name: 'Julie Christie',
-    date: '2022-12-06T23:29:35.000Z',
+    date: new Date('2022-12-06T23:29:35.000Z'),
     numberOfComments: 2,
   }
   it('Renders BlogAvatar correctly', () => {

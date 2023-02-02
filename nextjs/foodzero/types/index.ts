@@ -4,7 +4,7 @@ export interface IReservations {
   firstName?: string
   phone?: string
   email?: string
-  date: string
+  date: Date
   time: string
   person: string
 }

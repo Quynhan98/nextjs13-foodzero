@@ -2,9 +2,7 @@
 import { USERS_MOCK } from '@mocks/mockData'
 
 // Controllers
-import { userControllers } from 'controllers/userControllers'
-
-const { findExistedUser, isMatchPassword } = userControllers
+import { findExistedUser } from 'controllers/userControllers'
 
 jest.mock('@services/api', () => ({
   fetcherInstanceAPI: jest.fn(() => [
@@ -27,11 +25,5 @@ describe('userController', () => {
     const currentUser = await findExistedUser('email', props.email)
 
     expect(currentUser).toEqual(USERS_MOCK[0])
-  })
-
-  it('should isMatchPassword', () => {
-    const matchPassword = isMatchPassword(props.password, USERS_MOCK[0])
-
-    expect(matchPassword).toEqual(true)
   })
 })

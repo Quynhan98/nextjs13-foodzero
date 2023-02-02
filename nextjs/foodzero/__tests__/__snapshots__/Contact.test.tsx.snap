@@ -2,7 +2,7 @@
 
 exports[`Contact render Should Contact match Snapshot 1`] = `
 <div>
-  <div
+  <section
     class="css-1ypnufc"
   >
     <h2
@@ -87,7 +87,7 @@ exports[`Contact render Should Contact match Snapshot 1`] = `
         </ul>
       </div>
     </div>
-  </div>
+  </section>
   <section
     class="css-25f137"
   >
@@ -431,7 +431,7 @@ exports[`Contact render Should Contact match Snapshot 1`] = `
           class="css-ffarb6"
         >
           <button
-            class="chakra-button css-vjoqr8"
+            class="chakra-button css-mqrzow"
             disabled=""
             type="submit"
           >

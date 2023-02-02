@@ -13,5 +13,6 @@ export const Default = {
   args: {
     maxW: '792px',
     ...CARD_BLOG,
+    date: new Date(CARD_BLOG.date),
   },
 }

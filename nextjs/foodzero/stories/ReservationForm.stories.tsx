@@ -12,15 +12,10 @@ export default {
   },
 }
 
-export const Primary = {
-  args: {
-    date: new Date(),
-  },
-}
+export const Primary = {}
 
 export const Secondary = {
   args: {
-    date: new Date(),
     isShowFullField: true,
   },
 }

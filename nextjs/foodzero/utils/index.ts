@@ -1,7 +1,7 @@
 import { REGEX_REMOVE_BRACKETS } from '@constants/index'
 
 // Format date (Month, DD/YYYY)
-export const formattedDate = (date: string) => {
+export const formattedDate = (date: Date) => {
   return new Date(date).toLocaleDateString('en-US', {
     timeZone: 'UTC',
     month: 'long',
@@ -11,7 +11,7 @@ export const formattedDate = (date: string) => {
 }
 
 // Format hour (Hour:Minute AM/PM)
-export const formattedHour = (date: string) => {
+export const formattedHour = (date: Date) => {
   return new Date(date).toLocaleTimeString('en-US', {
     hour: '2-digit',
     minute: '2-digit',

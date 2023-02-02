@@ -1,17 +1,15 @@
 'use client'
 
-import React, { useEffect } from 'react'
+import { ReactNode, useEffect } from 'react'
 import { SWRConfig } from 'swr'
 import { useRouter, usePathname } from 'next/navigation'
-import { Box, ChakraProvider } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 // Constants
 import { LOCAL_STORAGE_KEY, PAGE_URL } from '@constants/index'
 
 // Contexts
-import { AuthProvider } from '@contexts/AuthProvider'
 import { BookingProvider } from '@contexts/BookingProvider'
-import { LoadingProvider } from '@contexts/LoadingProvider'
 
 // Services
 import { swrFetcher } from '@services/api'
@@ -22,15 +20,13 @@ import { getLocalStorage } from '@utils/localStorage'
 // Components
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-
-// Themes
-import { customTheme } from '@themes/index'
+import GeneralProvider from '@components/GeneralProvider'
 
 // Types
 import { UserSession } from '@self-types/AuthContext'
 
 export interface IRootLayoutProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export default function RootLayout({ children }: IRootLayoutProps) {
@@ -57,25 +53,21 @@ export default function RootLayout({ children }: IRootLayoutProps) {
             fetcher: swrFetcher,
           }}
         >
-          <ChakraProvider theme={customTheme}>
-            <LoadingProvider>
-              <AuthProvider>
-                <BookingProvider>
-                  <Header />
-                  <Box
-                    as="main"
-                    minHeight="100vh"
-                    maxWidth="1920px"
-                    width="100%"
-                    margin="0 auto"
-                  >
-                    {children}
-                  </Box>
-                  <Footer />
-                </BookingProvider>
-              </AuthProvider>
-            </LoadingProvider>
-          </ChakraProvider>
+          <GeneralProvider>
+            <BookingProvider>
+              <Header />
+              <Box
+                as="main"
+                minHeight="100vh"
+                maxWidth="1920px"
+                width="100%"
+                margin="0 auto"
+              >
+                {children}
+              </Box>
+              <Footer />
+            </BookingProvider>
+          </GeneralProvider>
         </SWRConfig>
       </body>
     </html>
