@@ -3,15 +3,24 @@
 exports[`Menu page Renders Menu page correctly 1`] = `
 <div>
   <section
-    class="css-7obpig"
+    class="css-qb5co7"
   >
+    <img
+      alt="background menu page"
+      data-nimg="fill"
+      decoding="async"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=3840&q=75"
+      srcset="/_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FnewMenuBackground.webp&w=3840&q=75 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; z-index: -1; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+    />
     <h2
-      class="chakra-heading css-2ka32n"
+      class="chakra-heading css-1oajisn"
     >
       View Our New Menu
     </h2>
     <p
-      class="chakra-text css-rkgsxi"
+      class="chakra-text css-1uoltg2"
     >
       The freshest ingredients for you every day
     </p>
@@ -42,7 +51,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           sizes="(max-width: 768px) 277px, 314px (min-width: 768px) 554px, 629px (min-width: 1200px) 792px, 898px"
           src="/_next/image?url=%2Fimages%2FyoungTofu.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FyoungTofu.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FyoungTofu.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
       <ul
@@ -308,7 +317,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           sizes="(max-width: 768px) 277px, 314px (min-width: 768px) 554px, 629px (min-width: 1200px) 792px, 898px"
           src="/_next/image?url=%2Fimages%2Fsteak.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2Fsteak.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fsteak.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fsteak.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fsteak.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fsteak.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fsteak.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fsteak.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fsteak.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fsteak.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fsteak.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fsteak.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fsteak.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fsteak.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fsteak.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
     </div>
@@ -340,7 +349,7 @@ exports[`Menu page Renders Menu page correctly 1`] = `
           sizes="(max-width: 768px) 277px, 314px (min-width: 768px) 554px, 629px (min-width: 1200px) 792px, 898px"
           src="/_next/image?url=%2Fimages%2FlemonTea.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FlemonTea.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FlemonTea.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
       <ul

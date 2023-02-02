@@ -3,8 +3,17 @@
 exports[`Contact render Should Contact match Snapshot 1`] = `
 <div>
   <section
-    class="css-1ypnufc"
+    class="css-hviug4"
   >
+    <img
+      alt="background contact page"
+      data-nimg="fill"
+      decoding="async"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2FcontactBackground.webp&w=3840&q=75"
+      srcset="/_next/image?url=%2Fimages%2FcontactBackground.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FcontactBackground.webp&w=3840&q=75 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; z-index: -1; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+    />
     <h2
       class="chakra-heading css-idxew5"
     >
@@ -105,7 +114,7 @@ exports[`Contact render Should Contact match Snapshot 1`] = `
           sizes="(max-width: 768px) 277px, 208px (min-width: 768px) 544px, 415px (min-width: 1200px) 792px, 593px"
           src="/_next/image?url=%2Fimages%2FdinnerTable.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FdinnerTable.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FdinnerTable.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
       <p
@@ -160,7 +169,7 @@ exports[`Contact render Should Contact match Snapshot 1`] = `
           sizes="(max-width: 768px) 277px, 347px (min-width: 768px) 554px, 630px (min-width: 1200px) 792px, 990px"
           src="/_next/image?url=%2Fimages%2Faddress.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2Faddress.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Faddress.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Faddress.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Faddress.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Faddress.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Faddress.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Faddress.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Faddress.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Faddress.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Faddress.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Faddress.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Faddress.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Faddress.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Faddress.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Faddress.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Faddress.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
     </div>

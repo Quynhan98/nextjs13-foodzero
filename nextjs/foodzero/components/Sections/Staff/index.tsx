@@ -4,6 +4,9 @@ import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 // Constants
 import { LEADER_SHIP } from '@constants/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const Staff = () => {
   return (
     <Box
@@ -39,6 +42,8 @@ const Staff = () => {
               sizes="(max-width: 768px) 254px, 301px
                   (min-width: 768px) 508px, 571px
                   (min-width: 1200px) 726px, 861px"
+              placeholder="blur"
+              blurDataURL={imageDataUrl(726, 861)}
             />
           </Box>
         </Flex>
@@ -85,6 +90,8 @@ const Staff = () => {
               sizes="(max-width: 768px) 254px, 301px
                   (min-width: 768px) 508px, 571px
                   (min-width: 1200px) 726px, 861px"
+              placeholder="blur"
+              blurDataURL={imageDataUrl(726, 861)}
             />
           </Box>
         </Flex>

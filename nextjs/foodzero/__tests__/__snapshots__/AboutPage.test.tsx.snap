@@ -3,8 +3,17 @@
 exports[`About page Renders Menu page correctly 1`] = `
 <div>
   <section
-    class="css-1osdkls"
+    class="css-1e6kch0"
   >
+    <img
+      alt="background about page"
+      data-nimg="fill"
+      decoding="async"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2FaboutBackground.webp&w=3840&q=75"
+      srcset="/_next/image?url=%2Fimages%2FaboutBackground.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FaboutBackground.webp&w=3840&q=75 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; z-index: -1; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+    />
     <div
       class="css-8yww"
     >
@@ -51,7 +60,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           sizes="(max-width: 768px) 277px, 198px (min-width: 768px) 634px, 454px (min-width: 1200px) 792px, 567px"
           src="/_next/image?url=%2Fimages%2Fcooking.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2Fcooking.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Fcooking.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Fcooking.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Fcooking.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Fcooking.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Fcooking.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Fcooking.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fcooking.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fcooking.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fcooking.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fcooking.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fcooking.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fcooking.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fcooking.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fcooking.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fcooking.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
     </div>
@@ -86,7 +95,7 @@ exports[`About page Renders Menu page correctly 1`] = `
             sizes="(max-width: 768px) 254px, 301px (min-width: 768px) 508px, 571px (min-width: 1200px) 726px, 861px"
             src="/_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FmanagerAvatar.webp&w=3840&q=75 3840w"
-            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
           />
         </div>
       </div>
@@ -128,7 +137,7 @@ exports[`About page Renders Menu page correctly 1`] = `
             sizes="(max-width: 768px) 254px, 301px (min-width: 768px) 508px, 571px (min-width: 1200px) 726px, 861px"
             src="/_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FexecutiveChefAvatar.webp&w=3840&q=75 3840w"
-            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
           />
         </div>
       </div>
@@ -162,7 +171,7 @@ exports[`About page Renders Menu page correctly 1`] = `
           sizes="(max-width: 768px) 277px, 233px (min-width: 768px) 634px, 447px (min-width: 1200px) 792px, 638px"
           src="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75"
           srcset="/_next/image?url=%2Fimages%2FsplitRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FsplitRibs.webp&w=3840&q=75 3840w"
-          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
         />
       </div>
       <div
@@ -198,7 +207,7 @@ exports[`About page Renders Menu page correctly 1`] = `
             sizes="(max-width: 768px) 277px, 227px (min-width: 768px) 455px, 373px (min-width: 1200px) 650px, 533px"
             src="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FmarinatedRibs.webp&w=3840&q=75 3840w"
-            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
           />
         </div>
         <h4
@@ -242,7 +251,7 @@ exports[`About page Renders Menu page correctly 1`] = `
             sizes="(max-width: 768px) 277px, 217px (min-width: 768px) 455px, 356px (min-width: 1200px) 650px, 509px"
             src="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75"
             srcset="/_next/image?url=%2Fimages%2FgrilledRibs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2FgrilledRibs.webp&w=3840&q=75 3840w"
-            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
           />
         </div>
       </div>

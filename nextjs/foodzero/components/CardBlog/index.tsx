@@ -8,6 +8,9 @@ import BlogAvatar from '@components/BlogAvatar'
 // Themes
 import { rufina } from '@themes/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 interface CardBlogProps extends BoxProps {
   imageUrl: string
   title: string
@@ -49,7 +52,14 @@ const CardBlog = ({
           {category}
         </Text>
       </Box>
-      <Image src={imageUrl} alt="blog wallpaper" width={792} height={792} />
+      <Image
+        src={imageUrl}
+        alt="blog wallpaper"
+        width={792}
+        height={792}
+        placeholder="blur"
+        blurDataURL={imageDataUrl(792, 792)}
+      />
       <Box
         padding={{ base: '30px 15px', '2xl': '68px 75px' }}
         textAlign="center"

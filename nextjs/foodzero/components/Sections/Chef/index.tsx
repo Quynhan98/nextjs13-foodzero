@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const Chef = () => {
   return (
     <Box
@@ -55,7 +58,8 @@ const Chef = () => {
             sizes="(max-width: 768px) 147px, 133px
               (min-width: 768px) 686px, 623px
               (min-width: 1200px) 980px, 890px"
-            style={{ objectFit: 'cover' }}
+            placeholder="blur"
+            blurDataURL={imageDataUrl(980, 890)}
           />
         </Box>
         <Box maxW={{ base: '200px', md: '450px', '2xl': '620px' }}>

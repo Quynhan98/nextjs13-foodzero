@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import { Box, Divider, Flex, Heading, Text } from '@chakra-ui/react'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const HeroHomePage = () => {
   return (
     <Box
@@ -23,22 +26,27 @@ const HeroHomePage = () => {
         zIndex: -1,
       }}
     >
-      <Flex
-        position="relative"
-        flexDirection="column"
-        _before={{
-          content: '""',
-          position: 'absolute',
-          width: { base: '198px', md: '554px', '2xl': '792px' },
-          height: { base: '233px', md: '652px', '2xl': '931px' },
-          top: { base: '90px', '2xl': '124px' },
-          right: '0px',
-          backgroundImage: '/images/bigSteak.webp',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          zIndex: -1,
-        }}
-      >
+      <Flex position="relative" flexDirection="column">
+        <Box
+          position="absolute"
+          width={{ base: '198px', md: '554px', '2xl': '792px' }}
+          height={{ base: '233px', md: '652px', '2xl': '931px' }}
+          top={{ base: '90px', '2xl': '124px' }}
+          right="0px"
+        >
+          <Image
+            fill
+            priority
+            src="/images/bigSteak.webp"
+            alt="big steak picture"
+            placeholder="blur"
+            blurDataURL={imageDataUrl(1920, 1080)}
+            style={{ zIndex: -1 }}
+            sizes="(max-width: 768px) 198px, 233px
+            (min-width: 768px) 554px, 652px
+            (min-width: 1200px) 792px, 931px"
+          />
+        </Box>
         <Heading
           size="extraLarge"
           maxW={{ base: '80%', md: '60%', '2xl': '68%' }}
@@ -112,6 +120,8 @@ const HeroHomePage = () => {
               sizes="(max-width: 768px) 180px, 127px
               (min-width: 768px) 554px, 392px
               (min-width: 1200px) 792px, 560px"
+              placeholder="blur"
+              blurDataURL={imageDataUrl(792, 560)}
             />
           </Box>
           <Heading
@@ -151,6 +161,8 @@ const HeroHomePage = () => {
               sizes="(max-width: 768px) 150px, 210px
               (min-width: 768px) 356px, 497px
               (min-width: 1200px) 508px, 710px"
+              placeholder="blur"
+              blurDataURL={imageDataUrl(508, 710)}
             />
           </Box>
         </Flex>

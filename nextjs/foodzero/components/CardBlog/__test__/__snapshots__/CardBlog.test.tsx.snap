@@ -22,7 +22,7 @@ exports[`CardBlog component Renders CardBlog correctly 1`] = `
       loading="lazy"
       src="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D0a725961-6c86-4dcd-ab48-e5d7e2eb48fd&w=1920&q=75"
       srcset="/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D0a725961-6c86-4dcd-ab48-e5d7e2eb48fd&w=828&q=75 1x, /_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fimage-blog-155e2.appspot.com%2Fo%2Ffoodzero%252FFeature%2520Image.webp%3Falt%3Dmedia%26token%3D0a725961-6c86-4dcd-ab48-e5d7e2eb48fd&w=1920&q=75 2x"
-      style="color: transparent;"
+      style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
       width="792"
     />
     <div
