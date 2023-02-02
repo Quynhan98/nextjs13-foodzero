@@ -4,6 +4,9 @@ import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 // Constants
 import { SOPHISTICATED_PROCESS } from '@constants/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const Process = () => {
   return (
     <Box
@@ -68,6 +71,8 @@ const Process = () => {
             sizes="(max-width: 768px) 277px, 233px
               (min-width: 768px) 634px, 447px
               (min-width: 1200px) 792px, 638px"
+            placeholder="blur"
+            blurDataURL={imageDataUrl(792, 638)}
           />
         </Box>
         <Box maxW={{ base: '90%', md: '38%' }}>
@@ -98,6 +103,8 @@ const Process = () => {
               sizes="(max-width: 768px) 277px, 227px
                 (min-width: 768px) 455px, 373px
                 (min-width: 1200px) 650px, 533px"
+              placeholder="blur"
+              blurDataURL={imageDataUrl(650, 533)}
             />
           </Box>
           <Heading
@@ -151,6 +158,8 @@ const Process = () => {
               sizes="(max-width: 768px) 277px, 217px
                 (min-width: 768px) 455px, 356px
                 (min-width: 1200px) 650px, 509px"
+              placeholder="blur"
+              blurDataURL={imageDataUrl(650, 509)}
             />
           </Box>
         </Flex>

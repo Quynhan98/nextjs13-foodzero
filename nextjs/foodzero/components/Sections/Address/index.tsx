@@ -8,6 +8,9 @@ import { CONTACT } from '@constants/variables'
 // Themes
 import { rufina } from '@themes/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const Address = () => {
   return (
     <Box
@@ -49,6 +52,8 @@ const Address = () => {
             sizes="(max-width: 768px) 277px, 208px
             (min-width: 768px) 544px, 415px
             (min-width: 1200px) 792px, 593px"
+            placeholder="blur"
+            blurDataURL={imageDataUrl(792, 593)}
           />
         </Box>
         <Text
@@ -111,6 +116,8 @@ const Address = () => {
             sizes="(max-width: 768px) 277px, 347px
             (min-width: 768px) 554px, 630px
             (min-width: 1200px) 792px, 990px"
+            placeholder="blur"
+            blurDataURL={imageDataUrl(792, 990)}
           />
         </Box>
       </Flex>

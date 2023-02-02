@@ -1,10 +1,11 @@
 'use client'
 
 import { useState, useCallback, FormEvent, ChangeEvent } from 'react'
-import { Box, useToast } from '@chakra-ui/react'
+import { Box, useMediaQuery, useToast } from '@chakra-ui/react'
 
 // Constants
 import {
+  BREAKPOINTS,
   INTRO_VIDEO,
   NUMBER_OF_PERSON,
   RESERVATION_TIME,
@@ -41,6 +42,7 @@ const AboutPage = () => {
   const toast = useToast()
   const { booking, addBooking } = useBookingContext() as IBookingContext
   const { setLoading, loading } = useLoadingContext()
+  const [isMobile] = useMediaQuery(BREAKPOINTS.MEDIUM)
   const [reservation, setReservation] = useState(reservationInit)
   const [errorMessage, setErrorMessage] = useState<string>('')
 
@@ -153,7 +155,7 @@ const AboutPage = () => {
         maxH={{ base: '159px', md: '814px' }}
         css={{
           '&::-webkit-media-controls-panel': {
-            display: 'none',
+            display: isMobile ? 'inherit' : 'none',
           },
         }}
       />

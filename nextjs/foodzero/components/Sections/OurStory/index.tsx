@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const OurStory = () => {
   return (
     <Box
@@ -55,6 +58,8 @@ const OurStory = () => {
             sizes="(max-width: 768px) 277px, 198px
             (min-width: 768px) 634px, 454px
             (min-width: 1200px) 792px, 567px"
+            placeholder="blur"
+            blurDataURL={imageDataUrl(792, 567)}
           />
         </Box>
       </Flex>

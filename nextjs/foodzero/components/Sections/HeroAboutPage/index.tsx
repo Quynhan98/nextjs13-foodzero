@@ -1,13 +1,16 @@
+import Image from 'next/image'
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
+
+// Theme
 import { rufina } from '@themes/index'
+
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
 
 const HeroAboutPage = () => {
   return (
     <Flex
       as="section"
-      backgroundImage="/images/aboutBackground.webp"
-      backgroundSize="cover"
-      objectFit="cover"
       maxW="1920px"
       maxH="1080px"
       padding={{
@@ -16,7 +19,17 @@ const HeroAboutPage = () => {
         '2xl': '410px 138px 328px 138px',
       }}
       justifyContent="flex-end"
+      position="relative"
     >
+      <Image
+        fill
+        priority
+        src="/images/aboutBackground.webp"
+        alt="background about page"
+        placeholder="blur"
+        blurDataURL={imageDataUrl(1920, 1080)}
+        style={{ zIndex: -1 }}
+      />
       <Box maxW={{ base: '80%', md: '60%' }} mr="81px">
         <Heading size="extraLarge">Who We Are</Heading>
         <Text

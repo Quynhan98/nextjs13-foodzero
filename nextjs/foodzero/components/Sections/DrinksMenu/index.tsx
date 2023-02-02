@@ -14,6 +14,9 @@ import PriceList from '@components/PriceList'
 // Types
 import { IOurMenu } from '@self-types/Menu'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 export interface IDrinksMenuProps {
   menu: IOurMenu[]
 }
@@ -66,6 +69,8 @@ const DrinksMenu = ({ menu }: IDrinksMenuProps) => {
             sizes="(max-width: 768px) 277px, 314px
                 (min-width: 768px) 554px, 629px
                 (min-width: 1200px) 792px, 898px"
+            placeholder="blur"
+            blurDataURL={imageDataUrl(792, 898)}
           />
         </Box>
         <UnorderedList

@@ -4,6 +4,9 @@ import Image from 'next/image'
 // Themes
 import { rufina } from '@themes/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 interface CardFeatureProps {
   imageUrl: string
   title: string
@@ -32,6 +35,9 @@ const CardFeature = ({ imageUrl, title, description }: CardFeatureProps) => {
           sizes="(max-width: 768px) 150px, 150px
             (min-width: 768px) 200px, 200px
             (min-width: 1200px) 260px, 260px"
+          placeholder="blur"
+          blurDataURL={imageDataUrl(260, 260)}
+          style={{ borderRadius: '50%' }}
         />
       </Box>
       <Text

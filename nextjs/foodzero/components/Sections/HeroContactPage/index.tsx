@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 
 // Components
@@ -9,13 +10,13 @@ import { OPEN_TIME } from '@constants/variables'
 // Themes
 import { rufina } from '@themes/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 const HeroContactPage = () => {
   return (
     <Box
       as="section"
-      backgroundImage="/images/contactBackground.webp"
-      backgroundSize="cover"
-      objectFit="cover"
       maxW="1920px"
       maxH="1080px"
       padding={{
@@ -23,7 +24,17 @@ const HeroContactPage = () => {
         md: '300px 50px 100px 50px',
         '2xl': '415px 138px 130px 138px',
       }}
+      position="relative"
     >
+      <Image
+        fill
+        priority
+        src="/images/contactBackground.webp"
+        alt="background contact page"
+        placeholder="blur"
+        blurDataURL={imageDataUrl(1920, 1080)}
+        style={{ zIndex: -1 }}
+      />
       <Heading size="extraLarge" maxW={{ base: '100%', md: '60%' }}>
         Get in Touch
       </Heading>

@@ -9,6 +9,9 @@ import { BREAKPOINTS } from '@constants/index'
 // Themes
 import { rufina } from '@themes/index'
 
+// Utils
+import { imageDataUrl } from '@utils/convertToBase64'
+
 interface CardCategoryProps {
   href: string
   category: string
@@ -58,6 +61,8 @@ const CardCategory = ({ href, category, imageUrl }: CardCategoryProps) => {
         alt="background of the category card"
         width={508}
         height={711}
+        placeholder="blur"
+        blurDataURL={imageDataUrl(508, 711)}
       />
     </Box>
   )
